@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+  <title>Rill Online</title>
+  <description><![CDATA[Rill&#39;s Ramblings]]></description>
+  <link>http://rillonline.github.io</link>
+  <generator>http://www.olai.in</generator>
+  <lastBuildDate>Sun, 07 Feb 2016 22:43:26 +0000</lastBuildDate>
+  <atom:link href="http://rillonline.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+
+  
+    <item>
+      <title><![CDATA[Hello World]]></title>
+      <link>http://rillonline.github.io/hello-world/</link>
+      <guid>http://rillonline.github.io/hello-world/</guid>
+      <pubDate>Sun, 07 Feb 2016 22:43:26 +0000</pubDate>
+      <description><![CDATA[
+        <p><p>Here is my compulsory first post: &ldquo;Hey there! How ya doing?&rdquo;</p>
+
+        <a href="http://rillonline.github.io/hello-world/">Hello World</a>
+          was written by <a href="http://rillonline.github.io">Rill Woolnough</a> at <a href="http://rillonline.github.io">Rill Online</a>. Got a comment? <a href="http://twitter.com/jjude">Tweet</a> it.
+      ]]></description>
+      <dc:creator>Rill Woolnough</dc:creator>
+    </item>
+  
+</channel>
+</rss>
