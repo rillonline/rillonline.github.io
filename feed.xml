@@ -5,23 +5,9 @@
   <description><![CDATA[Rill&#39;s Ramblings]]></description>
   <link>http://rillonline.github.io</link>
   <generator>http://www.olai.in</generator>
-  <lastBuildDate>Sun, 07 Feb 2016 22:43:26 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 07 Feb 2016 23:14:11 +0000</lastBuildDate>
   <atom:link href="http://rillonline.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
-  
-    <item>
-      <title><![CDATA[Hello World]]></title>
-      <link>http://rillonline.github.io/hello-world/</link>
-      <guid>http://rillonline.github.io/hello-world/</guid>
-      <pubDate>Sun, 07 Feb 2016 22:43:26 +0000</pubDate>
-      <description><![CDATA[
-        <p><p>Here is my compulsory first post: &ldquo;Hey there! How ya doing?&rdquo;</p>
-
-        <a href="http://rillonline.github.io/hello-world/">Hello World</a>
-          was written by <a href="http://rillonline.github.io">Rill Woolnough</a> at <a href="http://rillonline.github.io">Rill Online</a>. Got a comment? <a href="http://twitter.com/jjude">Tweet</a> it.
-      ]]></description>
-      <dc:creator>Rill Woolnough</dc:creator>
-    </item>
   
 </channel>
 </rss>
