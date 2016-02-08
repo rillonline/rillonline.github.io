@@ -5,7 +5,7 @@
   <description><![CDATA[Rill&#39;s Ramblings]]></description>
   <link>http://rillonline.github.io</link>
   <generator>http://www.olai.in</generator>
-  <lastBuildDate>Mon, 08 Feb 2016 01:03:14 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 08 Feb 2016 01:24:47 +0000</lastBuildDate>
   <atom:link href="http://rillonline.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
   
@@ -48,15 +48,13 @@
       <pubDate>Sun, 07 Feb 2016 23:38:20 +0000</pubDate>
       <description><![CDATA[
         <p>So what is this blog about and why is it here?</p>
-<p> </p>
-<p>I started a little blog on my Raspberry Pi a while back. I used a few different tools, finally selecting <a href="http://www.getmikola.com/">Nikola</a>. That worked well for a while, but I’m not on Linux on a laptop right now and it’s a lot of leg work to keep up. The charm has worn off.</p>
-<p> </p>
-<p>Recently, I bought a MacBook and discovered Mars Edit. I also discovered I can have a static blog on <a href="https://www.github.com/">github</a>. With <a href="http://www.olai.in/">Olai</a>, I can use Mars Edit and push this content to github. Not a lot of leg work involved.</p>
-<p> </p>
+
+<p>I started a little blog on my Raspberry Pi a while back. I used a few different tools, finally selecting <a href="http://www.getnikola.com/">Nikola</a>. That worked well for a while, but I’m not on Linux on a laptop right now and it’s a lot of leg work to keep up. The charm has worn off.</p>
+
+<p>Recently, I bought a MacBook and discovered Mars Edit. I also discovered I can have a static blog on <a href="https://www.github.com/">github</a>. With <a href="http://www.olai.in/">Olai</a>, I can use Mars Edit and push this content to <a href=“www.github.com”><GitHub></a>. Not a lot of leg work involved.</p>
 <p>I can’t customize anything, so that’s why you’re seeing titles and you must click a link to read the articles. I suppose this makes sense in a mobile world with band width caps.</p>
-<p> </p>
+
 <p>I don’t know right now what I will do with my existing content. I may just repost it with newer dates. It will give me a chance to play with Mars Edit and review what I have written and do a bit of weeding.</p>
-<p> </p>
 <p>Going forward, this blog will be my place to write about anything which interests me. I find writing blog posts is a way for me to keep notes and perhaps these notes will be useful to others.</p>
 
         <a href="http://rillonline.github.io/my-idea-about-this-blog/">My Idea About This Blog</a>
