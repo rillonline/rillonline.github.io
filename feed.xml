@@ -5,33 +5,9 @@
   <description><![CDATA[Rill&#39;s Ramblings]]></description>
   <link>http://rillonline.github.io</link>
   <generator>http://www.olai.in</generator>
-  <lastBuildDate>Mon, 08 Feb 2016 00:51:09 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 08 Feb 2016 00:54:09 +0000</lastBuildDate>
   <atom:link href="http://rillonline.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
-  
-    <item>
-      <title><![CDATA[Experimental Post]]></title>
-      <link>http://rillonline.github.io/experimental-post/</link>
-      <guid>http://rillonline.github.io/experimental-post/</guid>
-      <pubDate>Mon, 08 Feb 2016 00:51:08 +0000</pubDate>
-      <description><![CDATA[
-        <h3>Introduction</h3>
-
-<p>I&rsquo;m a big fan of markdown. I&rsquo;ve also written using restructured text. I&rsquo;m writing this post to see how it will publish, as properly formatted html or just a mess.</p>
-
-<h3>Another heading just for fun</h3>
-
-<ul>
-<li>a bulleted list<br></li>
-<li>another item<br></li>
-<li>and one more<br></li>
-</ul>
-
-        <a href="http://rillonline.github.io/experimental-post/">Experimental Post</a>
-          was written by <a href="http://rillonline.github.io">Rill</a> at <a href="http://rillonline.github.io">Rill Online</a>. Got a comment? <a href="http://twitter.com/jjude">Tweet</a> it.
-      ]]></description>
-      <dc:creator>Rill</dc:creator>
-    </item>
   
     <item>
       <title><![CDATA[My Idea About This Blog]]></title>
