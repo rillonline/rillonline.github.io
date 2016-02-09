@@ -5,7 +5,7 @@
   <description><![CDATA[Rill&#39;s Ramblings]]></description>
   <link>http://rillonline.github.io</link>
   <generator>http://www.olai.in</generator>
-  <lastBuildDate>Tue, 09 Feb 2016 17:10:18 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 09 Feb 2016 22:03:11 +0000</lastBuildDate>
   <atom:link href="http://rillonline.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
   
@@ -70,6 +70,29 @@
         <p>Here is my compulsory first post, so Howdy! How ya doing?</p>
 
         <a href="http://rillonline.github.io/hello-world/">Hello World!</a>
+          was written by <a href="http://rillonline.github.io">Rill</a> at <a href="http://rillonline.github.io">Rill Online</a>. Got a comment? <a href="http://twitter.com/jjude">Tweet</a> it.
+      ]]></description>
+      <dc:creator>Rill</dc:creator>
+    </item>
+  
+    <item>
+      <title><![CDATA[WV]]></title>
+      <link>http://rillonline.github.io/wv/</link>
+      <guid>http://rillonline.github.io/wv/</guid>
+      <pubDate>Tue, 06 Jan 2015 22:02:13 +0000</pubDate>
+      <description><![CDATA[
+        <p>Today I installed <code>wv</code> at <a href="http://tim.thechases.com/">Tim Chase&rsquo;s</a><br>
+suggestion. It can convert Microsoft word documents into several<br>
+formats. Unfortunately, rst is not one of them. However, I used it to<br>
+convert a word document into text and then included that text document<br>
+into a story for my <a href="http://lajefa.net/">http://lajefa.net/</a> web site. It was pretty<br>
+straight forward though all the paragraphs were indented. Thank goodness<br>
+for global search and replace.</p>
+
+<p>The command I used was <code>wvText</code> followed by the word document filename.<br>
+<code>wvText</code> did the rest.</p>
+
+        <a href="http://rillonline.github.io/wv/">WV</a>
           was written by <a href="http://rillonline.github.io">Rill</a> at <a href="http://rillonline.github.io">Rill Online</a>. Got a comment? <a href="http://twitter.com/jjude">Tweet</a> it.
       ]]></description>
       <dc:creator>Rill</dc:creator>
