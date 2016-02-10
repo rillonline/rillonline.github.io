@@ -2,6 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
   <url>
+    <loc>http://rillonline.github.io/day-1-ash-wednesday/</loc>
+    <lastmod>2016-02-10T19:13+00:00</lastmod>
+  </url>
+	
+  <url>
     <loc>http://rillonline.github.io/introduction-to-lent/</loc>
     <lastmod>2016-02-10T02:40+00:00</lastmod>
   </url>
