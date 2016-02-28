@@ -1,0 +1,27 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Rill Online
+tagline:             My Inconsequential Scribblings
+url:                 http://rillonline.github.io
+paginate:            10
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Rill
+  url:               http://lajefa.net
+
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
