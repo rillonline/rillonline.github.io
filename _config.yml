@@ -20,7 +20,7 @@ author:
   name:              Rill
   url:               http://rillonline.github.io
 
-:# Conversion
+# Conversion
 markdown:    kramdown
 
 # Gems

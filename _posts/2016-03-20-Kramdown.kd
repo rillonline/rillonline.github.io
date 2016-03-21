@@ -18,3 +18,11 @@ Kramdown can do tables and definition lists. These can come in handy sometimes. 
 It helps if you install the kramdown parser.
 
 	sudo gem install kramdown
+
+## It Further Helps
+
+I needed to update my “_config.yml” file:
+
+	# Conversion
+	markdown: kramdown
+
