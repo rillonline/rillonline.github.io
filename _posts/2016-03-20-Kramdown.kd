@@ -12,3 +12,9 @@ Kramdown can do tables and definition lists. These can come in handy sometimes. 
 
 * Does Drupal support kramdown?
 * Is there a kramdown mode for emacs?
+
+## It Helps
+
+It helps if you install the kramdown parser.
+
+	sudo gem install kramdown
