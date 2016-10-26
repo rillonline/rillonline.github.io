@@ -2,7 +2,7 @@
 titleRillOnline's Publishing Blog:
 description: "Companion blog to RillOnline." 
 url: "http://rillonline.github.io"
-tagline:My writing lives here. 
+tagline ":My writing lives here". 
 
 # Build settings
 markdown: kramdown
