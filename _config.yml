@@ -1,26 +1,13 @@
-# Permalinks
-permalink:           pretty
+# Site settings
+titleRillOnline's Publishing Blog:
+description: "Companion blog to RillOnline." 
+url: "http://rillonline.github.io"
+tagline:My writing lives here. 
 
-# Setup
-title:               Rill Online
-tagline:             My Inconsequential Scribblings
-url:                 http://rillonline.github.io
-paginate:            10
-baseurl:             ""
-
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-# About/contact
-author:
-  name:              Rill
-  url:               http://rillonline.github.io
-
-# Gems
-gems:
-  - jekyll-paginate
-  - jekyll-gist
+# Build settings
+markdown: kramdown
+kramdown:
+    auto_ids: false
+paginate: 4
+paginate_path: '/blog/page:num/'
+permalink: /blog/:title
