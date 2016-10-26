@@ -1,8 +1,8 @@
 # Site settings
 titleRillOnline's Publishing Blog:
 description: "Companion blog to RillOnline." 
-url: "http://rillonline.github.io"
-tagline ":My writing lives here". 
+url: "http://rillonline.github.io/blog"
+tagline: My writing lives here. 
 
 # Build settings
 markdown: kramdown
