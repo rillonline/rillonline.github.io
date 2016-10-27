@@ -1,7 +1,10 @@
 ---
 layout: page
-title: About
+title: About this blog
 ---
 
-<p class="message">
-Hey there, this truly is an inconsequential blog. I write myself notes here and share them with whoever finds them interesting. If they are important enough or clever enough, I will promote them to [lajefa.net](http://lajefa.net).
+This blog is a repository for my writing, technical notes and my personal diary -- more expansive than Facebook and  almost as quick.
+
+### About the Author
+
+Call me Rill. I enjoy writing, fiddling with computers and sharing my adventures with my guide dog.

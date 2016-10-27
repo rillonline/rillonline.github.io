@@ -1,0 +1,11 @@
+---
+layout: post
+title: Out and About
+date: 2007-10-22 15:46
+author: rillonline
+comments: true
+categories: [Uncategorized]
+---
+Elwood and I went off today for a mobility lesson which included going along the river walk in order to walk down Harrison to the corner. Elwood often makes the turn without going to the curb. Today, because we were with someone and dogs understand school, Elwood suggested we take the curb to go to Tim HOrton's. We encouraged him to find the curb at South Main Street which required him to avoid the traffic control box. He fits underneath but I don'ti. Then we made our turn and crossed the street. Elwood found the curb with no problem. I learned later they had painted the lines on the street. He is lost without them. We then proceeded to Family Dollar, the best place to buy double A batteries and thence to Big Lots. It's a toss up which has the best price on triple A batteries. We stopped as well at Tim HOrton's which pleased Elwood as he knew where it was. He also crossed the driveway on our way out with no side trips to the bank drive through which was a great relief. However, Elwood would prefer if I went down South Main instead of either going on Harrison or returning home. He also suggested we go to CVS and back onto the river walk but Sally needed to get on with her day and move her car before the meter reader find her out.
+
+Elwood, by the way, enjoys cutting across the grass to get onto the river walk. If he went all the way to the entrance, he would double back so being a dog, he cuts across the grass to go point to point. It's a wild dash because it is also down hill. I make sure he intersects with the path and then stays on it. Some shortcuts are okay while others can get us very lost especialy if a duck was involved.

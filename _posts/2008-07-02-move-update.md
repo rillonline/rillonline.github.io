@@ -1,0 +1,9 @@
+---
+layout: post
+title: Move Update
+date: 2008-07-02 10:35
+author: rillonline
+comments: true
+categories: [Uncategorized]
+---
+I shot off an email to the moving company yesterday and within 15 minutes I got acall. Unfortunately, the cell phone wasn't nearby so it became a voice mail. They don't have a weight ticket yet; the truck was at a loading stop; they will deliver by 7/11. I can't ask for better resonse than this. The impression that things are messier than they really are is because I'm so unfamiliar with this process. I am sharing the truck with others. I will receive a call 24 hours before delivery. Melanie has advised her office. It's like waiting for a baby. This afternoon I will see the apartment. I hope to have pictures.

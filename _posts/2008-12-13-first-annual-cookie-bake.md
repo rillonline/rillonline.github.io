@@ -1,0 +1,9 @@
+---
+layout: post
+title: First Annual Cookie Bake
+date: 2008-12-13 20:28
+author: rillonline
+comments: true
+categories: [Uncategorized]
+---
+I am credited with initiating the First Annual Cookie Bake of Melanie's relatives. A good time was had by all and we also made it a cookie exchange. I baked bread now that I have mastered the bread machine and made the chicken stock for the soup we had for lunch. Elwood and the house's dog are not on good terms, but they managed to survive each other. Elwood lost his bone at J.'s and of curse, he couldn't find it and neither could we. It will surface and be brought back Christmas Eve--I hope. when we arrived back here in Madison, we went to the local  taqueria, a word meaning taco shop or restaurant. The kids were very pleased and ordered all sorts of things including a cactus casserole. The cactus was pickled. I had a dish served on a hominy-based tortilla with vegetables and cheese. Tomorrow is church and Christmas caroling in the afternoon.

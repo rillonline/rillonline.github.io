@@ -1,0 +1,11 @@
+---
+layout: post
+title: What Kind of Radio Station
+date: 2008-10-10 19:25
+author: rillonline
+comments: true
+categories: [Uncategorized]
+---
+Someone asked about Pacifica Radio. I would characterize it as leftist. What interests me about Madison's station is that it is mostly volunteer and has lots of local programming and announcements. The Socialists are having a pot luck and a program. Radio shows are developed by collectives. Want to join? Here are the openings we have. One of the premiums for their pledge drives is Shock Doctrine by Naomi Klein, about disasterous capitalism. I checked. It's over 500 pages and available in audio in an abridged format--9 hours. The local library has 2 copies of the cd set. I thought I would check it out. I'm patron 34 on the waiting list. This doesn't include who's reading the printed text.
+
+It was a glorious fall day. Elwood and I took a walk and received our groceries from our regular driver who greets Elwood and keeps an eye on him so he doesn't wander off. I had a calzone tonight made by the bakery down the street from the coop. I'm also going to try out some frozen food which has a light sodium line. Their web page gave all the nutritional facts and ingredients. They're still a little high in sodium but they are items I probably won't prepare for one. Having the convection oven was really helpful in getting the crust crispy on the spinach calzone. I've never turned on the oven of my stove.

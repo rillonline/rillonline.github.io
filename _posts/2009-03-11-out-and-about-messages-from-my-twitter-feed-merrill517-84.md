@@ -1,0 +1,9 @@
+---
+layout: post
+title: Out and About: Messages From My Twitter Feed Merrill517
+date: 2009-03-11 08:03
+author: rillonline
+comments: true
+categories: [twitter roundup, Uncategorized]
+---
+<ul class="loudtwitter"><li><em>17:21</em> getting ready4supper after a busy day buying shoes&amp;getting a hair cut. <a href="http://twitter.com/merrill517/statuses/1307680908">#</a></li> <li><em>22:09</em> surprised the library has lost a book I wanted to read. <a href="http://twitter.com/merrill517/statuses/1308882712">#</a></li></ul>Automatically shipped by <a href="http://www.loudtwitter.com">LoudTwitter</a>
