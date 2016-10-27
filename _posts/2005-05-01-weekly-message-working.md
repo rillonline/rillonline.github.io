@@ -2,18 +2,16 @@
 layout: post
 title: Weekly Message - Working
 date: 2005-05-01 22:20
-author: rillonline
-comments: true
-categories: [Uncategorized]
+tags: [Sermon]---
 ---
-I shared this message with The Judson Fellowship: An American Baptist Church 
-http://www.abc-usa.org/ and member of the Association of Welcoming and Affirming Baptists 
+I shared this message with The Judson Fellowship: An American Baptist Church
+http://www.abc-usa.org/ and member of the Association of Welcoming and Affirming Baptists
 http://www.wabaptists.org/ this morning in Jamestown, New York.
 
-Biblical texts for today: 
-Psalm 66; 
-http://search.americanbible.org/bible/search.cfm?book=PS&amp;chapter=66&amp;verse=&amp;version=CEV 
-John 14:8-14. 
+Biblical texts for today:
+Psalm 66;
+http://search.americanbible.org/bible/search.cfm?book=PS&amp;chapter=66&amp;verse=&amp;version=CEV
+John 14:8-14.
 http://search.americanbible.org/bible/search.cfm?book=JOHN&amp;chapter=14&amp;verse=8-14&amp;version=CEV
 
 In the name of Jesus. Amen.
@@ -22,7 +20,7 @@ Can you believe it? Can you really believe it? Jesus says to us today: "Very tru
 
 Do you believe--do you really believe--that we can do greater things than Jesus?  That is what our Scripture says this morning. It says that we will do greater things than Jesus did.
 
-I don't know which is more fantastic, more astonishing, more preposterous--that we are capable of doing greater things than Jesus or that Jesus is speaking this Word to us today. Look around you. Jesus is saying this little band of believers gathered here this morning will do greater things than Jesus did in his lifetime on earth! 
+I don't know which is more fantastic, more astonishing, more preposterous--that we are capable of doing greater things than Jesus or that Jesus is speaking this Word to us today. Look around you. Jesus is saying this little band of believers gathered here this morning will do greater things than Jesus did in his lifetime on earth!
 
 Do you believe this? Can you really say it out loud? Can you?
 
@@ -30,37 +28,37 @@ And more importantly, do you? Do you believe it? Do you act every minute of ever
 
 Let's find out. Try this sentence: I ______ (say your own name out loud) will do greater things than Jesus.
 
-How does that sound to you? Fantastic? Astonishing? Preposterous? Irreverent? Blasphemous? 
+How does that sound to you? Fantastic? Astonishing? Preposterous? Irreverent? Blasphemous?
 
 How about scary?
 
 Let's think for a minute what Jesus did. Give me some examples.
 
-(Here are a few samples:) 
+(Here are a few samples:)
 
-* Cured a man of his demons; 
+* Cured a man of his demons;
 http://search.americanbible.org/bible/search.cfm?book=MARK&amp;chapter=5&amp;verse=1-20&amp;version=CEV
-* Cured a woman of a twelve-year flow of blood; 
+* Cured a woman of a twelve-year flow of blood;
 http://search.americanbible.org/bible/search.cfm?book=MARK&amp;chapter=5&amp;verse=25-34&amp;version=CEV
-* fed the five thousand; 
+* fed the five thousand;
 http://search.americanbible.org/bible/search.cfm?book=MARK&amp;chapter=6&amp;verse=30-44&amp;version=CEV
-* walked on water; 
+* walked on water;
 http://search.americanbible.org/bible/search.cfm?book=MARK&amp;chapter=6&amp;verse=45-52&amp;version=CEV
-* Gave Bartimaeus his sight; 
+* Gave Bartimaeus his sight;
 http://search.americanbible.org/bible/search.cfm?book=MARK&amp;chapter=10&amp;verse=46-52&amp;version=CEV
-* Raised Lazarus from the dead. 
+* Raised Lazarus from the dead.
 http://search.americanbible.org/bible/search.cfm?book=JOHN&amp;chapter=11&amp;verse=1-44&amp;version=CEV
 
 And we can do greater things than these?
 
-Thursday night we read an article together from March's InSpiritor. 54 American Baptist churches and a number of like-minded individuals have declared themselves to be welcoming and affirming to "all persons without regard to sexual orientation or gender identity". In response, there's a proposal to "disfellowship" all Welcoming and Affirming churches from their respective associations and refuse to allow these same churches to associate with other churches non-geographically. A consultant to the General Board of ABC-USA has talked about "acceptable losses". Our General Secretary has called on us to be bridge builders rather than people who put up walls between us; to be Baptists who focus on the work. 
+Thursday night we read an article together from March's InSpiritor. 54 American Baptist churches and a number of like-minded individuals have declared themselves to be welcoming and affirming to "all persons without regard to sexual orientation or gender identity". In response, there's a proposal to "disfellowship" all Welcoming and Affirming churches from their respective associations and refuse to allow these same churches to associate with other churches non-geographically. A consultant to the General Board of ABC-USA has talked about "acceptable losses". Our General Secretary has called on us to be bridge builders rather than people who put up walls between us; to be Baptists who focus on the work.
 http://www.abc-usa.org/gensec/200411armgbreport.html
 
 "Disfellowship" is not a nice word--much less a real word. I began to ask myself if "fellowship" is a verb. Certainly not in English. In Greek perhaps--the original language of our New Testament? Well, yes, there's a verb and it means "I share." "Disfellowship" means, therefore, an unwillingness to share.
 
 Well, The Judson Fellowship knows about sharing. We've been dubbed "the sharers": the people who don't want to put their resources into real property but want to reach out to other people, to put the money into work. Isn't that what Welcoming and Affirming is all about--sharing God's love with all people? Isn't that the work?
 
-Fellowship is such a hard thing to maintain. It is so much easier to walk away. Isolation seems preferable: no arguments, no wrestling with our consciences, no struggling with what it means to be Jesus' disciples or how to love each other when we hold opposite views, no change, no growth, no work. 
+Fellowship is such a hard thing to maintain. It is so much easier to walk away. Isolation seems preferable: no arguments, no wrestling with our consciences, no struggling with what it means to be Jesus' disciples or how to love each other when we hold opposite views, no change, no growth, no work.
 
 When I first got Caitlin--when we were still at the Seeing Eye--I bought a Nylo bone for her. It was just a toy for her to chew on. I hesitantly held it out to her. Those powerful jaws closed tightly on it. She seemed to be saying, "Mine!" Dogs don't share. Toddlers don't share. As adults, we make decisions about with whom we want to share. We have our own bank accounts, own our own homes in which we live with other people or not. Some of us may share clothing--jackets, sweaters, maybe even shirts, but I wonder about items like underwear. Toothbrushes are definitely out. We all have our limits.
 
@@ -82,9 +80,9 @@ It's fantastic. It's astonishing. You wouldn't have believed it if you hadn't se
 
 Sharing together is one of the greater things Jesus is talking about today. Bringing very different people to be partners together is what Jesus is talking about today. Inclusion is what Jesus is talking about today. This is the work Jesus is talking about today. That is why I find "disfellowshipping" so offensive.
 
-Relationships are difficult enough with the people we love. Relationships with people we don't agree with are very hard. I know. I'm experiencing this right now. I would rather just hang out with people who like me, who agree with me, who support me, who approve of me. Jesus' words call out to me to do something more, something fantastic, something astonishing, something preposterous. Jesus calls me to share with others: people who don't like me, who don't agree with me, who don't support me and who don't approve of me. 
+Relationships are difficult enough with the people we love. Relationships with people we don't agree with are very hard. I know. I'm experiencing this right now. I would rather just hang out with people who like me, who agree with me, who support me, who approve of me. Jesus' words call out to me to do something more, something fantastic, something astonishing, something preposterous. Jesus calls me to share with others: people who don't like me, who don't agree with me, who don't support me and who don't approve of me.
 
-The greater things than all the miracles we named at the beginning is "love each other, just as I have loved you.   If you love each other, everyone will know that you are my disciples" (John 13:34b-35). It's sweaty, gut-wrenching work. 
+The greater things than all the miracles we named at the beginning is "love each other, just as I have loved you.   If you love each other, everyone will know that you are my disciples" (John 13:34b-35). It's sweaty, gut-wrenching work.
 
 There's no way around it--Christian love is work. There's a lot of risk involved. Feelings get hurt. Self-esteem and confidence fall through the floor. Minds get changed. Truths we once thought were incontrovertible turn out to be falsehoods.
 
