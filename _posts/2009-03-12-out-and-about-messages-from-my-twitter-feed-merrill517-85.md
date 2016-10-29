@@ -1,9 +1,0 @@
----
-layout: post
-title: Out and About: Messages From My Twitter Feed Merrill517
-date: 2009-03-12 08:02
-author: rillonline
-comments: true
-categories: [twitter roundup, Uncategorized]
----
-<ul class="loudtwitter"><li><em>09:19</em> listening2Slate Culturefest; I didn't know there were gender history classes. <a href="http://twitter.com/merrill517/statuses/1310720553">#</a></li></ul>Automatically shipped by <a href="http://www.loudtwitter.com">LoudTwitter</a>

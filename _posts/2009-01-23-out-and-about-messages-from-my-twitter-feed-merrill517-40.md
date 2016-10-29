@@ -1,9 +1,0 @@
----
-layout: post
-title: Out and About: Messages From My Twitter Feed Merrill517
-date: 2009-01-23 08:25
-author: rillonline
-comments: true
-categories: [twitter roundup, Uncategorized]
----
-<ul class="loudtwitter"><li><em>08:37</em> Had a good chat with STL Bible study: Jeremiah and the Book of Consolation. <a href="http://twitter.com/merrill517/statuses/1139160000">#</a></li> <li><em>08:39</em> Elwood did not come near my lap during breakfast. Wonder how long this will last. <a href="http://twitter.com/merrill517/statuses/1139165428">#</a></li> <li><em>10:01</em> cannot get victor reader soft 2 install correctly; do I have 2 read all the documentation? <a href="http://twitter.com/merrill517/statuses/1139376245">#</a></li> <li><em>10:01</em> getting ready 2 go out and play with the Trekker Breeze. <a href="http://twitter.com/merrill517/statuses/1139377346">#</a></li> <li><em>14:20</em> had tea at a tea house and art gallery. wish it was closer to my apt. <a href="http://twitter.com/merrill517/statuses/1140048175">#</a></li> <li><em>19:17</em> finishing dinner and restoring my computer to yesterday. <a href="http://twitter.com/merrill517/statuses/1140748890">#</a></li> <li><em>19:18</em> I want to install the new bookshare reader on my msi wind. I'm having some difficulties hence the restore. <a href="http://twitter.com/merrill517/statuses/1140750164">#</a></li> <li><em>21:06</em> groceries ordered for delivery tomorrow. <a href="http://twitter.com/merrill517/statuses/1140973758">#</a></li> <li><em>08:00</em> up but not at'em. <a href="http://twitter.com/merrill517/statuses/1141943988">#</a></li></ul>Automatically shipped by <a href="http://www.loudtwitter.com">LoudTwitter</a>

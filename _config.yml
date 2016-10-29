@@ -1,13 +1,18 @@
 # Site settings
 titleRillOnline's Publishing Blog:
-description: "Companion blog to RillOnline." 
-url: "http://rillonline.github.io/blog"
+description: "Companion site to RillOnline." 
+url: "http://rillonline.github.io/"
 tagline: My writing lives here. 
 
 # Build settings
+permalink: pretty
 markdown: kramdown
 kramdown:
     auto_ids: false
 paginate: 4
-paginate_path: '/blog/page:num/'
-permalink: /blog/:title
+paginate_path: '/page:num/'
+permalink: /:title
+
+# Add gems
+gems:
+  - jekyll-paginate

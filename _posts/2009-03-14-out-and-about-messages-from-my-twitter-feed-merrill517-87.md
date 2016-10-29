@@ -1,9 +1,0 @@
----
-layout: post
-title: Out and About: Messages From My Twitter Feed Merrill517
-date: 2009-03-14 08:03
-author: rillonline
-comments: true
-categories: [twitter roundup, Uncategorized]
----
-<ul class="loudtwitter"><li><em>09:32</em> looking4ward2getting a lot done today with warmer temps. <a href="http://twitter.com/merrill517/statuses/1321903412">#</a></li> <li><em>22:47</em> got some stuff done today but it wasn't really warm. <a href="http://twitter.com/merrill517/statuses/1325638873">#</a></li></ul>Automatically shipped by <a href="http://www.loudtwitter.com">LoudTwitter</a>

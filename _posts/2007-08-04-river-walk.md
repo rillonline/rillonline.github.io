@@ -1,9 +1,0 @@
----
-layout: post
-title: River Walk
-date: 2007-08-04 20:35
-author: rillonline
-comments: true
-categories: [Uncategorized]
----
-Today Brian and I went to explore the river walk that runs between South Main and Harrison along the Chattaquine. That's probably not how it is spelled but it is how it is pronounced.) It's just a black-topped path along the riverside, a grassy bank separating it from the water. There are trees and ducks. The water flows over some debris creating tiny rapids and babbly. The path runs behind the CVS and the JAMA building. There's a picnic table, too. I have plans for it. I hope Elwood and I can make good use of this area since we have no outdoor area near our apartment and this isn't too far.
