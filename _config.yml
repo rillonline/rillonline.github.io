@@ -1,5 +1,6 @@
 # Site settings
 locale                   : "en-us"
+name: "Rill Online"
 titleRillOnline's Publishing Blog:
 title_separator          : "-"
 description: "Companion site to RillOnline." 
@@ -14,7 +15,7 @@ kramdown:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,mmd,md"
 highlighter: rouge
-    auto_ids: false
+auto_ids: false
 paginate: 7
 paginate_path: '/page:num/'
 permalink: /:title
