@@ -1,7 +1,7 @@
 # Site settings
 locale                   : "en-us"
 name: "Rill Online"
-titleRillOnline's Publishing Blog:
+title: RillOnline's Publishing Blog:
 title_separator          : "-"
 description: "Companion site to RillOnline." 
 url: "http://rillonline.github.io/"
