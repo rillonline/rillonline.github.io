@@ -1,7 +1,7 @@
 # Site settings
 locale                   : "en-us"
 name: "Rill Online"
-title: RillOnline's Publishing Blog:
+title: Rill Online's Publishing Site
 title_separator          : "-"
 description: "Companion site to RillOnline." 
 url: "http://rillonline.github.io/"
@@ -19,6 +19,11 @@ auto_ids: false
 paginate: 7
 paginate_path: '/page:num/'
 permalink: /:title
+defaults:
+  posts:
+    layout: post
+    read_time: true
+    tags: [writing]
 
 # Add gems
 gems:
