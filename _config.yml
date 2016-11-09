@@ -1,23 +1,20 @@
-# Site settings
-locale                   : "en-us"
-name: "Rill Online"
-title: Rill Online's Publishing Site
-title_separator          : "-"
-description: "Companion site to RillOnline." 
+#Site settings
+name: Rill Online
+title: My writing site.
+tagline: All my writing lives here.
+baseurl: '' 
 url: "http://rillonline.github.io/"
-tagline: All my writing lives here. 
 
 # Build settings
 markdown: kramdown
 kramdown:
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,mmd,md"
-highlighter: rouge
-auto_ids: false
+    auto_ids: false
 paginate: 4
-paginate_path: '/page:num/'
-permalink: /:title
+paginate_path: '/blog/page:num/'
+permalink: /:title/
 
-# Add gems
-gems:
-  - jekyll-paginate
+# gems
+gems: [jekyll-paginate]
+
+# includes
+include: ["_pages"]
