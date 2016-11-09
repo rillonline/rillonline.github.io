@@ -9,7 +9,6 @@ page-type: post
             <h2>{{page.title}}</h2>
             <time itemprop="dateCreated" datetime="{{page.date}}">
                 {{ page.date | date: "%B %-d, %Y" }}</time>
-                {% include reading-time.html %}
         </header>
         {{content}}
         <footer>

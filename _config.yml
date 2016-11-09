@@ -6,24 +6,17 @@ title_separator          : "-"
 description: "Companion site to RillOnline." 
 url: "http://rillonline.github.io/"
 tagline: All my writing lives here. 
-words_per_minute         : 200
 
 # Build settings
-permalink: pretty
 markdown: kramdown
 kramdown:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,mmd,md"
 highlighter: rouge
 auto_ids: false
-paginate: 7
+paginate: 4
 paginate_path: '/page:num/'
 permalink: /:title
-defaults:
-  posts:
-    layout: post
-    read_time: true
-    tags: [writing]
 
 # Add gems
 gems:

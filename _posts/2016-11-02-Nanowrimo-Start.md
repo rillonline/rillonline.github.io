@@ -1,5 +1,6 @@
 ---
 layout: post
+reading-time: true
 tags: [Writing, Nanowrimo]
 ---
 
