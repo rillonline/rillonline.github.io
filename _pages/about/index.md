@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About this Site
+permalink: /about/
 ---
 
 This site is a repository for all my writing that I want to make public. Here you will find:
