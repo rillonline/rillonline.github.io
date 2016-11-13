@@ -4,19 +4,18 @@ tags: [Fiction]
 permalink: /kearsarge-novel/
 ---
 
-* TOC
+**Kearsarge: A Ronnie Camberwell Adventure**
+
+*Book 1*
+
+ ByRill Online 
+
+_Table of Contents_
+
+1. TOC
 {:toc}
 
-
-Kearsarge: A Ronnie Camberwell Adventure
-
-Book 1
-
-ByRill Online 
-
-And so the novel begins ...
-
-## Chapter 1
+## I Meet Kearsarge 
 
 People are lining up outside the Galactic Diner, waiting for a table
 inside. I am shocked. I have never seen the restaurant so busy. The
@@ -223,7 +222,7 @@ I walked out of the restaurant  without  a backward glance. I strode
 away, determined not to be called back. The next time I saw Kearsarge,
 she was dead.
 
-## Chapter 2
+## I Receive A Contract
 
 This did not mean, of course, that I was done with Kearsarge. A contract
 arrived in my queue before I stepped onto the Lake View Loop Road which
@@ -380,7 +379,7 @@ The preliminary background check of Kearsarge arrived later in the
 afternoon. I sat down and read it with interest. Kearsarge was not the
 woman I thought she was.
 
-## Chapter 3
+## I Read Reports
 
 The co-op provides meals. I can either go downstairs to the
 well-appointed dining room or the Cafe on the Patio or I can order meals
@@ -391,13 +390,13 @@ kitchen would ding when the food was delivered. I do not employ a house
 server, human or robot. The maid bots come in once a week as a service
 of the co-op. I pay for the service, of course.
 
-## Chapter 4
-
 Kearsarge was thirty-two years old. She had been married to Samuel
 Cornelius Mudd at the age of twenty-one.
 
 I also put in a deep background query for Mr. S. C. Mudd. Perhaps it was
-his life and death which was generating these threats. I scolded myself.
+his life and death which was generating these threats.
+
+I scolded myself.
 I should have thought of this earlier when I put in Kearsarge's
 background check. I was woefully out of practice in the detecting biz.
 What else was I missing. My forgetfulness might have serious
@@ -410,7 +409,9 @@ up the areal view of that portion of the city. Indeed! Kearsarge's house
 -- that is what I said -- a stand-alone house faced Torch Lake. A view
 from the lake showed a large house with a dock and several boats docked
 there. I was definitely dealing with the upper echelons of Ptolemy City
-society. Her financials bore this out. There was no indication of where
+society.
+
+Her financials bore this out. There was no indication of where
 her money came from. Not surprising. Ptolemy City is a wide open
 environment for doing practically anything.
 
@@ -445,6 +446,8 @@ not important nor the names of her parents. Curiously, Kearsarge only
 seemed to have this one name. But maybe that was an Hypatian affectation
 and a promotional gambit for her running.
 
+This turned out to be a deadly decision on my part.
+
 As I finished the remains of my dinner, I wondered how it was that
 Kearsarge found me on the Valley of Kings outside of the Galactic Diner.
 Was it simply that Dad had said I frequented the place? It was a simple
@@ -460,8 +463,6 @@ knew him slightly. He was a friend and former lover of Captain Star
 Runner. Would I ever be rid of Star?
 
 I was surprised Emily Dickinson was back in town.
-
- 
 
 Mudd was a manager in charge of mining operations on Mark Antony, the
 larger of Hypatia's moons. He had been brought in to streamline
@@ -517,7 +518,7 @@ the glow from Hypatia's volcanoes intensified against the night sky.
 
 As I looked skyward, I wondered where Star was tonight.
 
-## Chapter 5
+## I Renew My Acquaintance with Emily Dickinson
 
 Emily Dickinson agreed to see me the following afternoon. I grabbed a
 Caravan, a driverless compartment which travels the city. The particular
