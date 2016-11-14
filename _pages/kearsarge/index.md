@@ -803,7 +803,7 @@ Emily Dickinson thought was so dangerous.
 
 And without another look, I left Shepheard's Hotel.
 
-## Chapter 6
+## I Talk with Susan
 
 I walked around the lake until I found my favorite bench. It was
 unoccupied. I sat down and stared out at the water, listening to the
@@ -908,11 +908,7 @@ described for turning her voice off. I tested the operation. Susan was
 silent. Good. I send a message to that boy I knew in school. He agreed
 to see me on short notice.
 
-## Chapter 7
-
-no writing today
-
-## Chapter 8
+## I Talk with Josh
 
 I remembered a boy with spiky hair and a love of anything technical. The
 hair cut was trendy. The clothes were casual but neat. Josh Hardy
@@ -1048,7 +1044,7 @@ have a meal at the Patio Cafe when my link tickled.
 "An incoming message from my link," I thought. "Who could be calling
 me?"
 
-## Chapter 9
+## I Talk with Simon Parge
 
 The message I received on my link was short and to the point: You are
 missing many salient points. Come immediately. SP
