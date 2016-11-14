@@ -2920,12 +2920,12 @@ that. We will never be lovers. The thought of us together in bed is too
 amusing even to be considered. But I desperately need friends and Josh
 has been willing to help me with this improbable case.
 
-6.     "If we're going to make dinner at the Parge's, we better get
+"If we're going to make dinner at the Parge's, we better get
 going," Dad said. "It's a long ride to Pimlico from here."
 
-7.     ## Chapter 17
+## Fracas at the Treasure Chest
 
-8.     Investigator Ronnie Camberwell's Case Notes for ## Chapter 16
+     Investigator Ronnie Camberwell's Case Notes for ## Chapter 16
 
 Kearsarge prearranged for her house AI Arthur to admit me.
 
@@ -2951,10 +2951,9 @@ she would be dead by morning. She said she was scared.
 I still have no idea what prompted her to leave the house and how she
 ended up in Green Way Station.
 
- 
+## Dinner at the Parges
 
-Note to self: Change Patty's name from Peppermint to Posthumous. I do
-not want to get into any trouble with the Charlie Brown people.
+ 
 
 "Well there you have it," Simon Parge said after dinner from the
 confines of his contra-gravity chair. "Posthumous Patty and Dagger Dan
