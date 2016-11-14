@@ -1,5 +1,5 @@
 ---
-Layyout: page
+Layout: page
 tags: [Fiction]
 permalink: /kearsarge-novel/
 ---
@@ -8,14 +8,14 @@ permalink: /kearsarge-novel/
 
 *Book 1*
 
- ByRill Online 
+ ByRill Online
 
 _Table of Contents_
 
 1. TOC
 {:toc}
 
-## I Meet Kearsarge 
+## I Meet Kearsarge
 
 People are lining up outside the Galactic Diner, waiting for a table
 inside. I am shocked. I have never seen the restaurant so busy. The
@@ -803,109 +803,13 @@ Emily Dickinson thought was so dangerous.
 
 And without another look, I left Shepheard's Hotel.
 
-## I Talk with Susan
+My link displayed a
+held message. The Fungusians confirmed receipt of my request and would
+supply a response as soon as possible. The message noted that advances
+in neural net design would mean my report would arrive later this
+evening.
 
-I walked around the lake until I found my favorite bench. It was
-unoccupied. I sat down and stared out at the water, listening to the
-gentle slap of the waves. I began rubbing my wrist absently. The area
-still itched from where my link was embedded.
-
-"What is Emily Dickinson not telling me and why?" I wondered. "Who
-knows? How can I find out?"
-
-I started the circular motion that always helps me think, rubbing my
-thumb around and around on my wrist.
-
-"What about the messages? Who can help me with those? Who is sending
-them? How? Why?"
-
-In the Pharaoh Star System, everyone is security conscious and everyone
-either is or knows a hacker. I was out of touch from my long absence. My
-security firm was quite reputable but it was not in their purview to
-look at these messages and tell me where they came from and who sent
-them. The police were woefully short on techniques and resources. I knew
-a guy from school--
-
-"You know," I said aloud, "I bet the Fungusians could find out."
-
-"I'm sure they could," an unfamiliar voice said.
-
-I looked around. No one was near enough to hear me.
-
-"I'm Susan," the voice continued, "I'm the voice of your link."
-
-"I'm talking with my link?" I said, feeling incredibly foolish talking
-to my wrist.
-
-"Yes. You turned me on," Susan explained.
-
-"I did? How?"
-
-"With a circular motion," Susan replied. "Make the gesture in the
-reverse direction to turn voice assistance off. Many people find it
-helpful to discuss what they want to know before placing the query."
-
-"OK," I said, thinking my question would stump the perky Susan. "How
-long would it take to send a query to the Fungusian Network? And How
-much would it cost?"
-
-"The Fungusian Network processes requests promptly," Susan answered as
-if her quickness advertised Fungusian responsiveness. "The message could
-be sent and returned in a day and a half. The cost is reasonable."
-
-"A day and a half?" I was flabbergasted. "The Fungusian Network is quite
-distant."
-
-"There is a direct communication pathway from the Pharaoh Star System to
-the research laboratories in the Fungusian Network. Therefore the cost
-is similar to contacting locations on the Northern and Southern
-Frontiers."
-
-Captain Star Runner again. All of Star's AI systems are produced by and
-serviced by the Fungusians. Of course there is a direct pathway to the
-research labs. Star probably figured out how to cut through hyperspace
-to get there as quickly as possible. It would not be difficult for a
-message routed to the research labs  to be dispatched to the correct
-sub-network.
-
-In for a penny, in for a pound.
-
-"I want to ask the Fungusians if they can determine where Kearsarge's
-messages are coming from. I believe you have the particulars Kearsarge
-sent me. Explain the nature of the investigation and I only want the
-information that will be useful to solving the mystery."
-
-"Got it. The message is on its way."
-
-That simple. I realized that life with Captain Star Runner opened me up
-to the possibilities of reaching far out into the galactic western arm
-for information I needed. I was not too uncomfortable talking with Susan
-either. All that time aboard Star's ship gave me ample time to adjust to
-talking with Christabel, Star's AI. I began to think the artificial
-intelligence was my rival. When I muttered something of that sort in
-Christabel's hearing, she, and Christabel is definitely a she, replied,
-quite primly as I remembered it,  that at some level she and Star
-weren't separate identities. They shared brain and computer memory
-space. The whole thing was just a bit creepy. In the good times, I tried
-to ignore Christabel's presence altogether.
-
-And here I was talking to my link who called herself Susan.
-
-Why are you called Susan?" I asked for something to say.
-
-"Because the shape of your link is a flower. It resembles a black-eyed
-Susan, a flower from Earth."
-
-Well, it was as good a reason as any.
-
-"I'll need general information about the planet Fair Haven in the Solar
-League," I said after a little while. "I want to know if either
-Kearsarge or Samuel Cornelius Mudd are known to the general profile of
-the planet."
-
-I got up from the bench and rubbed my wrist in the circular motion Susan
-described for turning her voice off. I tested the operation. Susan was
-silent. Good. I send a message to that boy I knew in school. He agreed
+I send a message to that boy I knew in school. He agreed
 to see me on short notice.
 
 ## I Talk with Josh
@@ -1032,11 +936,108 @@ Runner, with all flaws, was tough to match.
 
 ""But it didn't work," I reminded myself. Star is a creature of space,
 uncomfortable planet side. And I would be happy if I never left Hypatia
-again.
+again.## I Talk with Susan
 
- Note:Fair Haven is located on the Southern Frontier rather than inside
-the Coalition and part of the Solar League. This is necessary to keep
-the story line outside Coalition space.
+I walked around the lake until I found my favorite bench. It was
+unoccupied. I sat down and stared out at the water, listening to the
+gentle slap of the waves. I began rubbing my wrist absently. The area
+still itched from where my link was embedded.
+
+"What is Emily Dickinson not telling me and why?" I wondered. "Who
+knows? How can I find out?"
+
+I started the circular motion that always helps me think, rubbing my
+thumb around and around on my wrist.
+
+"What about the messages? Who can help me with those? Who is sending
+them? How? Why?"
+
+In the Pharaoh Star System, everyone is security conscious and everyone
+either is or knows a hacker. I was out of touch from my long absence. My
+security firm was quite reputable but it was not in their purview to
+look at these messages and tell me where they came from and who sent
+them. The police were woefully short on techniques and resources. I knew
+a guy from school--
+
+"You know," I said aloud, "I bet the Fungusians could find out."
+
+"I'm sure they could," an unfamiliar voice said.
+
+I looked around. No one was near enough to hear me.
+
+"I'm Susan," the voice continued, "I'm the voice of your link."
+
+"I'm talking with my link?" I said, feeling incredibly foolish talking
+to my wrist.
+
+"Yes. You turned me on," Susan explained.
+
+"I did? How?"
+
+"With a circular motion," Susan replied. "Make the gesture in the
+reverse direction to turn voice assistance off. Many people find it
+helpful to discuss what they want to know before placing the query."
+
+"OK," I said, thinking my question would stump the perky Susan. "How
+long would it take to send a query to the Fungusian Network? And How
+much would it cost?"
+
+"The Fungusian Network processes requests promptly," Susan answered as
+if her quickness advertised Fungusian responsiveness. "The message could
+be sent and returned in a day and a half. The cost is reasonable."
+
+"A day and a half?" I was flabbergasted. "The Fungusian Network is quite
+distant."
+
+"There is a direct communication pathway from the Pharaoh Star System to
+the research laboratories in the Fungusian Network. Therefore the cost
+is similar to contacting locations on the Northern and Southern
+Frontiers."
+
+Captain Star Runner again. All of Star's AI systems are produced by and
+serviced by the Fungusians. Of course there is a direct pathway to the
+research labs. Star probably figured out how to cut through hyperspace
+to get there as quickly as possible. It would not be difficult for a
+message routed to the research labs  to be dispatched to the correct
+sub-network.
+
+In for a penny, in for a pound.
+
+"I want to ask the Fungusians if they can determine where Kearsarge's
+messages are coming from. I believe you have the particulars Kearsarge
+sent me. Explain the nature of the investigation and I only want the
+information that will be useful to solving the mystery."
+
+"Got it. The message is on its way."
+
+That simple. I realized that life with Captain Star Runner opened me up
+to the possibilities of reaching far out into the galactic western arm
+for information I needed. I was not too uncomfortable talking with Susan
+either. All that time aboard Star's ship gave me ample time to adjust to
+talking with Christabel, Star's AI. I began to think the artificial
+intelligence was my rival. When I muttered something of that sort in
+Christabel's hearing, she, and Christabel is definitely a she, replied,
+quite primly as I remembered it,  that at some level she and Star
+weren't separate identities. They shared brain and computer memory
+space. The whole thing was just a bit creepy. In the good times, I tried
+to ignore Christabel's presence altogether.
+
+And here I was talking to my link who called herself Susan.
+
+Why are you called Susan?" I asked for something to say.
+
+"Because the shape of your link is a flower. It resembles a black-eyed
+Susan, a flower from Earth."
+
+Well, it was as good a reason as any.
+
+"I'll need general information about the planet Fair Haven on the Southern Frontier," I said after a little while. "I want to know if either
+Kearsarge or Samuel Cornelius Mudd are known to the general profile of
+the planet."
+
+I got up from the bench and rubbed my wrist in the circular motion Susan
+described for turning her voice off. I tested the operation. Susan was
+silent. Good.
 
 I return to the Womyn's Cooperative Housing Authority. I was about to
 have a meal at the Patio Cafe when my link tickled.
@@ -1186,18 +1187,9 @@ tact.
 "I have a request into the Fungusians Network," I said. "They will have
 indexed all the information available."
 
-Note: I need to adjust the time for a response from the Fungusians. It
-will take less time to turn around an inquiry.
-
 "I should have a response shortly," I said, checking the time on my
 link. "I requested an acknowledgement and it came in earlier today when
 I talked with Emily Dickinson."
-
-Note: Add the line: When I left Shepheard's Hotel, my link displayed a
-held message. The Fungusians confirmed receipt of my request and would
-supply a response as soon as possible. The message noted that advances
-in neural net design would mean my report would arrive later this
-evening.
 
 Simon was speechless. I had done something he only had not done, but had
 not even imagined possible. I pressed my advantage.
@@ -1275,98 +1267,8 @@ screen.
 The planet of Fair Haven may well be at the crux of Kearsarge's
 problems," Simon began.
 
-## Chapter 10
 
-Investigator Ronnie Camberwell's Case Notes for ## Chapter 1-09
-
-## Chapter 1
-
-Kearsarge approached me outside of the Galactic Diner on Valley of the
-Kings.
-
-Kearsarge explained, at the Elwood Street Diner that she was receiving
-threatening messages coming from her dead husband. I would characterize
-these messages as death threats.
-
-Despite her efforts to block them, the messages could not be blocked.
-
-Kearsarge characterizes her husband as violent.
-
-Kearsarge says she just wants me to stop the messages from arriving. I
-think there's more to it than that.
-
-Kearsarge contracted for her husband's assassination. The contract was
-executed satisfactorily.
-
-This is a strange case with many unanswered questions.
-
-## Chapter 2
-
-I received a contract to ascertain the meaning and sender of Kearsarge's
-messages and to both stop them and the message sender from carrying out
-any violence against my client.
-
-I await the result of a deep background check on Kearsarge.
-
-The contract checks out as to its legal ramifications.
-
-## Chapter 4
-
-Kearsarge is thirty-two years old.
-
-She was married to Samuel Cornelius Mudd eleven years ago.
-
-She currently live at 17 Dollar Bay Drive, a detached property with
-direct access to Torch Lake.
-
-Kearsarge is a marathon runner. She has slipped from number two to
-number eight in the Solar League's ratings. No explanation exists for
-this decline.
-
-Kearsarge emigrated eight years ago with her husband. I am foregoing a
-background check of Kearsarge on Fair Haven at this time. Question: How
-did Kearsarge find me outside the Galactic Diner?
-
-Why does a rich woman frequent the Elwood Street Diner?
-
-Emily Dickinson execute the assassination contract on Samuel Cornelius
-Mudd by blaster. This sounds quite crude but effective.
-
-Samuel Mudd came to the Pharaoh Star System to manage the mine on Mark
-Antony. He was well-paid but his salary could not support the house on
-Dollar Bay Drive. No hint of why Kearsarge would take out a contract on
-him.
-
-I signed the contract and received my advance and a week's expense
-money.
-
-## Chapter 5
-
-Emily Dickinson believes Kearsarge is a bitch. He gave me no reason for
-this opinion.
-
-Kearsarge and Mudd's marriage was arranged and perhaps it was over when
-they came to Ptolemy City.
-
-Emily Dickinson tried to dissuaded me from continuing the case.
-
-He also said infidelity was involved but he was not specific.
-
-Emily Dickinson knows something which makes him uneasy but he did not
-share it with me.
-
-## Chapter 6
-
-I sent a message to the Fungusians requesting information on how to
-unblock the information about the message sender.
-
-I put in a request for in depth information about Fair Haven.
-
-## Chapter 8
-
-Josh Hardy cannot trace the messages past the Pharaoh Star System.
-
-## Chapter 11
+## Simon Parge Tells Me About Fair Haven
 
 "Let me tell you about Fair Haven," Simon said, adjusting his chair. ,,\
  I knew I was in for a long monologue.
@@ -1632,28 +1534,9 @@ a lesbian. I knew Emily Dickinson and Colonel Gyllian Romeres Lujo used
 he. I never knew how Tamara thought of Star. It was she who always used
 Star's name and that works for me now.
 
-## Chapter 12
+## I See Kearsarge Again
 
-Investigator Ronnie Camberwell's Case Notes for ## Chapter 11
-
-Fair Haven is a planet located near the Coalition border. It maintains
-ties with the Solar League but is not a full member.
-
-The society with royal families which control the planet.
-
-Fair Haven has long been suspected as being a haven, no pun intended,
-for smugglers. Good can be brought across the border into the Coalition.
-
-The interdiction on traffic in and out of the Coalition may have changed
-this.
-
-Note to self: The chapters on Josh Hardy and Susan, the link, need to be
-reversed. The information Ronnie seeks from the Fungusians needs to be
-brought into line with the narrative as it unfolds.
-
-The narrative continues here.
-
-It was late when I got home. No messages from the Fungusians came. Susan
+ It was late when I got home. No messages from the Fungusians came. Susan
 checked the time of the marathon. It began at ten o'clock. I wondered
 how Kearsarge would do.
 
