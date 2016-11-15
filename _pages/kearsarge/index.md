@@ -1,6 +1,5 @@
 ---
 Layout: page
-tags: [Fiction]
 permalink: /kearsarge-novel/
 ---
 
@@ -43,7 +42,7 @@ I keep walking. I am no longer a police detective. I do not have to talk
 to anyone about my former life.
 
 I hear footsteps running behind me. Reluctantly, I turn around. This
-person is not likely to be dangerous but I want to be certain. Besides,
+person could be dangerous. This is, after all, Ptolemy City. I want to be certain. no one wants me dead. Besides,
 I may know them and I do not want to be rude.
 
 "Detective Camberwell," the woman says again, running toward me. She is
@@ -133,12 +132,12 @@ and we each had a fresh cup before us to drink. "I'm scared."
 
 I saw how her hands trembled as she picked up her coffee cup to drink.
 Being a large woman with a lot of confidence her admission surprised me.
-Perhaps I had allowed her size and assurity in the manner of approaching
+Perhaps I had allowed her size and assured manner in approaching
 a stranger and conducting her to her favorite eating establishment to
 deceive me.
 
 "Scared of what?" I asked. Damn! My old instincts to protect and defend
-the weak and defenseless came for the forefront of my mind.
+the weak and defenseless came to the forefront of my mind.
 
 "The dead man is my husband," Kearsarge said. She looked away. "He was
 violent."
@@ -209,7 +208,7 @@ shelter."
 on the one hand and on the other you are claiming you can take care of
 yourself."
 
-"I just want you to stop the messages," Kearsarge said.
+"I just want you to stop the messages," Kearsarge said. "that's all. I'm not asking you to protect me in any way."
 
 "And you think that if I can stop the messages you'll be safe? That
 makes no sense."
@@ -219,7 +218,9 @@ makes no sense."
 "Not to me," I said, getting to my feet. "Thank you for breakfast."
 
 I walked out of the restaurant  without  a backward glance. I strode
-away, determined not to be called back. The next time I saw Kearsarge,
+away, determined not to be called back.
+
+The next time I saw Kearsarge,
 she was dead.
 
 ## I Receive A Contract
