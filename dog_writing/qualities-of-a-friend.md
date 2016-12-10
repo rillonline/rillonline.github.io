@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Qualities of a Friend
 categories: [Nonfiction]
 tags: [Autobiography, Dog Guide]
