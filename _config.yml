@@ -20,3 +20,23 @@ gems: [jekyll-paginate]
 include: ["_pages"]
 include: ["_drafts"]
 
+# defaults
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: page
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
