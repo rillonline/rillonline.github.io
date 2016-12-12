@@ -21,9 +21,8 @@ include: ["_pages"]
 include: ["_drafts"]
 
 collections: # What comes next pertains to a collection
-dog_writing: # Name of the collection
+dogwriting: # Name of the collection
 output: true # Convert every page in the collection to an html file
-permalink: /dog/:path/ # Routing and permalink for each of the pages
 
 # defaults
 defaults:
