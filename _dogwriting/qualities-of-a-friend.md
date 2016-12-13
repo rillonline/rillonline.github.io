@@ -1,11 +1,14 @@
 ---
 layout: page
 title: Qualities of a Friend
+topic: An example of handler and guide interactions
+date: January 8, 2013
 categories: [Nonfiction]
 tags: [Autobiography, Dog Guide]
 ---
+## Qualities of a Friend
 
-## Originally Written January 8, 2013
+### Date: January 8, 2013
 
 Today I'm writing about my dogs as friends. They are referred to as service dogs who carry with them stringent warnings against fraternization as if they were Buckingham Palace guards or Secret Service agents. Since I can still go to pieces talking about Caitlin,my first dog, I'll describe it as friendship so deep the dog becomes a part of me. Of course this friendship can only operate on the dog's level. We do not have deep discussions. We simply try to understand each other as we are able.
 

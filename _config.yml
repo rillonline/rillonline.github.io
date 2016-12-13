@@ -17,12 +17,13 @@ permalink: /:title/
 gems: [jekyll-paginate]
 
 # includes
-include: ["_pages"]
 include: ["_drafts"]
+include: ["_pages"]
 
-collections: # What comes next pertains to a collection
-dogwriting: # Name of the collection
-output: true # Convert every page in the collection to an html file
+collections:
+  dogwriting:
+    output: true
+    permalink: /:collection/:path/ 
 
 # defaults
 defaults:
