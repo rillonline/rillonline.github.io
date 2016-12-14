@@ -1,15 +1,14 @@
-   ---
+---
 title: Elwood at School
-date:2006/11/27
+date: 2006/11/27
 tags: [Autobiography, Guide Dog]
 categories: [Nonfiction]
-topic: A series of LiveJournaldescribing my experiences at the Seeing Eye in 2006.
- -->
+topic: A series of LiveJournal blog posts describing my experiences at the Seeing Eye in 2006.
+---
+
 Date: November 27, 2006
 
-
 Subject: Elwood
-~~~~~~~~~~~~~~~
 
 "Here's the news you've all been waiting for. Elwood is a male yellow
 Labrador Retriever. He's not a big dog. At the moment he is laying
@@ -19,11 +18,9 @@ he doesn't like me, he jumps in my lap and kisses me. Then he remembers
 he doesn't like me, gets down and watches the door, hoping our
 instructor will come.
 
-Date: 2006-11-29 Time: 11:54
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+### Date: 2006-11-29 Time: 11:54
 
 Subject: Life Here
-~~~~~~~~~~~~~~~~~~
 
 We are awakened at 5:30 a.m. over an intercom in our rooms. Then it's
 hurry, hurry, hurry. Go to the bathroom. Get some clothes on. In the
@@ -57,11 +54,9 @@ increments.
 
 Mood: happy
 
-Date: 2006-11-30 Time: 00:41
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## Date: 2006-11-30 Time: 00:41
 
 Subject: Harness All the Time
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Elwood is starting to get used to how life will be. Some lab behaviors
 are popping out. For example: Elwood has a fondness for bananas. He pops
@@ -128,11 +123,9 @@ scraping the ground. I jumped. Elwood remained calm, stopping. Good dog!
 
 Mood: okay
 
-2006-11-30 Time: 22:00
-~~~~~~~~~~~~~~~~~~~~~~
+## 2006-11-30 Time: 22:00
 
 Subject: South Street Route
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Today we started a new route. It's called the South Street Route because
 it does have four blocks of South Street along the square as one part of
@@ -180,11 +173,9 @@ My spy thriller also awaits.
 
 Mood: exhausted
 
-Date: 2006-12-01 06:42
-~~~~~~~~~~~~~~~~~~~~~~
+## Date: 2006-12-01 06:42
 
 Subject: Morning People
-~~~~~~~~~~~~~~~~~~~~~~~
 
 I have never been a morning person. I can get up. I can do what is
 necessary, however, I am not a morning person.
@@ -210,11 +201,9 @@ trying to give it to a very excited dog.
 Note to self: Be more firm with Elwood. He can obey even before
 breakfast. We have different mothers.
 
-Date: 2006-12-01 Time: 16:52
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## Date: 2006-12-01 Time: 16:52
 
 Subject: Difficult Day,
-~~~~~~~~~~~~~~~~~~~~~~~
 
 A difficult day today. It was rainy in the morning and it was warm. Came
 back drenched--Elwood, too. I was paired up with one student in the A.M.
@@ -229,11 +218,9 @@ worrisome. Pray for restorative rest and good work habits.
 
 Mood: anxious
 
-2006-12-02 Time: 10:17
-~~~~~~~~~~~~~~~~~~~~~~
+## Date: 2006-12-02 Time: 10:17
 
 Subject: Solo
-~~~~~~~~~~~~~
 
 Elwood and I had our solo today.
 
@@ -268,11 +255,9 @@ We also have to do laundry and get some serious writing done.
 
 Mood: accomplished
 
-2006-12-04 Time: 07:40
-~~~~~~~~~~~~~~~~~~~~~~
+## Date: 2006-12-04 Time: 07:40
 
 Subject: Sunday and Monday Morning,
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 On Sundays, no trips are scheduled. It's a day of rest and relaxation.
 This sounds as if we just sit around and do nothing. Nothing is farther
@@ -318,11 +303,9 @@ Mr. Elwood has expressed interest in my laptop this morning. He is
 beginning to recognize that my attention to it is inattention to him. He
 is also starting to take my hands off the keyboard.
 
-Date: 2006-12-04 Time: 11:03
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## Date: 2006-12-04 Time: 11:03
 
 Subject: Elm Street Route
-~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We started to learn the Elm Street route. It is basically pie-shaped
 with the north side of South Street forming the crust of the pie. Elm
@@ -361,11 +344,9 @@ but with the harness, someone came up to the instructor and said,
     Didn't they used to have dogs doing this? Have you replaced them
     with human beings?
 
-2006-12-05 Time: 07:37
-~~~~~~~~~~~~~~~~~~~~~~
+## Date: 2006-12-05 Time: 07:37
 
 Subject: Local Color
-~~~~~~~~~~~~~~~~~~~~
 
 Yesterday: a second go-round of the Elm Street route. There's a ditty
 for the street names. I'll capitalize the street names:
@@ -393,11 +374,9 @@ be to stop him from walking while not stopping him from pooping.
 
 We're off for another turn around the block, so to speak.
 
-Date: 2006-12-08 Time: 11:44
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## Date: 2006-12-08 Time: 11:44
 
 Subject: Hound Dog
-~~~~~~~~~~~~~~~~~~
 
 Today we go to the train and return on the bus. It is very cold. We were
 awakened at 5:30 by Elvis and an announcement that it was 17 degrees
@@ -452,11 +431,9 @@ semester.
 
 Mood: cold
 
-Date: 2006-12-09 Time: 20:32
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## Date: 2006-12-09 Time: 20:32
 
 Subject: Fasten Your Seat Belts
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Yesterday we had a "Meet and Greet" exercise whereby some of the
 instructors came up to shake my hand and Elwood had to remain sitting.
@@ -519,11 +496,9 @@ Gathering Of Eagles.
 
 Mood: mellow
 
-Date: 2006-12-13 06:54
-~~~~~~~~~~~~~~~~~~~~~~
+## Date: 2006-12-13 06:54
 
 Subject: Low Places,
-~~~~~~~~~~~~~~~~~~~~
 
 Sunday was a busy day though no trips are scheduled. Several of us went
 out on the leisure path in the morning. I went twice around--2/3 of a
@@ -609,11 +584,9 @@ shoes!
 
 Mood: rushed
 
-Date: 2006-12-13 Time: 11:27
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## Date: 2006-12-13 Time: 11:27
 
 Subject: Going Home
-~~~~~~~~~~~~~~~~~~~
 
 This morning the local students left. They are driven home by an
 instructor who does some work with them around home. We had to say
