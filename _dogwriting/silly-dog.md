@@ -7,7 +7,7 @@ categories: [Nonfiction]
 tags: [Autobiography, Guide Dog]
 ---
 
-###Date: January 7, 2007 
+### Date: January 7, 2007 
 
 Today Elwood was quite funny.
 
