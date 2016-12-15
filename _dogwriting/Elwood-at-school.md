@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Elwood at School
 date: 2006/11/27
 tags: [Autobiography, Guide Dog]
