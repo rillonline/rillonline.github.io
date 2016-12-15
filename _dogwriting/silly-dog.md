@@ -1,10 +1,14 @@
 ---
-layout: default
+layout: page
 title: Silly Dog
 date: 2007/01/07 20:36
+topic: Elwood is a cartoon dog
 categories: [Nonfiction]
 tags: [Autobiography, Guide Dog]
 ---
+
+###Date: January 7, 2007 
+
 Today Elwood was quite funny.
 
 * When we got into the car to go to church, Elwood tried sitting on my lap. He 
