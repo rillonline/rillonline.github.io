@@ -4,7 +4,7 @@ title: Ups and Downs
 topic: Elwood and I have differing opinions
 date: 2007/0422 19:29
 categories: [Nonfiction]
-tags: [Autobiography, Guide Dog
+tags: [Autobiography, Guide Dog]
 ---
 
 ### Date: April 22, 2007
