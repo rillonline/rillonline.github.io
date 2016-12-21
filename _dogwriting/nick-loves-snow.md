@@ -2,6 +2,7 @@
 layout: page
 title: Nick Loves Snow
 date: 2016-12-20
+topic: Nick and I and our first snowstorms
 categories: [nonfiction]
 tags: [Autobiography, Guide Dog]
 ---
