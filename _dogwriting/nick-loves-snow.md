@@ -6,6 +6,8 @@ categories: [nonfiction]
 tags: [Autobiography, Guide Dog]
 ---
 
+### December 20, 2016
+
 The past two weekends, we have received a lot of snow, about 6 inches each weekend. In Milwaukee, where we visited last weekend, they had more.
 
 Nick loves the snow. He runs and jumps, turning in midair. To avoid sharp jerks of my regular lead, I started using the Flexi lead. Even so, Nick races to its end and there is often a significant jerk. I have dropped the lead as a result, feeling it fly out of my hands.
