@@ -1,7 +1,7 @@
 #Site settings
 name: Rill Online
 title: My writing site.
-tagline: All my writing lives here.
+tagline: Where all my writing lives.
 baseurl: ''
 url: "http://rillonline.github.io/"
 
