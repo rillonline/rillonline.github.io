@@ -15,7 +15,7 @@ particular collection.<p>
 <h2>Dog Writing Collection</h2>
 
 <ul>
-    {% assign sorted = (site.dogwriting | sort: 'date') | reverse limit 3 %}
+    {% assign sorted = (site.dogwriting | sort: 'date') | reverse | tlimit 3 %}
     {% for item in sorted %}
     <li>{{ item.title }}</li>
     {% endfor %}
