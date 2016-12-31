@@ -24,6 +24,10 @@ collections:
   dogwriting:
     output: true
     permalink: /:collection/:path/ 
+  yogajournal:
+    output: true
+    permalink: /:collection/:path/
+
 
 # defaults
 defaults:
