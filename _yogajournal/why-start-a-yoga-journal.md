@@ -1,6 +1,11 @@
---- layout: collection title: Why Start A Yoga Journal topic: My first
-post in my yoga journal date: 2016/12/30 20:37 categories: [Nonfiction]
-tags: [Yoga Journal, Autobiography] ---
+---
+Layout: page
+Title: Why Start A Yoga Journal
+topic: My first post in my yoga journal
+date: 2016/12/30 20:37
+categories: [Nonfiction]
+tags: [Yoga Journal, Autobiography]
+---
 
 ### December 30, 2016
 
