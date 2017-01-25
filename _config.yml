@@ -7,6 +7,7 @@ url: "http://rillonline.github.io/"
 
 # Build settings
 markdown: kramdown
+markdown_ext: "kd,kdwn,kdown,kramdown,md,mdwn,mdown,mk,markdown,kk"
 kramdown:
 #    auto_ids: true
 paginate: 4
