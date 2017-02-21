@@ -6,7 +6,7 @@ tags: [Writing, Star Runner]
 
 I found this earlier thought piece on Star Runner from February 16, 2016. Apparently, I planned to finish Star Runner last year, too.
 
-# #About Star Runner
+## About Star Runner
 
 Star Runner is an unfinished novel I began back in early 2007. Over the intervening years I have edited and re-edited the first chapter. But all my attempts to both finish the novel and tame it into a believable story have failed.
 
