@@ -1,8 +1,17 @@
-	THE ADVENTURES OF STAR RUNNER: The PANTHERAN: BOOK 1
+#  Dirty World Station
+{:no_toc}
 
-Chapter 1: A Strange Conversation
+# THE ADVENTURES OF STAR RUNNER: The PANTHERAN: BOOK 1
+<:no_toc}
 
-Today the Secretary General closed all Coalition borders. 
+# Table of Contents
+{:no_toc}
+
+* {:Toc}
+
+# Prologue
+
+Today the Secretary General closed all Coalition borders.
 
 I have taken this unprecedented action,” the Secretary General said, "in order to keep the lawlessness that has invaded our Space. Although I know this will be a hardship for those who have family and business interests outside Coalition borders, I have been forced to institute these stringent measures because some elements have seen to prey upon Coalition 	citizens and Coalition interests, disregarding the rule of law and the Space Conventions. I have ordered Coalition fleets Alpha through Theta to coordinate patrol of jump points. Local authorities have been requested to patrol their own space. Failure to maintain closed borders will result in interdiction and immediate expulsion from the Coalition. Such unilateral decision-making flies in the face of our cherished heritage of cooperation; however, difficult times demand difficult decisions and resolve.
 
@@ -12,22 +21,31 @@ In a pig's eye," Kirk Langley said as the news commentators resumed their chatte
 
 "Yeah, Kirk," a spacer at a nearby table said, "but here on the Northern frontier things are getting very ugly. The Ursula is overdue. that makes the fifth ship this year and that's just here on this space station. We're hardly the crossroads of the Arm. I've heard it's like this all over."
 
+
+
+Everyone stopped talking, turning their attention to the only Pantheran they had ever seen in the flesh. No one knew why, but Captain Star Runner was the only Pantheran they had ever seen with a rich fuschia-colored fur. And unlike other Pantherans, it had a star of white fur on its forehead.
+
+The spacers would have been surprised to learn the whit fur shamed the beautiful star runner. Ungendered Pantherans were supposed to be a solid color. But like its color, the star marking and its white socks were unique to the handful of fuschia-colored Pantherans ever born.
+
 "Maybe she got caught when the Border closed," another Spacer said.
 
 "Nah," the first said. "She was stopping at Ellison's World. That's beyond the border. She operates outside of Coalition space, well, usually. Garrison has no love for the Coalition."
 
 Mutters of assent circled the bar. Captain Garrison's dissatisfaction with the Coalition was well-known on Dirty World Station. Ellison's World  was part of his regular route. The fact that Garrison and Ursula were overdue was unsettling. If anyone could withstand, outrun or outwit the pirates or rebels or whatever and whoever they were, it was Captain Garrison. Nevertheless, Ursula was overdue..
 
+The spacers continued to mutter among themselves while the vidcaster continued to analize and speculate about the General Secretary's words.
+
+Nevertheless the spacers' attention were drawn to the lounge's entrance. Captain Star Runner filled the doorway, its eyes scanning the room, its ears twitching as it took in their words and that of the vidcaster, its nose quivering, its whiskers stiffening on either side of its mouth.
 I held my drink between my paws. I had stopped lapping the liquid  some time before. I grew more anxious as the spacers around me continued to talk about the Secretary General's announcement. My ride performed its final checks before launch. I shipped out in less than a Terry  hour. I would be  running right into the region of space where most disappearances occurred. Added to this, Secretary General Kahlua an I had a lot in common--at least, the Terries and their kind would think so.
 
-Hello, I am Captain Star Runner, the Pantheran. This is my first adventure. 
+Hello, I am Captain Star Runner, the Pantheran. This is my first adventure.
 
-Both Kahlua and I were engineered at the Institute of Androgyns, Kahlua for the diplomatic corps. Me. I am a star runner, designed to be what Terries call an astrogator. . To the Terry way of thinking, we are freaks. They look upon us with suspicion and usually give us a wide birth. 
+Both Kahlua and I were engineered at the Institute of Androgyns, Kahlua for the diplomatic corps. Me. I am a star runner, designed to be what Terries call an astrogator. . To the Terry way of thinking, we are freaks. They look upon us with suspicion and usually give us a wide birth.
 
 So you may think it is strange that I would be drinking a Terry drink in a Terry bar on a Terry space station outside the borders of the Coalition. No one spoke to me. No one looked in my direction as they grumbled against Coalition policies in general and the just-announced interdiction in particular.
 
-I looked at my drink again. What would a terry spacer do? Could I just shove the container and its contents into the recycler? 
-Would Kirk Langley find my behavior unacceptable? previously He had explained to me that I needed to order something to sit in his bar. I sat in his bar to learn about the spacer trade. I was a neophyte then. My Featherote mentor insisted I mingle with the other spacers. "Listen to their chatter," he said. "You will learn many useful things: what is being traded on distant worlds, what kinds of repair parts are best for your star drive, who deals fairly and who cheats. Who has the best food to eat on a given station and who has the cheapest docking fees." I quickly learned spacers talked about these items, often contradicting one another, politics and a great deal of chatter that made little or no sense to me. 
+I looked at my drink again. What would a terry spacer do? Could I just shove the container and its contents into the recycler?
+Would Kirk Langley find my behavior unacceptable? previously He had explained to me that I needed to order something to sit in his bar. I sat in his bar to learn about the spacer trade. I was a neophyte then. My Featherote mentor insisted I mingle with the other spacers. "Listen to their chatter," he said. "You will learn many useful things: what is being traded on distant worlds, what kinds of repair parts are best for your star drive, who deals fairly and who cheats. Who has the best food to eat on a given station and who has the cheapest docking fees." I quickly learned spacers talked about these items, often contradicting one another, politics and a great deal of chatter that made little or no sense to me.
 
 The Terry spacers continued to talk among themselves. Apparently, they had forgotten I was in the bar or they did not care. I felt very much alone, a feeling which troubled me more and more the more time I spent among terries.
 
@@ -35,13 +53,13 @@ I finished my bubbly drink, shoved the container into the recycler and extricate
 
 "Hey, Star," one of the spacer called over to me. "We don't mean you when we're talking about the cats. It's nothing personal between us and you. You know that, don't you?"
 
-Did I? Thus far, the spacers I have encountered here at the bar bear me no particular ill will. I think they have become used to my comings and goings. 
+Did I? Thus far, the spacers I have encountered here at the bar bear me no particular ill will. I think they have become used to my comings and goings.
 
 I replied, "I understand."
 
 "Are you shipping out?"
 
-I hesitated. The spacers had never before asked me a question like this. Should I tell them? If I did not tell them, they would not be able to sit here at Kirk Langley’s bar and wonder if I would be overdue. Maybe that was the point of the exercise. 
+I hesitated. The spacers had never before asked me a question like this. Should I tell them? If I did not tell them, they would not be able to sit here at Kirk Langley’s bar and wonder if I would be overdue. Maybe that was the point of the exercise.
 
 "In," I queried my ship in my head, "twenty-seven of your minutes."
 
@@ -67,12 +85,12 @@ I padded out of the bar.
 
 Terries think of The Race as large cats. As felines are not native to our home world, some of the nuances of their comparison are lost on me. As far as I have been able to observe, the similarities are very generic: we have fur, we growl and purr. Our ears are on the top of our heads and we can swivel them. We also have tails. For reasons lost in genetic history, star runners are blessed with very long and full tails which we use to great effect when making entrances or exits.
 
-I stand over six feet tall at the shoulder. I am well-muscled, with fuchsia-colored fur. I have a splash of white fur on my forehead. The norm is to be pastel-colored with no contrasting fur. I have always considered my white patch unfortunate and an embarrassment. The Terries tell me it is in the shape of a star which I find confusing. However, Terries have found it amusing since I am a star runner. They call me Star Runner and for their convenience, I call my little ship that, too. The Race uses unique numbers for each of its androgyns and spacecraft which is much more efficient. I have also observed that shortening names is a sign of comradery among Terries. Being called Star rather than Star Runner might be significant. I would have to ponder all this on my way to my rendezvous near the Sacred Worlds. 
-I made my way through the narrow corridors of the Dirty World Space Station to the wharf where my little ship was docked. I had chosen this particular space station s my home port because of its small size and lack of terries. 
+I stand over six feet tall at the shoulder. I am well-muscled, with fuchsia-colored fur. I have a splash of white fur on my forehead. The norm is to be pastel-colored with no contrasting fur. I have always considered my white patch unfortunate and an embarrassment. The Terries tell me it is in the shape of a star which I find confusing. However, Terries have found it amusing since I am a star runner. They call me Star Runner and for their convenience, I call my little ship that, too. The Race uses unique numbers for each of its androgyns and spacecraft which is much more efficient. I have also observed that shortening names is a sign of comradery among Terries. Being called Star rather than Star Runner might be significant. I would have to ponder all this on my way to my rendezvous near the Sacred Worlds.
+I made my way through the narrow corridors of the Dirty World Space Station to the wharf where my little ship was docked. I had chosen this particular space station s my home port because of its small size and lack of terries.
 
 At first, I had gone to a large Terry space station. The crowds, the noise, the smells were overwhelming. Terries stared at me. I found it difficult to negotiate the corridors with everyone pointing at me. I was attacked several times. The station management was slow to respond to my requests for cargo handling and ship maintenance. I was told at many establishments that they did not want me present.
 
-I retreated to my little ship and brought a low priority cargo to Dirty World Station. The station manager was courteous. The shipyard recommended several repairs and performed them efficiently and at a reasonable cost. I received a better cargo bound for the Sacred Worlds. I found my niche in frontier shipping. I could deliver a small cargo more quickly than most Terries. I transport stolen goods and illegal goods--no questions asked. Sometimes an entity doing this sort of business is called a smuggler. Sometimes it is called a gun runner. Gunrunner appeals to me because I am a star runner. My transactions are confidential and quick. Dirty World Station serves me well as no one comes to the Dirty World Star System for pleasure. Serious spacers, often with questionable cargos, frequent the space station, no questions asked. Unlike some other ports on the Northern Frontier, the space station itself is reputable. They do not ask. We do not tell. 
+I retreated to my little ship and brought a low priority cargo to Dirty World Station. The station manager was courteous. The shipyard recommended several repairs and performed them efficiently and at a reasonable cost. I received a better cargo bound for the Sacred Worlds. I found my niche in frontier shipping. I could deliver a small cargo more quickly than most Terries. I transport stolen goods and illegal goods--no questions asked. Sometimes an entity doing this sort of business is called a smuggler. Sometimes it is called a gun runner. Gunrunner appeals to me because I am a star runner. My transactions are confidential and quick. Dirty World Station serves me well as no one comes to the Dirty World Star System for pleasure. Serious spacers, often with questionable cargos, frequent the space station, no questions asked. Unlike some other ports on the Northern Frontier, the space station itself is reputable. They do not ask. We do not tell.
 
 Chapter 2: Rendezvous
 
@@ -80,7 +98,7 @@ Dirty World Station handled a great many spaceships. It also had a ship repair f
 
 I had learned the Terry custom of words having more than one meaning. Dirty World was named for its dust storms which made everything they touched dirty. The space station had taken its name from the planet. However, dirty could also mean corrupt, acquired by improper mens or unethical and squalid. This basicly summed up Dirty World Station.
 
-This said, the workers and retail establishments on Dirty World Station were not corrupt nor was the station management. In that sense, they ran a clean staDirty referred to the cargos which came in and out of the space station. Pirates, smugglers and gun runners used Dirty World Station for its dependable services. You also did not have to guard particularly against bodily harm as was true on other stations. It was, I thought, as I trotted quickly toward my little ship, a very odd combination.tion.  
+This said, the workers and retail establishments on Dirty World Station were not corrupt nor was the station management. In that sense, they ran a clean staDirty referred to the cargos which came in and out of the space station. Pirates, smugglers and gun runners used Dirty World Station for its dependable services. You also did not have to guard particularly against bodily harm as was true on other stations. It was, I thought, as I trotted quickly toward my little ship, a very odd combination.tion.
  It felt good to get aboard Ship. The cargo was loaded, the flight plan filed. We were ready to launch.
 
 I strapped into my acceleration web. As odd as Humans think this is, Ship activated that part of my brain responsible for orgasm. For reasons totally unknown to all but the genetic engineers, this caused me to void and position my body in the web to maximize my body's ability to withstand the G-forces necessary to leave the solar system before jump. Not surprisingly, all the connections of the web fit me perfectly. We had been designed for each other. he orgasm just happened to be a pleasure able side effect of flight preparation. When I was in position, Ship initiated launch. When we were clear of the station, we accelerated quickly, more quickly than any human ship manage.
@@ -107,7 +125,7 @@ When we came out of our jump at Syria I thought:
 
 I waited. My instructions to rendezvous for my cargo were not that unusual. Space stations are leaky places. There are lots of eyes, lots of questions, lots of information that needs to be given. A private rendezvous like this meant privacy. It also meant that what I was probably being asked to transport was stolen goods or goods the trader or the recipient was not supposed to have. High risk means high profit.
 
-An unmarked vessel was coming toward our coordinates Unmarked vessels are not that rare. People do not like to advertise their presence especially outside the border. Inside the border, turning off your transponder is illegal and can result in impoundment and loss of your operator's license. 
+An unmarked vessel was coming toward our coordinates Unmarked vessels are not that rare. People do not like to advertise their presence especially outside the border. Inside the border, turning off your transponder is illegal and can result in impoundment and loss of your operator's license.
 
 I waited. There was no hail. Was this my contact or someone else. My transponder continued to broadcast my identity on all known hailing frequencies.
 
@@ -239,7 +257,7 @@ HUMPH. Standby. Wrapped in an acceleration in zero G there was no way to stand. 
 
 One of my first assignment as a juvenile runner was ship repair. I had learned early how to both stay attached to the hull with magnetic booties and how to launch myself from one location to another with relative ease and a high degree of accuracy and safety. Carrying my repair kit felt surprisingly reassuring.
 
-From my vantage point on the starboard hull, I could see the scorch marks. I growled my displeasure. I liked my ship shiny and unmarred. There was no help for it of course. Ships got 
+From my vantage point on the starboard hull, I could see the scorch marks. I growled my displeasure. I liked my ship shiny and unmarred. There was no help for it of course. Ships got
 all sorts of marks on them because of moving at high velocity in space. Maybe I could maintain the scorch marks as some badge of courage though I had dashed to get out of the firing range as quickly as possible.
 
 It took Ship three days to take up position in the shadow of one of the outer moons of one of the outer planets. There was no point going anywhere until I had Ship's sensors working properly. after that, I could see what could be done about the other repairs. I worked until Ship told me to come in. I ate what Ship told me to eat. I drank what Ship told me to drink. I slept when Ship told me to strap myself into the acceleration web where it was easier for Ship to monitor my health and administer drugs including a sleeping potient.
@@ -248,7 +266,7 @@ I healed. I healed Ship with the supplies I had on board. Ship analyzed the star
 
 None of the constellations looked familiar to me either from the star charts or from my limited stargazing as a kitten. Wherever we were, we were a long way from where we had started. Our logs did not give us any information. The coordinates we had used would have taken us to our proposed destination but they hadn't.
 
-That was Ship's analysis. But Ship did not take the trader into account. had these been the exact coordinates where we had gone? 
+That was Ship's analysis. But Ship did not take the trader into account. had these been the exact coordinates where we had gone?
 
 The problem with jump coordinates is their complexity. No ordinary spacecraft can calculate all the parameters. You need a military vessel or one with much more computing power than I could afford. If the jump coordinates were in your almanac, you could execute them. If someone gave them to you, you could execute them. So you were dependent on your source to give you reliable jump coordinates. Apparently, we had been given bogus ones. Why?
 
@@ -271,7 +289,7 @@ Because you see, I had checked, there were contraband munitions in my hold. Than
 
 And the more I pondered what had happened, the more uneasy I became. it is easy to become paranoia when you don't see any other intelligent being for months on end, but it is another thing to find oneself lost after having spent time on a human station.
 
-Who had been in the cafe? Who knew where I was going? I went over those questions over and over again in my mind and did not come up with any good answers though I had the nagging feeling the answers were there if I could think about them differently. 
+Who had been in the cafe? Who knew where I was going? I went over those questions over and over again in my mind and did not come up with any good answers though I had the nagging feeling the answers were there if I could think about them differently.
 
 
 
@@ -281,7 +299,7 @@ Captain Gillie Romeres Lujo walked into the cafe fifteen minutes after  I sat do
 
 "Welcome back," Captain Gillie Romeres Lujo said as she slid, uninvited, into the chair opposite me
 
-I did not answer her but kept eating, pausing to lick my whiskers, my chin and my fingers as I ate. 
+I did not answer her but kept eating, pausing to lick my whiskers, my chin and my fingers as I ate.
 
 "We need to talk," Captain Gillie Romeres Lujo  whispered, knowing I, with my superior hearing, could hear her. "I'm investigating."
 
@@ -309,7 +327,7 @@ I still didn't move. I had not heard of this consortium and I wanted to know mor
 
 "How can I win your trust?"
 
-"Show me I can trust you," I said and with that, I left the cafe and went back to my ship. 
+"Show me I can trust you," I said and with that, I left the cafe and went back to my ship.
 
 I had lost valuable time and supplies searching for the way out of my dilemma. Apparently, I wasn't the only one who had been sent astray. Perhaps I was the only one who had made it back so far. All the rest of the ships were overdue and feared lost. Captain Gillie Romeres Lujo needed me. I doubted I needed to be seen in her company right now. I still had a business to run and I had lost valuable time and contacts.
 
@@ -321,7 +339,7 @@ Ship came up with the information I needed by next station cycle.
 
 The consortium was made up of planetary governing councils, and business firms doing business here on the southern frontier--all human. There were few of The Race operating out here independently though perhaps some of the conglomerates had pantheran participants.
 
-The next time she approached me, and Captain Gillie Romeres Lujo would approach me again, I Would dain to speak with her though how much I would tell her I still didn't know. I suspected it wouldn't be much. I wanted her to tell me things. My priority was work. An idle runner was a 
+The next time she approached me, and Captain Gillie Romeres Lujo would approach me again, I Would dain to speak with her though how much I would tell her I still didn't know. I suspected it wouldn't be much. I wanted her to tell me things. My priority was work. An idle runner was a
 hungry runner.
 
 	I didn't get the chance to decide how much I would say to Captain Gillie Romeres Lujo. I had set Ship several tasks:
@@ -331,13 +349,13 @@ hungry runner.
 3. If possible, locate a buyer.
 4. Identify other jobs.
 
-When I returned to Ship, I learned I was free to resell the munitions and that, if I was able, to could entitled to damages and full payment. The jump coordinates had placed in my ship and me in unacceptable risk without warning me ahead of time. I put the wheels in motion to file a claim. Meanwhile, several offers of work were still negotiable. I was able to piggyback them and plan a zigzag route across the frontier to receive and deliver. 
+When I returned to Ship, I learned I was free to resell the munitions and that, if I was able, to could entitled to damages and full payment. The jump coordinates had placed in my ship and me in unacceptable risk without warning me ahead of time. I put the wheels in motion to file a claim. Meanwhile, several offers of work were still negotiable. I was able to piggyback them and plan a zigzag route across the frontier to receive and deliver.
 
 In my absence, the demand for munitions had escalated. It would seem that many parties were anxious to stockpile whatever military hardware they could lay hands. Some kind of border war was brewing. All the ramifications were lost on me. I am, after all, just a simple gunrunner with no loyalties. So far, all the combatants have understood this. I don't know how much longer my neutrality will be respected. As a result, I tripled my prices and all my partners agreed to pay the price. They all seemed very desperate for supplies and their desperation is my gain.
 
 I had Ship run all contracts through LegalAdvisor. Changes were made--changes all parties accepted albeit grudgingly. I got paid if I delivered. I got paid if I got injured or my Ship was fired upon. My damages were covered. If I was lied to, I could resell their property how, when where and to whom I chose. The bargains were hard. The stakes were high. My life and my ship were on the line.
 
-My tail twitched with anticipation. Danger was my rush. I could do this.I am, after all, a hunter by heritage and by birthright 
+My tail twitched with anticipation. Danger was my rush. I could do this.I am, after all, a hunter by heritage and by birthright
 
 We launched three hours after I left the cafe.
 
@@ -385,13 +403,13 @@ I waited. I believed she was correct. I had been transporting some very expensiv
 
 I don't know who. I don't know why and I don't know why so many ships are disappearing Can you shed any light on this?
 
-I licked my paw and began washing my mouth, thinking. I had a whole database of names, financial transactions, coordinates. I couldn't share them with Captain Gillie Romeres Lujo. 
+I licked my paw and began washing my mouth, thinking. I had a whole database of names, financial transactions, coordinates. I couldn't share them with Captain Gillie Romeres Lujo.
 
 The suppliers and recipients of cargos I transport wish to remain anonymous, I said, wiping salsa off my whiskers. I licked my paw again and rubbed my cheek. I think that many of the parties with whom I have dealings are not the sources of the items nor are they the ones who are the final buyers. I am contracting with brokers, simply providing transportation.
 
 And making the goods untraceable.
 
-I raised an eyebrow, rubbing hard at a particular spot underneath my eye. I licked carefully again, rubbed languidly, giving my paws something to do. I have observed that humans do not wash in public like this. Maybe this would distract Captain Gillie Romeres Lujo. 
+I raised an eyebrow, rubbing hard at a particular spot underneath my eye. I licked carefully again, rubbed languidly, giving my paws something to do. I have observed that humans do not wash in public like this. Maybe this would distract Captain Gillie Romeres Lujo.
 
 I assure my clients privacy. They pay me well for it. Without it ... I shrugged
 
@@ -409,7 +427,7 @@ Captain Gillie Romeres Lujo looked confused, then laughed, a very musical sound.
 
 But, I said, dead men tell no tales.
 
-Captain Gillie Romeres Lujo sobered immediately. That is also true. You have an interesting grasp 
+Captain Gillie Romeres Lujo sobered immediately. That is also true. You have an interesting grasp
 of human language and customs, Captain Star Runner. A pirate is a thief.
 
 I continued washing my face. I had never asked myself where the munitions came from. Thievery was a serious offense in the Coalition. Even here on the Frontier, Coalition sensibilities usually prevailed. Human were less worried about theft than The Race, but, at the same time, they did not take theft lightly. I had schooled myself not to think about it. Much of what I was paid well to transport was contraban and much of it must be stolen. I wasn't the thief so it didn't matter to me as long as I got paid what I asked.
@@ -444,11 +462,11 @@ Permission to come aboard.
 
 I padded back to the edge of the deck. In my own slip, I often did not stand. I liked the primeval feel of moving around this way. I had also found it unnerved many humans. I didn't have to puff up to intimidate many of them, just look down at them from the upper deck, resting comfortably on my forepaws.
 
-Captain Gillie Romeres Lujo stepped back. 
+Captain Gillie Romeres Lujo stepped back.
 
-You are magnificent, she said. I heard a tremor in her voice. 
+You are magnificent, she said. I heard a tremor in her voice.
 
-I didn't understand what she meant. I simply waited. What did she want with me. 
+I didn't understand what she meant. I simply waited. What did she want with me.
 
 I don't know why you. won't speak with me. I just thought you might be able to characterize your cargo.
 
@@ -462,7 +480,7 @@ I am not under any obligation to answer your questions.
 
 You are a survivor, Captain Gillie Romeres Lujo said. I want to know how your survive out there.
 
-By not telling people like you, nameless and faceless people of your Consortium, anything. 
+By not telling people like you, nameless and faceless people of your Consortium, anything.
 
 I swished my tail. I wanted her gone, but technically, she was not on my ship. She was standing in the space way and I could not close the hatch until my ship was unloaded.
 
@@ -480,14 +498,14 @@ My mind made up, I issued Ship instructions:
 1. Update me on the Consortium and its activities.
 2. Give me everything it could find on Captain Gillie Romeres Lujo.
 3. Get repaired as quickly as possible. Another human word. I liked the crisp sound of it.
-4. Set up the most lucrative contracts 
+4. Set up the most lucrative contracts
 5. Monitor any of Captain Gillie Romeres Lujo's communications.
 
-This last was now possible. one of my contracts had been paid with state of the art surveillance equipment. This would give me a chance to use it and evaluate my results.ASAP. 
+This last was now possible. one of my contracts had been paid with state of the art surveillance equipment. This would give me a chance to use it and evaluate my results.ASAP.
 
 I am a hunter from a race of hunters. This is my heritage. This is my birthright. The Consortium may think of me as the prey to be hunted down and questioned, to give up what they needed to know, but they would tell me what I wanted to know and the best part, they would not even know they were doing it.
 
-I left the details of the surveillance to Ship. My brain and Ship's computer are highly integrated. Because of my training as a runner, I can be as comfortable programming and searching Ship's databases, executing routines, processing raw data. IN some  I could do Ship’s job faster because my brain could make connections Ship’s artificial intelligence could not. Usually, though, computer instructions are faster than the conscious mind. My job on shipboard is to think,, to reason, to follow my ancestral instincts and to play my hunches. 
+I left the details of the surveillance to Ship. My brain and Ship's computer are highly integrated. Because of my training as a runner, I can be as comfortable programming and searching Ship's databases, executing routines, processing raw data. IN some  I could do Ship’s job faster because my brain could make connections Ship’s artificial intelligence could not. Usually, though, computer instructions are faster than the conscious mind. My job on shipboard is to think,, to reason, to follow my ancestral instincts and to play my hunches.
 
 The Race cannot roar. But if I could have, I would have.
 
@@ -511,7 +529,7 @@ Yes. Ship could get into them. Hmm. This equipment could be very useful.
 
 Video started scrolling in my head. Human voices. One said: "I Tawt I Taw A Puddy Tat I did, I did see a puddy tat!" " and another lisps one said: ""Sufferin’ succotash." As I watched and listened, I saw the hapless Sylvester was  that animal humans call a cat and this cat made numerous to hunt a bird who always bested him.
 
-Now I understood. I was the cat. Captain Gillie Romeres Lujo signed her messages TB, Tweety Bird.Restless, I jumped down and paced the lair again. If only the genetic engineers had given me a male's voice. I could roar. How dare this Consortium shame me like this. 
+Now I understood. I was the cat. Captain Gillie Romeres Lujo signed her messages TB, Tweety Bird.Restless, I jumped down and paced the lair again. If only the genetic engineers had given me a male's voice. I could roar. How dare this Consortium shame me like this.
 
 Ship gave me more video. Ship had hacked into Captain Gillie Romeres Lujo personal files. The time stamp on the file was very recent. The video showed the inside of her ship. She was looking straight at the camera. Obviously, she was using a monitor. It was a log file of some sort.
 
@@ -599,7 +617,7 @@ In days of old, on certain nights when the night was very dark--no moons shone, 
 
 So far, their appearance doesn't sound threatening. They sound like a great asset to the pride. However, their coming always meant danger for The Race was close at hand. A great champion would be needed to put The Race back on track, to keep The Race from annihilation or to relieve great hardship.
 
-These Sunmarked oness--the yellow patch--confronted monarchs. They toppled the rich and undid their oppressive schemes. They set captives free. They turned the world upside down. The Race recovered from these interventions and became stronger. However, those who were displaced were never happy. They were the ones with power and presteige. The birth of a fuschia-colored, sun-marked kitten meant the world as The Race knew it was about to change. One of my sun-marked ancestors had initiated space travel. Another had predicted The Race would work with other races. A third had founded the genetic enhancement program to enhance all members of The Race. 
+These Sunmarked oness--the yellow patch--confronted monarchs. They toppled the rich and undid their oppressive schemes. They set captives free. They turned the world upside down. The Race recovered from these interventions and became stronger. However, those who were displaced were never happy. They were the ones with power and presteige. The birth of a fuschia-colored, sun-marked kitten meant the world as The Race knew it was about to change. One of my sun-marked ancestors had initiated space travel. Another had predicted The Race would work with other races. A third had founded the genetic enhancement program to enhance all members of The Race.
 
 
 I don't expect to do anythng lke ths. I am just tryng to survive. I am now an offworlder, living outsde Coaltion space, coming and gong mostly here on the frontier. Some call me a gun runner. Others say I am a smuggler. I am far from my kind, f I can be sad to have a knd. And now I have Captain Gillie Romeres Lujo and the Consortium to deal wth. They are,  have come to beleve, tryng to compromise my business and use me for ther own ends. I cannot let this happen. I must remain free.
