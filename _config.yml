@@ -25,10 +25,12 @@ collections:
   dogwriting:
     output: true
     permalink: /:collection/:path/ 
+  spiritualwriting:
+    output: true
+    permalink: /:collection/:path/
   yogajournal:
     output: true
     permalink: /:collection/:path/
-
 
 # defaults
 defaults:

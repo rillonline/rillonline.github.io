@@ -4,9 +4,9 @@ layout: default
 <body>
 <h2>Welcome to Rill Online</h2>
 
-<p>The writing on this site is arranged in collections and pages. Look to the
+<p>The writing on this site is arranged in collections, pages and posts. Look to the
 navigation bar at the top of every page for a link to all the entries in a
-particular collection.<p>
+particular collection.</p>
 
 <p>Below you will find the most recent entries in a given collection.</p>
 
@@ -21,16 +21,14 @@ particular collection.<p>
     {% endfor %}
 </ul>
 
-<!--
-<h2>Yoga Journal</h2>
+<h2>Spiritual Writing</h2>
 
 <ul>
-    {% assign sorted = (site.yogajournal | sort: 'date') | reverse %}
+    {% assign sorted = (site.spiritualwriting | sort: 'date') | reverse %}
     {% for item in sorted limit:3 %}
 <li><a href="{{ item.url }}">{{ item.title }}</a></li>
     {% endfor %}
 </ul>
-
 -->
 <h1> Posts </h1>
 
