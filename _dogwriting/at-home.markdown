@@ -6,6 +6,8 @@ topic: a winter rant
 permalink: /:collection/at-home/
 ---
 
+### January 25, 2008 ###
+
 Although today has been a sunny day, we haven't had much opportunity
 to go for a walk. This is partly my fault--I haven't organized my time
 to fit a walk in during the warmest time of day. The other factors
