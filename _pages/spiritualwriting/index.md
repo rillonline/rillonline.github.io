@@ -9,7 +9,7 @@ permalink: /spiritualwriting/
 My spiritual writing is listed below.
 
 <ul>
-    {% assign sorted = (site.spiritualwriting | sort: 'date') %}
+    {% assign sorted = site.spiritualwriting | sort: 'date' %}
     {% for item in sorted %}
 <li><a href="{{ item.url }}">{{ item.title }}</a> {{ item.topic }}</li>
     {% endfor %}
