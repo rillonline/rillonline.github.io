@@ -2,7 +2,8 @@
 Layout: page
 permalink: /behind-enemy-lines-novel/
 ---
- Behind Enemy Lines
+
+Behind Enemy Lines
 ==================
 
 A Ronnie Camberwell Adventure Book 4
@@ -1048,9 +1049,8 @@ would be a healthier option for me.
 My confusion at this juncture made it impossible for me to modify
 those directives.
 
-<div class="admonition admonition-note-to-self">
-
-NOTE TO SELF
+Recovered System Log by Fungusian Network: Date hidden
+------------------------------------------------------
 
 Captain Star Runner's ambivalence here will have an impact from this
 point forward on its decision-making process. Captain Star Runner has
@@ -1066,27 +1066,33 @@ relationship with its ups and downs threatens Captain Star Runner's
 equilibrium and therefore requires Christabel to make corrections and
 interventions.
 
-</div>
+Captain Star Runner
+-------------------
+
+Planet X: Continued
+-------------------
 
 I refocused on the women's conversation.
 
-"The accepted historical arc is that a race of humanoids controlled this
-planet," Suri Nam was saying, "and built these structures and
-everything you can see along the River Walk. They were advanced. We can
-see that in the hotel and with their communications systems."
+"The accepted historical arc is that a race of humanoids controlled
+this planet," Suri Nam was saying, "and built these structures and
+everything you can see along the River Walk. They were advanced. We
+can see that in the hotel and with their communications systems."
 
 "Where are they now?" Detective Ronnie Camberwell asked.
 
 "They left for some reason." Suri Nam did not seem overly interested
-in the question. "What my research shows is that they weren't the first
-people on this planet." She pointed to the Trollolu. "These must have
-been the original people here on the planet who built these structures."
+in the question. "What my research shows is that they weren't the
+first people on this planet." She pointed to the Trollolu. "These must
+have been the original people here on the planet who built these
+structures."
 
-Detective Ronnie Camberwell looked at the blurred representations of the
-Trollolu. Apparently she did not recognize them. Christabel advised me
-that she had superimposed all of the figure outlines to demonstrate that
-what these individual paintings had originally shown were a line of
-Trollolu. I studied the mural again. What was happening here?
+Detective Ronnie Camberwell looked at the blurred representations of
+the Trollolu. Apparently she did not recognize them. Christabel
+advised me that she had superimposed all of the figure outlines to
+demonstrate that what these individual paintings had originally shown
+were a line of Trollolu. I studied the mural again. What was happening
+here?
 
 "I've never seen anything like these people," Detective Ronnie
 Camberwell was saying. "They look ugly to me."
@@ -1103,95 +1109,93 @@ What could I say? I had stopped Christabel from allowing me to
 say,"Those are Trollolu. Do not you recognize them?" But there was
 something I could say, was not there?
 
-"Are there any other kind of figures?" I asked. It was always better to
-answer a question with a question.
+"Are there any other kind of figures?" I asked. It was always better
+to answer a question with a question.
 
-"Why would there be any other kind of figures?" Suri Nam dismissed
-my question out of hand as if I was particularly stupid.
+"Why would there be any other kind of figures?" Suri Nam dismissed my
+question out of hand as if I was particularly stupid.
 
 Detective Ronnie Camberwell, on the other hand, took my question
 seriously. "What do you mean, other figures, Captain Star Runner?"
 
 The use of my honorific could mean two entirely different things:
 
-1.  Detective Ronnie Camberwell was distancing herself from me and being
-    more formal.
+1.  Detective Ronnie Camberwell was distancing herself from me and
+    being more formal.
+	
 2.  Detective Ronnie Camberwell had heard Suri Nam's slight and was
     reminding Suri Nam that I was not some stupid animal but an
     intelligent and competent alien.
 
-I said, "There are many races in the Primary Arm. I just wondered who
+I said, "There are many races in the Primary Zone. I just wondered who
 else these aliens might have known."
 
-Although she was an archaeologist, Suri Nam demonstrated her
-narrowest of vision with her next observation. "The Empire of the People
-of the Rainbow Sky and the Lystran Empire are the oldest races. No doubt
+Although she was an archaeologist, Suri Nam demonstrated her narrowest
+of vision with her next observation. "The Empire of the People of the
+Rainbow Sky and the Lystran Empire are the oldest races. No doubt
 these were some aliens from long ago. It really doesn't matter. What
-matters is the age of this structure. It must have been built by either
-empire. I intend to find out which."
+matters is the age of this structure. It must have been built by
+either empire. I intend to find out which."
 
-The Trollolu were an ancient people. The Followers of the Stars were an
-even more ancient people. The Members of the Race, the Fungusian Network
-and the Featherote Charm are also ancient. Terries are a fairly new
-race. The Rabbit People and those who came from the planet where I was
-incarcerated in Sanctuary XI are recent races. I did not know the
-proveniences of the races that made up the Space Traders Guild. All
-these different people and Suri Nam could only think of two
+The Trollolu were an ancient people. The Followers of the Stars were
+an even more ancient people. The Members of the Race, the Fungusian
+Network and the Featherote Charm are also ancient. Terries are a
+fairly new race. The Rabbit People and those who came from the planet
+where I was incarcerated in Sanctuary XI are recent races. I did not
+know the proveniences of the races that made up the Space Traders
+Guild. All these different people and Suri Nam could only think of two
 possibilities.
 
-I checked my records. Yes, Suri Nam was Lystran. I suspected her
-final determination would have a lot to do with whether or not she
-wanted to claim these structures as part of her own heritage or not. The
-fact that they had been abandoned might mitigate against her claiming
-them.
+I checked my records. Yes, Suri Nam was Lystran. I suspected her final
+determination would have a lot to do with whether or not she wanted to
+claim these structures as part of her own heritage or not. The fact
+that they had been abandoned might mitigate against her claiming them.
 
-The question for me in this matter was, Who maintained this planet? That
-might go along way to answering all the questions about who really built
-this place and why there was a cover up.
+The question for me in this matter was, Who maintained this planet?
+That might go along way to answering all the questions about who
+really built this place and why there was a cover up.
 
-</div>
+Ronnie
+------
 
-</div>
-
-<div id="chapter-seven-figures-on-the-wall" class="section">
-
-[Chapter Seven: Figures on the Wall](#id16){.toc-backref}
-=========================================================
-
-<div id="ronnie-narrates" class="section">
-
-Ronnie Narrates
----------------
+Notes to the Reader
+-------------------
 
 I am a professional. I have worked on a police force. I have been a
 private investigator. I have been working as an assistant to an
 enforcer. I know my job.
 
-The most important rule of my job is not to get personally involved. It
-distorts your view and compromises your integrity in so many ways.
+The most important rule of my job is not to get personally
+involved. It distorts your view and compromises your integrity in so
+many ways.
 
-When I saw Suri Nam kneeling next to the body of Heracles Beja, I
-lost my professionalism. I lost my ability to be objective. Suri Nam
-took my breath away. I was immediately smitten. I did not want to be
+When I saw Suri Nam kneeling next to the body of Heracles Beja, I lost
+my professionalism. I lost my ability to be objective. Suri Nam took
+my breath away. I was immediately smitten. I did not want to be
 attracted to a client. I did not want to be enamored of anyone else
 besides Captain Star Runner, my own true love. Yet I was bewitched. I
-cannot give any other explanation for my behavior. I have no defense for
-what happened and no excuses for my behavior.
+cannot give any other explanation for my behavior. I have no defense
+for what happened and no excuses for my behavior.
 
 Suri Nam was everything I physically desire in a woman:
 
 -   fragile-looking
+
 -   small wrists
+
 -   slender
+
 -   dark-haired
+
 -   long straight hair worn loose.
 
-As a Lystran, she wore long skirts and a high-necked, long-sleeved over
-shirt. These garments hid the outline of her body. My imagination filled
-in a tiny waist and rounded hips. Her nose and chin were a bit pointy
-for my human taste, but those points are highly desired in Lystran
-society. The average individual has a very broad face. Heracles Beja had
-a broad face.
+
+As a Lystran, she wore long skirts and a high-necked, long-sleeved
+over shirt. These garments hid the outline of her body. My imagination
+filled in a tiny waist and rounded hips. Her nose and chin were a bit
+pointy for my human taste, but those points are highly desired in
+Lystran society. The average individual has a very broad
+face. Heracles Beja had a broad face.
 
 "I think he is dead," were the first words I heard Suri Nam speak.
 She spoke the basic spacer language with a soft voice and some accent
@@ -1201,21 +1205,21 @@ I knew my space basic was very accented. Jack Whicher said it made me
 sound very formidable. With my large hands and feet, my large and
 awkward body this gave me what I thought of as a brutish demeanor. I
 compensate by being in good physical condition. Although Captain Star
-Runner will call me beautiful, I think of myself as very plain with good
-skin and a direct gaze. My mouth is too big for my face.
+Runner will call me beautiful, I think of myself as very plain with
+good skin and a direct gaze. My mouth is too big for my face.
 
 As I looked at her, I could not imagine Suri Nam killing Heracles
 Beja. How I could have continued to believe in her innocence still
 baffles me. Captain Star Runner was right. Who else could have killed
-him? Suri Nam was the only other living being on the planet who
-could have done it. Captain Star Runner had not killed him. I had not
-killed him. The robot concierge could not have killed him. Why did I
-continue to believe in some unknown other killer?
+him? Suri Nam was the only other living being on the planet who could
+have done it. Captain Star Runner had not killed him. I had not killed
+him. The robot concierge could not have killed him. Why did I continue
+to believe in some unknown other killer?
 
-It has to do with my reason for being on Planet X in the first place. I
-have not said much about this until now. The background on the contract
-may explain a little why I was willing to believe in Suri Nam's
-innocence for so long.
+It has to do with my reason for being on Planet X in the first
+place. I have not said much about this until now. The background on
+the contract may explain a little why I was willing to believe in Suri
+Nam's innocence for so long.
 
 > I need to say a bit about how Half Moon Bay Space Station is governed
 > and policed.
@@ -1274,8 +1278,8 @@ against me.
 
 Christabel had said it was a serious conflict In her scanning of many
 news outlets and some back channel conversations, a real power struggle
-was underway. It could change the politics in our area of the Primary
-Arm for many years to come. Christabel believed several races would
+was underway. It could change the politics in  the Primary
+Zone for many years to come. Christabel believed several races would
 divide Lystra up and depending on how that shook out, free trade might
 be compromised. This was of great interest to the Space Traders Guild
 and they were having back channel conversations with all the major
