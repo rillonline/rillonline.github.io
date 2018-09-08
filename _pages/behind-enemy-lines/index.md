@@ -1221,8 +1221,7 @@ place. I have not said much about this until now. The background on
 the contract may explain a little why I was willing to believe in Suri
 Nam's innocence for so long.
 
-> I need to say a bit about how Half Moon Bay Space Station is governed
-> and policed.
+I think it is best for me to give you some background information at this juncture. I haven't chronacled my work at Half Moon Bay Space Station. My work there was routine and doesn't merit a book of this length. Like many kinds of work,nothing especially interesting happened day to day.
 
 Only people who have a connection to those who founded the Space Traders
 Guild are allowed to participate in the governance of the space station.
@@ -1291,8 +1290,8 @@ Rainbow Sky had enough power any more to settle the dispute
 definitively.
 
 I did not have an opinion. I was here at Half Moon Bay Space Station
-because Captain Star Runner was here. Both of us were deface exiles from
-our own galactic arm. We hoped that staying here for a while might make
+because Captain Star Runner was here. Both of us were de facto exiles from
+the Spiral. We hoped that staying here for a while might make
 it possible for us to return some day.
 
 I read what Jack was showing me.
@@ -1302,112 +1301,113 @@ protect two archeology students on some deserted planet?"
 
 "Not just any deserted planet, Ronnie. We're talking about Planet X."
 
-"Is it really called Planet ?"
+"Is it really called Planet X"
 
 "I'm sure it has a name, but everyone calls it Planet X. It's haunted.
-Perhaps treasure is buried there. No one knows. No one goes there. It's
-bad luck to go there."
+Perhaps treasure is buried there. No one knows. No one goes
+there. It's bad luck to go there."
 
-"So why did these students go there and why do they need protection from
-ghosts?"
+"So why did these students go there and why do they need protection
+from ghosts?"
 
 "That's not the point, Ronnie." Jack wiggled his fingers. "This is an
-official request for assistance and it comes with a sizable payment from
-one of the student's family. I did a little checking. They're an old
-family, down on their luck a bit as is the whole Lystran Empire, but
-they're legitimate. Their daughter is legitimate. There is some story
-about special research and fear of academic reprisals. It should be a
-piece of cake. Just go there as if it is a holiday. You can make a
-bundle which ought to make your cat friend happy."
+official request for assistance and it comes with a sizable payment
+from one of the student's family. I did a little checking. They're an
+old family, down on their luck a bit as is the whole Lystran Empire,
+but they're legitimate. Their daughter is legitimate. There is some
+story about special research and fear of academic reprisals. It should
+be a piece of cake. Just go there as if it is a holiday. You can make
+a bundle which ought to make your cat friend happy."
 
-I had never told Jack Captain Star Runner and I were lovers. He is a bit
-prudish when it comes to that kind of interspecies relationships.
+I had never told Jack Captain Star Runner and I are lovers. He is a
+bit prudish when it comes to that kind of interspecies relationships.
 
 "I thought you said no one goes to Planet X."
 
 "Oh, there's a fancy hotel. It's a dare some people take. People will
 think you're adventurous if you go there. It's a bit --" he waved his
-hand not finding the right expression. "It will give you some cashette."
+hand not finding the right expression. "It will give you some
+cashette."
 
 The contract was generous indeed. The payment would be all mine if I
 went. I would have to compensate Captain Star Runner in some way, sell
 her on the idea. She did not like it that it was all secret until I
-safely removed my charges from Planet X, but the thought of having me on
-board with her pleased Captain Star Runner very much.
+safely removed my charges from Planet X, but the thought of having me
+on board with her pleased Captain Star Runner very much.
 
-But here I was, standing in the doorway where both my charges were and
-one of them was dead. Fortunately, it was the male. My contract was with
-the female's family. No romantic involvement had been referred to.
+But here I was, standing in the doorway of an ancient building on a
+haunted world where both my charges were and one of them was
+dead. Fortunately, it was the male. My contract was with the female's
+family. No romantic involvement had been referred to.
 
 My snap decision, based on what I thought of at the time was an
 objective viewpoint, was to protect Suri Nam and earn my fee. What I
-should have done was walk away and forfeit the fee. Captain Star Runner
-and I should have gone back to Half Moon Bay Space Station and forgotten
-there ever was a contract. Maybe we even should have gone back to the
-western galactic arm and the Northern Frontier.
+should have done was walk away and forfeit the fee. Captain Star
+Runner and I should have gone back to Half Moon Bay Space Station and
+forgotten there ever was a contract and forgotten that Planet X even
+exists. Maybe we even should have gone back to the Spiral and the
+Northern Frontier.
 
 But that is not what happened.
 
-So there I was, standing next to Suri Nam, wishing Captain Star
-Runner would leave the building so I could hold Suri Nam in my arms
-and run my hands all over her. I was quivering all over, or at least
-that is what I felt like. Star was acting strangely. She was somehow
-distant but also judgmental, an Erie combination. I felt she was
-hovering, not allowing me to do my job. Her opinion that Suri had killed
-Heracles was simply outrageous and one of the irritating erroneous
-judgments about humanoids Star is often prone to make.
+Ronnie
+------
 
-The figures on the wall fascinated me. I never saw their resemblance to
-the Trollolu holograms I had seen in the Prince Hat Star System. What
-impressed me here was the detail of the surviving pieces of the mural.
-After all this time, the artwork was still breathtaking. What must these
-figures on the wall looked like when they were freshly drawn?
+Planet X: Midday
+----------------
 
-"Are there more figures like this anywhere else?" I asked. I was trying
-to think of something intelligent to say. I did not want Suri to think I
-was just big muscle. I wanted her to think I was someone she could treat
-as an equal, someone she wanted to be with. I wondered if she could
-possibly be attracted to me. I hoped she was but I could not tell. If
-only Star would pad outside, I could take the risk of touching her.
+So there I was, standing next to Suri Nam, wishing Captain Star Runner
+would leave the building so I could hold Suri Nam in my arms and run
+my hands all over her. I was quivering all over, or at least that is
+what I felt like. Star was acting strangely. She was somehow distant
+but also judgmental, an Erie combination. I felt she was hovering, not
+allowing me to do my job. Her opinion that Suri had killed Heracles
+was simply outrageous and one of the irritating erroneous judgments
+about humanoids Star is often prone to make. I should suggest she return to Christabel and the ride.
+
+The figures on the wall fascinated me. I never saw their resemblance
+to the Trollolu holograms I had seen in the Prince Hat Star
+System. What impressed me here was the detail of the surviving pieces
+of the mural.  After all this time, the artwork was still
+breathtaking. What must these figures on the wall looked like when
+they were freshly drawn?
+
+"Are there more figures like this anywhere else?" I asked. I was
+trying to think of something intelligent to say. I did not want Suri
+to think I was just big muscle. I wanted her to think I was someone
+she could treat as an equal, someone she wanted to be with. I wondered
+if she could possibly be attracted to me. I hoped she was but I could
+not tell. If only Star would pad outside, I could take the risk of
+touching her.
 
 "I do not know," Suri said. She sounded disinterested. "I had to run
 many tests on this mural. When I made the discovery about its extreme
-age, I had to document everything in great detail so I can publish it."
+age, I had to document everything in great detail so I can publish
+it."
 
-"What do you think it means?" I asked, trying to sound spellbound. I do
-not do overawed well.
+"What do you think it means?" I asked, trying to sound spellbound. I
+do not do overawed well.
 
 "I think it means the Empire of the Rainbow Sky has been lying for
-millenia," Suri Nam said. "When I release this information, the
-whole Primary Arm will know how underhanded they are."
+millenia," Suri Nam said. "When I release this information, the whole
+Primary Zone will know how underhanded they are."
 
 The political implications of this discovery had not occurred to me.
-What should have occurred to me was that Lystra was an old enemy of the
-People of the Rainbow Sky. I did not know much about either of them.
-Captain Star Runner was positively disposed toward the Empire of the
-Rainbow Sky. Perhaps that was why she was so skeptical of Suri. I could
-not recall all the details of Star's interaction with the People of the
-Rainbow Sky. I suspected Star had not told the whole story to me. Star
-often left bits out, always casting herself as the heroine of her
-adventures. I know these people had done something to Star. She was just
-a bit different when she returned. I wondered now if it was some sort of
-mind control, something that both Star Runner and Christabel were
-imprisoned by. That must be why Star Runner was so adamant that Suri
-must have killed Heracles.
+What should have occurred to me was that Lystra was an old enemy of
+the People of the Rainbow Sky. I did not know much about either of
+them.  Captain Star Runner was positively disposed toward the Empire
+of the Rainbow Sky. Perhaps that was why she was so skeptical of
+Suri. I could not recall all the details of Star's interaction with
+the People of the Rainbow Sky. I suspected Star had not told the whole
+story to me. Star often left bits out, always casting herself as the
+heroine of her adventures. I know these people had done something to
+Star. She was just a bit different when she returned. I wondered now
+if it was some sort of mind control, something that both Star Runner
+and Christabel were imprisoned by. That must be why Star Runner was so
+adamant that Suri must have killed Heracles.
 
-Now that I had an explanation for Star's behavior, I must guard against
-being entrapped by the same skewed thinking.
-
-</div>
-
-</div>
-
-<div id="chapter-8-explorations" class="section">
-
-[Chapter 8: Explorations](#id17){.toc-backref}
-==============================================
-
-<div id="captain-star-runner-narrates" class="section">
+Now that I had an explanation for Star's behavior, I must guard
+	against being entrapped by the same skewed thinking.
 
 Captain Star Runner Narrates
 ----------------------------
