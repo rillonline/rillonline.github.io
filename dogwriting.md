@@ -1,6 +1,6 @@
 ---
 layout: default
-title: My Dog Writing Collection
+title: Dog Writing Collection
 permalink: /dogwriting/
 ---
 
