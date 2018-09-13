@@ -1,51 +1,42 @@
-#Site settings
-name: Rill Online
-title: My writing site.
-tagline: Where all my writing lives.
-baseurl: ''
-url: "http://rillonline.github.io/"
+# Syntax highlighting
+highlightstyle: ''
+styles: [agate, androidstudio, arta, asceti, atelier-cave.dark, atelier-cave.light, atelier-dune.dark, atelier-dune.light, atelier-estuary.dark, atelier-estuary.light, atelier-forest.dark, atelier-forest.light, atelier-heath.dark, atelier-heath.light, atelier-lakeside.dark, atelier-lakeside.light, atelier-plateau.dark, atelier-plateau.light, atelier-savanna.dark, atelier-savanna.light, atelier-seaside.dark, atelier-seaside.light, atelier-sulphurpool.dark, atelier-sulphurpool.light, brown_paper, codepen-embed, color-brewer, dark, darkula, default, docco, far, foundation, github, github-gist, googlecode, grayscale, hopscotch, hybrid, idea, ir_black, kimbie.dark, kimbie.light, magula, mono-blue, monokai, monokai_sublime, obsidian, paraiso.dark, paraiso.light, pojoaque, railscast, rainbow, school_book, solarized_dark, solarized_light, styles_list.txt, sunburst, tomorrow, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night, tomorrow-night-eightie, v, xcode, zenburn]
+
+# Handling Reading
+exclude: ["README.md", "README.html"]
 
 # Build settings
-markdown: kramdown
-markdown_ext: "kd,kdwn,kdown,kramdown,md,mdwn,mdown,mk,markdown,kk"
-kramdown:
-#    auto_ids: true
-paginate: 4
-paginate_path: '/page:num/'
-permalink: /:title/
+highlighter: null
+# - markdown: kramdown
 
-# gems
-plugins: [jekyll-paginate]
-
-# includes
-include: ["_drafts"]
-include: ["_pages"]
-
-collections:
-  dogwriting:
-    output: true
-    permalink: /:collection/:path/ 
-  spiritualwriting:
-    output: true
-    permalink: /:collection/:path/
-
-# defaults
-defaults:
-    -
-        scope:
-            path: "" # empty string for all files
-            type: pages
-        values:
-            layout: page
-    -
-        scope:
-            path: "" # empty string for all files
-            type: posts
-        values:
-            layout: post
-    -
-        scope:
-            path: ""
-            type: drafts
-        values:
-            layout: post
+title: "Rill Woolnough"
+tagline: ""
+description: "Follow <a href=\"https://micro.blog/Rill\">@Rill on Micro.blog</a>."
+credits: "Follow <a href=\"https://micro.blog/Rill\">@Rill on Micro.blog</a>."
+baseurl: ""
+url: "https://Rill.micro.blog"
+markdown: "kramdown"
+username: "Rill"
+microblog_user: "Rill"
+permalink: "/:year/:month/:day/:title.html"
+relative_permalinks: false
+author: "Rill Woolnough"
+name: "Rill Woolnough"
+gravatar_hash: "f33255562ca0efb0a0de15eff4616a2e"
+avatar: "https://micro.blog/Rill/avatar.jpg"
+full_name: "Rill Woolnough"
+bio: ""
+twitter_username: ""
+github_username: "rillonline"
+instagram_username: ""
+paginate: 20
+paginate_path: "/page/:num/"
+timezone: "US/Indiana-Starke"
+site_id: "3589"
+gems: ["jekyll-paginate"]
+itunes_description: "I am a guide dog user who enjoys telling stories. Some are true and some are not."
+itunes_category: "Society & Culture"
+itunes_subcategory: "Personal Journals"
+itunes_author: "Rill Woolnough"
+itunes_email: ""
+podcast: false
