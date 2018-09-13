@@ -15,7 +15,7 @@ paginate_path: '/page:num/'
 permalink: /:title/
 
 # gems
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 # includes
 include: ["_drafts"]
@@ -26,9 +26,6 @@ collections:
     output: true
     permalink: /:collection/:path/ 
   spiritualwriting:
-    output: true
-    permalink: /:collection/:path/
-  yogajournal:
     output: true
     permalink: /:collection/:path/
 
