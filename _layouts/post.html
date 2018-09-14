@@ -1,14 +1,17 @@
 ---
 layout: default
 ---
-<div class="h-entry">
-{% include post/title.html %}
+<div class="post h-entry">
 
-<div class="content e-content">
-    {{ content }}
-</div>
+  <header class="post-header">
+	{% if page.microblog == false %}
+	  	<h1 class="p-name">{{ page.title }}</h1>
+  	{% endif %}
+    <p class="post-meta"><time class="dt-published" datetime="{{ page.date }}">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
 
-{% include post/about.html %}
+  <article class="post-content e-content">
+	{{ content }}
+  </article>
 
-{% include externals/disqus.html %}
 </div>
