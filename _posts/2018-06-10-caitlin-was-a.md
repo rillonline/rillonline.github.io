@@ -1,6 +1,7 @@
 ---
 layout: post
-microblog: true
+title: "Taking Charge"
+microblog: false
 audio: 
 date: 2018-06-09 19:45:41 -0500
 guid: http://Rill.micro.blog/2018/06/10/caitlin-was-a.html
