@@ -1,14 +1,44 @@
 {
 	"version": "https://jsonfeed.org/version/1",
-	"title": "Rill Woolnough",
+	"title": "Rill Online",
 	"icon": "https://micro.blog/Rill/avatar.jpg",
 	"home_page_url": "https://Rill.micro.blog/",
 	"feed_url": "https://Rill.micro.blog/feed.json",
 	"items": [
 		
 		{
+			"id": "http://Rill.micro.blog/2018/09/16/today-i-made.html",
+	      	
+			"content_html": "<p>Today I made a step forward in finding ways to protect myself. I have made a pact so that a steady parishioner at my church and I will be in text contact every Sunday morning. If I say I am coming to church but I don’t show up, my contact will find steps to find me.</p>\n\n<p>To facilitate my accountability I have set up a reminder to text my contact every morning concerning my plans.</p>\n",
+			"date_published": "2018-09-16T15:42:15-05:00",
+			"url": "https://Rill.micro.blog/2018/09/16/today-i-made.html"
+		},
+		
+		{
+			"id": "http://Rill.micro.blog/2018/09/14/where-is-planet.html",
+	      	
+			"title": "Where is Planet X",
+			
+			"content_html": "<p>I want to write one of the books in my Magic Lands series. I’ve started the first book and I’m excited about a second book which I have started to plan.</p>\n\n<p>This series is based on my <a href=\"https://nanowrimo.org\">Nanowrimo</a> novel from  2013 or 2014. That’s a long time ago.</p>\n\n<p>So I went back to the beginning and I am doing a very rough editing job on <em>Behind Enemy Lines</em> which features both Detective Ronnie Camberwell and Captain Star Runner narrating.</p>\n\n<p>My characters are in a fairly new to them part of Space which calls itself the Primary Zone. (It’s Primary because all the people think of themselves as primary.) There is a lot of ancient history, a variety of peoples and a large canvas to create a history of how the different empires interacted.</p>\n\n<p>And here’s the problem: One of the races is missing.  Where they go? Can they be found? Are they coming back? What was their relation to the other founding empires?</p>\n\n<p>And, I am finding out, what part of space did they occupy?</p>\n\n<p>The specific question I am wrestling with right now is where is Planet X? Is it in the Magic Lands or not?</p>\n\n<p>At first, I thought it was. But that begs the question: If it is magical now, why wasn’t it magical way back when? And if it is not in the Magic Lands, which makes loads more sense, where is it? How near to the Magic Lands is it? How near to everything and everyone else?</p>\n\n<p>I wouldn’t be concerned about all this underlying stuff except I am uncovering a rough history of the region and it matters.</p>\n",
+			"date_published": "2018-09-13T20:21:30-05:00",
+			"url": "https://Rill.micro.blog/2018/09/13/where-is-planet.html"
+		},
+		
+		{
+			"id": "http://Rill.micro.blog/2018/09/13/what-a-mess.html",
+	      	
+			"title": "What a Mess!",
+			
+			"content_html": "<p>Mirroring my <a href=\"https://micro.blog/\">Micro.blog</a> site created some unexpected results. My <a href=\"https://rillonline.github.io/\">rillonline.github.io</a> site was entirely replaced to look identical to <a href=\"http://rill.micro.blog/\">rill.micro.blog</a>. I had a few bad moments with <code>git</code> and lots of emails from <a href=\"https://github.com/\">github</a>, but I think this will be all right in the end.</p>\n",
+			"date_published": "2018-09-13T15:00:46-05:00",
+			"url": "https://Rill.micro.blog/2018/09/13/what-a-mess.html"
+		},
+		
+		{
 			"id": "http://Rill.micro.blog/2018/08/15/i-needed-to.html",
 	      	
+			"title": "Bus Break",
+			
 			"content_html": "<p>I needed to take a bit of a break from traveling by bus. Now that I have had this bus vacation, Nick and I traveled by bus yesterday. We had a pleasant surprise. At our transport point it is sometimes difficult to know where the bus stop is. A man told me I was at the bus stop and ask me which bus I was waiting for. It turns out he lives in my building. How delightful!</p>\n",
 			"date_published": "2018-08-15T17:23:36-05:00",
 			"url": "https://Rill.micro.blog/2018/08/15/i-needed-to.html"
@@ -17,6 +47,8 @@
 		{
 			"id": "http://Rill.micro.blog/2018/08/03/today-nick-and.html",
 	      	
+			"title": "Second Anniversary",
+			
 			"content_html": "<p>Today Nick and I celebrate our second anniversary.</p>\n\n<p>Nick and I had a rocky start. I was originally matched with a different dog, Chance. Chance did everything I asked to do except go fast. I decided I didn’t want to bring a dog home that would likely slow down and then I would be very frustrated. I asked for a new dog.</p>\n\n<p>Chance left in the morning. I went to lunch dogless. At lunch I learned one of the other students had to leave class due to an injury. I even passed him as he was leaving.</p>\n\n<p>In my room, my instructor brought my dog to me. I was in love immediately–a yellow Labrador Retriever male–big and beautiful.</p>\n\n<p>“Full disclosure,” my instructor said. “This was Stanley’s dog.”</p>\n\n<p>I have always felt badly that in order to get Nick Stanley had to get hurt. If only he had received Chance and I was initially paired with Nick.</p>\n\n<p>I don’t know what this was all about– Do things happen for a reason? Well, I’ve always been glad Nick was not paired with a newby.</p>\n\n<p>Nick has always been a difficult dog.</p>\n\n<ul>\n  <li>\n    <p>Nick doesn’t like obedience. He remains a toddler. “Why?” Why do your want me to sit now? Why must I lay down? Once Nick figures this out for imself, he is quite willing to do so. He has finally figured that when people get up at the Sharing of the Peace at church, we are not preparing to leave the service.</p>\n  </li>\n  <li>\n    <p>Nick continues to be difficult to park. We go out. Nick does number one. Then Nick often is willing to start to go inside. Then he will literally make a U-turn and return to the grass for number two.</p>\n  </li>\n  <li>\n    <p>Nick came home with an ear infection. I treated that. Soon afterwards, Nick’s foot became infected. Licking. Licking. Licking. The vet decided he had a condition called Canine Atopic Dermatitis. I think of it as itching from the inside out. They tell me it is genetic. He is on a grain free diet which I must supplement with canned pumpkin and a laxative. My initial problems parking Nick may have been caused by Nick being so uncomfortable on grass. It is still amazing to me that Nick worked as well as he did with his medical issues.</p>\n  </li>\n</ul>\n\n<p>Nick still goes fast. He has never slowed down. He marks his territory, sniffs poles, gets distracted by other dogs. I often wonder if he was a C student. He learns slowly.</p>\n\n<p>All this said, I never thought about returning him. He was my forever dog.</p>\n\n<p>He is working here in the city, on buses, vans and busy city streets. He can see a route once and follow many turns inside a busy building. He is learning to talk to me about needing to park, about an empty water bowl and a late dinner. He is exploring talking to me when it is time to get up.</p>\n\n<p>This is a happy day.</p>\n",
 			"date_published": "2018-08-02T21:57:38-05:00",
 			"url": "https://Rill.micro.blog/2018/08/02/today-nick-and.html"
@@ -25,6 +57,8 @@
 		{
 			"id": "http://Rill.micro.blog/2018/07/27/took-the-bus.html",
 	      	
+			"title": "Standing At the Bus Stop",
+			
 			"content_html": "<p>Took the bus this morning to Pilates. Standing at the bus stop. Standing at the bus stop. Standing at the bus stop where is the bus? One lane only at the airport is delaying my bus and all the other buses that have to go through there. Finally get on the bus after I am supposed to be there. As the class is one on one, I texted the instructor and all was well. We get to the transfer station. Usually, I stay on the bus. However,Today it is everyone off the bus. It is 35 minutes late they say. So we are told to walk to the bus behind us. A nice lady asks if she can help me and she and her husband see to it that I get on the bus which is a very good thing because there is a high step up onto the bus. Connect with my instructor and have a very good session. Afterwords, we stop at a taco stand and I get to vegan tacos, chips and guacamole. Delicious. Will stop at there again.</p>\n",
 			"date_published": "2018-07-27T16:33:40-05:00",
 			"url": "https://Rill.micro.blog/2018/07/27/took-the-bus.html"
@@ -33,6 +67,8 @@
 		{
 			"id": "http://Rill.micro.blog/2018/07/05/nick-and-i.html",
 	      	
+			"title": "4th of July Parade",
+			
 			"content_html": "<p>Nick and I marched in the Bay View 4th of July parade. I say “marched”. We walked. Nick thought it was quite strange to walk in the street. My walking companion was concerned that we stayed together and marched sort of in formation. Nick was fascinated by the people and dogs along the parade route.</p>\n\n<p>Being in a parade is very different than watching a parade go by. There is little sense of being part of a whole. There was me, Nick, my walking companion, Nancy, and perhaps a few other church members but no sense of the entire parade. There was no band playing patriotic music–at least not close enough for us to hear. Although there was a sense of community beforehand, people immediately split off to have ice cream individually and then break away to walk home. I won’t know for a couple days how Nick feels about streets as we have no plans until Friday night. It is so hot out. He was good with sidewalks and curbs on the way home and there were no vehicles near us during the parade.</p>\n",
 			"date_published": "2018-07-04T20:36:04-05:00",
 			"url": "https://Rill.micro.blog/2018/07/04/nick-and-i.html"
@@ -41,6 +77,8 @@
 		{
 			"id": "http://Rill.micro.blog/2018/07/05/having-just-finished.html",
 	      	
+			"title": "Country House Murders",
+			
 			"content_html": "<p>Having just finished reading <em>Closed Casket</em> by Sophy Hannah, I must conclude I love country house murder mysteries. Properly speaking, Lily Oaak is not a country house. It is the extended family home in the country. Nevertheless, a number of suspects are confined to the property until the murder is solved. Hannah is writing more Hercule Poirot mysteries in conjunction with Christie’s estate.</p>\n\n<p>Although Poirot makes an excursion to England (We only have telephone conversations from there.) this mystery does not have a lot of toing and froing which often makes mysteries tedious. Of course witnesses are re-interviewed. Both Inspector Edward Catchpool and Poirot keep talking to both guests and residents of the house.</p>\n\n<p>This is a much better book than <em>The Monogram Murders</em> and I am looking forward to the next novel in the series.</p>\n",
 			"date_published": "2018-07-04T20:29:11-05:00",
 			"url": "https://Rill.micro.blog/2018/07/04/having-just-finished.html"
@@ -49,6 +87,8 @@
 		{
 			"id": "http://Rill.micro.blog/2018/07/01/after-several-days.html",
 	      	
+			"title": "Thunderstorm",
+			
 			"content_html": "<p>After several days of heat indexes is in the 90s and 100s, it was good to take Nick out during a mild thunderstorm and experience 75° weather and light rain Nice big fat raindrops.</p>\n",
 			"date_published": "2018-07-01T17:31:01-05:00",
 			"url": "https://Rill.micro.blog/2018/07/01/after-several-days.html"
@@ -57,30 +97,18 @@
 		{
 			"id": "http://Rill.micro.blog/2018/06/24/looking-around-my.html",
 	      	
+			"title": "Furniture",
+			
 			"content_html": "<p>Looking around my apartment, it is clear I do not put a value on furniture. I have a table and chairs from IKEA and I sit on the couch from hospice. The other furniture is from family, hand me downs, some are called antiques now and some collectibles. Well, I guess I have collected them. Spending a lot on furniture apparently is not something I do.</p>\n",
 			"date_published": "2018-06-24T17:48:57-05:00",
 			"url": "https://Rill.micro.blog/2018/06/24/looking-around-my.html"
 		},
 		
 		{
-			"id": "http://Rill.micro.blog/2018/06/10/004718.html",
-	      	
-			"content_html": "<p>Caitlin was a take charge dog. I pointed ahead and said, ”forward.” She hung a left and trudged up our intended sidewalk. I was certain she was saying to herself, “Blind people don’t know anything.”</p>\n\n<p>We crossed the street and went up onto the sidewalk. “Forward,” I said to Elwood. He just stood there, looking around. He radiated panic. Straight ahead was grass. The sidewalk which led over the bridge went ahead of us one step to the left. What to do? Go forward and be scolded for stepping off the sidewalk while carrying out a command or turn left in order to go forward. I slowly recognized his dilemma and gave him the left and then forward commands to get home.</p>\n\n<p>Today Nick struggled to do the right thing. We crossed the street and he turned right.</p>\n\n<p>“Forjard,” I said. Nick turned right. He started up a sidewalk leading to a house. I brought him back to the corner.</p>\n\n<p>?Right,” I said.</p>\n\n<p>Nick went up onto the grass.</p>\n\n<p>?Phui,” I said. “Not on the grass.”</p>\n\n<p>It turned out there was a tree with branches overhanging the sidewalk. I had scolded Nick for running me into foliage several days agago.Z we went further down the sidewalk, Nick was distracted by a barking dog. We ended up on the grass. Much scolding enensued.Standing on the grass, I instructed Nick to get going again. I stepped back as I tend to crowd Nick so he can’t turn properly. Nick continued to hold his ground. ×Forward,” had no effected. Neither did “Hup up.” I tried not to start moving myself. Nick after all is the guide dog. I point and repeated my cocommands.</p>\n\n<p>Finally, Nick moved down the slope to a curb. Was there no sidewalk on this side of the street? Possible.</p>\n\n<p>We crossed and found the sidewalk on the other side, went to the corner, crossed back and reworked the sidewalk which was in tact.</p>\n\n<p>I turned Nick around again and he again struggled to be on the sidewalk with the overhanging tree. Happily, Nick stayed on the sidewalk to the next cocorner.I am still coming to terms with Nick’s way of telling me what I am suggesting is a bad idea. I don’t know if he will become more assertive. In this case, he needed to turn in an entirely different direction to regain the sidewalk. With Nick’s great speed and strength, it is difficult for me to to understand how complient Nick really is.   Different Approaches</p>\n",
-			"date_published": "2018-06-09T19:47:18-05:00",
-			"url": "https://Rill.micro.blog/2018/06/09/004718.html"
-		},
-		
-		{
-			"id": "http://Rill.micro.blog/2018/06/10/004623.html",
-	      	
-			"content_html": "<p>Caitlin was a take charge dog. I pointed ahead and said, ”forward.” She hung a left and trudged up our intended sidewalk. I was certain she was saying to herself, “Blind people don’t know anything.”</p>\n\n<p>We crossed the street and went up onto the sidewalk. “Forward,” I said to Elwood. He just stood there, looking around. He radiated panic. Straight ahead was grass. The sidewalk which led over the bridge went ahead of us one step to the left. What to do? Go forward and be scolded for stepping off the sidewalk while carrying out a command or turn left in order to go forward. I slowly recognized his dilemma and gave him the left and then forward commands to get home.</p>\n\n<p>Today Nick struggled to do the right thing. We crossed the street and he turned right.</p>\n\n<p>“Forjard,” I said. Nick turned right. He started up a sidewalk leading to a house. I brought him back to the corner.</p>\n\n<p>?Right,” I said.</p>\n\n<p>Nick went up onto the grass.</p>\n\n<p>?Phui,” I said. “Not on the grass.”</p>\n\n<p>It turned out there was a tree with branches overhanging the sidewalk. I had scolded Nick for running me into foliage several days agago.Z we went further down the sidewalk, Nick was distracted by a barking dog. We ended up on the grass. Much scolding enensued.Standing on the grass, I instructed Nick to get going again. I stepped back as I tend to crowd Nick so he can’t turn properly. Nick continued to hold his ground. ×Forward,” had no effected. Neither did “Hup up.” I tried not to start moving myself. Nick after all is the guide dog. I point and repeated my cocommands.</p>\n\n<p>Finally, Nick moved down the slope to a curb. Was there no sidewalk on this side of the street? Possible.</p>\n\n<p>We crossed and found the sidewalk on the other side, went to the corner, crossed back and reworked the sidewalk which was in tact.</p>\n\n<p>I turned Nick around again and he again struggled to be on the sidewalk with the overhanging tree. Happily, Nick stayed on the sidewalk to the next cocorner.I am still coming to terms with Nick’s way of telling me what I am suggesting is a bad idea. I don’t know if he will become more assertive. In this case, he needed to turn in an entirely different direction to regain the sidewalk. With Nick’s great speed and strength, it is difficult for me to to understand how complient Nick really is.</p>\n",
-			"date_published": "2018-06-09T19:46:23-05:00",
-			"url": "https://Rill.micro.blog/2018/06/09/004623.html"
-		},
-		
-		{
 			"id": "http://Rill.micro.blog/2018/06/10/caitlin-was-a.html",
 	      	
+			"title": "Taking Charge",
+			
 			"content_html": "<p>Caitlin was a take charge dog. I pointed ahead and said, ”forward.” She hung a left and trudged up our intended sidewalk. I was certain she was saying to herself, “Blind people don’t know anything.”</p>\n\n<p>We crossed the street and went up onto the sidewalk. “Forward,” I said to Elwood. He just stood there, looking around. He radiated panic. Straight ahead was grass. The sidewalk which led over the bridge went ahead of us one step to the left. What to do? Go forward and be scolded for stepping off the sidewalk while carrying out a command or turn left in order to go forward. I slowly recognized his dilemma and gave him the left and then forward commands to get home.</p>\n\n<p>Today Nick struggled to do the right thing. We crossed the street and he turned right.</p>\n\n<p>“Forjard,” I said. Nick turned right. He started up a sidewalk leading to a house. I brought him back to the corner.</p>\n\n<p>?Right,” I said.</p>\n\n<p>Nick went up onto the grass.</p>\n\n<p>?Phui,” I said. “Not on the grass.”</p>\n\n<p>It turned out there was a tree with branches overhanging the sidewalk. I had scolded Nick for running me into foliage several days agago.Z we went further down the sidewalk, Nick was distracted by a barking dog. We ended up on the grass. Much scolding enensued.Standing on the grass, I instructed Nick to get going again. I stepped back as I tend to crowd Nick so he can’t turn properly. Nick continued to hold his ground. ×Forward,” had no effected. Neither did “Hup up.” I tried not to start moving myself. Nick after all is the guide dog. I point and repeated my cocommands.</p>\n\n<p>Finally, Nick moved down the slope to a curb. Was there no sidewalk on this side of the street? Possible.</p>\n\n<p>We crossed and found the sidewalk on the other side, went to the corner, crossed back and reworked the sidewalk which was in tact.</p>\n\n<p>I turned Nick around again and he again struggled to be on the sidewalk with the overhanging tree. Happily, Nick stayed on the sidewalk to the next cocorner.I am still coming to terms with Nick’s way of telling me what I am suggesting is a bad idea. I don’t know if he will become more assertive. In this case, he needed to turn in an entirely different direction to regain the sidewalk. With Nick’s great speed and strength, it is difficult for me to to understand how complient Nick really is.</p>\n",
 			"date_published": "2018-06-09T19:45:41-05:00",
 			"url": "https://Rill.micro.blog/2018/06/09/caitlin-was-a.html"
@@ -104,14 +132,6 @@
 			"content_html": "<p>for me. I thought I would try #WriteEveryDay. I wanted to start on June  1st, but obviously that did not come to pass. Nevertheless, I still want to write regularly. That doesn’t actually mean that I will post every day. The writing may not be in a form to post or it may be too private to post.</p>\n\n<p>I am not an avid reader of memoirs or autobiographies. However, I am frequently drawn to the idea of writing a memoir–not of a particular time in my life but different sketches of things I remember. More and more I am sharing little stories with my family. I often begin talking with my grandchildren: “When I was a girl…” It sounds so old-fashioned as if I were on the prairie. (Can you tell I’ve moved to the Midwest?)</p>\n\n<p>I have also noticed that I want to write about my experiences in my new city. I am taking buses, exploring new organizations and meeting new people. So much of my storytelling is shared with my friends. As I think this is vital, I am also aware that these stories are ephemeral. Yet I tell them over and over again with each new person.</p>\n\n<p>Should these stories last? The right to be forgotten has raised this question. Should some things just go away? Are these stories important just for an hour, a day or a week?</p>\n\n<p>I have discovered that my little stories are fun to look at later. In this vain, I want to start capturing them. The only way to do this is to write them down or record them. I can do both or either as I chchoose.Huzzah. Here is a page of writing for today. It may be more like The Artist’s Way daily pages, but at least it’s writing.</p>\n",
 			"date_published": "2018-06-02T14:44:23-05:00",
 			"url": "https://Rill.micro.blog/2018/06/02/194423.html"
-		},
-		
-		{
-			"id": "http://Rill.micro.blog/2018/06/02/writing-plan-of.html",
-	      	
-			"content_html": "<h2 id=\"writing-plan-of-sorts\">writing plan of sorts</h2>\n\n<p>OK. #BlogEveryDay didn’t work for me. I thought I would try #WriteEveryDay. I wanted to start on June  1st, but obviously that did not come to pass. Nevertheless, I still want to write regularly. That doesn’t actually mean that I will post every day. The writing may not be in a form to post or it may be too private to post.</p>\n\n<p>I am not an avid reader of memoirs or autobiographies. However, I am frequently drawn to the idea of writing a memoir–not of a particular time in my life but different sketches of things I remember. More and more I am sharing little stories with my family. I often begin talking with my grandchildren: “When I was a girl…” It sounds so old-fashioned as if I were on the prairie. (Can you tell I’ve moved to the Midwest?)</p>\n\n<p>I have also noticed that I want to write about my experiences in my new city. I am taking buses, exploring new organizations and meeting new people. So much of my storytelling is shared with my friends. As I think this is vital, I am also aware that these stories are ephemeral. Yet I tell them over and over again with each new person.</p>\n\n<p>Should these stories last? The right to be forgotten has raised this question. Should some things just go away? Are these stories important just for an hour, a day or a week?</p>\n\n<p>I have discovered that my little stories are fun to look at later. In this vain, I want to start capturing them. The only way to do this is to write them down or record them. I can do both or either as I chchoose.Huzzah. Here is a page of writing for today. It may be more like The Artist’s Way daily pages, but at least it’s writing.</p>\n",
-			"date_published": "2018-06-02T14:39:03-05:00",
-			"url": "https://Rill.micro.blog/2018/06/02/writing-plan-of.html"
 		},
 		
 		{
