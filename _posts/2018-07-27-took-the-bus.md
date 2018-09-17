@@ -1,6 +1,7 @@
 ---
 layout: post
-microblog: true
+title: "Standing At the Bus Stop"
+microblog: false
 audio: 
 date: 2018-07-27 16:33:40 -0500
 guid: http://Rill.micro.blog/2018/07/27/took-the-bus.html
