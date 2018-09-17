@@ -1,14 +1,44 @@
 {
 	"version": "https://jsonfeed.org/version/1",
-	"title": "Rill Woolnough",
+	"title": "Rill Online",
 	"icon": "https://micro.blog/Rill/avatar.jpg",
 	"home_page_url": "https://Rill.micro.blog/",
 	"feed_url": "https://Rill.micro.blog/archive/index.json",
 	"items": [
 		
 		{
+			"id": "http://Rill.micro.blog/2018/09/16/today-i-made.html",
+	      	
+			"content_text": "Today I made a step forward in finding ways to...",
+			"date_published": "2018-09-16T15:42:15-05:00",
+			"url": "https://Rill.micro.blog/2018/09/16/today-i-made.html"
+		},
+		
+		{
+			"id": "http://Rill.micro.blog/2018/09/14/where-is-planet.html",
+	      	
+			"title": "Where is Planet X",
+			
+			"content_text": "I want to write one of the books in my...",
+			"date_published": "2018-09-13T20:21:30-05:00",
+			"url": "https://Rill.micro.blog/2018/09/13/where-is-planet.html"
+		},
+		
+		{
+			"id": "http://Rill.micro.blog/2018/09/13/what-a-mess.html",
+	      	
+			"title": "What a Mess!",
+			
+			"content_text": "Mirroring my Micro.blog site created some unexpected results. My rillonline.github.io...",
+			"date_published": "2018-09-13T15:00:46-05:00",
+			"url": "https://Rill.micro.blog/2018/09/13/what-a-mess.html"
+		},
+		
+		{
 			"id": "http://Rill.micro.blog/2018/08/15/i-needed-to.html",
 	      	
+			"title": "Bus Break",
+			
 			"content_text": "I needed to take a bit of a break from...",
 			"date_published": "2018-08-15T17:23:36-05:00",
 			"url": "https://Rill.micro.blog/2018/08/15/i-needed-to.html"
@@ -17,6 +47,8 @@
 		{
 			"id": "http://Rill.micro.blog/2018/08/03/today-nick-and.html",
 	      	
+			"title": "Second Anniversary",
+			
 			"content_text": "Today Nick and I celebrate our second anniversary. Nick and...",
 			"date_published": "2018-08-02T21:57:38-05:00",
 			"url": "https://Rill.micro.blog/2018/08/02/today-nick-and.html"
@@ -25,6 +57,8 @@
 		{
 			"id": "http://Rill.micro.blog/2018/07/27/took-the-bus.html",
 	      	
+			"title": "Standing At the Bus Stop",
+			
 			"content_text": "Took the bus this morning to Pilates. Standing at the...",
 			"date_published": "2018-07-27T16:33:40-05:00",
 			"url": "https://Rill.micro.blog/2018/07/27/took-the-bus.html"
@@ -33,6 +67,8 @@
 		{
 			"id": "http://Rill.micro.blog/2018/07/05/nick-and-i.html",
 	      	
+			"title": "4th of July Parade",
+			
 			"content_text": "Nick and I marched in the Bay View 4th of...",
 			"date_published": "2018-07-04T20:36:04-05:00",
 			"url": "https://Rill.micro.blog/2018/07/04/nick-and-i.html"
@@ -41,6 +77,8 @@
 		{
 			"id": "http://Rill.micro.blog/2018/07/05/having-just-finished.html",
 	      	
+			"title": "Country House Murders",
+			
 			"content_text": "Having just finished reading Closed Casket by Sophy Hannah, I...",
 			"date_published": "2018-07-04T20:29:11-05:00",
 			"url": "https://Rill.micro.blog/2018/07/04/having-just-finished.html"
@@ -49,6 +87,8 @@
 		{
 			"id": "http://Rill.micro.blog/2018/07/01/after-several-days.html",
 	      	
+			"title": "Thunderstorm",
+			
 			"content_text": "After several days of heat indexes is in the 90s...",
 			"date_published": "2018-07-01T17:31:01-05:00",
 			"url": "https://Rill.micro.blog/2018/07/01/after-several-days.html"
@@ -57,30 +97,18 @@
 		{
 			"id": "http://Rill.micro.blog/2018/06/24/looking-around-my.html",
 	      	
+			"title": "Furniture",
+			
 			"content_text": "Looking around my apartment, it is clear I do not...",
 			"date_published": "2018-06-24T17:48:57-05:00",
 			"url": "https://Rill.micro.blog/2018/06/24/looking-around-my.html"
 		},
 		
 		{
-			"id": "http://Rill.micro.blog/2018/06/10/004718.html",
-	      	
-			"content_text": "Caitlin was a take charge dog. I pointed ahead and...",
-			"date_published": "2018-06-09T19:47:18-05:00",
-			"url": "https://Rill.micro.blog/2018/06/09/004718.html"
-		},
-		
-		{
-			"id": "http://Rill.micro.blog/2018/06/10/004623.html",
-	      	
-			"content_text": "Caitlin was a take charge dog. I pointed ahead and...",
-			"date_published": "2018-06-09T19:46:23-05:00",
-			"url": "https://Rill.micro.blog/2018/06/09/004623.html"
-		},
-		
-		{
 			"id": "http://Rill.micro.blog/2018/06/10/caitlin-was-a.html",
 	      	
+			"title": "Taking Charge",
+			
 			"content_text": "Caitlin was a take charge dog. I pointed ahead and...",
 			"date_published": "2018-06-09T19:45:41-05:00",
 			"url": "https://Rill.micro.blog/2018/06/09/caitlin-was-a.html"
@@ -104,14 +132,6 @@
 			"content_text": "for me. I thought I would try #WriteEveryDay. I wanted...",
 			"date_published": "2018-06-02T14:44:23-05:00",
 			"url": "https://Rill.micro.blog/2018/06/02/194423.html"
-		},
-		
-		{
-			"id": "http://Rill.micro.blog/2018/06/02/writing-plan-of.html",
-	      	
-			"content_text": "writing plan of sorts OK. #BlogEveryDay didn’t work for me....",
-			"date_published": "2018-06-02T14:39:03-05:00",
-			"url": "https://Rill.micro.blog/2018/06/02/writing-plan-of.html"
 		},
 		
 		{
