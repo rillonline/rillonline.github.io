@@ -1,6 +1,7 @@
 ---
 layout: post
-microblog: true
+title: "Second Anniversary"
+microblog: false
 audio: 
 date: 2018-08-02 21:57:38 -0500
 guid: http://Rill.micro.blog/2018/08/03/today-nick-and.html
