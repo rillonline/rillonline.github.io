@@ -4,9 +4,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Rill Online
-# email: your-email@example.com
+tagline: Where all my writing lives...
 description: >- # this means to ignore newlines until "baseurl:"
-  Rill Online's blog and writing repository.
+  Rill Online's blog and web Site.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rillonline.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty 
@@ -16,18 +16,17 @@ markdown: kramdown
 markdown_ext: "kd,kramdown,md,mk,markdown"
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-gist
 
 # excludes
 exclude:
    - bits-and-pieces
 
-# additional Setup
-paginate:            1
-# About/contact
-author:
-  name:              Rill
+paginate: 1            
 
-# Gems
-plugins:
-  - jekyll-paginate
-  - jekyll-gist
+# List of pages that should be included in the masthead
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
