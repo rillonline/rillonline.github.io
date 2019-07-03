@@ -1,0 +1,11 @@
+<html><body><p>Elwood and I were finally able to run an errand outside by ourselves. In fact, I got sweaty on the way home.
+
+I needed to return some books to the library. the library has a wonderful system whereby I could opt in to receive email notices when books are due. In fact, i had three to return so off we went this morning.
+
+There's a lot of dry pavement out there but also a lot of slush and some uncleared places. There is still a high snowbank with a narrow opening at one intersection.
+
+I learned something new about the Trekker Breeze GPS. I used my route to get to the library. I really don't need it anymore. Street announcements are sufficient. Instead of backtracking, I tried selecting the landmark of my home from the library to generate a route. As the library is in a strip mall, the Breeze informed me that I was too far from any road to generate a route. Elwood and I made our way to South Park Street and I tried again. I was successful. Elwood sat down to wait for me to be ready. These people and their toys.
+
+I was curious to know how I would be sent. The Breeze retraced the route I had taken. It's probably the shortest way. However, I discovered another limitation. When we got to the West Wingra intersection, it told me to turn left but did not indicate if I should cross West Wingra or not. If I did not, I would be on the bike path. It might be difficult to discern where to cross Wingra to take advantage of the crosswalk. There is not a light at this 3-way intersection. Making the crossing with the light at the 4-way intersection at park allows me to simply turn when I get to South. I suppose this is knowing your area and trial and error to pick the correct strategy. The GPS does not ever tell you which side of the street you are on.  Apparently all calculations are from the middle of the street.
+
+Elwood did very well today, including stopping because a vehicle was in a driveway waiting to pull out. I could not hear the vehicle with my hood up and it idling nor could I see it with the angle of the sun. He does this so well.</p></body></html>

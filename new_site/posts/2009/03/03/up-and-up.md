@@ -1,0 +1,9 @@
+<html><body><p>Another increase today. The rent will go up; the Internet Service Provider cost went up and now the coop delivery has tripled in price. It is to make the service almost profitable according to coop bylaws. Nevertheless, it wipes out the discount I have been receiving. Nevertheless, the coop folk are so great to deal with. I was informed of the change and the new delivery person read the letter in its entirety.
+
+The coop must have gone through its supply of untainted peanuts. And I received tangerines instead of oranges. I don't like the seeds though the fruit is very sweet and excellent.
+
+Today is not sunny at all so the temps have stayed cold. Yesterday I was able to get out and walked a route J. and I had roughed out Saturday while Melanie worked in the apartment and was glad to have us gone. Unfortunately, because I retraced my steps to get back to the apartment the GPS device erased the route as meaningless. It doesn't know about a walk, just reaching a destination. If the warm-up we're expecting happens tomorrow and the freezing rain talked about doesn't make everything slick, I'll go out to the library tomorrow to pick up a waiting book and walk the route again, cutting it off on the recorder before I overlap where I walked at first.
+
+I'm getting some energy back which is a good thing.
+
+I'm working on the second Lenten service. I did an ashless Ash Wednesday service last week which was well-received. When someone asks you for a copy, you know it was okay. From here out we'll have some readings, some recorded music and time for people to share, ending up with someone else leading prayers as is the custom of the group.</p></body></html>

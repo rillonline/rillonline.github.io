@@ -1,0 +1,1 @@
+<html><body><p>No wonder I felt chilly this morning. It is currently 42 with a wind chill of 35. I only wore a fleece outside. The winter Crocs and socks work very well.</p></body></html>
