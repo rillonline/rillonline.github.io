@@ -1,0 +1,1 @@
+<html><body><ul class="loudtwitter"><li><em>08:26</em> wondering y the kettle didn't boil; helps if u turn it on. <a href="http://twitter.com/merrill517/statuses/1278632285">#</a></li></ul>Automatically shipped by <a href="http://www.loudtwitter.com">LoudTwitter</a></body></html>
