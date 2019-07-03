@@ -24,7 +24,7 @@ SITE_URL = "https://rillonline.github.io/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
-BLOG_EMAIL = "n.tesla@example.com"
+BLOG_EMAIL = ""
 BLOG_DESCRIPTION = "Rill's blog and other writings."  # (translatable)
 
 # Nikola is multilingual!
@@ -640,7 +640,7 @@ REDIRECTIONS = []
 # For more details, read the manual:
 # https://getnikola.com/handbook.html#deploying-to-github
 # You will need to configure the deployment branch on GitHub.
-GITHUB_SOURCE_BRANCH = 'src'
+GITHUB_SOURCE_BRANCH = 'sources'
 GITHUB_DEPLOY_BRANCH = 'master'
 
 # The name of the remote where you wish to push to, using github_deploy.
