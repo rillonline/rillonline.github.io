@@ -1,2 +1,8 @@
 _site
 .sass-cache
+*.py[cod]
+__pycache__
+cache
+output
+.doit.db
+
