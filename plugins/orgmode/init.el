@@ -116,6 +116,14 @@ contextual information."
     (format "<img src=\"%s\" alt=\"%s\"/>" path desc))))
 (org-add-link-type "img-url" nil 'org-custom-link-img-url-export)
 
+ ;; Link abbreviations added by Rill 2019/07/04
+ (setq org-link-abbrev-alist
+ '(("campnanowrimo"  . "https://www.campnanowrimo.org/")
+        ("nanowrimo"    . "https://www.nanowrimo.org/")
+        ("github"      . "https://www.github.com/")
+        ("rillonline"      . "https://rillonline.github.io")
+        ("nikola"       . "https://www.getnikola.com/")))
+
 ;; Export function used by Nikola.
 (defun nikola-html-export (infile outfile)
   "Export the body only of the input file and write it to
