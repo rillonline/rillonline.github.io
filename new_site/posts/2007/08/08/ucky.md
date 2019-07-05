@@ -1,3 +1,0 @@
-<html><body><p>I don't know if this posted on Monday but if not, here it is as I wrote it: .'m told it's lucky to be on a bridge when a train passes under. We were cross the 6th Street bridge when I heard the train.
-
-Of course, if you know the train schedule, you could always be on the bridge when it went under. I suppose is luck is a real thing, you'd have to be on the bridge as an act of randomness rather than as a plan--as if there is a rule about luck, its acquisition  and loss.</p></body></html>

@@ -1,1 +1,0 @@
-<html><body><p>I think this is a historic moment. I'm curious what Rick Warren will say for the invocation, the inaugural address, of course, and Lowrie's benediction. I think I've read some of Lowrie's stuff. A thoughtful man. </p></body></html>

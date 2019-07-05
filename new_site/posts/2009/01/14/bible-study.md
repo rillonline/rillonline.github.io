@@ -1,1 +1,0 @@
-<html><body><p>Bible study is cancelled because of the cold. Because the dinner was already made, we are gathering to eat and share.</p></body></html>

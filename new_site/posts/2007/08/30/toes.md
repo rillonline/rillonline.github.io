@@ -1,1 +1,0 @@
-<html><body><p>At the rail this morning ... I knelt for annointing. Elwood laid down next to me and began to inch forward. And then ... He licked Mother Susan's toes.</p></body></html>

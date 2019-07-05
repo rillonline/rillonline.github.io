@@ -1,1 +1,0 @@
-<html><body><p>I'm still figuring out how to configure <a href="http://www.loudtwitter.com/">Loudtwitter</a> to take advantage of the features of an email posting. This should be straightened out soon.</p></body></html>

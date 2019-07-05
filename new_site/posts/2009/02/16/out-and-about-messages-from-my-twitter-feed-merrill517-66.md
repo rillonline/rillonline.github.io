@@ -1,1 +1,0 @@
-<html><body><ul class="loudtwitter"><li><em>17:40</em> up from a wonderful Sunday afternoon nap. <a href="http://twitter.com/merrill517/statuses/1213631077">#</a></li></ul>Automatically shipped by <a href="http://www.loudtwitter.com">LoudTwitter</a></body></html>

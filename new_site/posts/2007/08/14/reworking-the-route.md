@@ -1,5 +1,0 @@
-<html><body><p>Today we reworked we had trouble with yesterday. We walked across the bridge, very noisy with trucks today. Beforehand, Elwood wanted to walk down Fairmount to 3rd Street. When we were starting across Steel, a car cut us off. The instructor yelled at the driver who was talking on the phone. I retreated to the curb. We worked through Fairview. Both curbs are hard to find because they are very curvey. Elwood wants very much to go down the side streets. It's not as noisy and new areas are far more fun to explore than doing the same old thing over and over.
-
-It is much cooler here at the river walk. I wish I had figured this out when it was so hot. It's quite breezy here and the air is so heavy with humidity just a block away.
-
-Elwood would prefer we went home for dinner but it is so pleasant here and I want him to grow comfortable here. We successfully found the picnic table and I think he will get the idea quite quickly. We have the area to ourselves there there is the traffic from the parking lots and the smell from the Chinese buffet.</p></body></html>

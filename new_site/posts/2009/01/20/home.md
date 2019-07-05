@@ -1,1 +1,0 @@
-<html><body><p>I'm home because K and I agreed that inaugural coverage was more important than freezing on Monroe Strdet. We've re-re-scheduled for Thursday when it's supposed to be in the 30s--a definite heat wave. </p></body></html>

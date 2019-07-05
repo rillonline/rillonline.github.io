@@ -1,1 +1,0 @@
-<html><body><p>Isn't it odd that the vice president gets sworn in first? If you're building to a climax, it's right, but isn't the swearing in of the president more important?</p></body></html>

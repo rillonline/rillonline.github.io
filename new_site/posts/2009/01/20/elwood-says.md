@@ -1,1 +1,0 @@
-<html><body><p>don't forget dogs need to go out. It's very cold out there. K was right to stall.</p></body></html>

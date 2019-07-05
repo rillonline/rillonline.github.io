@@ -1,1 +1,0 @@
-<html><body><p>I found <a href="http://en.wikipedia.org/wiki/Elwood_(dog)">this link</a> to an article about this year's ugliest dog. His name is Elwood and he is two years old. There's a picture. I also found out that Elwood is Chuck Yeager's middle name.</p></body></html>

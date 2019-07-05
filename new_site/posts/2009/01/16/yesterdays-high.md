@@ -1,1 +1,0 @@
-<html><body><p>Yesterday's high was -2. The low was -15. This does not include windchills.</p></body></html>

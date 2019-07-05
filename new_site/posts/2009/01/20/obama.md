@@ -1,1 +1,0 @@
-<html><body><p>Glad he used his full name. It's a good name. And glad, too, he messed up the oath of office. We're all human.</p></body></html>

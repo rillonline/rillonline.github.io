@@ -1,1 +1,0 @@
-<html><body><p>Inauguration running late as usual.</p></body></html>

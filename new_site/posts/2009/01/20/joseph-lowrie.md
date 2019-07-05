@@ -1,1 +1,0 @@
-<html><body><p>Wow! A mini sermon. Interesting that both he and Warren focused on forgiveness. Lowrie injected humor and stuck to God's rule being preeminent.</p></body></html>

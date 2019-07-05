@@ -1,1 +1,0 @@
-<html><body><ul class="loudtwitter"><li><em>21:49</em> L came over&amp;got DSL running. SA&amp;IE r not playing well together. <a href="http://twitter.com/merrill517/statuses/1221597560">#</a></li></ul>Automatically shipped by <a href="http://www.loudtwitter.com">LoudTwitter</a></body></html>

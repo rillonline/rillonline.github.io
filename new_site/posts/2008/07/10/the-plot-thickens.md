@@ -1,1 +1,0 @@
-<html><body><p>She had to pull the file. The weight ticket is dated 6/27. My things were loaded on the truck 6/28. Stand by.</p></body></html>

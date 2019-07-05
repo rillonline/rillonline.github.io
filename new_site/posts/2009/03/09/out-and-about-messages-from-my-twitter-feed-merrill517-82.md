@@ -1,1 +1,0 @@
-<html><body><ul class="loudtwitter"><li><em>18:25</em> Now it's snowing. Strange that it is light at 6 p.m.. Elwood is still on standard time. <a href="http://twitter.com/merrill517/statuses/1298058608">#</a></li></ul>Automatically shipped by <a href="http://www.loudtwitter.com">LoudTwitter</a></body></html>

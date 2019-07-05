@@ -1,1 +1,0 @@
-<html><body><p>male-oriented. Sounded very America-focused, uncomfortably so. Didn't anyone join him in the Lord's Prayer? That's ugly. I liked the way he said, in the name of the one who changed my life.</p></body></html>

@@ -1,1 +1,0 @@
-<html><body><ul class="loudtwitter"><li><em>21:56</em> enjoyed homemade split pea soup on a rainy day. <a href="http://twitter.com/merrill517/statuses/1385805416">#</a></li></ul>Automatically shipped by <a href="http://www.loudtwitter.com">LoudTwitter</a></body></html>
