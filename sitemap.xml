@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://rillonline.github.io/</loc>
-  <lastmod>2019-07-02T15:59:00Z</lastmod>
+  <lastmod>2019-07-06T00:20:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/2005/</loc>
@@ -244,6 +244,14 @@
  <url>
   <loc>https://rillonline.github.io/listings/</loc>
   <lastmod>2019-07-02T15:59:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rillonline.github.io/pages/kearsarge/A%20Ronnie%20Camberwell%20Adventure/</loc>
+  <lastmod>2019-07-06T00:20:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rillonline.github.io/pages/kearsarge/chapter-01/</loc>
+  <lastmod>2019-07-06T00:20:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/posts/2005/05/01/weekly-message-working/</loc>
@@ -1576,9 +1584,5 @@
  <url>
   <loc>https://rillonline.github.io/posts/527/</loc>
   <lastmod>2019-07-02T15:59:00Z</lastmod>
- </url>
- <url>
-  <loc>https://rillonline.github.io/posts/quick-test/</loc>
-  <lastmod>2019-07-04T20:43:00Z</lastmod>
  </url>
 </urlset>
