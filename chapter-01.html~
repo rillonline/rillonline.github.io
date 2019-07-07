@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2019-07-06 Sat 14:32 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>In Which I Meet Kearsarge</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Rill Online" />
+<meta name="keywords" content="Ronnie Camberwell Captain Star Runner mystery science fiction" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="org-div-home-and-up">
+ <a accesskey="h" href="[[pages/kearsarge.html][Kearsarge]]"> UP </a>
+ |
+ <a accesskey="H" href="https://rillonline.github.io"> HOME </a>
+</div><div id="content">
+<h1 class="title">In Which I Meet Kearsarge</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgac5de35">In Which  I Meet Kearsarge</a></li>
+</ul>
+</div>
+</div>
+<hr />
+
+<div id="outline-container-orgac5de35" class="outline-2">
+<h2 id="orgac5de35">In Which  I Meet Kearsarge</h2>
+<div class="outline-text-2" id="text-orgac5de35">
+<p>
+People are lining up outside the Galactic Diner, waiting for a table
+inside. I am shocked. I have never seen the restaurant so busy. The
+people are dressed in sporting clothes&#x2013;I mean they look like cyclists,
+runners, equestrians, space travelers from a bygone era. What is this?
+</p>
+
+<p>
+Then I remember. The League of the Solar Planets Olympics is about
+to begin in Ptolemy City. Fans always dress as participants for their
+favorite events.
+</p>
+
+<p>
+"Well," I thought. "I will never get a seat inside. Besides, the Galactic
+Diner has a lot of memories for me and I am trying to put the last
+several years behind me.Â 
+</p>
+
+<p>
+Well, then, where should I go for some breakfast?
+</p>
+
+<p>
+I start walking along the Valley of Kings, making my way toward Lower
+Nile Street and the meaner streets of the city. With all these tourists in
+town, all the nicer places will also be overcrowded. I want an affordable
+restaurant and some place I can make my own.
+</p>
+
+<p>
+"Detective Camberwell," someone calls.
+</p>
+
+<p>
+I keep walking. I am no longer a police detective. I do not have to talk
+to anyone about my former life.
+</p>
+
+<p>
+I hear footsteps running behind me. Reluctantly, I turn around. This
+person could be dangerous. This is, after all, Ptolemy City. I want to
+be certain. no one wants me dead. Besides, I may know them and I do not
+want to be rude.
+</p>
+
+<p>
+"Detective Camberwell," the woman says again, running toward me.
+</p>
+
+<p>
+She is a large woman. She is not dressed for the games and I have never
+seen her before.
+</p>
+
+<p>
+"I need to speak with you," she says, coming to a stop in front of me.
+</p>
+
+<p>
+She is panting though judging from my brief observation of her running,
+she is used to working out. She is not graceful. She is powerful and
+well muscled. Personally, I like my women more delicate and fluid,
+but damn!! I find her quite attractive.
+</p>
+
+<p>
+"I am not a detective," I say. "I haven't been on the force in years. I
+am afraid I can't help you with any legal matters."
+</p>
+
+<p>
+"I know you're not a detective any more," the woman says. "I just didn't
+know what else to call you. I need to speak with you. Can we go somewhere
+to talk."
+</p>
+
+<p>
+And so my encounter with Kearsarge began.
+</p>
+
+<p>
+Kearsarge, she never offered me any more identification than that, knew
+of a small place off Lower Nile Street. Only a few customers sat at the
+dozen tables and occupied a couple of stools at the counter. The woman
+behind the counter calledÂ  Kearsarge by name by which I deduced she
+was a regular. This was not brilliant detecting on my part. The woman
+called everyone by name. She asked me what mine was.
+</p>
+
+<p>
+"Ronnie," I said.
+</p>
+
+<p>
+"And what will you have, Ronnie?" the woman asked.
+</p>
+
+<p>
+My second shock of the day. Here was a human being asking me for my
+order. No automated tables here. No menu display to tap or stare at. I
+located a renewable writing surface behind the woman with today's
+offerings. She even could serve me meat if I wanted to eat it which I
+did not.
+</p>
+
+<p>
+Kearsarge did not order except to confirm she wanted the usual.
+</p>
+
+<p>
+Kearsarge selected the table in the corner in the back where we would
+have relative privacy.
+</p>
+
+<p>
+"What is this about?" I asked when we were seated.
+</p>
+
+<p>
+Kearsarge took a long sip of her very hot coffee before speaking.
+</p>
+
+<p>
+"I'm getting messages from a dead person," she said. "I want you to find
+out who is sending them and stop them."
+</p>
+
+<p>
+"Why not just mark them as Spam and block the sender?" I said.
+</p>
+
+<p>
+Getting unwanted messages is a nuisance but there are easy ways not to
+be bothered by them. Every child knows how to do this. Kearsarge hardly
+needed to chase me down the street and bring me to her regular eating
+establishment to ask me about this.
+</p>
+
+<p>
+"I tried," Kearsarge said. "I couldn't stop them."
+</p>
+
+<p>
+I sipped my tea. For a nondescript place, they brewed a wicked cup of
+tea. None of this was making any sense.
+</p>
+
+<p>
+"There's more to this story," I finally said.
+</p>
+
+<p>
+"Yes,' Kearsarge said. "That's why I want to hire you."
+</p>
+
+<p>
+"Hire me?" I asked.
+</p>
+
+<p>
+"Yes," Kearsarge said. "I wouldn't expect you to work for free. You are
+an investigator, right?"
+</p>
+
+<p>
+"I didn't think so," I said.
+</p>
+
+<p>
+"Troy Camberwell said you were a good investigator." Kearsarge persisted.
+</p>
+
+<p>
+Thanks, Dad.
+</p>
+
+<p>
+"Yes," I replied with a great deal of caution. "I am. But I'm not on
+the police force any more."
+</p>
+
+<p>
+Our food arrived and for a time we sat in silence eating. The food was
+excellent. I hoped it would not be awkward for me to come here
+again. Kearsarge only nimbled at a piece of toast while I dug into my
+huevos rancheros with gusto. I was surprisingly hungry.
+</p>
+
+<p>
+"I really need your help," Kearsarge said after our plates were cleared
+and we each had a fresh cup before us to drink. "I'm scared."
+</p>
+
+<p>
+I saw how her hands trembled as she picked up her coffee cup to
+drink. Being a large woman with a lot of confidence her admission
+surprised me. Perhaps I had allowed her size and assured manner in
+approaching a stranger and conducting her to her favorite eating
+establishment to deceive me.
+</p>
+
+<p>
+"Scared of what?" I asked. Damn! My old instincts to protect and
+defend the weak and defenseless came to the forefront of my mind.
+</p>
+
+<p>
+"The dead man was my husband," Kearsarge said. She looked away. "He was
+violent."
+</p>
+
+<p>
+"And now he's dead," I said.
+</p>
+
+<p>
+"That's right," Kearsarge said.
+</p>
+
+<p>
+"You're certain about this?"
+</p>
+
+<p>
+Death is a fluid thing in Ptolemy City. You heard people were dead and
+then you met them on the street the next day. There was nothing
+miraculous in this. They were hiding from someone. They were scamming
+someone. They were trying to get out of a contract or collect part of
+the money from a contract put out on them. After all, assassination is
+legal here. It requires a contractual agreement, notice and an
+assassin. Murder, on the other hand, is another matter. In some
+circumstances, it can be prosecuted.
+</p>
+
+<p>
+"Yes," Kearsarge said. "I had him assassinated."
+</p>
+
+<p>
+"You had proof then."
+</p>
+
+<p>
+The nature of the proof varies, but it always is provided. Sometimes
+it is the body, a certified video of the killing, noterized statements
+from witnesses. Proof is part of the standard assassination contract.
+</p>
+
+<p>
+"Yes. The contract was executed properly and I paid."
+</p>
+
+<p>
+"But he's alive."
+</p>
+
+<p>
+"No. I'm certain of that. It's just&#x2013;" And here Kearsarge looked away
+again.
+</p>
+
+<p>
+What wasn't she telling me.
+</p>
+
+<p>
+"What aren't you telling me?" I said aloud. My patience was beginning
+to wear thin. Protect and defend had its limits. I was being toyed
+with.
+</p>
+
+<p>
+"There's a service," Kearsarge said, still not looking at me. "You can
+send messages to your loved ones after you are dead. There's nothing
+magical about them. You write them all before you die. You can send
+them on birthdays and anniversaries&#x2013;that sort of thing. They're meant
+to be comforting. But these messages&#x2013;"
+</p>
+
+<p>
+And here she visibly shivered.
+</p>
+
+<p>
+"These messages are about my death&#x2013;a horrible death."
+</p>
+
+<p>
+Tears began to trickle down her face.
+</p>
+
+<p>
+"I think it will happen&#x2013;and very soon. I want you to stop it."
+</p>
+
+<p>
+I refrained from answering Kearsarge right away. Clearly, she believed
+everything she had told me. The messages were probably real, too. I
+did not think Kearsarge was experiencing any remorse for her husband's
+death.
+</p>
+
+<p>
+"I can pay you," Kearsarge said. She must haveÂ  interpreted my
+silence as refusal.
+</p>
+
+<p>
+"Payment isn't the point," I said. "Your safety is. You need to go to
+a shelter."
+</p>
+
+<p>
+"A shelter?"
+</p>
+
+<p>
+"For victims of domestic violence."
+</p>
+
+<p>
+"I can take care of myself," Kearsarge answered immediately.
+</p>
+
+<p>
+"Which is it?" I asked. "You're asking me to keep you from being
+killed on the one hand and on the other you are claiming you can take
+care of yourself."
+</p>
+
+<p>
+"I just want you to stop the messages," Kearsarge said. "that's
+all. I'm not asking you to protect me in any way. I can take care of
+myself"
+</p>
+
+<p>
+"And you think that if I can stop the messages you'll be safe? That
+makes no sense."
+</p>
+
+<p>
+"My safety isn't the issue here," Kearsarge said. She was becoming
+impatient and her tone suggested she thought I was being quite
+obdurate.
+</p>
+
+<p>
+"I disagree," I said, getting to my feet. "Thank you for breakfast."
+</p>
+
+<p>
+I walked out of the restaurant  without  a backward glance. I strode away,
+determined not to be called back. I couldn't help someone who didn't
+want to be helped. 
+</p>
+
+<p>
+The next time I saw Kearsarge, she was dead.
+</p>
+
+
+<hr />
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Rill Online</p>
+<p class="date">Created: 2019-07-06 Sat 14:32</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
