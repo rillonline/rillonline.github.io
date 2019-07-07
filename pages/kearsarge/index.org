@@ -1,5 +1,0 @@
-	#+TITLE Kearsarge
-	#+SUBTITLE A Ronnie Camberwell Adventure
-	#+SUBTITLE Book 1
-	#+AUTHOR Rill Online
- 1. [[file:chapter-01.org][In Which I meet Kearsarge]]
