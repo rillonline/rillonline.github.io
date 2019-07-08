@@ -141,6 +141,7 @@ NAVIGATION_LINKS = {
         ("/archive.html", "Archive"),
         ("/categories/", "Tags"),
         ("/rss.xml", "RSS feed"),
+        ("/pages/long-form-writing/index.html", "Long Form Writing"),
     ),
 }
 
@@ -326,7 +327,7 @@ ONE_FILE_POSTS = False
 # Use date-based path when creating posts?
 # Can be enabled on a per-post basis with `nikola new_post -d`.
 # The setting is ignored when creating pages.
-# NEW_POST_DATE_PATH = False
+# NEW_POST_DATE_PATH = True
 
 # What format to use when creating posts with date paths?
 # Default is '%Y/%m/%d', other possibilities include '%Y' or '%Y/%m'.
@@ -829,7 +830,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 #
 # If the following is True, INDEXES_PAGES is also displayed on the main (the
 # newest) index page (index.html):
-# INDEXES_PAGES_MAIN = False
+INDEXES_PAGES_MAIN = True
 #
 # If the following is True, index-1.html has the oldest posts, index-2.html the
 # second-oldest posts, etc., and index.html has the newest posts. This ensures
@@ -858,7 +859,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 # Note that in case INDEXES_PAGES_MAIN is set to True, a redirection will be created
 # for the full URL with the page number of the main page to the normal (shorter) main
 # page URL.
-# INDEXES_PRETTY_PAGE_URL = False
+# INDEXES_PRETTY_PAGE_URL = True
 #
 # If the following is true, a page range navigation will be inserted to indices.
 # Please note that this will undo the effect of INDEXES_STATIC, as all index pages
@@ -868,7 +869,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 # If the following is True, a meta name="generator" tag is added to pages. The
 # generator tag is used to specify the software used to generate the page
 # (it promotes Nikola).
-# META_GENERATOR_TAG = True
+META_GENERATOR_TAG = True
 
 # Color scheme to be used for code blocks. If your theme provides
 # "assets/css/code.css" this is ignored. Leave empty to disable.
