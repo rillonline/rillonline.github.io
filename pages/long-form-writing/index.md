@@ -2,4 +2,4 @@ Here are links to my long form writing.
 
 ## Fiction
 
-[Kearsarge: A Ronnie Camberwell Mystery Book 1](https://rillonline.github.io/kearsarge.html)
+* [Kearsarge: A Ronnie Camberwell Mystery Book 1](/kearsarge.html)
