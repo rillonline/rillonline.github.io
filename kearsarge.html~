@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-07-06 Sat 19:21 -->
+<!-- 2019-07-07 Sun 21:48 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Kearsarge</title>
@@ -243,7 +243,7 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="org-div-home-and-up">
- <a accesskey="h" href=""> UP </a>
+ <a accesskey="h" href="https://rillonline.github.io/pages/long-form-writing/"> UP </a>
  |
  <a accesskey="H" href="https://rillonline.github.io"> HOME </a>
 </div><div id="content">
@@ -251,14 +251,10 @@ for the JavaScript code in this tag.
 <br />
 <span class="subtitle">A Ronnie Camberwell Mystery Book 1</span>
 </h1>
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#org26e0da9">Table of Contents</a></li>
-</ul>
-</div>
-</div>
+<p>
+<a href="chapter-01.html">Chapter 1</a>
+</p>
+
 <hr />
 
 <div id="outline-container-org26e0da9" class="outline-2">
@@ -266,7 +262,9 @@ for the JavaScript code in this tag.
 <div class="outline-text-2" id="text-org26e0da9">
 <ol class="org-ol">
 <li><a href="chapter-01.html">In Which I meet Kearsarge</a></li>
+<li><a href="chapter-02.html">In Which I Receive A Contract</a></li>
 </ol>
+
 
 
 <hr />
@@ -281,7 +279,7 @@ This work is licensed under a Creative Commons Attribution Non-commercial Sharea
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Rill Online</p>
-<p class="date">Created: 2019-07-06 Sat 19:21</p>
+<p class="date">Created: 2019-07-07 Sun 21:48</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
