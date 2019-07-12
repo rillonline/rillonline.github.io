@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2019-07-10 Wed 21:42 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Rill" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgbf0a495">I Renew My Acquaintance with Emily Dickinson</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgbf0a495" class="outline-2">
+<h2 id="orgbf0a495">I Renew My Acquaintance with Emily Dickinson</h2>
+<div class="outline-text-2" id="text-orgbf0a495">
+<p>
+Emily Dickinson agreed to see me the following afternoon. I grabbed a
+Caravan, a driverless compartment which travels the city. The
+particular caravan which came by the Womyn's Cooperative Housing
+Authority was a called a gazelle, the smallest compartment, which
+seats two comfortably.
+</p>
+
+<p>
+"Shepheard's Hotel," I said, and off I went.
+</p>
+
+<p>
+Emily Dickinson told me to meet him at the Nefertiti Bar.
+</p>
+
+<p>
+I wondered about this. The last time I saw Emily Dickinson we were on
+the Northern Frontier and he had sworn off drink forever. (The
+Northern Frontier borders Coalition space. Many people who would
+prefer to live outside the Coalition populate planets and space
+stations. Although not all &#x2013; the Republic of Space and Queen's World,
+for example &#x2013; of the planets and space stations are loosely linked by
+the Alliance of Worlds.
+</p>
+
+<p>
+Emily Dickinson operated for many years as a stand up comic and an
+assassin. It sounded like an odd combination but he made it
+work. Emily Dickinson maintained his moniker was a stage name, but it
+was the only one anyone used in Ptolemy City. I remembered his given
+name was Eberhardt Dietrich.
+</p>
+
+<p>
+"Captain Gyllian Romeres Lujo always called him that," I thought as I
+alighted from the Gazelle outside Shepheard's Hotel.
+</p>
+
+<p>
+"Colonel Gyllian Romeres Lujo," I corrected myself. "It's Star who
+continues to call her 'Captain'."
+</p>
+
+<p>
+Star and Emily Dickinson were lovers once. But that was a long while
+back before I knew either of them personally.
+</p>
+
+<p>
+"But then, that was when you first saw Star," I reminded myself,
+"prancing across the hotel lobby, a long filmy scarf tied about the
+fuchsia-colored Pantheran's neck. Star was breath-taking, tail held
+high, ears up and pointing straight forward, whiskers quivering.
+</p>
+
+<p>
+"Stop that," I told myself severely. "It's over. You have a job to do.
+You need to focus on Emily Dickinson right now. Stop wallowing in the
+past."
+</p>
+
+<p>
+I walked purposefully across the marble-colored floor toward the
+Nefertiti Bar, pushed the door open &#x2013; none opening doors are
+certainly an affectation &#x2013; and stepped inside the coolness and the
+darkened room.
+</p>
+
+<p>
+Darkness, the theory ran, made a bar intimate and perhaps even
+romantic.  A bar in the early afternoon on a weekday was none of these
+things. It was a place for people to drink, especially people with
+drinking problems or nothing else to do or both.
+</p>
+
+<p>
+"OR," I told myself sourly, "people who wanted to talk to those people."
+</p>
+
+<p>
+Emily Dickinson was easy to spot at the bar. His bulk spread toward
+the bar stools on either side of him. I squeezed onto the chair next
+to him.
+</p>
+
+<p>
+"Gregory," Emily Dickinson said to the bartender, "give the little lady a
+drink."
+</p>
+
+<p>
+I cringed inside. I am neither little or, in my humble opinion, a
+lady.
+</p>
+
+<p>
+"I'll have a club with a twist of lime," I said.
+</p>
+
+<p>
+"That's all?" Emily Dickinson asked. He sounded affronted by my
+choice.
+</p>
+
+<p>
+"I'm working," I said. No need to go into the fact I choose not to
+drink at all.
+</p>
+
+<p>
+"But you're aren't on the force anymore," Emily Dickinson said, a touch
+of question in his voice.
+</p>
+
+<p>
+"No," I said, "I'm a private investigator right now."
+</p>
+
+<p>
+"Put her drink on my tab," Emily Dickinson told Gregory. His tone was magnanimous.
+</p>
+
+<p>
+"Sure thing," Gregory said.
+</p>
+
+<p>
+"And I'll have another."
+</p>
+
+<p>
+Gregory set another glass down next to the almost full one in front of
+the big man.
+</p>
+
+<p>
+"So, Detective, you wanted to talk to me," Emily Dickinson said.
+</p>
+
+<p>
+"Yes," I said, "but I'm not a detective anymore."
+</p>
+
+<p>
+"Now I'm willing to wager that pussy cat of yours will continue to
+call you Detective Ronnie Camberwell." Emily Dickinson spoke in his
+deep gravely voice.
+</p>
+
+<p>
+"Star and I dissolved our partnership," I said, having difficulty
+keeping the stiffness out of my voice. After all, I wanted Emily
+Dickinson to open up to me.
+</p>
+
+<p>
+"That's what I heard," Emily Dickinson said, "but I didn't know what
+else to call you."
+</p>
+
+<p>
+"Ronnie will be fine," I said, taking a sip of my drink through the
+straw after having put the lime slice into the fizzy water.
+</p>
+
+<p>
+"OK, Ronnie, how can I help you?"
+</p>
+
+<p>
+Emily Dickinson seemed to be quite affable today. I remember him as
+surly and unwilling to talk to me when I questioned him as a police
+detective. I doubted my relationship with Star would not have softened
+Emily Dickinson up. What was his angle? What did he want.
+</p>
+
+<p>
+"I want to talk to you about the contract you signed with Kearsarge,"
+I said.
+</p>
+
+<p>
+"Kearsarge?" Emily Dickinson considered the name.
+</p>
+
+<p>
+"The contract concerning her husband Samuel Mudd," I prompted.
+</p>
+
+<p>
+"My memory isn't what it used to be," Emily Dickinson confided. "I may
+need some help to remember what you want to know."
+</p>
+
+<p>
+I started to say, "The man you assassinated seven weeks ago," but
+stopped myself before speaking this thought aloud. The information was
+not free. Emily Dickinson wanted some sort of payment.
+</p>
+
+<p>
+"What would help you remember?" I asked, wondering if I was willing to
+pay. Emily Dickinson's sexual escapades were legendary.
+</p>
+
+<p>
+"A small thing," Emily Dickinson said. "The matter of my bar tab, if
+you could settle that with Gregory while I ransack my memory for
+details&#x2013;"
+</p>
+
+<p>
+I saw Gregory hide a smirk.
+</p>
+
+<p>
+Emily Dickinson's drinking was also legendary. Even so, I struggled to
+keep from showing my astonishment at the amount. My expense report
+would look very interesting. No wonder Emily Dickinson had ordered a
+second drink and put my drink on his tab.
+</p>
+
+<p>
+I paid.
+</p>
+
+<p>
+"Thank you very kindly," Emily Dickinson said. "I am much
+obliged. Since returning to Ptolemy City, it has been difficult to get
+re-established.  You're probably finding it slow-going yourself."
+</p>
+
+<p>
+I decided to ignore this last remark and his effusive thanks. Clearly
+Emily Dickinson should not be drinking. The amount of his tab
+demonstrated that. I knew the terms of the assassination contract. He
+was paid well. I also suspected his lived somewhere off of Lower Nile
+Street in one of the tiny one-room flats. His money could have lasted
+him for years if he chose to be careful with it. He had not.
+</p>
+
+<p>
+"Kearsarge's contract," I said again.
+</p>
+
+<p>
+Emily Dickinson turned his glass in his hand and seemed to be
+searching for an answer in its depths.
+</p>
+
+<p>
+Finally he asked, "What is your interest?"
+</p>
+
+<p>
+"I am her private investigator," I said. I did not have to give
+anything away for free either.
+</p>
+
+<p>
+"And your interest in our contract is&#x2013;"
+</p>
+
+<p>
+"She is receiving unusual death threats," I said. "I am wondering if
+your contract with her may be at the root of these threats."
+</p>
+
+<p>
+Emily Dickinson continued to swirl his drink.
+</p>
+
+<p>
+"She is a public figure," Emily Dickinson said. "Perhaps one of her
+opponents in the marathon is hoping she will withdraw from the race."
+</p>
+
+<p>
+"I doubt the threats would be so graphic," I said, remembering how
+gruesome and explicit they were. "Besides," I said, "they wouldn't be
+signed 'Love, Sam'."
+</p>
+
+<p>
+"No, I suppose not," Emily Dickinson said, putting down his drink very
+carefully. He did not slur his words. I could not think
+of a time when he did.
+</p>
+
+<p>
+"It was a sad business," Emily Dickinson began. "They were a striking
+couple, I'm told. They would come here to Shepheard's Hotel when they first came
+to Ptolemy City. She was a rising star in the sports world and dressed
+in all the latest fashions. He was always conservatively dressed. I
+heard things. He was a good manager of the mines &#x2013; nothing
+spectacular, you understand, but competent. He cleaned up some problem
+they were having and ran the business quite profitably. And then &#x2026;"
+he trailed off.
+</p>
+
+<p>
+"And then," I prompted.
+</p>
+
+<p>
+"I don't know," Emily Dickinson said.
+</p>
+
+<p>
+"I don't believe you," I said flatly. "You do know. This has been
+quite a build up &#x2013; the young active couple comes to town, both rising
+stars.  They buy a fancy house with an even fancier address. And then
+she has him killed. Something happened."
+</p>
+
+<p>
+Emily Dickinson sighed heavily. "I'm getting too old for this," he
+said.  "Sam Mudd was a good man by all reports &#x2013; at least, he was a
+fair man at the mines."
+</p>
+
+<p>
+"It he was so unobjectionable, why have him killed," I
+questioned. "She didn't like his tie?"
+</p>
+
+<p>
+"In Ptolemy City, people have been
+getting killed for less."
+</p>
+
+<p>
+"What aren't you telling me, Eberhardt?" I  hoped the use of his given name would shake more loose.
+</p>
+
+<p>
+"Let's keep this civil, Ronnie, shall we?"
+</p>
+
+<p>
+"Emily Dickinson, I just paid your rather substantial bar tab. I
+expect to get something useful for my investigation. As far as anyone
+here in town knows, no one has put a contract out on Kearsarge yet she
+is receiving very gruesome and explicit death threats ostensibly
+coming from her dead husband. It sounds like revenge. Who wants her
+dead?"
+</p>
+
+<p>
+"Probably quite a few people," Emily Dickinson said. His manner was
+flippant.
+</p>
+
+<p>
+"Because."
+</p>
+
+<p>
+"Because she is a spoiled bitch." His tone was tinged with anger and bitterness.
+</p>
+
+<p>
+"She didn't strike me that way," I said. "She seemed quite down to
+earth and quite responsible."
+</p>
+
+<p>
+"She's responsible, all right." Emily Dickinson laughed without any
+mirth.  "She is responsible for making her husband's life hell and
+then killing him."
+</p>
+
+<p>
+"If you dislike her so much, why did you accept the contract?" I
+asked.  His evasiveness annoyed me.
+</p>
+
+<p>
+"I owed somebody, Ronnie. It's not a part of your investigation, so I
+won't go into it. It was an old debt from another time. But it was
+called in and I had to come back here and do the deed. I didn't have
+to like it. I just had to do it."
+</p>
+
+<p>
+I signaled Gregory, the bartender, to give each of us another drink.
+</p>
+
+<p>
+I drank my club soda and waited for Emily Dickinson to say more.
+</p>
+
+<p>
+"I don't know why you're on this case," Emily Dickinson finally said.
+"That's your business. Ptolemy City is a town where people do things
+they aren't proud of but they feel they have to do it. We all have our
+demons, I suppose, even you, and I think I know who that demon is for
+you. I suggest you suck it up and back the contract. Dealing with
+Kearsarge will only cause you grief and I mean that seriously. She's
+bad news and the farther away from her you can get, the better off you
+will be."
+</p>
+
+<p>
+"Your candor is appreciated," I said. I believed Emily Dickinson
+believed everything he was telling me. But he was not telling me
+everything. "But I need a direction. Can you tell me where to look?"
+</p>
+
+<p>
+"I really don't know why she killed Mudd killed," Emily Dickinson
+said.  "But if you want to stick things out, I would look at Fair
+Haven."
+</p>
+
+<p>
+"Fair Haven?" I queried. "I never heard of Fair Haven. What is it?"
+</p>
+
+<p>
+"I'm not surprised you've never heard of it. It's a member of the
+Solar League &#x2013; a very unimportant member of the League. But that's
+where Kearsarge and Mudd come from. They're royalty or something like
+it there. It was an arranged marriage to consolidate one of the
+important families. The marriage may have worked for a while, but I
+don't think it was working when they came here."
+</p>
+
+<p>
+"Infidelity, then," I said.
+</p>
+
+<p>
+"More than that," Emily Dickinson said, "though certainly that."
+</p>
+
+<p>
+Before I could guard my tongue, I said, "You don't think I have to go
+to Fair Haven, do you?"
+</p>
+
+<p>
+"Probably not," Emily Dickinson said. "It just might cost you a bit to
+get the information. In fact," and here he sounded more optimistic
+than he had throughout our conversation, "you might find out more from
+afar.  Those particular kind of planets don't like people from the
+outside, and you're really from outside. You weren't even born in the
+Coalition."
+</p>
+
+<p>
+"I am a citizen of the Coalition," I said. It surprised me how
+irritated I sounded.
+</p>
+
+<p>
+Emily Dickinson waved his hand magnanimously. "I know that,
+Ronnie. They even know that. It's the fact that you don't live there
+that counts.  You're an outsider from a strange planet beyond the
+border."
+</p>
+
+<p>
+"Thanks," I said. "I'll take what you said under advisement."
+</p>
+
+<p>
+"I like you, Ronnie," Emily Dickinson said, signaling Gregory for yet
+another drink.  another tab for me." Then turning to me for the first
+time in the conversation, "Be careful, Ronnie. This could be very,
+very dangerous."
+</p>
+
+<p>
+"I will," I said, sliding off the bar stool though I had no idea what
+Emily Dickinson thought was so dangerous.
+</p>
+
+<p>
+He was more right than he knew.
+</p>
+
+<p>
+I send a message to that boy I knew in school. He agreed
+to see me on short notice.
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Rill</p>
+<p class="date">Created: 2019-07-10 Wed 21:42</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
