@@ -46,6 +46,10 @@
   <lastmod>2019-07-11T21:52:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://rillonline.github.io/categories/reflection.xml</loc>
+  <lastmod>2019-08-05T20:28:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://rillonline.github.io/categories/technology.xml</loc>
   <lastmod>2019-07-11T21:52:00Z</lastmod>
  </sitemap>
@@ -67,10 +71,10 @@
  </sitemap>
  <sitemap>
   <loc>https://rillonline.github.io/rss.xml</loc>
-  <lastmod>2019-08-05T02:54:00Z</lastmod>
+  <lastmod>2019-08-05T20:28:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://rillonline.github.io/sitemap.xml</loc>
-  <lastmod>2019-08-05T02:54:00Z</lastmod>
+  <lastmod>2019-08-05T20:28:00Z</lastmod>
  </sitemap>
 </sitemapindex>
