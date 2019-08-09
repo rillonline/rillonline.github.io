@@ -70,15 +70,19 @@
   <lastmod>2019-07-11T21:52:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://rillonline.github.io/categories/writers.xml</loc>
+  <lastmod>2019-08-09T01:40:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://rillonline.github.io/galleries/rss.xml</loc>
   <lastmod>2019-07-11T21:52:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://rillonline.github.io/rss.xml</loc>
-  <lastmod>2019-08-05T22:52:00Z</lastmod>
+  <lastmod>2019-08-09T01:40:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://rillonline.github.io/sitemap.xml</loc>
-  <lastmod>2019-08-05T22:52:00Z</lastmod>
+  <lastmod>2019-08-09T01:40:00Z</lastmod>
  </sitemap>
 </sitemapindex>
