@@ -1,5 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rill's Web Site</title><link>https://rillonline.github.io/</link><description>Rill's blog and other writings.</description><atom:link href="https://rillonline.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:"&gt;Rill&lt;/a&gt; </copyright><lastBuildDate>Fri, 16 Aug 2019 00:35:20 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Thinking About the Vine</title><link>https://rillonline.github.io/posts/2019/08/15/thinking-about-the-vine/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rill's Web Site</title><link>https://rillonline.github.io/</link><description>Rill's blog and other writings.</description><atom:link href="https://rillonline.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:"&gt;Rill&lt;/a&gt; </copyright><lastBuildDate>Sat, 17 Aug 2019 18:58:22 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Using Flyspell and Emacspeak</title><link>https://rillonline.github.io/posts/2019/08/16/using-flyspell-and-emacspeak/</link><dc:creator>Rill</dc:creator><description>&lt;div id="outline-container-org9a5fb40" class="outline-2"&gt;
+&lt;h2 id="org9a5fb40"&gt;The Problem&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org9a5fb40"&gt;
+&lt;p&gt;
+I didn't have a great set up for spellchecking in Emacs. Ispell works,
+but often there are too many choices and Emacspeak does not read them
+out. So I investigated Flyspell and now I have a working solution.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org3214eee" class="outline-2"&gt;
+&lt;h2 id="org3214eee"&gt;The Hook&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org3214eee"&gt;
+&lt;p&gt;
+I now have flyspell working in all text and text-derived buffers by
+adding this hook:
+&lt;/p&gt;
+
+&lt;pre class="example"&gt;
+(add-hook 'text-mode-hook 'flyspell-mode)
+&lt;/pre&gt;
+
+&lt;p&gt;
+This can be disabled in specific circumstances if needed but this is
+beyond the scope of this article.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org3740dae" class="outline-2"&gt;
+&lt;h2 id="org3740dae"&gt;Procedure to Correct Words in a Buffer&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org3740dae"&gt;
+&lt;p&gt;
+There are keybindings to autocorrect in &lt;code&gt;flyspell&lt;/code&gt;, but this is not
+always advisable.
+&lt;/p&gt;
+
+&lt;p&gt;
+I needed to be able to scroll through the many options. &lt;code&gt;Ispell&lt;/code&gt; gives
+choices with numbers, but often there are too many to give you the
+list. By putting the following command in my &lt;code&gt;init.el&lt;/code&gt; file via the
+customization menus, I am now able to use &lt;code&gt;flyspell&lt;/code&gt; to cursor up and
+down a list until I find the right choice. After that, I can just hit return.
+&lt;/p&gt;
+
+&lt;p&gt;
+If auditory icons is turned on and you are using the default theme,
+you will hear something like a rattling sound when you misspell a word. To
+correct the word immediately,
+&lt;/p&gt;
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;move point to the misspelled word.&lt;/li&gt;
+&lt;li&gt;Press c-c $. (control plus c then s plus 4)&lt;/li&gt;
+&lt;li&gt;Emacspeak will say menu. You can use your cursor keys to scroll up
+and down the list of suggestions.&lt;/li&gt;
+&lt;li&gt;Press return on your selection.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+As well as misspelled word suggestions, you can save your word in a
+personal dictionary, accept your spelling for this session or accept
+all misspelled words in the buffer.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org3c931c9" class="outline-2"&gt;
+&lt;h2 id="org3c931c9"&gt;Spellchecking the Buffer&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org3c931c9"&gt;
+&lt;p&gt;
+c-, (control plus comma) can move point from misspelled word to
+misspelled word in your buffer. Press c-c $ to correct each one. c-,
+will announce when you reach the end of the buffer. Press c-, again to
+move to the beginning of the buffer.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org503aa9f" class="outline-2"&gt;
+&lt;h2 id="org503aa9f"&gt;Automatic Correction&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org503aa9f"&gt;
+&lt;p&gt;
+There are other commands which can move point and automatically
+correct your misspellings. Since this is automatic, the first choice
+may not be the correct one. Once the word has been corrected, you will
+need to reread your work to find it.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org629b375" class="outline-2"&gt;
+&lt;h2 id="org629b375"&gt;Tip&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org629b375"&gt;
+&lt;p&gt;
+When moving from misspelled word to misspelled word in your buffer,
+Emacspeak will not read out the new misspelled word. Press c-e w to
+hear the word. Press c-e w again to have it spelled.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><guid>https://rillonline.github.io/posts/2019/08/16/using-flyspell-and-emacspeak/</guid><pubDate>Sat, 17 Aug 2019 02:46:31 GMT</pubDate></item><item><title>Thinking About the Vine</title><link>https://rillonline.github.io/posts/2019/08/15/thinking-about-the-vine/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
 I don't know that I am going to write a proper flash sermon on this,
 but I can't help thinking about the vineyard in Isaiah 5 and Psalm 80.
 They are the assigned texts for the Revised Common Lectionary for
@@ -386,4 +487,4 @@ Here's what I really want to do:
 
 &lt;p&gt;
 I have already set up &lt;a href="https://www.getnikola.com/"&gt;Nikola&lt;/a&gt; to deploy my blog and associated pages to &lt;a href="https://www.github.com/"&gt;Github&lt;/a&gt;.
-&lt;/p&gt;</description><guid>https://rillonline.github.io/posts/2019/07/04/no-camp-nanowrimo-this-month/</guid><pubDate>Thu, 04 Jul 2019 15:11:00 GMT</pubDate></item><item><title>The Sixth Day</title><link>https://rillonline.github.io/posts/527/</link><dc:creator>Rill</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;The rabbinic sage Resh Lakish once wondered why the Hebrew text in Genesis used a seemingly superfluous definite article in the phrase “And it was evening and it was morning, the sixth day.” (The definite article is not used for the preceding five days.) He took this to be a hidden reference to the sixth day of the month of Sivan, when according to tradition the Torah was given to Israel: “to teach us that the Holy One made a condition with all created things, saying to them, ‘If Israel accepts the Torah, you will continue to exist. If not, I shall return you to welter and waste’” (Babylonian Talmud: Shabbat 88A&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;</description><guid>https://rillonline.github.io/posts/527/</guid><pubDate>Tue, 26 Feb 2019 20:58:14 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><guid>https://rillonline.github.io/posts/2019/07/04/no-camp-nanowrimo-this-month/</guid><pubDate>Thu, 04 Jul 2019 15:11:00 GMT</pubDate></item></channel></rss>
