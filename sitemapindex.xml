@@ -6,6 +6,10 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>https://rillonline.github.io/categories/1-peter.xml</loc>
+  <lastmod>2019-08-21T00:20:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://rillonline.github.io/categories/blindness.xml</loc>
   <lastmod>2019-07-11T21:52:00Z</lastmod>
  </sitemap>
@@ -16,6 +20,10 @@
  <sitemap>
   <loc>https://rillonline.github.io/categories/doings.xml</loc>
   <lastmod>2019-07-11T21:52:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://rillonline.github.io/categories/flash-sermon.xml</loc>
+  <lastmod>2019-08-21T00:20:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://rillonline.github.io/categories/guide-dogs.xml</loc>
@@ -50,6 +58,10 @@
   <lastmod>2019-07-11T21:52:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://rillonline.github.io/categories/rant.xml</loc>
+  <lastmod>2019-08-21T00:20:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://rillonline.github.io/categories/raspberry-pi.xml</loc>
   <lastmod>2019-08-20T01:50:00Z</lastmod>
  </sitemap>
@@ -58,8 +70,12 @@
   <lastmod>2019-08-05T20:52:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://rillonline.github.io/categories/spiritual-writing.xml</loc>
+  <lastmod>2019-08-21T00:20:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://rillonline.github.io/categories/technology.xml</loc>
-  <lastmod>2019-08-20T01:50:00Z</lastmod>
+  <lastmod>2019-08-21T00:20:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://rillonline.github.io/categories/trekker-breeze.xml</loc>
@@ -83,10 +99,10 @@
  </sitemap>
  <sitemap>
   <loc>https://rillonline.github.io/rss.xml</loc>
-  <lastmod>2019-08-20T01:50:00Z</lastmod>
+  <lastmod>2019-08-21T00:20:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://rillonline.github.io/sitemap.xml</loc>
-  <lastmod>2019-08-20T01:50:00Z</lastmod>
+  <lastmod>2019-08-21T00:21:00Z</lastmod>
  </sitemap>
 </sitemapindex>

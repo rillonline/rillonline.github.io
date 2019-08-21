@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://rillonline.github.io/</loc>
-  <lastmod>2019-08-20T01:50:00Z</lastmod>
+  <lastmod>2019-08-21T00:20:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/2005/</loc>
@@ -55,11 +55,15 @@
  </url>
  <url>
   <loc>https://rillonline.github.io/archive.html</loc>
-  <lastmod>2019-08-20T01:50:00Z</lastmod>
+  <lastmod>2019-08-21T00:20:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/categories/</loc>
-  <lastmod>2019-08-20T01:50:00Z</lastmod>
+  <lastmod>2019-08-21T00:20:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rillonline.github.io/categories/1-peter/</loc>
+  <lastmod>2019-08-21T00:20:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/categories/blindness/</loc>
@@ -72,6 +76,10 @@
  <url>
   <loc>https://rillonline.github.io/categories/doings/</loc>
   <lastmod>2019-07-11T21:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rillonline.github.io/categories/flash-sermon/</loc>
+  <lastmod>2019-08-21T00:20:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/categories/guide-dogs/</loc>
@@ -106,12 +114,20 @@
   <lastmod>2019-07-11T21:52:00Z</lastmod>
  </url>
  <url>
+  <loc>https://rillonline.github.io/categories/rant/</loc>
+  <lastmod>2019-08-21T00:20:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://rillonline.github.io/categories/raspberry-pi/</loc>
   <lastmod>2019-08-20T01:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/categories/reflection/</loc>
   <lastmod>2019-08-05T20:28:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rillonline.github.io/categories/spiritual-writing/</loc>
+  <lastmod>2019-08-21T00:20:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/categories/technology/</loc>
@@ -235,19 +251,23 @@
  </url>
  <url>
   <loc>https://rillonline.github.io/index-31.html</loc>
-  <lastmod>2019-08-20T01:50:00Z</lastmod>
+  <lastmod>2019-08-21T00:20:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/index-32.html</loc>
-  <lastmod>2019-08-20T01:50:00Z</lastmod>
+  <lastmod>2019-08-21T00:20:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/index-33.html</loc>
-  <lastmod>2019-08-20T01:50:00Z</lastmod>
+  <lastmod>2019-08-21T00:20:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/index-34.html</loc>
-  <lastmod>2019-08-20T01:50:00Z</lastmod>
+  <lastmod>2019-08-21T00:20:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rillonline.github.io/index-35.html</loc>
+  <lastmod>2019-08-21T00:20:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/index-4.html</loc>
@@ -1534,8 +1554,36 @@
   <lastmod>2019-07-11T21:52:00Z</lastmod>
  </url>
  <url>
+  <loc>https://rillonline.github.io/posts/2014/lighttpd-and-owncloud/</loc>
+  <lastmod>2019-08-21T00:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rillonline.github.io/posts/2014/new-case/</loc>
+  <lastmod>2019-08-21T00:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rillonline.github.io/posts/2014/peregrina/</loc>
+  <lastmod>2019-08-21T00:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rillonline.github.io/posts/2014/restructured-text/</loc>
+  <lastmod>2019-08-21T00:21:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://rillonline.github.io/posts/2014/various-strategies/</loc>
   <lastmod>2019-08-20T01:50:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rillonline.github.io/posts/2015/lxml/</loc>
+  <lastmod>2019-08-21T00:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rillonline.github.io/posts/2015/must-write/</loc>
+  <lastmod>2019-08-21T00:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rillonline.github.io/posts/2015/personal-writing/</loc>
+  <lastmod>2019-08-21T00:21:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/posts/2015/the-world-is-the-first-bible/</loc>
@@ -1656,6 +1704,14 @@
  <url>
   <loc>https://rillonline.github.io/posts/2019/08/16/using-flyspell-and-emacspeak/</loc>
   <lastmod>2019-08-17T18:58:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rillonline.github.io/posts/2019/08/19/listening-for-jesus/</loc>
+  <lastmod>2019-08-21T00:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rillonline.github.io/posts/2019/08/20/tab-completion-in-orgmode/</loc>
+  <lastmod>2019-08-21T00:20:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/posts/458/</loc>

@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rill's Web Site</title><link>https://rillonline.github.io/</link><description>Rill's blog and other writings.</description><atom:link href="https://rillonline.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:"&gt;Rill&lt;/a&gt; </copyright><lastBuildDate>Tue, 20 Aug 2019 01:50:40 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Using Flyspell and Emacspeak</title><link>https://rillonline.github.io/posts/2019/08/16/using-flyspell-and-emacspeak/</link><dc:creator>Rill</dc:creator><description>&lt;div id="outline-container-org9a5fb40" class="outline-2"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rill's Web Site</title><link>https://rillonline.github.io/</link><description>Rill's blog and other writings.</description><atom:link href="https://rillonline.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:"&gt;Rill&lt;/a&gt; </copyright><lastBuildDate>Wed, 21 Aug 2019 00:20:59 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>tab-completion-in-orgmode</title><link>https://rillonline.github.io/posts/2019/08/20/tab-completion-in-orgmode/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
+I have been puzzled why tab completion wasn't working in orgmode so I
+decided to let the good old Internet help me out.
+&lt;/p&gt;
+
+&lt;p&gt;
+It turns out that my friend Flyspell uses tab completion for
+completing words. I don't want to turn off Flyspell since you would
+end up reading articles with many misspellings.
+&lt;/p&gt;
+
+&lt;p&gt;
+The suggestion I found was to use m-tab for completions However,
+alt+tab only switched me to another window. Enter the escape key!
+&lt;/p&gt;
+
+&lt;p&gt;
+escape=tab does the trick. &lt;code&gt;#+BEGIN_Q&lt;/code&gt; becomes &lt;code&gt;#+BEGIN_QUOTE&lt;/code&gt; after
+pressing escape-tab. Take that Apple. I can't do that on a Mac with a
+touch bar. Fortunately, I am not using one for this Linux installation. 
+&lt;/p&gt;</description><guid>https://rillonline.github.io/posts/2019/08/20/tab-completion-in-orgmode/</guid><pubDate>Tue, 20 Aug 2019 21:18:12 GMT</pubDate></item><item><title>Using Flyspell and Emacspeak</title><link>https://rillonline.github.io/posts/2019/08/16/using-flyspell-and-emacspeak/</link><dc:creator>Rill</dc:creator><description>&lt;div id="outline-container-org9a5fb40" class="outline-2"&gt;
 &lt;h2 id="org9a5fb40"&gt;The Problem&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-org9a5fb40"&gt;
 &lt;p&gt;
@@ -467,24 +487,4 @@ for migrants at our southern border is not a political matter. God has
 charged us to care for those who are in need and for the sojourner
 among us. It is a question of carrying out the will of God–Thy will
 be done.   
-&lt;/p&gt;</description><guid>https://rillonline.github.io/posts/2019/07/11/finding-good-news-in-amos-and-psalm-82/</guid><pubDate>Thu, 11 Jul 2019 16:28:57 GMT</pubDate></item><item><title>No Camp Nanowrimo This Month</title><link>https://rillonline.github.io/posts/2019/07/04/no-camp-nanowrimo-this-month/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
-I was going to participate in &lt;a href="https://www.campnanowrimo.org/"&gt;Camp Nanowrimo&lt;/a&gt; this year. I like bbbsetting a low writing goal and meeting it. Call it childish if you like, but positive reinforcement is fun.
-&lt;/p&gt;
-
-&lt;p&gt;
-But I wanted to do something more than just write a first draft and so I was leery of making a commitment I couldn't keep. Again, seeing a congratulatory message on my screen is quite satisfying.
-&lt;/p&gt;
-
-&lt;p&gt;
-Here's what I really want to do:
-&lt;/p&gt;
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;Edit my Kearsarge novel. I wrote it as part of &lt;a href="https://www.nanowrimo.org/"&gt;Nanowrimo&lt;/a&gt; some time ago and have never finished an edit. I would like to be able to give it to an editor and create an ebook out of it with a cover and everything.&lt;/li&gt;
-&lt;li&gt;Publish Kearsarge to my &lt;a href="https://rillonline.github.io"&gt;Github&lt;/a&gt; site with each chapter as a separate web page linked together. (Right now, I don't know how to do this. I am refreshing my knowledge of orgmode and learning new features.)&lt;/li&gt;
-&lt;li&gt;Finish writing my memoir piece on Chance so that Cindy can look it over before I send it off to Joy.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;
-I have already set up &lt;a href="https://www.getnikola.com/"&gt;Nikola&lt;/a&gt; to deploy my blog and associated pages to &lt;a href="https://www.github.com/"&gt;Github&lt;/a&gt;.
-&lt;/p&gt;</description><guid>https://rillonline.github.io/posts/2019/07/04/no-camp-nanowrimo-this-month/</guid><pubDate>Thu, 04 Jul 2019 15:11:00 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><guid>https://rillonline.github.io/posts/2019/07/11/finding-good-news-in-amos-and-psalm-82/</guid><pubDate>Thu, 11 Jul 2019 16:28:57 GMT</pubDate></item></channel></rss>
