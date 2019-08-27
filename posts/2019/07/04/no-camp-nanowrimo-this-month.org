@@ -2,8 +2,7 @@
 .. title: No Camp Nanowrimo This Month
 .. slug: no-camp-nanowrimo-this-month
 .. date: 2019-07-04 10:11:00 UTC-05:00
-.. tags: 
-.. category: 
+.. tags: Writing 
 .. link: 
 .. description: 
 .. type: text
