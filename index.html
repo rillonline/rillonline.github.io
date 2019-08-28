@@ -12,7 +12,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="https://rillonline.github.io/">
 <link rel="next" href="index-35.html" type="text/html">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/2019/08/27/using-org-tables-with-emacspeak/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/2019/08/28/recurring-tasks-in-orgmode/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -71,7 +71,169 @@
     
         
     <div class="postindex">
-            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2019/08/27/using-org-tables-with-emacspeak/" class="u-url">Using Org Tables with Emacspeak</a></h1>
+            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2019/08/28/recurring-tasks-in-orgmode/" class="u-url">Recurring Tasks in Orgmode</a></h1>
+                <div class="metadata">
+                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                        Rill
+                    </span></p>
+            <p class="dateline">
+            <a href="posts/2019/08/28/recurring-tasks-in-orgmode/" rel="bookmark">
+            <time class="published dt-published" datetime="2019-08-28T14:11:22-05:00" itemprop="datePublished" title="2019-08-28 14:11">2019-08-28 14:11</time></a>
+            </p>
+                </div>
+            </header><div class="e-content entry-content">
+                    <div id="outline-container-org9e73c2d" class="outline-2">
+<h2 id="org9e73c2d">Introduction</h2>
+<div class="outline-text-2" id="text-org9e73c2d">
+<p>
+I have been keeping a list of to-dos in a file called "organizer.org".
+(I'm not sure if it actually keeps me organized, but I like the idea
+of having a list of tasks, especially tasks I might forget about.) At
+the top level I have three headlines:
+</p>
+
+<ol class="org-ol">
+<li>Tasks. These are the one off sorts of tasks that it would be
+labor-intensive to categorize.</li>
+<li>Website. This is where I put items related to maintaining my
+website (where you are most likely reading this article) and ideas
+for writing new articles.</li>
+<li>Writing. Separate from writing for my website, I list longer pieces
+here both fiction and non-fiction.</li>
+</ol>
+<p>
+My "init.el" file for Emacs has a line in it to display my weekly
+agenda view.
+</p>
+
+<pre class="example">
+(setq initial-buffer-choice 'org-agenda-list)
+</pre>
+
+<p>
+This agenda view shows my diary for the week as well as any tasks with
+either a scheduled start date or end date, i.e., deadline.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgef1f3b0" class="outline-2">
+<h2 id="orgef1f3b0">Writing a Good To-do</h2>
+<div class="outline-text-2" id="text-orgef1f3b0">
+<p>
+A basic rule of thumb is to write a to-do that you can actually get
+done. It has to be specific enough so that you know when you've
+started it and when you can check it off your list, that is, mark it
+done. I had this to-do which is more an aspiration than a to-do.
+</p>
+<pre class="example">
+** TODO Publish at least one blog post weekly to keep website fresh
+
+</pre>
+<p>
+The intent is clear enough: one blog post to be completed every
+week.
+</p>
+
+<p>
+My mother kept a calendar on the kitchen wall. She was fussy about it.
+She wanted big blank blocks in which to write. She wrote everything
+down. She had codes for each of us. She often would say the item and
+the person's initials as she wrote.
+</p>
+
+<p>
+In my mother's calendar world, the blog post could be written in and
+even X'ed out when done and then been re-written on the next line of
+blocks for the month. She may have even just drawn a straight line
+through every Tuesday.
+</p>
+
+<p>
+I have several good to-dos already in my organizer file:
+</p>
+<pre class="example">
+** TODO Pay rent
+   DEADLINE: &lt;2019-09-01 Sun +1m&gt;
+** TODO Give Nick his heart worm pill
+   DEADLINE: &lt;2019-09-13 Fri +1m&gt;
+
+</pre>
+<p>
+These tasks can be marked as done. Org will advance the date
+by one month and they will again appear in my weekly agenda view. The
+day of the week will change, but not the day of the month.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org532a4e6" class="outline-2">
+<h2 id="org532a4e6">An Interim Solution</h2>
+<div class="outline-text-2" id="text-org532a4e6">
+<p>
+I started marking my website refresh to-do as done when I wrote and
+posted a new article. After marking it done and recording the name of
+the article in the comments, I marked the to-do as "TODO" to start the
+process all over again. This seems quite unappealing to me.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgabf2d74" class="outline-2">
+<h2 id="orgabf2d74">A Better Solution</h2>
+<div class="outline-text-2" id="text-orgabf2d74">
+<p>
+In reading through
+<a href="https://orgmode.org/manual/Repeated-tasks.html">Repeated Tasks</a> I realized that my article writing to-do is not like
+paying rent or giving Nick his pill. If I do not write a blog article
+on a given week, I don't need to catch up. I can pick up at any time
+and start posting on a regular basis. It is clear looking through my
+archives and at other people's blogs this is what happens all the
+time. I am writing these articles because I want to write them. I
+don't need to write them. I enjoy posting and then marking my success
+by calling this to-do done. In the days of paper and pen, people
+enjoyed drawing a line through an item on a list. (Never using this
+medium, I was always jealous of their satisfaction. People wrote
+noisily and with a flourish.)
+</p>
+
+<p>
+I now find out Org has a solution for my task.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc2aab8c" class="outline-2">
+<h2 id="orgc2aab8c">My New To-do</h2>
+<div class="outline-text-2" id="text-orgc2aab8c">
+<p>
+Here is what I came up with for my article writing to-do.
+</p>
+<pre class="example">
+** TODO Publish at least one blog post weekly to keep website fresh
+   DEADLINE: &lt;2019-08-27 Tue +.1w&gt;
+
+</pre>
+<p>
+This suggests I have a weekly deadline for writing an article. When I
+mark this task as done, one week will be added to the deadline. If the
+deadline is in the past, another week will be added until the deadline
+is in the future. In this way, the weekly deadline may also move
+throughout the week. For example, if I complete this task today,
+Tuesday, it will have a deadline of next Tuesday. If I don't complete
+it until Monday, it will again have a deadline of the following
+Monday, almost two weeks after its original deadline.
+</p>
+
+<p>
+If you want this task to always be due on a Tuesday,for example,  use
+"<del>+"(plus plus) instead
+of "</del>." (plus period.)
+</p>
+</div>
+</div>
+                </div>
+            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2019/08/27/using-org-tables-with-emacspeak/" class="u-url">Using Org Tables with Emacspeak</a></h1>
                 <div class="metadata">
                     <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                         Rill
@@ -874,51 +1036,6 @@ constellation. I've been there."
 <p>
 In an earlier unpublished adventure, she and Captain Star Runner visited this
 forbidden planet with disastrous results. 
-</p>
-                </div>
-            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2019/07/12/more-thoughts-on-amos-7/" class="u-url">More Thoughts on Amos 7</a></h1>
-                <div class="metadata">
-                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                        Rill
-                    </span></p>
-            <p class="dateline">
-            <a href="posts/2019/07/12/more-thoughts-on-amos-7/" rel="bookmark">
-            <time class="published dt-published" datetime="2019-07-12T15:27:08-05:00" itemprop="datePublished" title="2019-07-12 15:27">2019-07-12 15:27</time></a>
-            </p>
-                </div>
-            </header><div class="e-content entry-content">
-                    <p>
-Jeroboam II had a 40-year reign. During that time, the country
-prospered. Reading through the Book of Amos, it is clear that only
-some were doing well. Granted, Amos was from Judah and the Lord
-sent him. Setting aside the question of worshiping God outside of
-Jerusalem and the synchronistic character of temple worship in Israel,
-Amos inveighs against personal excess and unethical business
-practices. Israel is rotten at its core, straying far from the
-precepts God has prescribed for the people in their interpersonal
-relationships and societal responsibilities for the poor and needy.
-</p>
-
-<p>
-It is astounding that twenty-five years after Jeroboam II's death,
-Israel fell to the Assyrians. Assyria forcibly deported many to the
-far reaches of its empire, effectively dispersing Israel's people so
-that ethnic and religious identity of the people evaporated as they
-were absorbed by other cultures and religions. Although the land
-remained, Israel and its people were absolutely gone except in
-the prophetic imagination.
-</p>
-
-<p>
-What makes reading Amos so disturbing are the parallels to our own
-country and culture. How close to annihilation are we? Could life as
-we know it come tumbling down as quickly as it did for the people of
-Israel?
-</p>
-
-<p>
-Who will stand up and prophesy to the people and will anyone believe
-God's prophet? Or are we doomed to repeat  the experience of ancient Israel?
 </p>
                 </div>
             </article>

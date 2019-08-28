@@ -26,10 +26,6 @@
   <lastmod>2019-08-27T19:16:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://rillonline.github.io/categories/cat_books.xml</loc>
-  <lastmod>2019-08-05T02:54:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://rillonline.github.io/categories/dog.xml</loc>
   <lastmod>2019-08-27T19:16:00Z</lastmod>
  </sitemap>
@@ -90,10 +86,6 @@
   <lastmod>2019-08-20T01:50:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://rillonline.github.io/categories/reflection.xml</loc>
-  <lastmod>2019-08-05T20:52:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://rillonline.github.io/categories/ronnie-camberwell.xml</loc>
   <lastmod>2019-08-27T19:16:00Z</lastmod>
  </sitemap>
@@ -135,10 +127,10 @@
  </sitemap>
  <sitemap>
   <loc>https://rillonline.github.io/rss.xml</loc>
-  <lastmod>2019-08-27T19:16:00Z</lastmod>
+  <lastmod>2019-08-28T19:14:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://rillonline.github.io/sitemap.xml</loc>
-  <lastmod>2019-08-27T19:16:00Z</lastmod>
+  <lastmod>2019-08-28T19:14:00Z</lastmod>
  </sitemap>
 </sitemapindex>

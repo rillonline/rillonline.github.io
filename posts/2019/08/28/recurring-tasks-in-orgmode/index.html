@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recurring Tasks in Orgmode | Rill's Web Site</title>
+<link href="../../../../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../../../../rss.xml">
+<link rel="canonical" href="https://rillonline.github.io/posts/2019/08/28/recurring-tasks-in-orgmode/">
+<!--[if lt IE 9]><script src="../../../../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Rill">
+<link rel="prev" href="../../27/using-org-tables-with-emacspeak/" title="Using Org Tables with Emacspeak" type="text/html">
+<meta property="og:site_name" content="Rill's Web Site">
+<meta property="og:title" content="Recurring Tasks in Orgmode">
+<meta property="og:url" content="https://rillonline.github.io/posts/2019/08/28/recurring-tasks-in-orgmode/">
+<meta property="og:description" content="Introduction
+
+
+I have been keeping a list of to-dos in a file called &quot;organizer.org&quot;.
+(I'm not sure if it actually keeps me organized, but I like the idea
+of having a list of tasks, especially tasks I">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2019-08-28T14:11:22-05:00">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Header and menu bar -->
+<div class="container">
+      <header class="blog-header py-3"><div class="row nbb-header align-items-center">
+          <div class="col-md-3 col-xs-2 col-sm-2" style="width: auto;">
+            <button class="navbar-toggler navbar-light bg-light nbb-navbar-toggler" type="button" data-toggle="collapse" data-target=".bs-nav-collapsible" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse bs-nav-collapsible bootblog4-search-form-holder">
+                
+            </div>
+        </div>
+          <div class="col-md-6 col-xs-10 col-sm-10 bootblog4-brand" style="width: auto;">
+            <a class="navbar-brand blog-header-logo text-dark" href="https://rillonline.github.io/">
+
+            <span id="blog-title">Rill's Web Site</span>
+        </a>
+          </div>
+            <div class="col-md-3 justify-content-end align-items-center bs-nav-collapsible collapse flex-collapse bootblog4-right-nav">
+            <nav class="navbar navbar-light bg-white"><ul class="navbar-nav bootblog4-right-nav">
+<li class="nav-item">
+    <a href="index.org" id="sourcelink" class="nav-link">Source</a>
+    </li>
+
+
+                    
+            </ul></nav>
+</div>
+    </div>
+</header><nav class="navbar navbar-expand-md navbar-light bg-white static-top"><div class="collapse navbar-collapse bs-nav-collapsible" id="bs-navbar">
+            <ul class="navbar-nav nav-fill d-flex w-100">
+<li class="nav-item">
+<a href="../../../../../archive.html" class="nav-link">Archive</a>
+                </li>
+<li class="nav-item">
+<a href="../../../../../categories/" class="nav-link">Tags</a>
+                </li>
+<li class="nav-item">
+<a href="../../../../../rss.xml" class="nav-link">RSS feed</a>
+                </li>
+<li class="nav-item">
+<a href="../../../../../pages/long-form-writing/index.html" class="nav-link">Long Form Writing</a>
+
+                
+            </li>
+</ul>
+</div>
+<!-- /.navbar-collapse -->
+</nav>
+</div>
+
+<div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        
+        
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Recurring Tasks in Orgmode</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                    Rill
+            </span></p>
+            <p class="dateline">
+            <a href="." rel="bookmark">
+            <time class="published dt-published" datetime="2019-08-28T14:11:22-05:00" itemprop="datePublished" title="2019-08-28 14:11">2019-08-28 14:11</time></a>
+            </p>
+            
+        <p class="sourceline"><a href="index.org" class="sourcelink">Source</a></p>
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div id="outline-container-org9e73c2d" class="outline-2">
+<h2 id="org9e73c2d">Introduction</h2>
+<div class="outline-text-2" id="text-org9e73c2d">
+<p>
+I have been keeping a list of to-dos in a file called "organizer.org".
+(I'm not sure if it actually keeps me organized, but I like the idea
+of having a list of tasks, especially tasks I might forget about.) At
+the top level I have three headlines:
+</p>
+
+<ol class="org-ol">
+<li>Tasks. These are the one off sorts of tasks that it would be
+labor-intensive to categorize.</li>
+<li>Website. This is where I put items related to maintaining my
+website (where you are most likely reading this article) and ideas
+for writing new articles.</li>
+<li>Writing. Separate from writing for my website, I list longer pieces
+here both fiction and non-fiction.</li>
+</ol>
+<p>
+My "init.el" file for Emacs has a line in it to display my weekly
+agenda view.
+</p>
+
+<pre class="example">
+(setq initial-buffer-choice 'org-agenda-list)
+</pre>
+
+<p>
+This agenda view shows my diary for the week as well as any tasks with
+either a scheduled start date or end date, i.e., deadline.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgef1f3b0" class="outline-2">
+<h2 id="orgef1f3b0">Writing a Good To-do</h2>
+<div class="outline-text-2" id="text-orgef1f3b0">
+<p>
+A basic rule of thumb is to write a to-do that you can actually get
+done. It has to be specific enough so that you know when you've
+started it and when you can check it off your list, that is, mark it
+done. I had this to-do which is more an aspiration than a to-do.
+</p>
+<pre class="example">
+** TODO Publish at least one blog post weekly to keep website fresh
+
+</pre>
+<p>
+The intent is clear enough: one blog post to be completed every
+week.
+</p>
+
+<p>
+My mother kept a calendar on the kitchen wall. She was fussy about it.
+She wanted big blank blocks in which to write. She wrote everything
+down. She had codes for each of us. She often would say the item and
+the person's initials as she wrote.
+</p>
+
+<p>
+In my mother's calendar world, the blog post could be written in and
+even X'ed out when done and then been re-written on the next line of
+blocks for the month. She may have even just drawn a straight line
+through every Tuesday.
+</p>
+
+<p>
+I have several good to-dos already in my organizer file:
+</p>
+<pre class="example">
+** TODO Pay rent
+   DEADLINE: &lt;2019-09-01 Sun +1m&gt;
+** TODO Give Nick his heart worm pill
+   DEADLINE: &lt;2019-09-13 Fri +1m&gt;
+
+</pre>
+<p>
+These tasks can be marked as done. Org will advance the date
+by one month and they will again appear in my weekly agenda view. The
+day of the week will change, but not the day of the month.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org532a4e6" class="outline-2">
+<h2 id="org532a4e6">An Interim Solution</h2>
+<div class="outline-text-2" id="text-org532a4e6">
+<p>
+I started marking my website refresh to-do as done when I wrote and
+posted a new article. After marking it done and recording the name of
+the article in the comments, I marked the to-do as "TODO" to start the
+process all over again. This seems quite unappealing to me.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgabf2d74" class="outline-2">
+<h2 id="orgabf2d74">A Better Solution</h2>
+<div class="outline-text-2" id="text-orgabf2d74">
+<p>
+In reading through
+<a href="https://orgmode.org/manual/Repeated-tasks.html">Repeated Tasks</a> I realized that my article writing to-do is not like
+paying rent or giving Nick his pill. If I do not write a blog article
+on a given week, I don't need to catch up. I can pick up at any time
+and start posting on a regular basis. It is clear looking through my
+archives and at other people's blogs this is what happens all the
+time. I am writing these articles because I want to write them. I
+don't need to write them. I enjoy posting and then marking my success
+by calling this to-do done. In the days of paper and pen, people
+enjoyed drawing a line through an item on a list. (Never using this
+medium, I was always jealous of their satisfaction. People wrote
+noisily and with a flourish.)
+</p>
+
+<p>
+I now find out Org has a solution for my task.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc2aab8c" class="outline-2">
+<h2 id="orgc2aab8c">My New To-do</h2>
+<div class="outline-text-2" id="text-orgc2aab8c">
+<p>
+Here is what I came up with for my article writing to-do.
+</p>
+<pre class="example">
+** TODO Publish at least one blog post weekly to keep website fresh
+   DEADLINE: &lt;2019-08-27 Tue +.1w&gt;
+
+</pre>
+<p>
+This suggests I have a weekly deadline for writing an article. When I
+mark this task as done, one week will be added to the deadline. If the
+deadline is in the past, another week will be added until the deadline
+is in the future. In this way, the weekly deadline may also move
+throughout the week. For example, if I complete this task today,
+Tuesday, it will have a deadline of next Tuesday. If I don't complete
+it until Monday, it will again have a deadline of the following
+Monday, almost two weeks after its original deadline.
+</p>
+
+<p>
+If you want this task to always be due on a Tuesday,for example,  use
+"<del>+"(plus plus) instead
+of "</del>." (plus period.)
+</p>
+</div>
+</div>
+    </div>
+    <aside class="postpromonav"><nav><ul class="pager hidden-print">
+<li class="previous">
+                <a href="../../27/using-org-tables-with-emacspeak/" rel="prev" title="Using Org Tables with Emacspeak">Previous post</a>
+            </li>
+        </ul></nav></aside></article><!--End of body content--><footer id="footer">
+            Contents © 2019         <a href="mailto:">Rill</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </footer>
+</div>
+</div>
+
+
+        <script src="../../../../../assets/js/all-nocdn.js"></script><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+    }});
+    </script>
+</body>
+</html>
