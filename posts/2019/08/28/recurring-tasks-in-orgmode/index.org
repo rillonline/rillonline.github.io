@@ -92,3 +92,12 @@ Monday, almost two weeks after its original deadline.
 If you want this task to always be due on a Tuesday,for example,  use
 "++"(plus plus) instead
 of "+." (plus period.)
+** Updated Later the Same Day
+
+All was well until I went to mark my TO-do done. I tried the key
+combination as written in the manual =c-- 1 c-c c-t= but the to-do was
+not marked as done and the date was not changed. I went back to the
+conventional repeated task. When I marked that task done, it updated
+the date and returned the state to =TODO=. So unless I can get more
+clarity on this, I'm keeping it as a regular repeated to-do. I'll post
+more here if I learn something new.
