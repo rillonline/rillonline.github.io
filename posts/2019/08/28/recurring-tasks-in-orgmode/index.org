@@ -1,3 +1,5 @@
+Edited on 2019/09/01 to correct an error with tasks that needed to be
+re-scheduled differently in the future.
 ** Introduction
 I have been keeping a list of to-dos in a file called "organizer.org".
 (I'm not sure if it actually keeps me organized, but I like the idea
@@ -79,25 +81,20 @@ I now find out Org has a solution for my task.
 
 Here is what I came up with for my article writing to-do.
 : ** TODO Publish at least one blog post weekly to keep website fresh
-:    DEADLINE: <2019-08-27 Tue +.1w>
-This suggests I have a weekly deadline for writing an article. When I
-mark this task as done, one week will be added to the deadline. If the
-deadline is in the past, another week will be added until the deadline
-is in the future. In this way, the weekly deadline may also move
+:    DEADLINE: <2019-08-27 Tue .+3d>
+This suggests I have a 3 day deadline for writing a weekly article.
+No, I haven't lost my mind. If I am writing regularly, I will write
+more than one blog post a week and I want to honor that, but my
+general goal is to be sure I write at least one post every week.
+
+When I mark this task as done, three days will be added to the deadline. If the
+deadline is in the past, another three days will be added until the deadline
+is in the future. In this way, the three-day deadline may also move
 throughout the week. For example, if I complete this task today,
-Tuesday, it will have a deadline of next Tuesday. If I don't complete
-it until Monday, it will again have a deadline of the following
-Monday, almost two weeks after its original deadline.
+Tuesday, it will have a deadline of Friday. If I don't complete
+it until Monday, it will then have a deadline of the following
+Thursday, almost two weeks after its original deadline.
 
 If you want this task to always be due on a Tuesday,for example,  use
 "++"(plus plus) instead
-of "+." (plus period.)
-** Updated Later the Same Day
-
-All was well until I went to mark my TO-do done. I tried the key
-combination as written in the manual =c-- 1 c-c c-t= but the to-do was
-not marked as done and the date was not changed. I went back to the
-conventional repeated task. When I marked that task done, it updated
-the date and returned the state to =TODO=. So unless I can get more
-clarity on this, I'm keeping it as a regular repeated to-do. I'll post
-more here if I learn something new.
+of ".+" (dot plus.)

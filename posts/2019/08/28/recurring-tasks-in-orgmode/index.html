@@ -15,12 +15,15 @@
 <meta property="og:site_name" content="Rill's Web Site">
 <meta property="og:title" content="Recurring Tasks in Orgmode">
 <meta property="og:url" content="https://rillonline.github.io/posts/2019/08/28/recurring-tasks-in-orgmode/">
-<meta property="og:description" content="Introduction
+<meta property="og:description" content='Edited on 2019/09/01 to correct an error with tasks that needed to be
+re-scheduled differently in the future.
 
 
-I have been keeping a list of to-dos in a file called &quot;organizer.org&quot;.
-(I'm not sure if it actually keeps me organized, but I like the idea
-of having a list of tasks, especially tasks I">
+Introduction
+
+
+I have been keeping a list of to-dos in a file called "organizer.org".
+(I'>
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2019-08-28T14:11:22-05:00">
 </head>
@@ -99,9 +102,13 @@ of having a list of tasks, especially tasks I">
         
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
-    <div id="outline-container-org85d9967" class="outline-2">
-<h2 id="org85d9967">Introduction</h2>
-<div class="outline-text-2" id="text-org85d9967">
+    <p>
+Edited on 2019/09/01 to correct an error with tasks that needed to be
+re-scheduled differently in the future.
+</p>
+<div id="outline-container-orgfe046a7" class="outline-2">
+<h2 id="orgfe046a7">Introduction</h2>
+<div class="outline-text-2" id="text-orgfe046a7">
 <p>
 I have been keeping a list of to-dos in a file called "organizer.org".
 (I'm not sure if it actually keeps me organized, but I like the idea
@@ -134,9 +141,9 @@ either a scheduled start date or end date, i.e., deadline.
 </div>
 </div>
 
-<div id="outline-container-org570bc74" class="outline-2">
-<h2 id="org570bc74">Writing a Good To-do</h2>
-<div class="outline-text-2" id="text-org570bc74">
+<div id="outline-container-org2150c22" class="outline-2">
+<h2 id="org2150c22">Writing a Good To-do</h2>
+<div class="outline-text-2" id="text-org2150c22">
 <p>
 A basic rule of thumb is to write a to-do that you can actually get
 done. It has to be specific enough so that you know when you've
@@ -184,9 +191,9 @@ day of the week will change, but not the day of the month.
 </div>
 </div>
 
-<div id="outline-container-org1bc652b" class="outline-2">
-<h2 id="org1bc652b">An Interim Solution</h2>
-<div class="outline-text-2" id="text-org1bc652b">
+<div id="outline-container-org4044145" class="outline-2">
+<h2 id="org4044145">An Interim Solution</h2>
+<div class="outline-text-2" id="text-org4044145">
 <p>
 I started marking my website refresh to-do as done when I wrote and
 posted a new article. After marking it done and recording the name of
@@ -196,9 +203,9 @@ process all over again. This seems quite unappealing to me.
 </div>
 </div>
 
-<div id="outline-container-orgf0de9bd" class="outline-2">
-<h2 id="orgf0de9bd">A Better Solution</h2>
-<div class="outline-text-2" id="text-orgf0de9bd">
+<div id="outline-container-org6ee2973" class="outline-2">
+<h2 id="org6ee2973">A Better Solution</h2>
+<div class="outline-text-2" id="text-org6ee2973">
 <p>
 In reading through
 <a href="https://orgmode.org/manual/Repeated-tasks.html">Repeated Tasks</a> I realized that my article writing to-do is not like
@@ -220,46 +227,38 @@ I now find out Org has a solution for my task.
 </div>
 </div>
 
-<div id="outline-container-org7017d2c" class="outline-2">
-<h2 id="org7017d2c">My New To-do</h2>
-<div class="outline-text-2" id="text-org7017d2c">
+<div id="outline-container-org1251945" class="outline-2">
+<h2 id="org1251945">My New To-do</h2>
+<div class="outline-text-2" id="text-org1251945">
 <p>
 Here is what I came up with for my article writing to-do.
 </p>
 <pre class="example">
 ** TODO Publish at least one blog post weekly to keep website fresh
-   DEADLINE: &lt;2019-08-27 Tue +.1w&gt;
+   DEADLINE: &lt;2019-08-27 Tue .+3d&gt;
 
 </pre>
 <p>
-This suggests I have a weekly deadline for writing an article. When I
-mark this task as done, one week will be added to the deadline. If the
-deadline is in the past, another week will be added until the deadline
-is in the future. In this way, the weekly deadline may also move
+This suggests I have a 3 day deadline for writing a weekly article.
+No, I haven't lost my mind. If I am writing regularly, I will write
+more than one blog post a week and I want to honor that, but my
+general goal is to be sure I write at least one post every week.
+</p>
+
+<p>
+When I mark this task as done, three days will be added to the deadline. If the
+deadline is in the past, another three days will be added until the deadline
+is in the future. In this way, the three-day deadline may also move
 throughout the week. For example, if I complete this task today,
-Tuesday, it will have a deadline of next Tuesday. If I don't complete
-it until Monday, it will again have a deadline of the following
-Monday, almost two weeks after its original deadline.
+Tuesday, it will have a deadline of Friday. If I don't complete
+it until Monday, it will then have a deadline of the following
+Thursday, almost two weeks after its original deadline.
 </p>
 
 <p>
 If you want this task to always be due on a Tuesday,for example,  use
 "<del>+"(plus plus) instead
-of "</del>." (plus period.)
-</p>
-</div>
-</div>
-<div id="outline-container-orgbad0084" class="outline-2">
-<h2 id="orgbad0084">Updated Later the Same Day</h2>
-<div class="outline-text-2" id="text-orgbad0084">
-<p>
-All was well until I went to mark my TO-do done. I tried the key
-combination as written in the manual <code>c-- 1 c-c c-t</code> but the to-do was
-not marked as done and the date was not changed. I went back to the
-conventional repeated task. When I marked that task done, it updated
-the date and returned the state to <code>TODO</code>. So unless I can get more
-clarity on this, I'm keeping it as a regular repeated to-do. I'll post
-more here if I learn something new.
+of ".</del>" (dot plus.)
 </p>
 </div>
 </div>
