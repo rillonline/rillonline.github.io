@@ -12,7 +12,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="https://rillonline.github.io/">
 <link rel="next" href="index-35.html" type="text/html">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/2019/08/28/recurring-tasks-in-orgmode/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/2019/09/02/using-checkboxes/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -71,7 +71,204 @@
     
         
     <div class="postindex">
-            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2019/08/28/recurring-tasks-in-orgmode/" class="u-url">Recurring Tasks in Orgmode</a></h1>
+            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2019/09/02/using-checkboxes/" class="u-url">Using Checkboxes</a></h1>
+                <div class="metadata">
+                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                        Rill
+                    </span></p>
+            <p class="dateline">
+            <a href="posts/2019/09/02/using-checkboxes/" rel="bookmark">
+            <time class="published dt-published" datetime="2019-09-02T10:32:48-05:00" itemprop="datePublished" title="2019-09-02 10:32">2019-09-02 10:32</time></a>
+            </p>
+                </div>
+            </header><div class="e-content entry-content">
+                    <p>
+I wrote about
+<a href="https://rillonline.github.io/posts/2019/08/28/recurring-tasks-in-orgmode/">Recurring Tasks in Orgmode</a> previously. Once I had this to-do working properly,
+I went onto the next task. I wanted to list my ideas for articles and
+bigger writing projects. In my opinion, I did not need to set this all
+up as a big list of to-dos. That certainly becomes overwhelming to
+me.I might just stop writing altogether because the ideas keep coming
+but the time and patience to write them may not be available at the
+moment. I do
+want to be sure I have a stash of ideas to choose from when I am able
+to sit down and write out a complete article.
+</p>
+
+<p>
+I created a file name "ideas.org". I inserted three headings:
+</p>
+
+<pre class="example">
+* Writing Ideas Big and Small
+** Blog Ideas [/]
+** Bigger WRiting Projects [/]
+
+</pre>
+
+<p>
+You may have noticed that at the end of the second level headings
+there are two square brackets "[]" enclosing a slash "/". More on this
+later.
+</p>
+
+<div id="outline-container-orgacf951f" class="outline-2">
+<h2 id="orgacf951f">Organizing the list</h2>
+<div class="outline-text-2" id="text-orgacf951f">
+<p>
+At first I thought I would just write a list like this:
+</p>
+
+<pre class="example">
+- smart quotess and other typography
+- less than shortcuts in orgmode
+- Braile pack at public museum
+- photo op with Nick
+- a walk in the park with Nick
+- using org capture
+- Using checkboxes in org
+
+</pre>
+
+<p>
+Then I thought about using checkboxes so I could check them off as I
+went. Now this section of the file looks like this:
+</p>
+
+<pre class="example">
+- [ ] smart quotess and other typography
+- [ ] less than shortcuts in orgmode
+- [ ] Braile pack at public museum
+- [ ] photo op with Nick
+- [ ] a walk in the park with Nick
+- [ ] using org capture
+- [ ] Using checkboxes in org
+
+</pre>
+
+<p>
+Who knows, you might even see some of these articles in the future!
+</p>
+</div>
+</div>
+
+<div id="outline-container-org525edff" class="outline-2">
+<h2 id="org525edff">Why Use Checkboxes?</h2>
+<div class="outline-text-2" id="text-org525edff">
+<p>
+Why use checkboxes? After all, I could simply delete the item from the
+file once I published it.
+</p>
+
+<p>
+It's a good point. I decided to try this methodology just to see how I
+liked it and for two other reasons:
+</p>
+
+<ol class="org-ol">
+<li>It would let me know how I was doing at keeping up with my ideas.</li>
+<li>It would let me know if I needed to be thinking more about writing
+opportunities.</li>
+</ol>
+<p>
+It seems to me that a writer is stuck here: Coming up with ideas and
+getting them written.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org6e721c1" class="outline-2">
+<h2 id="org6e721c1">Using the Checkboxes</h2>
+<div class="outline-text-2" id="text-org6e721c1">
+<p>
+To check off an item, press "c-c c-c" on that line. Then you have:
+</p>
+
+<p>
+:- [X] Using checkboxes in org
+</p>
+
+<p>
+Here's what the heading now looks like:
+</p>
+
+<pre class="example">
+** Blog Ideas [1/7]
+
+</pre>
+
+<p>
+If I turn the "/" (slash) into a percent sign (%) it looks like this:
+</p>
+
+<p>
+:** Blog Ideas <code>[14%]</code> 
+</p>
+
+<p>
+If I feel ambitious, I can delete these lines or I can sort them so
+that all the unchecked boxes are together.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc1a4de7" class="outline-2">
+<h2 id="orgc1a4de7">Sorting Lines</h2>
+<div class="outline-text-2" id="text-orgc1a4de7">
+<ol class="org-ol">
+<li>Highlight the list</li>
+<li>
+<p>
+Type "m-x sort-lines". All the checked off items will be gathered
+together at the end of the list. The items appear in alphabetical
+order.
+</p>
+
+<pre class="example">
+- [ ] Braile pack at public museum
+- [ ] a walk in the park with Nick
+- [ ] less than shortcuts in orgmode
+- [ ] photo op with Nick
+- [ ] smart quotess and other typography
+   - [ ] using org capture
+- [X] Using checkboxes in org 
+
+</pre>
+
+<p>
+This list now is in a different order than the way I originally
+wrote it down. I can read through it until I come to an item with a
+checkbox. I know there are no more new items.
+</p>
+</li>
+
+<li>
+<p>
+If I want to sort in reverse order, I type: "c-u m-x sort-lines".
+Here is what I now have:
+</p>
+
+<pre class="example">
+- [X] Using checkboxes in org
+- [ ] using org capture
+- [ ] smart quotess and other typography
+- [ ] photo op with Nick
+- [ ] less than shortcuts in orgmode
+- [ ] a walk in the park with Nick
+- [ ] Braile pack at public museum
+
+</pre>
+
+<p>
+I don't think I will use this ordering unless I need a confidence
+boost. I would have to go past everything I've already done.
+</p>
+</li>
+</ol>
+</div>
+</div>
+                </div>
+            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2019/08/28/recurring-tasks-in-orgmode/" class="u-url">Recurring Tasks in Orgmode</a></h1>
                 <div class="metadata">
                     <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                         Rill
@@ -911,141 +1108,6 @@ and I discovered many new authors. I was delighted to read the first
 story by Steven Saylor about Gordianus the Fixer. Check it out at
 <a href="https://www.goodreads.com/book/show/381433.The_Mammoth_Book_of_More_Historical_Whodunnits">Good
 Reads</a>
-</p>
-                </div>
-            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2019/07/28/in-the-library/" class="u-url">In the Library</a></h1>
-                <div class="metadata">
-                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                        Rill
-                    </span></p>
-            <p class="dateline">
-            <a href="posts/2019/07/28/in-the-library/" rel="bookmark">
-            <time class="published dt-published" datetime="2019-07-28T20:23:44-05:00" itemprop="datePublished" title="2019-07-28 20:23">2019-07-28 20:23</time></a>
-            </p>
-                </div>
-            </header><div class="e-content entry-content">
-                    <p>
-Picture this. Ronnie, our intrepid heroine, is
-sitting in the great library of the wizards in the heart of Magic
-City. (I know. I know. These names are not very imaginative and need
-changing, but it is the best I can do right now.) Anyway, she is
-sitting in the library not because she wants to be there but because
-she is compelled to be there. The Tribunal of All Wizards (Is this a
-better name?) has sentenced her to serve there for some unspecified
-length of time. She goes to the library at the pleasure of the Grand
-Mistress of Wizards who doesn't like her to begin with. Ronnie is
-fulfilling her sentence for the misuse of magic which caused the death
-of her mentor, Grand Master Awk.
-</p>
-
-<p>
-Although Ronnie is unhappy that she must remain in the Magic Lands for
-perhaps the rest of her life, she makes the best of being confined to
-the library and her living quarters for most of every day. As
-imprisonments go in the inhabited galaxy, it is a very lenient
-sentence.
-</p>
-
-<p>
-The wizards did not come up with this punishment without
-reason. Ronnie has shown an aptitude for magic. The wizards hope she
-can learn to read and understand the books stored in the library which
-they cannot even open. Ronnie thinks their hope in her is
-misplaced. Even if she can open a book, why do they think she can read
-an ancient script and make sense of it. She does not possess these
-skills.
-</p>
-
-<p>
-Neverthe less, she goes to the library and tries to open every book on
-every shelf. There are many thousands of books.
-</p>
-
-<p>
-Then one day Ronnie lugs a very large volume to the library table by
-the window. It has a pleasant view of a garden. She sets the tome
-down. What else can she possibly call the book but a tome. It is
-dusty. Its binding shows much wear. She wonders just how old this book
-is and what sort of a book this is. There are no pictures on the
-covers. The script on its binding is beautiful and perhaps contains
-grains of precious gems. This is not her expertise either but the
-script seems to sparkle.
-</p>
-
-<p>
-With no expectations at all, she tries to open the book. And it
-opens.
-</p>
-
-<p>
-Ronnie gasps. The librarian, working at his desk across the room,
-looks up to see the book open and hurries over.
-</p>
-
-<p>
-"Can you read it?" he asks rather breathlessly.
-</p>
-
-<p>
-"Can you see the pictures?" Ronnie asks him.
-</p>
-
-<p>
-"The page is blank," the librarian responds, puzzled.
-</p>
-
-<p>
-"No, it is not," Ronnie says. "It is a beautifully done star chart."
-</p>
-
-<p>
-They stand in silence. Ronnie can see it while the librarian cannot.
-</p>
-
-<p>
-"A star chart of what?" the librarian finally asks.
-</p>
-
-<p>
-"I don't know," Ronnie says. "I would need a modern star chart and a
-way to evaluate procession and drift. I don't recognize any of these
-stars, but I am not from around this part of the galactic arm. The
-constellations look all wrong to me."
-</p>
-
-<p>
-"Can you copy the chart?" the librarian asks quickly.
-</p>
-
-<p>
-"Let's see if I can," Ronnie says.
-</p>
-
-<p>
-Then she smiles. "If this is a map to treasure, I claim it by virtue
-of being able to read the map."
-</p>
-
-<p>
-The librarian does not see the humor in her claim but hurries away to
-get paper and writing implements. He also calls the Grand Mistress and
-she comes to hover over Ronnie's shoulder.
-</p>
-
-<p>
-After Ronnie's crude representation of the beautiful chart and much
-discussion, the Tribunal corrects the star chart for this time
-period. They show it to Ronnie.
-</p>
-
-<p>
-"It's Planet X," she says, pointing to a particular
-constellation. I've been there."
-</p>
-
-<p>
-In an earlier unpublished adventure, she and Captain Star Runner visited this
-forbidden planet with disastrous results. 
 </p>
                 </div>
             </article>

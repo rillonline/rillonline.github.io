@@ -1,5 +1,186 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rill's Web Site</title><link>https://rillonline.github.io/</link><description>Rill's blog and other writings.</description><atom:link href="https://rillonline.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:"&gt;Rill&lt;/a&gt; </copyright><lastBuildDate>Sun, 01 Sep 2019 23:05:41 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Recurring Tasks in Orgmode</title><link>https://rillonline.github.io/posts/2019/08/28/recurring-tasks-in-orgmode/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rill's Web Site</title><link>https://rillonline.github.io/</link><description>Rill's blog and other writings.</description><atom:link href="https://rillonline.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:"&gt;Rill&lt;/a&gt; </copyright><lastBuildDate>Mon, 02 Sep 2019 18:51:17 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Using Checkboxes</title><link>https://rillonline.github.io/posts/2019/09/02/using-checkboxes/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
+I wrote about
+&lt;a href="https://rillonline.github.io/posts/2019/08/28/recurring-tasks-in-orgmode/"&gt;Recurring Tasks in Orgmode&lt;/a&gt; previously. Once I had this to-do working properly,
+I went onto the next task. I wanted to list my ideas for articles and
+bigger writing projects. In my opinion, I did not need to set this all
+up as a big list of to-dos. That certainly becomes overwhelming to
+me.I might just stop writing altogether because the ideas keep coming
+but the time and patience to write them may not be available at the
+moment. I do
+want to be sure I have a stash of ideas to choose from when I am able
+to sit down and write out a complete article.
+&lt;/p&gt;
+
+&lt;p&gt;
+I created a file name "ideas.org". I inserted three headings:
+&lt;/p&gt;
+
+&lt;pre class="example"&gt;
+* Writing Ideas Big and Small
+** Blog Ideas [/]
+** Bigger WRiting Projects [/]
+
+&lt;/pre&gt;
+
+&lt;p&gt;
+You may have noticed that at the end of the second level headings
+there are two square brackets "[]" enclosing a slash "/". More on this
+later.
+&lt;/p&gt;
+
+&lt;div id="outline-container-orgacf951f" class="outline-2"&gt;
+&lt;h2 id="orgacf951f"&gt;Organizing the list&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgacf951f"&gt;
+&lt;p&gt;
+At first I thought I would just write a list like this:
+&lt;/p&gt;
+
+&lt;pre class="example"&gt;
+- smart quotess and other typography
+- less than shortcuts in orgmode
+- Braile pack at public museum
+- photo op with Nick
+- a walk in the park with Nick
+- using org capture
+- Using checkboxes in org
+
+&lt;/pre&gt;
+
+&lt;p&gt;
+Then I thought about using checkboxes so I could check them off as I
+went. Now this section of the file looks like this:
+&lt;/p&gt;
+
+&lt;pre class="example"&gt;
+- [ ] smart quotess and other typography
+- [ ] less than shortcuts in orgmode
+- [ ] Braile pack at public museum
+- [ ] photo op with Nick
+- [ ] a walk in the park with Nick
+- [ ] using org capture
+- [ ] Using checkboxes in org
+
+&lt;/pre&gt;
+
+&lt;p&gt;
+Who knows, you might even see some of these articles in the future!
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org525edff" class="outline-2"&gt;
+&lt;h2 id="org525edff"&gt;Why Use Checkboxes?&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org525edff"&gt;
+&lt;p&gt;
+Why use checkboxes? After all, I could simply delete the item from the
+file once I published it.
+&lt;/p&gt;
+
+&lt;p&gt;
+It's a good point. I decided to try this methodology just to see how I
+liked it and for two other reasons:
+&lt;/p&gt;
+
+&lt;ol class="org-ol"&gt;
+&lt;li&gt;It would let me know how I was doing at keeping up with my ideas.&lt;/li&gt;
+&lt;li&gt;It would let me know if I needed to be thinking more about writing
+opportunities.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;
+It seems to me that a writer is stuck here: Coming up with ideas and
+getting them written.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org6e721c1" class="outline-2"&gt;
+&lt;h2 id="org6e721c1"&gt;Using the Checkboxes&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org6e721c1"&gt;
+&lt;p&gt;
+To check off an item, press "c-c c-c" on that line. Then you have:
+&lt;/p&gt;
+
+&lt;p&gt;
+:- [X] Using checkboxes in org
+&lt;/p&gt;
+
+&lt;p&gt;
+Here's what the heading now looks like:
+&lt;/p&gt;
+
+&lt;pre class="example"&gt;
+** Blog Ideas [1/7]
+
+&lt;/pre&gt;
+
+&lt;p&gt;
+If I turn the "/" (slash) into a percent sign (%) it looks like this:
+&lt;/p&gt;
+
+&lt;p&gt;
+:** Blog Ideas &lt;code&gt;[14%]&lt;/code&gt; 
+&lt;/p&gt;
+
+&lt;p&gt;
+If I feel ambitious, I can delete these lines or I can sort them so
+that all the unchecked boxes are together.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-orgc1a4de7" class="outline-2"&gt;
+&lt;h2 id="orgc1a4de7"&gt;Sorting Lines&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgc1a4de7"&gt;
+&lt;ol class="org-ol"&gt;
+&lt;li&gt;Highlight the list&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;
+Type "m-x sort-lines". All the checked off items will be gathered
+together at the end of the list. The items appear in alphabetical
+order.
+&lt;/p&gt;
+
+&lt;pre class="example"&gt;
+- [ ] Braile pack at public museum
+- [ ] a walk in the park with Nick
+- [ ] less than shortcuts in orgmode
+- [ ] photo op with Nick
+- [ ] smart quotess and other typography
+   - [ ] using org capture
+- [X] Using checkboxes in org 
+
+&lt;/pre&gt;
+
+&lt;p&gt;
+This list now is in a different order than the way I originally
+wrote it down. I can read through it until I come to an item with a
+checkbox. I know there are no more new items.
+&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;
+If I want to sort in reverse order, I type: "c-u m-x sort-lines".
+Here is what I now have:
+&lt;/p&gt;
+
+&lt;pre class="example"&gt;
+- [X] Using checkboxes in org
+- [ ] using org capture
+- [ ] smart quotess and other typography
+- [ ] photo op with Nick
+- [ ] less than shortcuts in orgmode
+- [ ] a walk in the park with Nick
+- [ ] Braile pack at public museum
+
+&lt;/pre&gt;
+
+&lt;p&gt;
+I don't think I will use this ordering unless I need a confidence
+boost. I would have to go past everything I've already done.
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><category>Org</category><guid>https://rillonline.github.io/posts/2019/09/02/using-checkboxes/</guid><pubDate>Mon, 02 Sep 2019 15:32:48 GMT</pubDate></item><item><title>Recurring Tasks in Orgmode</title><link>https://rillonline.github.io/posts/2019/08/28/recurring-tasks-in-orgmode/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
 Edited on 2019/09/01 to correct an error with tasks that needed to be
 re-scheduled differently in the future.
 &lt;/p&gt;
@@ -726,126 +907,4 @@ and I discovered many new authors. I was delighted to read the first
 story by Steven Saylor about Gordianus the Fixer. Check it out at
 &lt;a href="https://www.goodreads.com/book/show/381433.The_Mammoth_Book_of_More_Historical_Whodunnits"&gt;Good
 Reads&lt;/a&gt;
-&lt;/p&gt;</description><category>Books</category><guid>https://rillonline.github.io/posts/2019/08/04/the-mammoth-book-of-more-historical-whodunnits/</guid><pubDate>Mon, 05 Aug 2019 02:38:15 GMT</pubDate></item><item><title>In the Library</title><link>https://rillonline.github.io/posts/2019/07/28/in-the-library/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
-Picture this. Ronnie, our intrepid heroine, is
-sitting in the great library of the wizards in the heart of Magic
-City. (I know. I know. These names are not very imaginative and need
-changing, but it is the best I can do right now.) Anyway, she is
-sitting in the library not because she wants to be there but because
-she is compelled to be there. The Tribunal of All Wizards (Is this a
-better name?) has sentenced her to serve there for some unspecified
-length of time. She goes to the library at the pleasure of the Grand
-Mistress of Wizards who doesn't like her to begin with. Ronnie is
-fulfilling her sentence for the misuse of magic which caused the death
-of her mentor, Grand Master Awk.
-&lt;/p&gt;
-
-&lt;p&gt;
-Although Ronnie is unhappy that she must remain in the Magic Lands for
-perhaps the rest of her life, she makes the best of being confined to
-the library and her living quarters for most of every day. As
-imprisonments go in the inhabited galaxy, it is a very lenient
-sentence.
-&lt;/p&gt;
-
-&lt;p&gt;
-The wizards did not come up with this punishment without
-reason. Ronnie has shown an aptitude for magic. The wizards hope she
-can learn to read and understand the books stored in the library which
-they cannot even open. Ronnie thinks their hope in her is
-misplaced. Even if she can open a book, why do they think she can read
-an ancient script and make sense of it. She does not possess these
-skills.
-&lt;/p&gt;
-
-&lt;p&gt;
-Neverthe less, she goes to the library and tries to open every book on
-every shelf. There are many thousands of books.
-&lt;/p&gt;
-
-&lt;p&gt;
-Then one day Ronnie lugs a very large volume to the library table by
-the window. It has a pleasant view of a garden. She sets the tome
-down. What else can she possibly call the book but a tome. It is
-dusty. Its binding shows much wear. She wonders just how old this book
-is and what sort of a book this is. There are no pictures on the
-covers. The script on its binding is beautiful and perhaps contains
-grains of precious gems. This is not her expertise either but the
-script seems to sparkle.
-&lt;/p&gt;
-
-&lt;p&gt;
-With no expectations at all, she tries to open the book. And it
-opens.
-&lt;/p&gt;
-
-&lt;p&gt;
-Ronnie gasps. The librarian, working at his desk across the room,
-looks up to see the book open and hurries over.
-&lt;/p&gt;
-
-&lt;p&gt;
-"Can you read it?" he asks rather breathlessly.
-&lt;/p&gt;
-
-&lt;p&gt;
-"Can you see the pictures?" Ronnie asks him.
-&lt;/p&gt;
-
-&lt;p&gt;
-"The page is blank," the librarian responds, puzzled.
-&lt;/p&gt;
-
-&lt;p&gt;
-"No, it is not," Ronnie says. "It is a beautifully done star chart."
-&lt;/p&gt;
-
-&lt;p&gt;
-They stand in silence. Ronnie can see it while the librarian cannot.
-&lt;/p&gt;
-
-&lt;p&gt;
-"A star chart of what?" the librarian finally asks.
-&lt;/p&gt;
-
-&lt;p&gt;
-"I don't know," Ronnie says. "I would need a modern star chart and a
-way to evaluate procession and drift. I don't recognize any of these
-stars, but I am not from around this part of the galactic arm. The
-constellations look all wrong to me."
-&lt;/p&gt;
-
-&lt;p&gt;
-"Can you copy the chart?" the librarian asks quickly.
-&lt;/p&gt;
-
-&lt;p&gt;
-"Let's see if I can," Ronnie says.
-&lt;/p&gt;
-
-&lt;p&gt;
-Then she smiles. "If this is a map to treasure, I claim it by virtue
-of being able to read the map."
-&lt;/p&gt;
-
-&lt;p&gt;
-The librarian does not see the humor in her claim but hurries away to
-get paper and writing implements. He also calls the Grand Mistress and
-she comes to hover over Ronnie's shoulder.
-&lt;/p&gt;
-
-&lt;p&gt;
-After Ronnie's crude representation of the beautiful chart and much
-discussion, the Tribunal corrects the star chart for this time
-period. They show it to Ronnie.
-&lt;/p&gt;
-
-&lt;p&gt;
-"It's Planet X," she says, pointing to a particular
-constellation. I've been there."
-&lt;/p&gt;
-
-&lt;p&gt;
-In an earlier unpublished adventure, she and Captain Star Runner visited this
-forbidden planet with disastrous results. 
-&lt;/p&gt;</description><category>Ronnie Camberwell</category><category>Writing</category><guid>https://rillonline.github.io/posts/2019/07/28/in-the-library/</guid><pubDate>Mon, 29 Jul 2019 01:23:44 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><category>Books</category><guid>https://rillonline.github.io/posts/2019/08/04/the-mammoth-book-of-more-historical-whodunnits/</guid><pubDate>Mon, 05 Aug 2019 02:38:15 GMT</pubDate></item></channel></rss>

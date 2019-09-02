@@ -55,11 +55,11 @@
  </url>
  <url>
   <loc>https://rillonline.github.io/archive.html</loc>
-  <lastmod>2019-08-28T19:14:00Z</lastmod>
+  <lastmod>2019-09-02T18:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/categories/</loc>
-  <lastmod>2019-08-27T19:17:00Z</lastmod>
+  <lastmod>2019-09-02T18:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/categories/1-peter/</loc>
@@ -124,6 +124,10 @@
  <url>
   <loc>https://rillonline.github.io/categories/nick/</loc>
   <lastmod>2019-08-05T22:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rillonline.github.io/categories/org/</loc>
+  <lastmod>2019-09-02T18:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/categories/outings/</loc>
@@ -295,7 +299,7 @@
  </url>
  <url>
   <loc>https://rillonline.github.io/index-35.html</loc>
-  <lastmod>2019-08-28T19:14:00Z</lastmod>
+  <lastmod>2019-09-02T18:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/index-4.html</loc>
@@ -323,27 +327,31 @@
  </url>
  <url>
   <loc>https://rillonline.github.io/kearsarge-novela/chapter-01.html</loc>
-  <lastmod>2019-07-11T02:42:00Z</lastmod>
+  <lastmod>2019-09-02T02:01:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/kearsarge-novela/chapter-02.html</loc>
-  <lastmod>2019-07-11T02:42:00Z</lastmod>
+  <lastmod>2019-09-02T02:01:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/kearsarge-novela/chapter-03.html</loc>
-  <lastmod>2019-07-11T02:42:00Z</lastmod>
+  <lastmod>2019-09-02T02:01:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/kearsarge-novela/chapter-04.html</loc>
-  <lastmod>2019-07-11T02:42:00Z</lastmod>
+  <lastmod>2019-09-02T02:01:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rillonline.github.io/kearsarge-novela/chapter-05.html</loc>
+  <lastmod>2019-09-02T02:01:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/kearsarge-novela/kearsarge.html</loc>
-  <lastmod>2019-07-11T02:42:00Z</lastmod>
+  <lastmod>2019-09-02T02:01:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/kearsarge-novela/list-of-characters.html</loc>
-  <lastmod>2019-07-11T02:42:00Z</lastmod>
+  <lastmod>2019-09-02T02:01:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/listings/</loc>
@@ -1748,6 +1756,10 @@
  <url>
   <loc>https://rillonline.github.io/posts/2019/08/28/recurring-tasks-in-orgmode/</loc>
   <lastmod>2019-08-28T19:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rillonline.github.io/posts/2019/09/02/using-checkboxes/</loc>
+  <lastmod>2019-09-02T18:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/posts/458/</loc>
