@@ -12,7 +12,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="https://rillonline.github.io/">
 <link rel="next" href="index-35.html" type="text/html">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/2019/09/03/a-walk-in-the-park-with-nick/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/2019/09/04/turning-off-auto-fill-mode-in-a-single-buffer/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -71,7 +71,87 @@
     
         
     <div class="postindex">
-            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2019/09/03/a-walk-in-the-park-with-nick/" class="u-url">A Walk in the Park with Nick</a></h1>
+            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2019/09/04/turning-off-auto-fill-mode-in-a-single-buffer/" class="u-url">Turning Off Auto-fill-mode in a Single Buffer</a></h1>
+                <div class="metadata">
+                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                        Rill
+                    </span></p>
+            <p class="dateline">
+            <a href="posts/2019/09/04/turning-off-auto-fill-mode-in-a-single-buffer/" rel="bookmark">
+            <time class="published dt-published" datetime="2019-09-04T13:56:46-05:00" itemprop="datePublished" title="2019-09-04 13:56">2019-09-04 13:56</time></a>
+            </p>
+                </div>
+            </header><div class="e-content entry-content">
+                    <p>
+In my article on
+<a href="https://rillonline.github.io/posts/2019/09/02/using-checkboxes/">Using Checkboxes</a> I discussed sorting lines in my ideas file. I went ahead
+and added more ideas to the file. Because I sometimes forget details,
+I decided to include many details in several entries.
+</p>
+
+<p>
+Details are good, right? Well, not if they wrap to another line. This
+messes up sorting since the sort doesn't know how to keep the
+additional lines with their starting line. I knew that, but hoped
+(unreasonably) that everything would stay together. Of course, it
+didn't. So I had to look for a solution.
+</p>
+
+<p>
+The problem is simple enough. Auto-fill-mode is turned on by default.
+In general, auto-fill-mode is a good thing. When the line gets too
+long, Emacs inserts a line break and a new line is started. Happily,
+when typing in org-mode as I was, Org appropriately wraps the line with a
+two space indentation. Org knows my additional words belong to this
+list item. HTML will know it, too, because Org will tell it by
+enclosing the whole thing in "&lt;li&gt;&lt;/li&gt;" tags. But sort-lines is
+emphatic that a line is a line.
+</p>
+
+<p>
+The solution, not surprisingly, is to turn off auto-fill-mode in this
+buffer. But how? I started searching for the answer.
+</p>
+
+<p>
+The readily available answer was this:
+</p>
+
+<pre class="example">
+m-x auto-fill-mode
+</pre>
+
+<p>
+This toggles auto-fill-mode on and off. If it is on to begin with, all
+I have to do is toggle it off when I open the file and life is good.
+</p>
+
+<p>
+Except … well, except that I want to write ideas with long
+explanations because I forget. And it is <b>very</b> likely I will forget
+to do this.
+</p>
+
+<p>
+Allthough it took some time, I finally found a way to do this so
+auto-fill-mode would be turned off for the buffer and I don't have to
+remember what to do.
+</p>
+
+<p>
+I placed the following line at the top of my ideas file:
+</p>
+
+<pre class="example">
+;; -*- mode: text; mode: auto-fill -1; -*-
+</pre>
+
+<p>
+I refresh the current buffer via the Org menu and autofilling stopped.
+<b>Note</b>: I did find I had to use "-1" rather than "0" to turn off auto-fill.. 
+</p>
+                </div>
+            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2019/09/03/a-walk-in-the-park-with-nick/" class="u-url">A Walk in the Park with Nick</a></h1>
                 <div class="metadata">
                     <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                         Rill
@@ -1109,66 +1189,6 @@ encouraged him to drink but he started butting my legs with his head.
 He seemed to be saying, Let's go, so I put his harness on him and off
 we went to park.
 </p>
-                </div>
-            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2019/08/05/psalm-64/" class="u-url">Psalm 64</a></h1>
-                <div class="metadata">
-                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                        Rill
-                    </span></p>
-            <p class="dateline">
-            <a href="posts/2019/08/05/psalm-64/" rel="bookmark">
-            <time class="published dt-published" datetime="2019-08-05T15:07:43-05:00" itemprop="datePublished" title="2019-08-05 15:07">2019-08-05 15:07</time></a>
-            </p>
-                </div>
-            </header><div class="e-content entry-content">
-                    <p>
-I have been trying to read a psalm every day. My Old Testament
-professor Dr. Robinson said it would change my life. He said that
-twenty years ago (that's a scary thought in and of itself). I've never
-succeeded at doing this, but it's never too late to give it a shot. I
-would read all the psalms twice through in one year.
-</p>
-
-<p>
-I've been suggesting we read a psalm at the end of our Bible study on
-Thursdays. I don't do it every week, but it turns out one of the
-participants doesn't like the psalms. I realized that reading one
-every week allows us to work through all 150 psalms over time (three
-years or so) without getting bogged down in the book of psalms. That
-would make things easier for the participant who doesn't like them.
-Someone is marking them off as we go.
-</p>
-
-<p>
-This is a long introduction to reading Psalm 64. I started at Psalm 61
-because that is the psalm we read last Thursday and it seemed to be a
-good place to start. The problem of embarking on such a task is that
-I've read Psalm 1 a lot and never gotten very far after that.
-</p>
-
-<p>
-I can't remember ever reading Psalm 64 before. No doubt I have, but
-nothing stood out to mean. This morning, however, in the wake of the
-terrible shootings at El Paso and Youngstown, I couldn't help thinking of
-all those bullets or, as the psalmist put it, arrows. 
-</p>
-
-<p>
-David is talking about words, not literal weapons, but it doesn't much matter in the
-context of the psalm. Behind the bullets were evil words. And evil
-words and hatred are at the crux of the problem in this country. It
-there weren't so many evil words flying about like arrows, people
-shopping on a Saturday morning for school supplies or going out for a
-fun-filled evening wouldn't be dead–terrible! Unspeakable evil!
-</p>
-
-<p>
-I take comfort in verse 8:
-</p>
-
-<p class="verse">
-Their own tongues shall ruin them.<br>
-All who see them will shake their heads.<br><a href="https://worldenglishbible.org">World English Bible</a><br></p>
                 </div>
             </article>
 </div>
