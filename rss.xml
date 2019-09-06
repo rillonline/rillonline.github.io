@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rill's Web Site</title><link>https://rillonline.github.io/</link><description>Rill's blog and other writings.</description><atom:link href="https://rillonline.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:"&gt;Rill&lt;/a&gt; </copyright><lastBuildDate>Wed, 04 Sep 2019 19:25:33 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Turning Off Auto-fill-mode in a Single Buffer</title><link>https://rillonline.github.io/posts/2019/09/04/turning-off-auto-fill-mode-in-a-single-buffer/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rill's Web Site</title><link>https://rillonline.github.io/</link><description>Rill's blog and other writings.</description><atom:link href="https://rillonline.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:"&gt;Rill&lt;/a&gt; </copyright><lastBuildDate>Fri, 06 Sep 2019 18:57:06 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>I Miss Her</title><link>https://rillonline.github.io/posts/2019/09/06/i-miss-her/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
+I must have written this in the fall of 2006. Caitlin, my first
+Seeing Eye dog, died on July 10, 2006. Elwood did not come into my
+life until November 27th. I always remember Caitlin, my chocolate
+Lab, on her birthday, September 6, 1992. Thinking about her still
+brings tears to my eyes and a lump in my throat.
+&lt;/p&gt;
+
+&lt;div id="outline-container-org8f020af" class="outline-2"&gt;
+&lt;h2 id="org8f020af"&gt;I miss her&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org8f020af"&gt;
+&lt;p class="verse"&gt;
+In the daily tasks,&lt;br&gt;
+in the ordinary doing of things,&lt;br&gt;
+I miss her.&lt;br&gt;
+25minutes to an appointment–&lt;br&gt;
+I will take her out. There is time for that.&lt;br&gt;
+And then, I miss her.&lt;br&gt;
+I will sit  in my chair. She will come to be petted, to ask for a biscuit.&lt;br&gt;
+And then, I miss her.&lt;br&gt;
+I lay down in bed at night and listen for her breathing by the foot of the bed.&lt;br&gt;
+And then, I miss her.&lt;br&gt;
+I awake in the morning and check the time. I will dress and take her out.&lt;br&gt;
+And then, I miss her.&lt;br&gt;
+Her water bowl is no longer on the floor under the dishwasher door when I load and unload.&lt;br&gt;
+And then, I miss her.&lt;br&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><guid>https://rillonline.github.io/posts/2019/09/06/i-miss-her/</guid><pubDate>Fri, 06 Sep 2019 18:44:55 GMT</pubDate></item><item><title>Turning Off Auto-fill-mode in a Single Buffer</title><link>https://rillonline.github.io/posts/2019/09/04/turning-off-auto-fill-mode-in-a-single-buffer/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
 In my article on
 &lt;a href="https://rillonline.github.io/posts/2019/09/02/using-checkboxes/"&gt;Using Checkboxes&lt;/a&gt; I discussed sorting lines in my ideas file. I went ahead
 and added more ideas to the file. Because I sometimes forget details,
@@ -976,13 +1004,4 @@ behave counter to God's intentions for humanity.
 It was Toni Morrison who taught me that I always assume people are
 white in literature and conversation when they could just as easily be
 something else.
-&lt;/p&gt;</description><category>Writers</category><guid>https://rillonline.github.io/posts/2019/08/08/on-toni-morrison/</guid><pubDate>Fri, 09 Aug 2019 01:36:07 GMT</pubDate></item><item><title>Nick was funny</title><link>https://rillonline.github.io/posts/2019/08/05/nick-was-funny/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
-Nick was so funny at dinnertime. I got out his harness. He went into
-the bathroom to get a drink but there wasn't much water in the dish. I
-hung his harness and leash on the door and filled up his water bowl,
-encouraging him to drink some more. He danced around, not sure what to
-do. He went into the bathroom but then came out again. Again I
-encouraged him to drink but he started butting my legs with his head.
-He seemed to be saying, Let's go, so I put his harness on him and off
-we went to park.
-&lt;/p&gt;</description><category>Dog</category><category>Nick</category><guid>https://rillonline.github.io/posts/2019/08/05/nick-was-funny/</guid><pubDate>Mon, 05 Aug 2019 22:48:49 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><category>Writers</category><guid>https://rillonline.github.io/posts/2019/08/08/on-toni-morrison/</guid><pubDate>Fri, 09 Aug 2019 01:36:07 GMT</pubDate></item></channel></rss>
