@@ -41,8 +41,11 @@ remember what to do.
 I placed the following line at the top of my ideas file:
 
 #+begin_example
-     ;; -*- mode: text; mode: auto-fill -1; -*-
+     ;; -*- mode: org; mode: auto-fill -1; -*-
 #+end_example
 
 I refresh the current buffer via the Org menu and autofilling stopped.
-*Note*: I did find I had to use "-1" rather than "0" to turn off auto-fill.. 
+*Note*: I did find I had to use "-1" rather than "0" to turn off
+auto-fill.
+
+Edited 2019-09-07. I originally had the mode as text when it should be org. 
