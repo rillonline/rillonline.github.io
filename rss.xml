@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rill's Web Site</title><link>https://rillonline.github.io/</link><description>Rill's blog and other writings.</description><atom:link href="https://rillonline.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:"&gt;Rill&lt;/a&gt; </copyright><lastBuildDate>Fri, 06 Sep 2019 18:57:06 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>I Miss Her</title><link>https://rillonline.github.io/posts/2019/09/06/i-miss-her/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rill's Web Site</title><link>https://rillonline.github.io/</link><description>Rill's blog and other writings.</description><atom:link href="https://rillonline.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:"&gt;Rill&lt;/a&gt; </copyright><lastBuildDate>Sun, 08 Sep 2019 01:12:07 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>I Miss Her</title><link>https://rillonline.github.io/posts/2019/09/06/i-miss-her/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
 I must have written this in the fall of 2006. Caitlin, my first
 Seeing Eye dog, died on July 10, 2006. Elwood did not come into my
 life until November 27th. I always remember Caitlin, my chocolate
@@ -88,12 +88,17 @@ I placed the following line at the top of my ideas file:
 &lt;/p&gt;
 
 &lt;pre class="example"&gt;
-;; -*- mode: text; mode: auto-fill -1; -*-
+;; -*- mode: org; mode: auto-fill -1; -*-
 &lt;/pre&gt;
 
 &lt;p&gt;
 I refresh the current buffer via the Org menu and autofilling stopped.
-&lt;b&gt;Note&lt;/b&gt;: I did find I had to use "-1" rather than "0" to turn off auto-fill.. 
+&lt;b&gt;Note&lt;/b&gt;: I did find I had to use "-1" rather than "0" to turn off
+auto-fill.
+&lt;/p&gt;
+
+&lt;p&gt;
+Edited 2019-09-07. I originally had the mode as text when it should be org. 
 &lt;/p&gt;</description><guid>https://rillonline.github.io/posts/2019/09/04/turning-off-auto-fill-mode-in-a-single-buffer/</guid><pubDate>Wed, 04 Sep 2019 18:56:46 GMT</pubDate></item><item><title>A Walk in the Park with Nick</title><link>https://rillonline.github.io/posts/2019/09/03/a-walk-in-the-park-with-nick/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
 Nick and I walked to catch a direct bus home from my salon
 appointment. It was a nice day and catching the bus near the salon
