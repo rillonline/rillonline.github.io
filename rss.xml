@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rill's Web Site</title><link>https://rillonline.github.io/</link><description>Rill's blog and other writings.</description><atom:link href="https://rillonline.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:"&gt;Rill&lt;/a&gt; </copyright><lastBuildDate>Sun, 08 Sep 2019 01:12:07 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>I Miss Her</title><link>https://rillonline.github.io/posts/2019/09/06/i-miss-her/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rill's Web Site</title><link>https://rillonline.github.io/</link><description>Rill's blog and other writings.</description><atom:link href="https://rillonline.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:"&gt;Rill&lt;/a&gt; </copyright><lastBuildDate>Tue, 10 Sep 2019 00:30:50 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>org-sort-list</title><link>https://rillonline.github.io/posts/2019/09/09/org-sort-list/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
+After sorting my lines using &lt;code&gt;m-x sort-lines&lt;/code&gt;, I have discovered org
+itself has a sorting lines function. Here's how to use it.
+&lt;/p&gt;
+
+&lt;ol class="org-ol"&gt;
+&lt;li&gt;Highlight the list you want to sort.&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;c-c ^&lt;/code&gt; (carat or s=6).&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;
+You will be prompted to indicate what kind of a sort you want.
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;a for alphabetical&lt;/li&gt;
+&lt;li&gt;f for function which I will not cover&lt;/li&gt;
+&lt;li&gt;n for numeric&lt;/li&gt;
+&lt;li&gt;x for checkboxes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+If these letters are capitalized, reverse order is used.
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;
+That's it. 
+&lt;/p&gt;</description><guid>https://rillonline.github.io/posts/2019/09/09/org-sort-list/</guid><pubDate>Tue, 10 Sep 2019 00:15:05 GMT</pubDate></item><item><title>I Miss Her</title><link>https://rillonline.github.io/posts/2019/09/06/i-miss-her/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
 I must have written this in the fall of 2006. Caitlin, my first
 Seeing Eye dog, died on July 10, 2006. Elwood did not come into my
 life until November 27th. I always remember Caitlin, my chocolate
@@ -1005,8 +1030,4 @@ the state of the people as God sees them.
 These chapters we have been reading as part of the lectionary really
 point out God's frustration at the people who claim to worship God but
 behave counter to God's intentions for humanity.
-&lt;/p&gt;</description><category>Bible</category><guid>https://rillonline.github.io/posts/2019/08/15/thinking-about-the-vine/</guid><pubDate>Thu, 15 Aug 2019 15:36:44 GMT</pubDate></item><item><title>On Toni Morrison</title><link>https://rillonline.github.io/posts/2019/08/08/on-toni-morrison/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
-It was Toni Morrison who taught me that I always assume people are
-white in literature and conversation when they could just as easily be
-something else.
-&lt;/p&gt;</description><category>Writers</category><guid>https://rillonline.github.io/posts/2019/08/08/on-toni-morrison/</guid><pubDate>Fri, 09 Aug 2019 01:36:07 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><category>Bible</category><guid>https://rillonline.github.io/posts/2019/08/15/thinking-about-the-vine/</guid><pubDate>Thu, 15 Aug 2019 15:36:44 GMT</pubDate></item></channel></rss>

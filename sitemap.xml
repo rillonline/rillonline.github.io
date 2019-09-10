@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://rillonline.github.io/</loc>
-  <lastmod>2019-08-21T00:20:00Z</lastmod>
+  <lastmod>2019-09-10T00:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/2005/</loc>
@@ -55,7 +55,7 @@
  </url>
  <url>
   <loc>https://rillonline.github.io/archive.html</loc>
-  <lastmod>2019-09-06T18:57:00Z</lastmod>
+  <lastmod>2019-09-10T00:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/categories/</loc>
@@ -299,7 +299,11 @@
  </url>
  <url>
   <loc>https://rillonline.github.io/index-35.html</loc>
-  <lastmod>2019-09-06T18:57:00Z</lastmod>
+  <lastmod>2019-09-10T00:30:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rillonline.github.io/index-36.html</loc>
+  <lastmod>2019-09-10T00:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/index-4.html</loc>
@@ -1776,6 +1780,10 @@
  <url>
   <loc>https://rillonline.github.io/posts/2019/09/06/i-miss-her/</loc>
   <lastmod>2019-09-06T18:57:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rillonline.github.io/posts/2019/09/09/org-sort-list/</loc>
+  <lastmod>2019-09-10T00:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://rillonline.github.io/posts/458/</loc>
