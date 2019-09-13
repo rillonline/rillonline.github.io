@@ -1,5 +1,229 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rill's Web Site</title><link>https://rillonline.github.io/</link><description>Rill's blog and other writings.</description><atom:link href="https://rillonline.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:"&gt;Rill&lt;/a&gt; </copyright><lastBuildDate>Fri, 13 Sep 2019 19:12:42 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>org-sort-list</title><link>https://rillonline.github.io/posts/2019/09/09/org-sort-list/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rill's Web Site</title><link>https://rillonline.github.io/</link><description>Rill's blog and other writings.</description><atom:link href="https://rillonline.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:"&gt;Rill&lt;/a&gt; </copyright><lastBuildDate>Fri, 13 Sep 2019 21:06:53 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Writing a Book Part 1</title><link>https://rillonline.github.io/posts/2019/09/13/writing-a-book-part-1/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
+I have started to write a book which gathers together some of my
+previous posts on Org and then fleshes out the material.
+&lt;/p&gt;
+
+&lt;div id="outline-container-orgc79602e" class="outline-2"&gt;
+&lt;h2 id="orgc79602e"&gt;Setting Up a To-do&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgc79602e"&gt;
+&lt;p&gt;
+I first set up a to-do to track my progress. I am modifying the steps
+as I go, but here is what it currently looks like:
+&lt;/p&gt;
+
+&lt;pre class="example"&gt;
+* STARTED Write a series of articles on getting organized with org mode [5/10]
+
+     1. [X] Gather all files into a new git repository
+     2. [X] Create a landing page for the ebook
+     3. [X] Write an outline for my getting organized articles
+     4. [X] Integrate blog posts into this outline
+     5. [X] Write a script to convert .org files to .md files and copy
+        them to the book directory
+     6. [ ] Write the book. Chapter by Chapter goes below.
+     7. [ ] Publish the ebook
+     8. [ ] Upload the ebook to archive.org
+     9. [ ] Update the download link on the landing page.
+     10. [ ] Write a blog post announcing the book.
+&lt;/pre&gt;
+
+&lt;p&gt;
+I have checked off have of the items, but it is the easy stuff I've
+checked off. So far I only have listed one items for writing the book
+though I plan on adding check boxes underneath this item so I can
+check off each chapter. The final check box is to review the entire
+book and make any necessary corrections.
+&lt;/p&gt;
+
+&lt;p&gt;
+"STARTED" is a to-do state that I developed for my projects. More on
+that when I discuss "TODO" in general.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org0f2f76a" class="outline-2"&gt;
+&lt;h2 id="org0f2f76a"&gt;Setting Things Up&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org0f2f76a"&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Setting up the git repository was very straight forward on &lt;a href="https://github.com/"&gt;github&lt;/a&gt;.
+Then I looked over my blog and copied the posts that applied into
+that directory and updated the repository.&lt;/li&gt;
+&lt;li&gt;I then wrote a landing page for the book. The idea of a landing page
+is to have the potential reader focus on your book and the &lt;b&gt;Call to
+Action&lt;/b&gt; which is for you, the reader, to click on the "buy" button.
+My page is quite simple and does not have a "Download" button yet
+since the book is not finished. You can look at it &lt;a href="https://rillonline.github.io/living-my-life-in-plain-text-page.html"&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org7d5fcda" class="outline-2"&gt;
+&lt;h2 id="org7d5fcda"&gt;Outlining&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org7d5fcda"&gt;
+&lt;p&gt;
+I then set about putting together an outline to help me think about
+what the book should cover. This is not set in stone. More chapters
+may appear and the ones listed here may disappear. This is what it
+currently looks like in Org markup.
+&lt;/p&gt;
+
+&lt;pre class="example"&gt;
+** Table of Contents
+** Introduction -- what this book hopes to accomplish
+** Thinking About Doing
+** A Few Quick Notes on Orgmode Markup
+** Setting up your Initial Emacs Configuration for Org
+** Setting up a Calendar
+** Seeing Your Calendar as an Agenda
+** Making a To-do List
+** How Deep Should You Go?
+*** To-do Checkboxes
+*** To-do Keywords
+*** Priorities
+** Revisiting the Agenda
+*** Helpful keys in the Agenda -- archiving, saving, changing status
+*** Seeing the Agenda on STartup
+*** Remember to Refresh
+** Capturing Information
+*** Deciding what to Capture
+** To Refile or Not to Refile
+** Writing in Orgmode
+** Exporting and Publishing in Orgmode
+** Keeping Track of Expenses
+** References
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org21d0642" class="outline-3"&gt;
+&lt;h3 id="org21d0642"&gt;Promotion and Demotion&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org21d0642"&gt;
+&lt;p&gt;
+In looking this over, the first thing I want to do is change the
+headline level. I need to move everything up one level so that heading
+3s become heading2s and heading2s become heading1s
+What I want to do is called promotion. I highlighted the text, went to
+the org menu and found "promote" under the "edit structure" menu item.
+There is a shortcut key you can use if you do this often enough to
+remember it "m-s-left". You can also demote items "m-s-right"..
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org8d0d795" class="outline-3"&gt;
+&lt;h3 id="org8d0d795"&gt;Changing Headlines into Lists&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org8d0d795"&gt;
+&lt;p&gt;
+You can change headlines into lists and lists into headlines. I
+changed my outline headings into an unordered list of to-do items by
+highlighting them and then applying the command "c-c -". That's "c-c
+hyphen". The "-" (hyphen) gives you the clue. The asterisks "*" are
+replaced wit a hyphen "-". You can go the other way by using "c-c *" (asterisk).  
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org39894ea" class="outline-2"&gt;
+&lt;h2 id="org39894ea"&gt;Making an Epub&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org39894ea"&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orgb90f8da" class="outline-3"&gt;
+&lt;h3 id="orgb90f8da"&gt;What Didn't Work for Me&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgb90f8da"&gt;
+&lt;p&gt;
+Then I investigated how to make an epub. Pandoc can do this. One of
+the examples I found showed how to put a bunch of markdown files in a
+directory and then turn them into an ebook. Great, I thought.
+&lt;/p&gt;
+
+&lt;p&gt;
+I tried to use org-publish to do this but I could not get a batch
+transformation of all org files. I've tried this in the past and the
+markdown export function still hangs. I think I had 30 buffers open wantiiting
+for something. I have no idea what   
+&lt;/p&gt;
+
+&lt;p&gt;
+I found this script on the &lt;a href="https://pandoc.org/faqs.html"&gt;pandoc site&lt;/a&gt; and modified it for my purpose:
+&lt;/p&gt;
+
+&lt;pre class="example"&gt;
+#!/bin/bash
+# Convert all org files in a directory to markdown
+# This script is to convert and move markdown into the book folder
+
+for f in *.org;
+do pandoc "$f" -s -o "${f%.org}.md";
+done
+mv *.md book/
+&lt;/pre&gt;
+
+&lt;p&gt;
+Then I discovered I would have to include every filename in the
+directory in my pandoc command. That seemed more trouble than it was
+worth as the moment so I will just write in one file and perhaps split
+it out at the end so that I can update it more easily. We'll see.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org71a5384" class="outline-3"&gt;
+&lt;h3 id="org71a5384"&gt;What Did work for Me&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org71a5384"&gt;
+&lt;p&gt;
+I had to add some YML stuff to the beginning of my file:
+&lt;/p&gt;
+
+&lt;pre class="example"&gt;
+---
+title: Living My Life in Plain Text
+author: Rill Woolnough
+rights: Creative Commons Attribution Non-commercial ShareAlike
+---
+&lt;/pre&gt;
+
+&lt;p&gt;
+Here's the pandoc command I am using:
+&lt;/p&gt;
+
+&lt;pre class="example"&gt;
+pandoc -o book.epub book.org --toc --toc-depth=3
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-orgd27f52b" class="outline-2"&gt;
+&lt;h2 id="orgd27f52b"&gt;Reading the Epub&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgd27f52b"&gt;
+&lt;p&gt;
+So how to read it? Enter emacspeak. It uses the eww browser to render
+the book. 
+&lt;/p&gt;
+
+&lt;pre class="example"&gt;
+m-x     emacspeak-epub-open  ret
+enter the path to the book ret
+&lt;/pre&gt;
+
+&lt;p&gt;
+Because Firefox is my default browser, the book opens there. There is
+single letter navigation to move around in the book as if you are in a
+regular web page. alt-f4 closes the book.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org83f4abf" class="outline-2"&gt;
+&lt;h2 id="org83f4abf"&gt;Back to Work!&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org83f4abf"&gt;
+&lt;p&gt;
+Now I'm going back to writing.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><category>Org</category><category>Writing</category><guid>https://rillonline.github.io/posts/2019/09/13/writing-a-book-part-1/</guid><pubDate>Fri, 13 Sep 2019 17:17:34 GMT</pubDate></item><item><title>org-sort-list</title><link>https://rillonline.github.io/posts/2019/09/09/org-sort-list/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
 After sorting my lines using &lt;code&gt;m-x sort-lines&lt;/code&gt;, I have discovered org
 itself has a sorting lines function. Here's how to use it.
 &lt;/p&gt;
@@ -978,56 +1202,4 @@ Emacspeak will not read out the new misspelled word. Press c-e w to
 hear the word. Press c-e w again to have it spelled.
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><guid>https://rillonline.github.io/posts/2019/08/16/using-flyspell-and-emacspeak/</guid><pubDate>Sat, 17 Aug 2019 02:46:31 GMT</pubDate></item><item><title>Thinking About the Vine</title><link>https://rillonline.github.io/posts/2019/08/15/thinking-about-the-vine/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
-I don't know that I am going to write a proper flash sermon on this,
-but I can't help thinking about the vineyard in Isaiah 5 and Psalm 80.
-They are the assigned texts for the Revised Common Lectionary for
-Track 1 Year C.
-&lt;/p&gt;
-
-&lt;p&gt;
-I have read these texts often since I usually review them for John 15
-"I am the vine and you are the branches".
-&lt;/p&gt;
-
-&lt;p&gt;
-One of the things that continues to surprise me while reading the
-parable in Isaiah 5 is the violence of God's actions:
-&lt;/p&gt;
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;taking away its hedge&lt;/li&gt;
-&lt;li&gt;making it a wasteland&lt;/li&gt;
-&lt;li&gt;not providing any rain&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;
-In some translations, there is a distinction between grapes and bad
-fruit. A better way to think of this  is cultivated grapes and wild
-grapes.. Some translations maintain this distinction which is helpful.
-&lt;/p&gt;
-
-&lt;p&gt;
-The plantings, the vines, are identified as the people. Their crop is
-not the tasty grapes but the wild grapes of oppression and injustice.
-That is what is making God angry.
-&lt;/p&gt;
-
-&lt;p&gt;
-Here God is saying that God created an environment for justice and
-freedom. Instead, God finds an environment of injustice and, in some
-translations, bloodshed.
-&lt;/p&gt;
-
-&lt;p&gt;
-The parable begins with the writer saying that he or she is singing a
-song to his/her beloved. The singer is on the side of justice and
-righteousness along with God, but as prophet, he/she is pointing out
-the state of the people as God sees them.
-&lt;/p&gt;
-
-&lt;p&gt;
-These chapters we have been reading as part of the lectionary really
-point out God's frustration at the people who claim to worship God but
-behave counter to God's intentions for humanity.
-&lt;/p&gt;</description><category>Bible</category><guid>https://rillonline.github.io/posts/2019/08/15/thinking-about-the-vine/</guid><pubDate>Thu, 15 Aug 2019 15:36:44 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;</description><guid>https://rillonline.github.io/posts/2019/08/16/using-flyspell-and-emacspeak/</guid><pubDate>Sat, 17 Aug 2019 02:46:31 GMT</pubDate></item></channel></rss>

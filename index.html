@@ -12,7 +12,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="https://rillonline.github.io/">
 <link rel="next" href="index-36.html" type="text/html">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/2019/09/09/org-sort-list/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/2019/09/13/writing-a-book-part-1/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -71,7 +71,244 @@
     
         
     <div class="postindex">
-            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2019/09/09/org-sort-list/" class="u-url">org-sort-list</a></h1>
+            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2019/09/13/writing-a-book-part-1/" class="u-url">Writing a Book Part 1</a></h1>
+                <div class="metadata">
+                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                        Rill
+                    </span></p>
+            <p class="dateline">
+            <a href="posts/2019/09/13/writing-a-book-part-1/" rel="bookmark">
+            <time class="published dt-published" datetime="2019-09-13T12:17:34-05:00" itemprop="datePublished" title="2019-09-13 12:17">2019-09-13 12:17</time></a>
+            </p>
+                </div>
+            </header><div class="e-content entry-content">
+                    <p>
+I have started to write a book which gathers together some of my
+previous posts on Org and then fleshes out the material.
+</p>
+
+<div id="outline-container-orgc79602e" class="outline-2">
+<h2 id="orgc79602e">Setting Up a To-do</h2>
+<div class="outline-text-2" id="text-orgc79602e">
+<p>
+I first set up a to-do to track my progress. I am modifying the steps
+as I go, but here is what it currently looks like:
+</p>
+
+<pre class="example">
+* STARTED Write a series of articles on getting organized with org mode [5/10]
+
+     1. [X] Gather all files into a new git repository
+     2. [X] Create a landing page for the ebook
+     3. [X] Write an outline for my getting organized articles
+     4. [X] Integrate blog posts into this outline
+     5. [X] Write a script to convert .org files to .md files and copy
+        them to the book directory
+     6. [ ] Write the book. Chapter by Chapter goes below.
+     7. [ ] Publish the ebook
+     8. [ ] Upload the ebook to archive.org
+     9. [ ] Update the download link on the landing page.
+     10. [ ] Write a blog post announcing the book.
+</pre>
+
+<p>
+I have checked off have of the items, but it is the easy stuff I've
+checked off. So far I only have listed one items for writing the book
+though I plan on adding check boxes underneath this item so I can
+check off each chapter. The final check box is to review the entire
+book and make any necessary corrections.
+</p>
+
+<p>
+"STARTED" is a to-do state that I developed for my projects. More on
+that when I discuss "TODO" in general.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0f2f76a" class="outline-2">
+<h2 id="org0f2f76a">Setting Things Up</h2>
+<div class="outline-text-2" id="text-org0f2f76a">
+<ul class="org-ul">
+<li>Setting up the git repository was very straight forward on <a href="https://github.com/">github</a>.
+Then I looked over my blog and copied the posts that applied into
+that directory and updated the repository.</li>
+<li>I then wrote a landing page for the book. The idea of a landing page
+is to have the potential reader focus on your book and the <b>Call to
+Action</b> which is for you, the reader, to click on the "buy" button.
+My page is quite simple and does not have a "Download" button yet
+since the book is not finished. You can look at it <a href="https://rillonline.github.io/living-my-life-in-plain-text-page.html">here</a>.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org7d5fcda" class="outline-2">
+<h2 id="org7d5fcda">Outlining</h2>
+<div class="outline-text-2" id="text-org7d5fcda">
+<p>
+I then set about putting together an outline to help me think about
+what the book should cover. This is not set in stone. More chapters
+may appear and the ones listed here may disappear. This is what it
+currently looks like in Org markup.
+</p>
+
+<pre class="example">
+** Table of Contents
+** Introduction -- what this book hopes to accomplish
+** Thinking About Doing
+** A Few Quick Notes on Orgmode Markup
+** Setting up your Initial Emacs Configuration for Org
+** Setting up a Calendar
+** Seeing Your Calendar as an Agenda
+** Making a To-do List
+** How Deep Should You Go?
+*** To-do Checkboxes
+*** To-do Keywords
+*** Priorities
+** Revisiting the Agenda
+*** Helpful keys in the Agenda -- archiving, saving, changing status
+*** Seeing the Agenda on STartup
+*** Remember to Refresh
+** Capturing Information
+*** Deciding what to Capture
+** To Refile or Not to Refile
+** Writing in Orgmode
+** Exporting and Publishing in Orgmode
+** Keeping Track of Expenses
+** References
+</pre>
+</div>
+
+<div id="outline-container-org21d0642" class="outline-3">
+<h3 id="org21d0642">Promotion and Demotion</h3>
+<div class="outline-text-3" id="text-org21d0642">
+<p>
+In looking this over, the first thing I want to do is change the
+headline level. I need to move everything up one level so that heading
+3s become heading2s and heading2s become heading1s
+What I want to do is called promotion. I highlighted the text, went to
+the org menu and found "promote" under the "edit structure" menu item.
+There is a shortcut key you can use if you do this often enough to
+remember it "m-s-left". You can also demote items "m-s-right"..
+</p>
+</div>
+</div>
+
+<div id="outline-container-org8d0d795" class="outline-3">
+<h3 id="org8d0d795">Changing Headlines into Lists</h3>
+<div class="outline-text-3" id="text-org8d0d795">
+<p>
+You can change headlines into lists and lists into headlines. I
+changed my outline headings into an unordered list of to-do items by
+highlighting them and then applying the command "c-c -". That's "c-c
+hyphen". The "-" (hyphen) gives you the clue. The asterisks "*" are
+replaced wit a hyphen "-". You can go the other way by using "c-c *" (asterisk).  
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org39894ea" class="outline-2">
+<h2 id="org39894ea">Making an Epub</h2>
+<div class="outline-text-2" id="text-org39894ea">
+</div>
+<div id="outline-container-orgb90f8da" class="outline-3">
+<h3 id="orgb90f8da">What Didn't Work for Me</h3>
+<div class="outline-text-3" id="text-orgb90f8da">
+<p>
+Then I investigated how to make an epub. Pandoc can do this. One of
+the examples I found showed how to put a bunch of markdown files in a
+directory and then turn them into an ebook. Great, I thought.
+</p>
+
+<p>
+I tried to use org-publish to do this but I could not get a batch
+transformation of all org files. I've tried this in the past and the
+markdown export function still hangs. I think I had 30 buffers open wantiiting
+for something. I have no idea what   
+</p>
+
+<p>
+I found this script on the <a href="https://pandoc.org/faqs.html">pandoc site</a> and modified it for my purpose:
+</p>
+
+<pre class="example">
+#!/bin/bash
+# Convert all org files in a directory to markdown
+# This script is to convert and move markdown into the book folder
+
+for f in *.org;
+do pandoc "$f" -s -o "${f%.org}.md";
+done
+mv *.md book/
+</pre>
+
+<p>
+Then I discovered I would have to include every filename in the
+directory in my pandoc command. That seemed more trouble than it was
+worth as the moment so I will just write in one file and perhaps split
+it out at the end so that I can update it more easily. We'll see.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org71a5384" class="outline-3">
+<h3 id="org71a5384">What Did work for Me</h3>
+<div class="outline-text-3" id="text-org71a5384">
+<p>
+I had to add some YML stuff to the beginning of my file:
+</p>
+
+<pre class="example">
+---
+title: Living My Life in Plain Text
+author: Rill Woolnough
+rights: Creative Commons Attribution Non-commercial ShareAlike
+---
+</pre>
+
+<p>
+Here's the pandoc command I am using:
+</p>
+
+<pre class="example">
+pandoc -o book.epub book.org --toc --toc-depth=3
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd27f52b" class="outline-2">
+<h2 id="orgd27f52b">Reading the Epub</h2>
+<div class="outline-text-2" id="text-orgd27f52b">
+<p>
+So how to read it? Enter emacspeak. It uses the eww browser to render
+the book. 
+</p>
+
+<pre class="example">
+m-x     emacspeak-epub-open  ret
+enter the path to the book ret
+</pre>
+
+<p>
+Because Firefox is my default browser, the book opens there. There is
+single letter navigation to move around in the book as if you are in a
+regular web page. alt-f4 closes the book.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org83f4abf" class="outline-2">
+<h2 id="org83f4abf">Back to Work!</h2>
+<div class="outline-text-2" id="text-org83f4abf">
+<p>
+Now I'm going back to writing.
+</p>
+</div>
+</div>
+                </div>
+            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2019/09/09/org-sort-list/" class="u-url">org-sort-list</a></h1>
                 <div class="metadata">
                     <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                         Rill
@@ -1169,70 +1406,6 @@ hear the word. Press c-e w again to have it spelled.
 </p>
 </div>
 </div>
-                </div>
-            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2019/08/15/thinking-about-the-vine/" class="u-url">Thinking About the Vine</a></h1>
-                <div class="metadata">
-                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                        Rill
-                    </span></p>
-            <p class="dateline">
-            <a href="posts/2019/08/15/thinking-about-the-vine/" rel="bookmark">
-            <time class="published dt-published" datetime="2019-08-15T10:36:44-05:00" itemprop="datePublished" title="2019-08-15 10:36">2019-08-15 10:36</time></a>
-            </p>
-                </div>
-            </header><div class="e-content entry-content">
-                    <p>
-I don't know that I am going to write a proper flash sermon on this,
-but I can't help thinking about the vineyard in Isaiah 5 and Psalm 80.
-They are the assigned texts for the Revised Common Lectionary for
-Track 1 Year C.
-</p>
-
-<p>
-I have read these texts often since I usually review them for John 15
-"I am the vine and you are the branches".
-</p>
-
-<p>
-One of the things that continues to surprise me while reading the
-parable in Isaiah 5 is the violence of God's actions:
-</p>
-
-<ul class="org-ul">
-<li>taking away its hedge</li>
-<li>making it a wasteland</li>
-<li>not providing any rain</li>
-</ul>
-<p>
-In some translations, there is a distinction between grapes and bad
-fruit. A better way to think of this  is cultivated grapes and wild
-grapes.. Some translations maintain this distinction which is helpful.
-</p>
-
-<p>
-The plantings, the vines, are identified as the people. Their crop is
-not the tasty grapes but the wild grapes of oppression and injustice.
-That is what is making God angry.
-</p>
-
-<p>
-Here God is saying that God created an environment for justice and
-freedom. Instead, God finds an environment of injustice and, in some
-translations, bloodshed.
-</p>
-
-<p>
-The parable begins with the writer saying that he or she is singing a
-song to his/her beloved. The singer is on the side of justice and
-righteousness along with God, but as prophet, he/she is pointing out
-the state of the people as God sees them.
-</p>
-
-<p>
-These chapters we have been reading as part of the lectionary really
-point out God's frustration at the people who claim to worship God but
-behave counter to God's intentions for humanity.
-</p>
                 </div>
             </article>
 </div>
