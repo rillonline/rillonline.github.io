@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rill's Web Site</title><link>https://rillonline.github.io/</link><description>Rill's blog and other writings.</description><atom:link href="https://rillonline.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:"&gt;Rill&lt;/a&gt; </copyright><lastBuildDate>Fri, 13 Sep 2019 17:34:19 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Writing a Book Part 1</title><link>https://rillonline.github.io/posts/2019/09/13/writing-a-book-part-1/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rill's Web Site</title><link>https://rillonline.github.io/</link><description>Rill's blog and other writings.</description><atom:link href="https://rillonline.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:"&gt;Rill&lt;/a&gt; </copyright><lastBuildDate>Fri, 13 Sep 2019 19:02:45 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Writing a Book Part 1</title><link>https://rillonline.github.io/posts/2019/09/13/writing-a-book-part-1/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
 I have started to write a book which gathers together some of my
 previous posts on Org and then fleshes out the material.
 &lt;/p&gt;
 
+&lt;div id="outline-container-orgde47f8a" class="outline-2"&gt;
+&lt;h2 id="orgde47f8a"&gt;Setting Up a To-do&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgde47f8a"&gt;
 &lt;p&gt;
 I first set up a to-do to track my progress. I am modifying the steps
 as I go, but here is what it currently looks like:
@@ -37,7 +40,12 @@ book and make any necessary corrections.
 "STARTED" is a to-do state that I developed for my projects. More on
 that when I discuss "TODO" in general.
 &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
+&lt;div id="outline-container-org3efe7ae" class="outline-2"&gt;
+&lt;h2 id="org3efe7ae"&gt;Setting Things Up&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org3efe7ae"&gt;
 &lt;ul class="org-ul"&gt;
 &lt;li&gt;Setting up the git repository was very straight forward on &lt;a href="https://github.com/"&gt;github&lt;/a&gt;.
 Then I looked over my blog and copied the posts that applied into
@@ -46,85 +54,185 @@ that directory and updated the repository.&lt;/li&gt;
 is to have the potential reader focus on your book and the &lt;b&gt;Call to
 Action&lt;/b&gt; which is for you, the reader, to click on the "buy" button.
 My page is quite simple and does not have a "Download" button yet
-since the book is not finished. You can look at it [[][here.].&lt;/li&gt;
+since the book is not finished. You can look at it &lt;a href="https://rillonline.github.io/living-my-life-in-plain-text-page.html"&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div id="outline-container-orgd2dbc7e" class="outline-2"&gt;
-&lt;h2 id="orgd2dbc7e"&gt;Table of Contents&lt;/h2&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org1d12f8e" class="outline-2"&gt;
-&lt;h2 id="org1d12f8e"&gt;Introduction – what this book hopes to accomplish&lt;/h2&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgb282709" class="outline-2"&gt;
-&lt;h2 id="orgb282709"&gt;Thinking About Doing&lt;/h2&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org3737873" class="outline-2"&gt;
-&lt;h2 id="org3737873"&gt;A Few Quick Notes on Orgmode Markup&lt;/h2&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org0a0cc46" class="outline-2"&gt;
-&lt;h2 id="org0a0cc46"&gt;Setting up your Initial Emacs Configuration for Org&lt;/h2&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org31a8c15" class="outline-2"&gt;
-&lt;h2 id="org31a8c15"&gt;Setting up a Calendar&lt;/h2&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgadb0edc" class="outline-2"&gt;
-&lt;h2 id="orgadb0edc"&gt;Seeing Your Calendar as an Agenda&lt;/h2&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org04488fe" class="outline-2"&gt;
-&lt;h2 id="org04488fe"&gt;Making a To-do List&lt;/h2&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org5c1bfb2" class="outline-2"&gt;
-&lt;h2 id="org5c1bfb2"&gt;How Deep Should You Go?&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org5c1bfb2"&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org34dfaec" class="outline-3"&gt;
-&lt;h3 id="org34dfaec"&gt;To-do Checkboxes&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org5c3ab67" class="outline-3"&gt;
-&lt;h3 id="org5c3ab67"&gt;To-do Keywords&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgffbc55c" class="outline-3"&gt;
-&lt;h3 id="orgffbc55c"&gt;Priorities&lt;/h3&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org41e9df3" class="outline-2"&gt;
-&lt;h2 id="org41e9df3"&gt;Revisiting the Agenda&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org41e9df3"&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org64d00b6" class="outline-3"&gt;
-&lt;h3 id="org64d00b6"&gt;Helpful keys in the Agenda – archiving, saving, changing status&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgedfe9c0" class="outline-3"&gt;
-&lt;h3 id="orgedfe9c0"&gt;Seeing the Agenda on STartup&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgd97dcad" class="outline-3"&gt;
-&lt;h3 id="orgd97dcad"&gt;Remember to Refresh&lt;/h3&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orga876018" class="outline-2"&gt;
-&lt;h2 id="orga876018"&gt;Capturing Information&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orga876018"&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org931e1d4" class="outline-3"&gt;
-&lt;h3 id="org931e1d4"&gt;Deciding what to Capture&lt;/h3&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org1687059" class="outline-2"&gt;
-&lt;h2 id="org1687059"&gt;To Refile or Not to Refile&lt;/h2&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgbf9d6f2" class="outline-2"&gt;
-&lt;h2 id="orgbf9d6f2"&gt;Writing in Orgmode&lt;/h2&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgad2dbab" class="outline-2"&gt;
-&lt;h2 id="orgad2dbab"&gt;Exporting and Publishing in Orgmode&lt;/h2&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orge842b54" class="outline-2"&gt;
-&lt;h2 id="orge842b54"&gt;Keeping Track of Expenses&lt;/h2&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org0348e7c" class="outline-2"&gt;
-&lt;h2 id="org0348e7c"&gt;References&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org0348e7c"&gt;
+
+&lt;div id="outline-container-org8e51430" class="outline-2"&gt;
+&lt;h2 id="org8e51430"&gt;Outlining&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org8e51430"&gt;
 &lt;p&gt;
-Write your post here.
+I then set about putting together an outline to help me think about
+what the book should cover. This is not set in stone. More chapters
+may appear and the ones listed here may disappear. This is what it
+currently looks like in Org markup.
+&lt;/p&gt;
+
+&lt;p&gt;
+#+begin&lt;sub&gt;example&lt;/sub&gt;
+ &lt;b&gt;* Table of Contents
+ *&lt;/b&gt; Introduction – what this book hopes to accomplish
+ &lt;b&gt;* Thinking About Doing
+ *&lt;/b&gt; A Few Quick Notes on Orgmode Markup
+ &lt;b&gt;* Setting up your Initial Emacs Configuration for Org
+ *&lt;/b&gt; Setting up a Calendar
+ &lt;b&gt;* Seeing Your Calendar as an Agenda
+ *&lt;/b&gt; Making a To-do List
+ ** How Deep Should You Go?
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orgab69e6e" class="outline-3"&gt;
+&lt;h3 id="orgab69e6e"&gt;To-do Checkboxes&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org4c000a8" class="outline-3"&gt;
+&lt;h3 id="org4c000a8"&gt;To-do Keywords&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orgaf2118d" class="outline-3"&gt;
+&lt;h3 id="orgaf2118d"&gt;Priorities&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgaf2118d"&gt;
+&lt;p&gt;
+** Revisiting the Agenda
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orgec3d19d" class="outline-3"&gt;
+&lt;h3 id="orgec3d19d"&gt;Helpful keys in the Agenda – archiving, saving, changing status&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orgbea41a2" class="outline-3"&gt;
+&lt;h3 id="orgbea41a2"&gt;Seeing the Agenda on STartup&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org3cab928" class="outline-3"&gt;
+&lt;h3 id="org3cab928"&gt;Remember to Refresh&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org3cab928"&gt;
+&lt;p&gt;
+** Capturing Information
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org2a4cfd7" class="outline-3"&gt;
+&lt;h3 id="org2a4cfd7"&gt;Deciding what to Capture&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org2a4cfd7"&gt;
+&lt;p&gt;
+ &lt;b&gt;* To Refile or Not to Refile
+ *&lt;/b&gt; Writing in Orgmode
+ &lt;b&gt;* Exporting and Publishing in Orgmode
+ *&lt;/b&gt; Keeping Track of Expenses
+ ** References
+#+end&lt;sub&gt;example&lt;/sub&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org4c5766d" class="outline-3"&gt;
+&lt;h3 id="org4c5766d"&gt;Promotion and Demotion&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org4c5766d"&gt;
+&lt;p&gt;
+In looking this over, the first thing I want to do is change the
+headline level. I need to move everything up one level so that heading
+3s become heading2s and heading2s become heading1s
+What I want to do is called promotion. I highlighted the text, went to
+the org menu and found "promote" under the "edit structure" menu item.
+There is a shortcut key you can use if you do this often enough to
+remember it "m-s-left". You can also demote items "m-s-right"..
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org26c639a" class="outline-3"&gt;
+&lt;h3 id="org26c639a"&gt;Changing Headlines into Lists&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org26c639a"&gt;
+&lt;p&gt;
+You can change headlines into lists and lists into headlines. I
+changed my outline headings into an unordered list of to-do items by
+highlighting them and then applying the command "c-c -". That's "c-c
+hyphen". The "-" (hyphen) gives you the clue. The asterisks "*" are
+replaced wit a hyphen "-". You can go the other way by using "c-c *" (asterisk).  
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org24f99c2" class="outline-2"&gt;
+&lt;h2 id="org24f99c2"&gt;Making an Epub&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org24f99c2"&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org01091f2" class="outline-3"&gt;
+&lt;h3 id="org01091f2"&gt;What Didn't Work for Me&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org01091f2"&gt;
+&lt;p&gt;
+Then I investigated how to make an epub. Pandoc can do this. One of
+the examples I found showed how to put a bunch of markdown files in a
+directory and then turn them into an ebook. Great, I thought.
+&lt;/p&gt;
+
+&lt;p&gt;
+I tried to use org-publish to do this but I could not get a batch
+transformation of all org files. I've tried this in the past and the
+export function still hangs. I think I had 30 buffers open wantiiting
+for something. I have no idea what  
+&lt;/p&gt;
+
+&lt;pre class="example"&gt;
+#!/bin/bash
+# Convert all org files in a directory to markdown
+# This script is to convert and move markdown into the book folder
+
+for f in *.org;
+do pandoc "$f" -s -o "${f%.org}.md";
+done
+mv *.md book/
+&lt;/pre&gt;
+
+&lt;p&gt;
+Then I discovered I would have to include every filename in the
+directory in my pandoc command. That seemed more trouble than it was
+worth as the moment so I will just write in one file and perhaps split
+it out at the end so that I can update it more easily. We'll see.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org60e295b" class="outline-3"&gt;
+&lt;h3 id="org60e295b"&gt;What Did work for MeSo I found this script on the &lt;a href="https://pandoc.org/faqs.html"&gt;pandoc site&lt;/a&gt; and modified it for my purpose:&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org60e295b"&gt;
+&lt;p&gt;
+So here's the pandoc command I am using:
+&lt;/p&gt;
+
+&lt;pre class="example"&gt;
+pandoc -o book.epub book.org --toc --toc-depth=3
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org11cdfcf" class="outline-2"&gt;
+&lt;h2 id="org11cdfcf"&gt;Reading the Epub&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org11cdfcf"&gt;
+&lt;p&gt;
+So how to read it? Enter emacspeak. It uses the eww browser to render
+the book. 
+&lt;/p&gt;
+
+&lt;pre class="example"&gt;
+m-x     emacspeak-epub-open  ret
+enter the path to the book ret
+&lt;/pre&gt;
+
+&lt;p&gt;
+Because Firefox is my default browser, the book opens there. There is
+single letter navigation to move around in the book as if you are in a
+regular web page. alt-f4 closes the book.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org54d3ff6" class="outline-2"&gt;
+&lt;h2 id="org54d3ff6"&gt;Back to Work!&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org54d3ff6"&gt;
+&lt;p&gt;
+Now I'm going back to writing.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description><category>Org</category><category>Writing</category><guid>https://rillonline.github.io/posts/2019/09/13/writing-a-book-part-1/</guid><pubDate>Fri, 13 Sep 2019 17:17:34 GMT</pubDate></item><item><title>org-sort-list</title><link>https://rillonline.github.io/posts/2019/09/09/org-sort-list/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
