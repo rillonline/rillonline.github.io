@@ -72,7 +72,120 @@
     
         
     <div class="postindex">
-            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2019/08/15/thinking-about-the-vine/" class="u-url">Thinking About the Vine</a></h1>
+            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2019/08/16/using-flyspell-and-emacspeak/" class="u-url">Using Flyspell and Emacspeak</a></h1>
+                <div class="metadata">
+                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                        Rill
+                    </span></p>
+            <p class="dateline">
+            <a href="posts/2019/08/16/using-flyspell-and-emacspeak/" rel="bookmark">
+            <time class="published dt-published" datetime="2019-08-16T21:46:31-05:00" itemprop="datePublished" title="2019-08-16 21:46">2019-08-16 21:46</time></a>
+            </p>
+                </div>
+            </header><div class="e-content entry-content">
+                    <div id="outline-container-orge9990a5" class="outline-2">
+<h2 id="orge9990a5">The Problem</h2>
+<div class="outline-text-2" id="text-orge9990a5">
+<p>
+I didn't have a great set up for spellchecking in Emacs. Ispell works,
+but often there are too many choices and Emacspeak does not read them
+out. So I investigated Flyspell and now I have a working solution.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org13f26ed" class="outline-2">
+<h2 id="org13f26ed">The Hook</h2>
+<div class="outline-text-2" id="text-org13f26ed">
+<p>
+I now have flyspell working in all text and text-derived buffers by
+adding this hook:
+</p>
+
+<pre class="example">
+(add-hook 'text-mode-hook 'flyspell-mode)
+</pre>
+
+<p>
+This can be disabled in specific circumstances if needed but this is
+beyond the scope of this article.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org5dc9808" class="outline-2">
+<h2 id="org5dc9808">Procedure to Correct Words in a Buffer</h2>
+<div class="outline-text-2" id="text-org5dc9808">
+<p>
+There are keybindings to autocorrect in <code>flyspell</code>, but this is not
+always advisable.
+</p>
+
+<p>
+I needed to be able to scroll through the many options. <code>Ispell</code> gives
+choices with numbers, but often there are too many to give you the
+list. By putting the following command in my <code>init.el</code> file via the
+customization menus, I am now able to use <code>flyspell</code> to cursor up and
+down a list until I find the right choice. After that, I can just hit return.
+</p>
+
+<p>
+If auditory icons is turned on and you are using the default theme,
+you will hear something like a rattling sound when you misspell a word. To
+correct the word immediately,
+</p>
+
+<ul class="org-ul">
+<li>move point to the misspelled word.</li>
+<li>Press c-c $. (control plus c then s plus 4)</li>
+<li>Emacspeak will say menu. You can use your cursor keys to scroll up
+and down the list of suggestions.</li>
+<li>Press return on your selection.</li>
+</ul>
+<p>
+As well as misspelled word suggestions, you can save your word in a
+personal dictionary, accept your spelling for this session or accept
+all misspelled words in the buffer.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org4a2483a" class="outline-2">
+<h2 id="org4a2483a">Spellchecking the Buffer</h2>
+<div class="outline-text-2" id="text-org4a2483a">
+<p>
+c-, (control plus comma) can move point from misspelled word to
+misspelled word in your buffer. Press c-c $ to correct each one. c-,
+will announce when you reach the end of the buffer. Press c-, again to
+move to the beginning of the buffer.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb89c888" class="outline-2">
+<h2 id="orgb89c888">Automatic Correction</h2>
+<div class="outline-text-2" id="text-orgb89c888">
+<p>
+There are other commands which can move point and automatically
+correct your misspellings. Since this is automatic, the first choice
+may not be the correct one. Once the word has been corrected, you will
+need to reread your work to find it.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org7d13348" class="outline-2">
+<h2 id="org7d13348">Tip</h2>
+<div class="outline-text-2" id="text-org7d13348">
+<p>
+When moving from misspelled word to misspelled word in your buffer,
+Emacspeak will not read out the new misspelled word. Press c-e w to
+hear the word. Press c-e w again to have it spelled.
+</p>
+</div>
+</div>
+                </div>
+            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2019/08/15/thinking-about-the-vine/" class="u-url">Thinking About the Vine</a></h1>
                 <div class="metadata">
                     <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                         Rill

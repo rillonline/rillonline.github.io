@@ -66,12 +66,16 @@
   <lastmod>2019-07-11T21:52:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://rillonline.github.io/categories/nanowrimo.xml</loc>
+  <lastmod>2019-09-17T18:37:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://rillonline.github.io/categories/nick.xml</loc>
   <lastmod>2019-08-27T19:16:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://rillonline.github.io/categories/org.xml</loc>
-  <lastmod>2019-09-13T21:06:00Z</lastmod>
+  <lastmod>2019-09-17T18:37:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://rillonline.github.io/categories/outings.xml</loc>
@@ -91,7 +95,7 @@
  </sitemap>
  <sitemap>
   <loc>https://rillonline.github.io/categories/ronnie-camberwell.xml</loc>
-  <lastmod>2019-08-27T19:16:00Z</lastmod>
+  <lastmod>2019-09-17T18:37:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://rillonline.github.io/categories/sermon.xml</loc>
@@ -123,7 +127,7 @@
  </sitemap>
  <sitemap>
   <loc>https://rillonline.github.io/categories/writing.xml</loc>
-  <lastmod>2019-09-13T21:06:00Z</lastmod>
+  <lastmod>2019-09-17T18:37:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://rillonline.github.io/galleries/rss.xml</loc>
@@ -131,10 +135,10 @@
  </sitemap>
  <sitemap>
   <loc>https://rillonline.github.io/rss.xml</loc>
-  <lastmod>2019-09-13T21:06:00Z</lastmod>
+  <lastmod>2019-09-17T18:37:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://rillonline.github.io/sitemap.xml</loc>
-  <lastmod>2019-09-13T21:06:00Z</lastmod>
+  <lastmod>2019-09-17T18:37:00Z</lastmod>
  </sitemap>
 </sitemapindex>
