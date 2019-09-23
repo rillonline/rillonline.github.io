@@ -3,25 +3,28 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Allen Palmer | Rill's Web Site</title>
+<title>Indentation | Rill's Web Site</title>
 <link href="../../../../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="../../../../../rss.xml">
-<link rel="canonical" href="https://rillonline.github.io/posts/2019/09/22/allen-palmer/">
+<link rel="canonical" href="https://rillonline.github.io/posts/2019/09/23/indentation/">
 <!--[if lt IE 9]><script src="../../../../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Rill">
-<link rel="prev" href="../nanowrimo-prep/" title="Nanowrimo Prep" type="text/html">
-<link rel="next" href="../../23/indentation/" title="Indentation" type="text/html">
+<link rel="prev" href="../../22/allen-palmer/" title="Allen Palmer" type="text/html">
 <meta property="og:site_name" content="Rill's Web Site">
-<meta property="og:title" content="Allen Palmer">
-<meta property="og:url" content="https://rillonline.github.io/posts/2019/09/22/allen-palmer/">
-<meta property="og:description" content="is about the emotional content of the 12 stages I wrote about
-earlier. Be sure to check it out. It really helps me understand.
-There are other good posts here, too.">
+<meta property="og:title" content="Indentation">
+<meta property="og:url" content="https://rillonline.github.io/posts/2019/09/23/indentation/">
+<meta property="og:description" content="I have been writing my Nanowrimo Prep document. This is a series of
+headings and several nested lists along with lengthy paragraphs either
+under a heading or under one of my list items.
+
+
+
+This sounds">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2019-09-22T18:12:06-05:00">
-<meta property="article:tag" content="Writing">
+<meta property="article:published_time" content="2019-09-23T10:52:31-05:00">
+<meta property="article:tag" content="Org">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -81,7 +84,7 @@ There are other good posts here, too.">
         <!--Body content-->
         
         
-<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Allen Palmer</a></h1>
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Indentation</a></h1>
 
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
@@ -89,7 +92,7 @@ There are other good posts here, too.">
             </span></p>
             <p class="dateline">
             <a href="." rel="bookmark">
-            <time class="published dt-published" datetime="2019-09-22T18:12:06-05:00" itemprop="datePublished" title="2019-09-22 18:12">2019-09-22 18:12</time></a>
+            <time class="published dt-published" datetime="2019-09-23T10:52:31-05:00" itemprop="datePublished" title="2019-09-23 10:52">2019-09-23 10:52</time></a>
             </p>
             
         <p class="sourceline"><a href="index.org" class="sourcelink">Source</a></p>
@@ -99,20 +102,94 @@ There are other good posts here, too.">
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <p>
-is about the emotional content of the 12 stages I wrote about
-earlier. Be sure to check it out. It really helps me understand.
-There are other good posts here, too.
+I have been writing my Nanowrimo Prep document. This is a series of
+headings and several nested lists along with lengthy paragraphs either
+under a heading or under one of my list items.
+</p>
+
+<p>
+This sounds straight forward enough but I have run into problems
+largely because I didn't fully grasp how Org thought of indentations.
+This was fully revealed to me when I exported my document to html.
+</p>
+
+<p>
+I was totally baffled. The web page didn't look like what I was
+writing. To solve this, I started editing the html document and
+converted back to org using pandoc. The conversion wasn't perfect, but
+good enough to clue me in.
+</p>
+
+<p>
+Did I mention that actually writing in html is <i>very</i> difficult?
+</p>
+
+<p>
+If you want to see your document as a web page, type:
+</p>
+
+<pre class="example">
+c-c c-e h o
+</pre>
+
+<p>
+This will not only convert your document, but open it in a web page
+where you can easily see what is going on. Using a screen reader, the
+headlines are identified as well as the lists, the number of items in
+a list and whether you are going into or coming out of a nested list.
+Another helpful clue is that the headings are numbered (unless you
+have turned this off globally). Finally, the list items are numbered
+(if you are using numbered lists) and you can see how Org is thinking
+of them.
+</p>
+
+<p>
+<b>Indent Everything</b>
+</p>
+
+<p>
+Well, maybe not everything, but even paragraphs under a heading or a
+list item should be indented to see the relationship.
+</p>
+
+<p>
+Sometimes Org resisted this. I had a paragraph at the left hand margin
+and I want to shift it left three spaces. Org couldn't do that for me
+so I had to manually indent line after line. Auto-fill couldn't do it
+either.
+</p>
+
+<p>
+If your paragraph is long, Emacspeak will prompt you if you want to
+"read this long line?" Annoying, but just press 'n' and then perform
+one action. Emacspeak will ask you again. Again press "n" and perform
+that action.    
+</p>
+
+<p>
+Once you have your paragraph at the right indentation, move to the
+beginning of the line and press "m-q" to reflow the paragraph. Now
+that pesky "read long line?" prompt will go away.
+</p>
+
+<p>
+If you are moving things around, adding and subtracting list items, go
+to the top of the list and press "c-c c-c" to renumber it. This will
+maintain your sanity somewhat. It will also show you where the
+numbering is inconsistent. At this point, you can track down the
+problem in your formatting.
+</p>
+
+<p>
+Happy writing. 
 </p>
     </div>
     <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
-<li><a class="tag p-category" href="../../../../../categories/writing/" rel="tag">Writing</a></li>
+<li><a class="tag p-category" href="../../../../../categories/org/" rel="tag">Org</a></li>
         </ul>
 <ul class="pager hidden-print">
 <li class="previous">
-                <a href="../nanowrimo-prep/" rel="prev" title="Nanowrimo Prep">Previous post</a>
-            </li>
-            <li class="next">
-                <a href="../../23/indentation/" rel="next" title="Indentation">Next post</a>
+                <a href="../../22/allen-palmer/" rel="prev" title="Allen Palmer">Previous post</a>
             </li>
         </ul></nav></aside></article><!--End of body content--><footer id="footer">
             Contents © 2019         <a href="mailto:">Rill</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         

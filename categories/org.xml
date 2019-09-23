@@ -1,5 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rill's Web Site (Posts about Org)</title><link>https://rillonline.github.io/</link><description></description><atom:link href="https://rillonline.github.io/categories/org.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:"&gt;Rill&lt;/a&gt; </copyright><lastBuildDate>Tue, 17 Sep 2019 18:37:12 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Writing a Book Part 1</title><link>https://rillonline.github.io/posts/2019/09/13/writing-a-book-part-1/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rill's Web Site (Posts about Org)</title><link>https://rillonline.github.io/</link><description></description><atom:link href="https://rillonline.github.io/categories/org.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:"&gt;Rill&lt;/a&gt; </copyright><lastBuildDate>Mon, 23 Sep 2019 16:09:25 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Indentation</title><link>https://rillonline.github.io/posts/2019/09/23/indentation/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
+I have been writing my Nanowrimo Prep document. This is a series of
+headings and several nested lists along with lengthy paragraphs either
+under a heading or under one of my list items.
+&lt;/p&gt;
+
+&lt;p&gt;
+This sounds straight forward enough but I have run into problems
+largely because I didn't fully grasp how Org thought of indentations.
+This was fully revealed to me when I exported my document to html.
+&lt;/p&gt;
+
+&lt;p&gt;
+I was totally baffled. The web page didn't look like what I was
+writing. To solve this, I started editing the html document and
+converted back to org using pandoc. The conversion wasn't perfect, but
+good enough to clue me in.
+&lt;/p&gt;
+
+&lt;p&gt;
+Did I mention that actually writing in html is &lt;i&gt;very&lt;/i&gt; difficult?
+&lt;/p&gt;
+
+&lt;p&gt;
+If you want to see your document as a web page, type:
+&lt;/p&gt;
+
+&lt;pre class="example"&gt;
+c-c c-e h o
+&lt;/pre&gt;
+
+&lt;p&gt;
+This will not only convert your document, but open it in a web page
+where you can easily see what is going on. Using a screen reader, the
+headlines are identified as well as the lists, the number of items in
+a list and whether you are going into or coming out of a nested list.
+Another helpful clue is that the headings are numbered (unless you
+have turned this off globally). Finally, the list items are numbered
+(if you are using numbered lists) and you can see how Org is thinking
+of them.
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;b&gt;Indent Everything&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+Well, maybe not everything, but even paragraphs under a heading or a
+list item should be indented to see the relationship.
+&lt;/p&gt;
+
+&lt;p&gt;
+Sometimes Org resisted this. I had a paragraph at the left hand margin
+and I want to shift it left three spaces. Org couldn't do that for me
+so I had to manually indent line after line. Auto-fill couldn't do it
+either.
+&lt;/p&gt;
+
+&lt;p&gt;
+If your paragraph is long, Emacspeak will prompt you if you want to
+"read this long line?" Annoying, but just press 'n' and then perform
+one action. Emacspeak will ask you again. Again press "n" and perform
+that action.    
+&lt;/p&gt;
+
+&lt;p&gt;
+Once you have your paragraph at the right indentation, move to the
+beginning of the line and press "m-q" to reflow the paragraph. Now
+that pesky "read long line?" prompt will go away.
+&lt;/p&gt;
+
+&lt;p&gt;
+If you are moving things around, adding and subtracting list items, go
+to the top of the list and press "c-c c-c" to renumber it. This will
+maintain your sanity somewhat. It will also show you where the
+numbering is inconsistent. At this point, you can track down the
+problem in your formatting.
+&lt;/p&gt;
+
+&lt;p&gt;
+Happy writing. 
+&lt;/p&gt;</description><category>Org</category><guid>https://rillonline.github.io/posts/2019/09/23/indentation/</guid><pubDate>Mon, 23 Sep 2019 15:52:31 GMT</pubDate></item><item><title>Writing a Book Part 1</title><link>https://rillonline.github.io/posts/2019/09/13/writing-a-book-part-1/</link><dc:creator>Rill</dc:creator><description>&lt;p&gt;
 I have started to write a book which gathers together some of my
 previous posts on Org and then fleshes out the material.
 &lt;/p&gt;

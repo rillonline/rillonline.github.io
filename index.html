@@ -12,7 +12,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="https://rillonline.github.io/">
 <link rel="next" href="index-36.html" type="text/html">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/2019/09/22/allen-palmer/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/2019/09/23/indentation/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -71,7 +71,101 @@
     
         
     <div class="postindex">
-            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2019/09/22/allen-palmer/" class="u-url">Allen Palmer</a></h1>
+            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2019/09/23/indentation/" class="u-url">Indentation</a></h1>
+                <div class="metadata">
+                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                        Rill
+                    </span></p>
+            <p class="dateline">
+            <a href="posts/2019/09/23/indentation/" rel="bookmark">
+            <time class="published dt-published" datetime="2019-09-23T10:52:31-05:00" itemprop="datePublished" title="2019-09-23 10:52">2019-09-23 10:52</time></a>
+            </p>
+                </div>
+            </header><div class="e-content entry-content">
+                    <p>
+I have been writing my Nanowrimo Prep document. This is a series of
+headings and several nested lists along with lengthy paragraphs either
+under a heading or under one of my list items.
+</p>
+
+<p>
+This sounds straight forward enough but I have run into problems
+largely because I didn't fully grasp how Org thought of indentations.
+This was fully revealed to me when I exported my document to html.
+</p>
+
+<p>
+I was totally baffled. The web page didn't look like what I was
+writing. To solve this, I started editing the html document and
+converted back to org using pandoc. The conversion wasn't perfect, but
+good enough to clue me in.
+</p>
+
+<p>
+Did I mention that actually writing in html is <i>very</i> difficult?
+</p>
+
+<p>
+If you want to see your document as a web page, type:
+</p>
+
+<pre class="example">
+c-c c-e h o
+</pre>
+
+<p>
+This will not only convert your document, but open it in a web page
+where you can easily see what is going on. Using a screen reader, the
+headlines are identified as well as the lists, the number of items in
+a list and whether you are going into or coming out of a nested list.
+Another helpful clue is that the headings are numbered (unless you
+have turned this off globally). Finally, the list items are numbered
+(if you are using numbered lists) and you can see how Org is thinking
+of them.
+</p>
+
+<p>
+<b>Indent Everything</b>
+</p>
+
+<p>
+Well, maybe not everything, but even paragraphs under a heading or a
+list item should be indented to see the relationship.
+</p>
+
+<p>
+Sometimes Org resisted this. I had a paragraph at the left hand margin
+and I want to shift it left three spaces. Org couldn't do that for me
+so I had to manually indent line after line. Auto-fill couldn't do it
+either.
+</p>
+
+<p>
+If your paragraph is long, Emacspeak will prompt you if you want to
+"read this long line?" Annoying, but just press 'n' and then perform
+one action. Emacspeak will ask you again. Again press "n" and perform
+that action.    
+</p>
+
+<p>
+Once you have your paragraph at the right indentation, move to the
+beginning of the line and press "m-q" to reflow the paragraph. Now
+that pesky "read long line?" prompt will go away.
+</p>
+
+<p>
+If you are moving things around, adding and subtracting list items, go
+to the top of the list and press "c-c c-c" to renumber it. This will
+maintain your sanity somewhat. It will also show you where the
+numbering is inconsistent. At this point, you can track down the
+problem in your formatting.
+</p>
+
+<p>
+Happy writing. 
+</p>
+                </div>
+            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2019/09/22/allen-palmer/" class="u-url">Allen Palmer</a></h1>
                 <div class="metadata">
                     <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                         Rill
@@ -984,178 +1078,6 @@ boost. I would have to go past everything I've already done.
 </p>
 </li>
 </ol>
-</div>
-</div>
-                </div>
-            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2019/08/28/recurring-tasks-in-orgmode/" class="u-url">Recurring Tasks in Orgmode</a></h1>
-                <div class="metadata">
-                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                        Rill
-                    </span></p>
-            <p class="dateline">
-            <a href="posts/2019/08/28/recurring-tasks-in-orgmode/" rel="bookmark">
-            <time class="published dt-published" datetime="2019-08-28T14:11:22-05:00" itemprop="datePublished" title="2019-08-28 14:11">2019-08-28 14:11</time></a>
-            </p>
-                </div>
-            </header><div class="e-content entry-content">
-                    <p>
-Edited on 2019/09/01 to correct an error with tasks that needed to be
-re-scheduled differently in the future.
-</p>
-<div id="outline-container-orgfe046a7" class="outline-2">
-<h2 id="orgfe046a7">Introduction</h2>
-<div class="outline-text-2" id="text-orgfe046a7">
-<p>
-I have been keeping a list of to-dos in a file called "organizer.org".
-(I'm not sure if it actually keeps me organized, but I like the idea
-of having a list of tasks, especially tasks I might forget about.) At
-the top level I have three headlines:
-</p>
-
-<ol class="org-ol">
-<li>Tasks. These are the one off sorts of tasks that it would be
-labor-intensive to categorize.</li>
-<li>Website. This is where I put items related to maintaining my
-website (where you are most likely reading this article) and ideas
-for writing new articles.</li>
-<li>Writing. Separate from writing for my website, I list longer pieces
-here both fiction and non-fiction.</li>
-</ol>
-<p>
-My "init.el" file for Emacs has a line in it to display my weekly
-agenda view.
-</p>
-
-<pre class="example">
-(setq initial-buffer-choice 'org-agenda-list)
-</pre>
-
-<p>
-This agenda view shows my diary for the week as well as any tasks with
-either a scheduled start date or end date, i.e., deadline.
-</p>
-</div>
-</div>
-
-<div id="outline-container-org2150c22" class="outline-2">
-<h2 id="org2150c22">Writing a Good To-do</h2>
-<div class="outline-text-2" id="text-org2150c22">
-<p>
-A basic rule of thumb is to write a to-do that you can actually get
-done. It has to be specific enough so that you know when you've
-started it and when you can check it off your list, that is, mark it
-done. I had this to-do which is more an aspiration than a to-do.
-</p>
-<pre class="example">
-** TODO Publish at least one blog post weekly to keep website fresh
-
-</pre>
-<p>
-The intent is clear enough: one blog post to be completed every
-week.
-</p>
-
-<p>
-My mother kept a calendar on the kitchen wall. She was fussy about it.
-She wanted big blank blocks in which to write. She wrote everything
-down. She had codes for each of us. She often would say the item and
-the person's initials as she wrote.
-</p>
-
-<p>
-In my mother's calendar world, the blog post could be written in and
-even X'ed out when done and then been re-written on the next line of
-blocks for the month. She may have even just drawn a straight line
-through every Tuesday.
-</p>
-
-<p>
-I have several good to-dos already in my organizer file:
-</p>
-<pre class="example">
-** TODO Pay rent
-   DEADLINE: &lt;2019-09-01 Sun +1m&gt;
-** TODO Give Nick his heart worm pill
-   DEADLINE: &lt;2019-09-13 Fri +1m&gt;
-
-</pre>
-<p>
-These tasks can be marked as done. Org will advance the date
-by one month and they will again appear in my weekly agenda view. The
-day of the week will change, but not the day of the month.
-</p>
-</div>
-</div>
-
-<div id="outline-container-org4044145" class="outline-2">
-<h2 id="org4044145">An Interim Solution</h2>
-<div class="outline-text-2" id="text-org4044145">
-<p>
-I started marking my website refresh to-do as done when I wrote and
-posted a new article. After marking it done and recording the name of
-the article in the comments, I marked the to-do as "TODO" to start the
-process all over again. This seems quite unappealing to me.
-</p>
-</div>
-</div>
-
-<div id="outline-container-org6ee2973" class="outline-2">
-<h2 id="org6ee2973">A Better Solution</h2>
-<div class="outline-text-2" id="text-org6ee2973">
-<p>
-In reading through
-<a href="https://orgmode.org/manual/Repeated-tasks.html">Repeated Tasks</a> I realized that my article writing to-do is not like
-paying rent or giving Nick his pill. If I do not write a blog article
-on a given week, I don't need to catch up. I can pick up at any time
-and start posting on a regular basis. It is clear looking through my
-archives and at other people's blogs this is what happens all the
-time. I am writing these articles because I want to write them. I
-don't need to write them. I enjoy posting and then marking my success
-by calling this to-do done. In the days of paper and pen, people
-enjoyed drawing a line through an item on a list. (Never using this
-medium, I was always jealous of their satisfaction. People wrote
-noisily and with a flourish.)
-</p>
-
-<p>
-I now find out Org has a solution for my task.
-</p>
-</div>
-</div>
-
-<div id="outline-container-org1251945" class="outline-2">
-<h2 id="org1251945">My New To-do</h2>
-<div class="outline-text-2" id="text-org1251945">
-<p>
-Here is what I came up with for my article writing to-do.
-</p>
-<pre class="example">
-** TODO Publish at least one blog post weekly to keep website fresh
-   DEADLINE: &lt;2019-08-27 Tue .+3d&gt;
-
-</pre>
-<p>
-This suggests I have a 3 day deadline for writing a weekly article.
-No, I haven't lost my mind. If I am writing regularly, I will write
-more than one blog post a week and I want to honor that, but my
-general goal is to be sure I write at least one post every week.
-</p>
-
-<p>
-When I mark this task as done, three days will be added to the deadline. If the
-deadline is in the past, another three days will be added until the deadline
-is in the future. In this way, the three-day deadline may also move
-throughout the week. For example, if I complete this task today,
-Tuesday, it will have a deadline of Friday. If I don't complete
-it until Monday, it will then have a deadline of the following
-Thursday, almost two weeks after its original deadline.
-</p>
-
-<p>
-If you want this task to always be due on a Tuesday,for example,  use
-"<del>+"(plus plus) instead
-of ".</del>" (dot plus.)
-</p>
 </div>
 </div>
                 </div>
