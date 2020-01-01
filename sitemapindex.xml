@@ -106,6 +106,10 @@
   <lastmod>2019-08-21T00:20:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://rillonline.github.io/categories/spirituality.xml</loc>
+  <lastmod>2020-01-01T23:07:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://rillonline.github.io/categories/technology.xml</loc>
   <lastmod>2019-08-21T00:20:00Z</lastmod>
  </sitemap>
@@ -131,14 +135,14 @@
  </sitemap>
  <sitemap>
   <loc>https://rillonline.github.io/galleries/rss.xml</loc>
-  <lastmod>2019-07-11T21:52:00Z</lastmod>
+  <lastmod>2020-01-01T23:07:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://rillonline.github.io/rss.xml</loc>
-  <lastmod>2019-09-23T16:09:00Z</lastmod>
+  <lastmod>2020-01-01T23:07:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://rillonline.github.io/sitemap.xml</loc>
-  <lastmod>2019-09-23T16:09:00Z</lastmod>
+  <lastmod>2020-01-01T23:07:00Z</lastmod>
  </sitemap>
 </sitemapindex>
