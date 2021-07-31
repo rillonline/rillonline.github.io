@@ -1,3 +1,9 @@
+#+BEGIN_COMMENT
+.. title: Recurring Tasks in Orgmode
+.. slug: recurring-tasks-in-orgmode
+.. date: 2019-08-28
+#+END_COMMENT
+
 Edited on 2019/09/01 to correct an error with tasks that needed to be
 re-scheduled differently in the future.
 ** Introduction

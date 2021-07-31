@@ -1,4 +1,8 @@
-Write your post here.** Introduction
+#+BEGIN_COMMENT
+.. title: Using Tables in Orgmode with Emacspeak
+.. slug: using-tables-in-orgmode-with-emacspeak
+.. date: 2019-08-27
+#+END_COMMENT
 
 I wanted to know how much my subscriptions were costing me every
 month. Subscription fatigue is a popular topic on tech talk shows so I

@@ -1,3 +1,9 @@
+#+BEGIN_COMMENT
+.. title: Story Idea for NanoWriMo
+.. slug: writing-idea-for-nanowrimo
+.. date: 2019-09-17
+#+END_COMMENT
+
 The [[https://preview.nanowrimo.org/][Nanowrimo]] Prep email arrived in my inbox last week or maybe
 earlier. I opened it up to find I have access to an entire workbook
 and a weekly schedule to get ready. I've been going through the

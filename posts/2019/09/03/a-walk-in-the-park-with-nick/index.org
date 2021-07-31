@@ -1,3 +1,9 @@
+#+BEGIN_COMMENT
+.. title: A Walk in the Park with Nick
+.. slug: a-walk-in-the-park-with-Nick
+.. date: 2019-09-03
+#+END_COMMENT
+
 Nick and I walked to catch a direct bus home from my salon
 appointment. It was a nice day and catching the bus near the salon
 would have required several complicated street crossings and a bus transfer.

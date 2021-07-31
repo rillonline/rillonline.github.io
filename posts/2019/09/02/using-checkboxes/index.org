@@ -1,3 +1,9 @@
+#+BEGIN_COMMENT
+.. title: Using Checkboxes
+.. slug: using-checkboxes
+.. date: 2019-09-02
+#+END_COMMENT
+
 I wrote about
 [[https://rillonline.github.io/posts/2019/08/28/recurring-tasks-in-orgmode/][Recurring Tasks in Orgmode]] previously. Once I had this to-do working properly,
 I went onto the next task. I wanted to list my ideas for articles and

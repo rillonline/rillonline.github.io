@@ -1,3 +1,8 @@
+#+BEGIN_COMMENT
+.. title: org-sort-list
+.. date: 2019-09-09
+#+END_COMMENT
+
 After sorting my lines using =m-x sort-lines=, I have discovered org
 itself has a sorting lines function. Here's how to use it.
 

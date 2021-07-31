@@ -1,3 +1,12 @@
+.. title: In the Library
+.. slug: In-the-library
+.. date: 2019-07-28 10:11:00 UTC-05:00
+.. tags: writing  
+.. link: 
+.. description: 
+.. type: text
+#+END_COMMENT
+
 Picture this. Ronnie, our intrepid heroine, is
 sitting in the great library of the wizards in the heart of Magic
 City. (I know. I know. These names are not very imaginative and need

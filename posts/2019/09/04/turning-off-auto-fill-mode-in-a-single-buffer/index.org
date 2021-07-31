@@ -1,3 +1,9 @@
+#+BEGIN_COMMENT
+.. title: Turning Off Autofill-mode in a Single Buffer
+.. slug: turning-off-autofill-mode-in-a-single-buffer
+.. date: 2019-09-04
+#+END_COMMENT
+
 In my article on
 [[https://rillonline.github.io/posts/2019/09/02/using-checkboxes/][Using Checkboxes]] I discussed sorting lines in my ideas file. I went ahead
 and added more ideas to the file. Because I sometimes forget details,

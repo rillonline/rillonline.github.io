@@ -1,3 +1,8 @@
+#+BEGIN_COMMENT
+.. title: Using Flyspell and Emacspeak
+.. slug: using-flyspell-and-emacspeak
+.. date: 2019-08-16
+#+END_COMMENT
 ** The Problem
 
 I didn't have a great set up for spellchecking in Emacs. Ispell works,

@@ -1,3 +1,9 @@
+#+BEGIN_COMMENT
+.. title: NanoWriMo Prep
+.. slug: nanowrimo-prep
+.. date: 2019-09-22
+#+END_COMMENT
+
 [[https://www.nanowrimo.org][Nanowrimo]] doesn't start until November 1, but an email dropped into my
 inbox about Nanowrimo prep. I started reading over the
 [[https://preview.nanowrimo.org/nano-prep-101][material]] I began to sketch out my novel.

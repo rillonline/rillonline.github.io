@@ -1,4 +1,14 @@
-I have been puzzled why tab completion wasn't working in orgmode so I
+#+BEGIN_COMMENT
+.. title: Tab Completion in Orgmode
+.. slug: tab-completion-in-orgmode
+.. date: 2019-08-20
+#+END_COMMENT
+
+I have been puzzled why tab
+completion wasn't working in orgmode so I
+.. dat: 2019-08-20
+#+END_COMMENT
+
 decided to let the good old Internet help me out.
 
 It turns out that my friend Flyspell uses tab completion for

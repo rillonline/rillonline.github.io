@@ -1,3 +1,9 @@
+#+BEGIN_COMMENT
+.. title: Writing a Book: Part 1
+.. slug: writing-a-book-part-1
+.. date: 2019-09-13
+#+END_COMMENT
+
 I have started to write a book which gathers together some of my
 previous posts on Org and then fleshes out the material.
 
