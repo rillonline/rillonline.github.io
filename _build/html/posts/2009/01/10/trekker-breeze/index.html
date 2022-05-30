@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>&lt;no title&gt; &#8212; Rill Online</title>
+    
+  <link href="../../../../../_static/css/theme.css" rel="stylesheet" />
+  <link href="../../../../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../../../../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../../../../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script data-url_root="../../../../../" id="documentation_options" src="../../../../../_static/documentation_options.js"></script>
+    <script src="../../../../../_static/jquery.js"></script>
+    <script src="../../../../../_static/underscore.js"></script>
+    <script src="../../../../../_static/doctools.js"></script>
+    <script src="../../../../../_static/togglebutton.js"></script>
+    <script src="../../../../../_static/clipboard.min.js"></script>
+    <script src="../../../../../_static/copybutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../../../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../../../../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../../../../../index.html">
+      
+      
+      <h1 class="site-logo" id="site-title">Rill Online</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../../../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../../../../index.html">
+   Hey there 👋#
+  </a>
+ </li>
+</ul>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference external" href="https://rillonline.github.io/blog/">
+   My Blog
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="http://rillonline.github.io/writing/">
+   My Writing
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../../../../_sources/posts/2009/01/10/trekker-breeze/index.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="simple visible nav section-nav flex-column">
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <html><body><p>I took a walk Thursday afternoon for exercise. With the Trekker Breeze I can record the route and then reuse it. The advantage of doing this is that the Breeze can then give me directions the next time and the time after that. I walk  , turn west, walk north past my side entrance to the street where I can turn west again.
+<p>Here’s the frustrating element of my unit and its route creation. It deleted going south and coming back north. It thought I was backtracking and that therefore it was unnecessary to do. The revised route has me starting out north to the T intersection along the top of the T and crossing to get to the stem of the T. I could do it that way. I don’t because there isn’t a light at the T intersection and the street I am crossing has the right of way. There is a stop sign as I have outlined the way I actually walked. I cannot continue west but have to “backtrack” because of construction. I could do the T intersection crossing today because the Dean Clinic is closed and there is not a lot of traffic. I would have to landmark the crossing to find it.</p>
+<p>I did learn that some of the inaccuracies I am encountering are not the fault of the unit. It cannot be more accurate. Civilian GPS is only accurate to within 30-50 feet. Military GPS is pinpoint accurate. So even civilian aircraft cannot get more accurate positioning than I have. All street announcements are fixed to the middle of the intersection so they don’t represent where I am standing.</p>
+<p>Standing itself is a problem. To get an accurate fix, I have to be moving.</p>
+<p>, I have a street that is not listed on my map at all. It’s a 4-way intersection but the Breeze only reports a 3-way intersection. This is because these maps are labeled by people–people not being paid very much. Errors are introduced this way. I have both a missing street and an unnamed street  in my area. Surely the unnamed street truly has a name.</p>
+<p>Another thing the Breeze cannot do is accurately report which street I am on when two streets are very close together. I have two major roads that come together. It is a triangle, not a square though I often think of them paralleling each other the further they get away from their intersection.</p>
+<p>When I get to where these streets intersect and turn to walk down the other one , the Breeze can’t tell for a while that I have moved from one street to the other one. As I move farther away from the point of intersection, more accuracy gets introduced to the reading. It is up to me alone to know that I have made the turn and to know where I am until the Breeze can catch up to me. I don’t have a strong sense of direction. I have to use sensory input such as: The traffic is now on my left and the building line is now on my right. I must have made the turn to walk down the other busy street.</p>
+<p>The bottom line here is that GPS can give valuable information, but it in no way replaces mobility skills. In fact, I think it mandates increased mobility skills. I have to evaluate the information I am given to vette its reliability.</p>
+<p>I hope we can keep our date this week to work with an O&amp;M person to put the Breeze thru its paces. I suspect instructors will have to be more aware in future to teach people how to exploit their GPS as well as how to evaluate its accuracy all the while keeping themselves safe and going in the right direction.</p>
+<p>Someone told me that is what students and others now have to do when evaluating Internet information. Can the source be trusted? Can the information given be fact checked? In the case of my Trekker Breeze, is it telling me what I know to be true? The hard thing is when I’m not sure or when I’m mistaken.</p></body></html></p>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./posts/2009/01/10/trekker-breeze"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Rill<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../../../../../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>

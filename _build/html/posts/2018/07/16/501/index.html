@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>&lt;no title&gt; &#8212; Rill Online</title>
+    
+  <link href="../../../../../_static/css/theme.css" rel="stylesheet" />
+  <link href="../../../../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../../../../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../../../../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script data-url_root="../../../../../" id="documentation_options" src="../../../../../_static/documentation_options.js"></script>
+    <script src="../../../../../_static/jquery.js"></script>
+    <script src="../../../../../_static/underscore.js"></script>
+    <script src="../../../../../_static/doctools.js"></script>
+    <script src="../../../../../_static/togglebutton.js"></script>
+    <script src="../../../../../_static/clipboard.min.js"></script>
+    <script src="../../../../../_static/copybutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../../../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../../../../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../../../../../index.html">
+      
+      
+      <h1 class="site-logo" id="site-title">Rill Online</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../../../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../../../../index.html">
+   Hey there 👋#
+  </a>
+ </li>
+</ul>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference external" href="https://rillonline.github.io/blog/">
+   My Blog
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="http://rillonline.github.io/writing/">
+   My Writing
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../../../../_sources/posts/2018/07/16/501/index.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="simple visible nav section-nav flex-column">
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <html><body><p>A number of years ago my niece, Barbara, described me as one of the funniestpeople  she knew. (I took her to mean humorous rather than peculiar.) About that timefriends  started saying to me, "You ought to write a book," when I related a recent event in my life. I laughed and replied, "Do you really think so?" and then let the matter drop.
+<p>Some time later I became aware of the proliferation of the memoir. These books appeared to be extreme accounts of abuse or storiesfilled with juicy sexual details. I always got the impression critics despised them as they were not painstakingly written autobiographies replete with much deep reflection and soul searching.</p>
+<p>I was soured on the idea of writing a memoir by Elizabeth Gilbert and Eat Pray Love. Gilbert is an award winning freelance journalist and author. She was given a $200,000 publisher’s advance to write the book. The book did not grow out of Her travels but was intended from the first.</p>
+<p>Although a nationally known journalist, Beth Finke’s Writing Out Loud gave me a helpful perspective on what my own memoir might look like. Finke’s piecesn are short incidents strung together over a number of years. They are satisfying because they feature recurring characters and their stories. Although there is an over-arching narrative of setting up writers’ groups for older adults and Finke’s anxiet yabout leading them, we are treated tomany satisfying vignettes.</p>
+<p>My other struggle with meoir is storytelling itself. My mother, and undoubtedly her mother before her, were magnificent storytellers in their own right. Their talent went unremarked. Even my grandmother’s brother could spin quite a yarn. Uncle Arthur only had an eighth grade education and wrote without capitalization or punctuation. He always concluded letters to Gram with “your brudder,” and did not sign his name. There were, after all, only the two of them. Who else would the letter be from? Uncle Arthur also was known for sending his sister unsigned birthday cards. The printed card had “to my sister” on the front.</p>
+<p>I learned to tell stories about the dinner table. Our custom was to recount the events of each day. We went in order: first my dad, then my mom, then me and finally my younger sister. Everyone was heard.</p>
+<p>When I was thirteen, I won a creative writing contest. Mother insisted I call up one of the neighbors. His daughter was in my 4-H Club. I had visions of grandeur, writing novels about a life far more exciting and adventuresome than mine. Nat Hartshorne counseled me to write about myself. I could not imagine writing about that for over fifty years.</p>
+<p>I am good in conversation to craft a retelling of an every day event in my own life. It might go something like this:</p>
+<p>So there I was, standing on the corner. I knew I had the light and needed to give Nick the command to start across the street when I heard this siren. It was coming fast. I knew that vehicle was not going to stop for the light and, in truth, it did not. I stayed on the curb and waited for the next cycle before crossing.”</p>
+<p>My conversation partners thrill astounded. I perceive the world differently than they do. They try and fail to put themselves in my place. And yet, all I have done is said I waited for an emergency vehicle to pass.</p>
+<p>I speak or write about myself in three to four sentence bursts. Longer essays illude me. They need context, background information and organization.</p>
+<p>In high school, Mr. Cook read T. S. Eliot’s poem, The Love Song of J. Alfred Prufroc to us. At one point in the poem Prufrock says,</p>
+<p>No! I am not Prince Hamlet, nor was meant to be;†</p>
+<p>Am an attendant lord, one that will do†</p>
+<p>To swell a progress, start a scene or two,†</p>
+<p>Advise the prince; no doubt, an easy tool,†</p>
+<p>Deferential, glad to be of use,†</p>
+<p>Politic, cautious, and meticulous;†</p>
+<p>Full of high sentence, but a bit obtuse;†</p>
+<p>At times, indeed, almost ridiculous–†</p>
+<p>Almost, at times, the Fool.</p>
+<p>In short, Prufrock describes himselfas  not importan. He has a role to play and he plays it.</p>
+<p>This is how I think about my memoir pieces. I am the only one who can tell these stories, but the stories I tell are not overly importantt.</p></body></html></p>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./posts/2018/07/16/501"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Rill<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../../../../../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>

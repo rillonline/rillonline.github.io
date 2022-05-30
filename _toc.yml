@@ -1,0 +1,10 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+chapters:
+  - url: https://rillonline.github.io/blog/
+    title: My Blog
+  - url: http://rillonline.github.io/writing/
+    title: My Writing

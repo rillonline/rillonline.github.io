@@ -1,0 +1,3 @@
+<html><body><p>My sister had a Pebbles doll after the Flintstone baby in the 1960s. She had a bone in her hair. You could always tell a Pebbles doll.
+
+Elwood is like this. He seems to always have a bone in his mouth. I'm sure it would be one of the characteristics of an Elwood cartoon and he is very definitely a cartoon dog. The original cartoonist had a dog like Elwood I am sure.</p></body></html>

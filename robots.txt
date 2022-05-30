@@ -1,4 +1,0 @@
-Sitemap: https://rillonline.github.io/sitemapindex.xml
-
-User-Agent: *
-Host: rillonline.github.io
