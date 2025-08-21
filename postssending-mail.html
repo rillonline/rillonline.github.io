@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="alternate"
+      type="application/rss+xml"
+      href="https://rillonline.github.io/rss.xml"
+      title="RSS feed for https://rillonline.github.io/">
+<title>Sending Mail</title>
+</head>
+<body>
+<div id="preamble" class="status"></div>
+<div id="content">
+<div class="post-date">17 Aug 2025</div><h1 class="post-title"><a href="https://rillonline.github.io/postssending-mail.html">Sending Mail</a></h1>
+<p>
+**Narrative
+</p>
+
+<p>
+You can skip this part if you only want to know how to get sending mail
+working on your pi.
+</p>
+
+<p>
+There was a person who contributed to Hacker Public News (I think they
+used a fictional character's name) who once wrote that all instructions
+on the Internet had incorrector missing information in their tutorials.
+I certainly have found this to be true in this extended saga.
+</p>
+
+<p>
+In my physical space, I have a pi at a computer stand on one side of the
+room and a ChromeBook on the other. I did a lot of walking back and
+forth. I use the ChromeBook to search the Internet and copy items of
+interest. Now when I search, I always get an AI overview. In general, I
+find these overviews to give me the information I need, but not this
+time. The information was often outdated or incorrect.
+</p>
+
+<p>
+I have also come to the conclusion that pages on the ArchLinux wiki do
+not first give you the basics but are delighted to give you lots of
+other things you can do without stressing what you actually need to get
+up and running.
+</p>
+
+<p>
+Finally, it often takes me a while to realize what part of the examples
+are required text and which are placeholders.
+</p>
+
+<p>
+Take for example the line:
+</p>
+
+<p>
+<code>account gmail</code>
+</p>
+
+<p>
+In this case, <code>gmail</code> is an arbitrary name. I could put <code>squirrel</code> or
+<code>arugala</code> even when I am defining a <code>gmail</code> account.
+</p>
+
+<p>
+I have spent days searching, installing, uninstalling and puzzling over
+errors. Rince and repeat.
+</p>
+
+<p>
+OK, on to the way to get it working.
+</p>
+
+<p>
+**Introduction
+</p>
+
+<p>
+I wanted a way to move some files off of my raspberry pi onto cloud services like OneDrive and Dropbox. Instead of configuring <code>rclone</code> or a similar service, I figured an email attachment would work just as well. (I totally forgot I could copy files to my PC with <code>scp</code>.) I wanted something quickly and not necessarily elegantly to get the job done.
+</p>
+
+<p>
+**Installation
+</p>
+
+<p>
+You need to install three programs:
+</p>
+
+<ul class="org-ul">
+<li>msmtp</li>
+
+<li>msmtp-mta</li>
+
+<li><p>
+s-nail
+</p>
+
+<p>
+<code>sudo pacman -S msmtp mstp-mta s-nail</code>
+</p></li>
+</ul>
+
+<p>
+That's it! Nothing from the <code>aur</code>.
+</p>
+
+<p>
+Two caviots here:
+</p>
+
+<ol class="org-ol">
+<li>If you are using <code>gmail</code> to send your messages, you will have to create an app password for your account. Your regular password will not work.</li>
+
+<li>I did not hide this app password in a key ring. I learned the default program <code>secret-tool</code> requires that a desktop needs to be installed. I didn't want to use <code>gpg</code> or a password manager. Is someone really going to break into my house or network and interrogate my raspberry pi to get into my <code>gmail</code>?</li>
+</ol>
+
+<p>
+**The .mailrc file
+</p>
+
+<p>
+Create a file named .mailrc.Include this line:
+</p>
+
+<p>
+<code>set mta</code>"/usr/bin/msmtp"=
+</p>
+
+<p>
+**Configure MSMTP
+</p>
+
+<p>
+Create a file called <code>.msmtprc</code>.Here is the configuration file that finally worked for me. 
+</p>
+
+<pre class="example" id="orge5ff240">
+auth on
+tls on
+tls_starttls on
+tls_certcheck on
+logfile ~/.msmtp.log
+host smtp.gmail.com
+port 587
+from your-email-address
+user your-email-address
+password your-app-password
+</pre>
+
+<p>
+This is the barebones I could get away with.
+</p>
+
+<p>
+**Change File Permissions
+</p>
+
+<p>
+You must change permissions on the <code>.msmtp</code> file if it contains a
+password.
+</p>
+
+<p>
+<code>sudo chmod 600 .msmtprc</code>
+</p>
+
+<p>
+**Sending a Message
+</p>
+
+<p>
+To test this configuration, I used the following command. I sent the
+message to a different email account from the one I configured in <code>.msmtprc</code>.
+</p>
+
+<p>
+<code>echo “This is only a test.” | mail -s “Test Message" -a sending-mail.md receiving-msg-account</code>
+</p>
+
+<p>
+This is one line and includes attaching this file to the email.
+d
+spirit
+</p>
+<div class="taglist"></div></div>
+<div id="postamble" class="status"></div>
+</body>
+</html>

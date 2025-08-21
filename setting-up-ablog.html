@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="alternate"
+      type="application/rss+xml"
+      href="https://rillonline.github.io/rss.xml"
+      title="RSS feed for https://rillonline.github.io/">
+<title>~/blog/drafts/setting-up-ablog.org</title>
+</head>
+<body>
+<div id="preamble" class="status"></div>
+<div id="content">
+<div class="post-date">18 Aug 2025</div><h1 class="post-title"><a href="https://rillonline.github.io/setting-up-ablog.html">~/blog/drafts/setting-up-ablog.org</a></h1>
+<div id="outline-container-setting-up-ablog" class="outline-2">
+<h2 id="setting-up-ablog"><span class="section-number-2">1.</span> Setting up Ablog</h2>
+<div class="outline-text-2" id="text-setting-up-ablog">
+</div>
+<div id="outline-container-background" class="outline-3">
+<h3 id="background"><span class="section-number-3">1.1.</span> Background</h3>
+<div class="outline-text-3" id="text-background">
+<p>
+This has been difficult for me. I went down a number of alleys which did
+not lead to joy. In the end, I decided on a very generic presentation so
+that <code>ablog</code> works.
+</p>
+
+<p>
+I decided on the generic approach for two reasons:
+</p>
+
+<ol class="org-ol">
+<li>I got it working. I didn't want anything to break which led me
+initially to despair and to work late.</li>
+<li>My blog posts are more or less temporary. They may stay in the blog
+repository, but I will be moving most of them to another repository
+where they will be stored in writing collections. This means they
+don't have to stay searchable and I don't expect my readers to have
+to search through pages of archives to find them. The most likely
+person to search is me.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-lets-get-started" class="outline-3">
+<h3 id="lets-get-started"><span class="section-number-3">1.2.</span> Let's Get Started</h3>
+<div class="outline-text-3" id="text-lets-get-started">
+<p>
+<a href="https://ablog.readthedocs.io">ablog</a> is written in <code>python</code> so you
+will need to have <code>pip</code> installed. I am using a <code>Debian</code> installation so
+I had to install it manually. I already had
+<a href="https://jupyterbook.org/intro.html">Jupyter Book</a> installed. This
+means I already had <code>Sphinx</code> and the <code>myst-parser</code> installed. With
+<a href="https://jupyterbook.org/intro.html">jb</a> installed, I was running
+<code>Spinx 3.5.4</code> running, but was able subsequently to update both <code>Spinx</code>
+and <code>myst-parser</code> to later versions. I think this helped me but I can't
+say for sure. Your mileage may vary.
+</p>
+
+<p>
+My install command is simple:
+</p>
+
+<pre class="example" id="orgc821cb5">
+sudo pip3 install ablog
+</pre>
+</div>
+</div>
+<div id="outline-container-starting-ablog" class="outline-3">
+<h3 id="starting-ablog"><span class="section-number-3">1.3.</span> Starting Ablog</h3>
+<div class="outline-text-3" id="text-starting-ablog">
+<p>
+I created a new repository on <a href="https://github.com">github</a> which I
+cloned so basically I had a blank repository. Then I was able to set up
+the initial framework for <a href="https://ablog.readthedocs.io">ablog</a>. This
+is important because <a href="https://ablog.readthedocs.io">ablog</a> cannot be
+installed in a directory with an existing conf.=py= file. ablog start
+</p>
+
+<p>
+You will be prompted for several bits of information including where to
+install <a href="https://ablog.readthedocs.io">ablog</a>. The directory must
+exist. The other pieces of information will be written into your
+conf.=py= file.
+</p>
+</div>
+</div>
+<div id="outline-container-restructured-text-or-markdown" class="outline-3">
+<h3 id="restructured-text-or-markdown"><span class="section-number-3">1.4.</span> Restructured Text or Markdown?</h3>
+<div class="outline-text-3" id="text-restructured-text-or-markdown">
+<p>
+The first decision you need to make is whether you want to write your
+posts in Restructured Text (rst) (the language of Sphinx) or use
+Markedly Structured Text
+(<a href="https://myst-parser.readthedocs.io/en/latest/syntax/syntax.html">myst</a>).
+Myst uses <code>.md</code> for files while Restructured Text uses <code>.rst</code>. You will
+notice that <a href="https://ablog.readthedocs.io">ablog</a> uses <code>.rst</code>.
+Fortunately, once you have Myst set up, you can use both.
+</p>
+
+<p>
+If you already know markdown, you can get along fine with Myst. I became
+familiar with Myst through <a href="https://jupyterbook.org/intro.html">jb</a>
+and its a handy reference with its [Myst
+<a href="https://jupyterbook.org/reference/cheatsheet.html">cheat sheet</a>.
+</p>
+</div>
+</div>
+<div id="outline-container-get-myst-working" class="outline-3">
+<h3 id="get-myst-working"><span class="section-number-3">1.5.</span> Get Myst Working</h3>
+<div class="outline-text-3" id="text-get-myst-working">
+<p>
+You need to add myst_=parser= to the <code>extensions</code> variable in <code>conf.py</code>.
+Remember, this is <code>python</code> so follow the format of the other extensions.
+</p>
+
+<pre class="example" id="org7d28af2">
+extensions = [
+    ...
+    "myst_parser",
+    ...
+]
+</pre>
+
+<p>
+<code>{tip} Be sure to notice the square brackets `[]`.</code>
+</p>
+
+<p>
+You also need to add this statement. I put mine at the end of the
+<code>conf.py</code> file:
+</p>
+
+<pre class="example" id="org6ee8072">
+myst_update_mathjax = False
+</pre>
+
+<p>
+I also put this to enable additional features of <code>myst</code>.
+</p>
+
+<pre class="example" id="org373b5c3">
+myst_enable_extensions = [
+    "amsmath",
+    "colon_fence",
+    "deflist",
+    "dollarmath",
+    "html_admonition",
+    "html_image",
+    "linkify",
+    "replacements",
+    "smartquotes",
+    "substitution",
+    "tasklist",
+]
+</pre>
+
+<p>
+My previous tip about square brackets <code>[]</code> applies here, too.
+</p>
+</div>
+</div>
+<div id="outline-container-front-matter" class="outline-3">
+<h3 id="front-matter"><span class="section-number-3">1.6.</span> Front Matter</h3>
+<div class="outline-text-3" id="text-front-matter">
+<p>
+Finally, each post needs front matter. I am using the <code>yml</code> format.
+</p>
+
+<pre class="example" id="org27017b5">
+---
+blogpost: true
+date: August 15, 2021
+category: Tech
+---
+
+Note particularly the three hyphens `-` on a separate line to
+start and end the front matter. There are several other possible
+pieces of information, but these are the most critical.
+</pre>
+</div>
+</div>
+<div id="outline-container-the-index.rst-file" class="outline-3">
+<h3 id="the-index.rst-file"><span class="section-number-3">1.7.</span> The `index.rst file</h3>
+<div class="outline-text-3" id="text-the-index.rst-file">
+<p>
+I almost left the <code>index.rst</code> file alone. In my various iterations of
+dealing with <a href="https://ablog.readthedocs.io">ablog</a> this gave me the
+most trouble. That's why my blog page looks so generic and boring. It
+just works.
+</p>
+
+<ul class="org-ul">
+<li>I took out the references to <i>about me</i> because I reference that info
+elsewhere.</li>
+
+<li>I also deleted the file in the directory and the <code>index.rst</code> file.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-building-the-blog" class="outline-3">
+<h3 id="building-the-blog"><span class="section-number-3">1.8.</span> Building the Blog</h3>
+<div class="outline-text-3" id="text-building-the-blog">
+<p>
+To build the blog you simply type:
+</p>
+
+<pre class="example" id="org1e7ae0d">
+ablog build
+</pre>
+
+<p>
+You will get a warning about <code>mathjax</code>. Review other warnings as needed.
+Your new web site is in the <code>_website</code> directory.
+</p>
+</div>
+</div>
+<div id="outline-container-cleaning" class="outline-3">
+<h3 id="cleaning"><span class="section-number-3">1.9.</span> Cleaning</h3>
+<div class="outline-text-3" id="text-cleaning">
+<p>
+I find it useful to delete the <code>_website</code> directory before a build.
+<a href="https://ablog.readthedocs.io">ablog</a> has a command for this:
+</p>
+
+<pre class="example" id="org7987654">
+ablog clean
+</pre>
+</div>
+</div>
+<div id="outline-container-getting-online" class="outline-3">
+<h3 id="getting-online"><span class="section-number-3">1.10.</span> Getting Online</h3>
+<div class="outline-text-3" id="text-getting-online">
+<p>
+I use <code>ghp-import</code> to get my pages published. It's another <code>python</code>
+program I learned about from <a href="https://jupyterbook.org/intro.html">jb</a>.
+<a href="https://ablog.readthedocs.io">ablog</a> has its own <code>deploy</code> function
+but I haven't checked that out yet. <code>ghp-import</code> only handles <code>gh-pages</code>
+so I have to commit my own source files to
+<a href="https://github.com">github</a> which is just fine with me for right now.
+</p>
+</div>
+</div>
+<div id="outline-container-conclusion" class="outline-3">
+<h3 id="conclusion"><span class="section-number-3">1.11.</span> Conclusion</h3>
+<div class="outline-text-3" id="text-conclusion">
+<p>
+I was using <a href="https://getnikola.com/">nikola</a> to publish my blog. It's
+fine, but it's heavier to use. There's a lot of flexibility and the
+option of building pages, too. I just want a simple blog program and so
+far, <a href="https://ablog.readthedocs.io">ablog</a> satisfies this requirement.
+I need to learn more about the <code>.. toctree</code> directive in Sphinx to clean
+up my landing page and add some more interesting elements to it.
+</p>
+</div>
+</div>
+</div>
+<div class="taglist"></div></div>
+<div id="postamble" class="status"></div>
+</body>
+</html>
