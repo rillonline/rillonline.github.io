@@ -1,0 +1,462 @@
+* Home
+* Packages
+* Forums
+* Wiki
+* GitLab
+* Security
+* AUR
+* Download
+
+Jump to content 
+[ ]    Main menu 
+Main menu
+move to sidebar hide 
+Navigation 
+
+*  Main page 
+*  Table of contents 
+*  Getting involved 
+*  Wiki news 
+*  Random page 
+*  Special pages 
+
+Interaction 
+
+*  Help 
+*  Contributing 
+*  Recent changes 
+*  Recent talks 
+*  New pages 
+*  Statistics 
+*  Requests 
+
+  ArchWiki  
+   Search 
+
+                                           
+Search 
+
+[ ]    Appearance 
+
+*  Create account 
+*  Log in 
+
+[ ]    Personal tools 
+
+*    Create account 
+*    Log in 
+
+Contents
+
+move to sidebar hide 
+
+* Beginning
+*  1  Installation 
+   Toggle Installation subsection  
+
+ *  1.1  Install WSL 
+
+ *  1.2  Update WSL 
+
+ *  1.3  Install Arch Linux in WSL 
+
+ *  1.3.1  Automated installation 
+
+ *  1.3.2  Manual installation 
+
+*  2  Tips and tricks 
+   Toggle Tips and tricks subsection  
+
+ *  2.1  Set default user 
+
+ *  2.2  Run graphical applications with WSLg 
+
+ *  2.2.1  Hardware accelerated rendering 
+
+ *  2.3  WSL interoperability 
+
+ *  2.3.1  Bridge the ssh-agent service from Windows 
+
+ *  2.3.2  PAM authentication with Windows Hello 
+
+ *  2.4  Passing devices to WSL 
+
+ *  2.4.1  Mount a disk 
+
+ *  2.4.2  Connect USB devices 
+
+ *  2.5  Adjust locale 
+
+*  3  Troubleshooting 
+   Toggle Troubleshooting subsection  
+
+ *  3.1  systemd support 
+
+ *  3.2  Failure when running Docker containers 
+
+*  4  See also 
+
+[ ]    Toggle the table of contents 
+
+ Install Arch Linux on WSL 
+
+[ ]    3 languages 
+
+*  Português 
+*  Русский 
+*  中文（简体） 
+
+*  Page 
+*  Discussion 
+
+[ ]  English 
+
+*  Read 
+*  View source 
+*  View history 
+
+[ ]  Tools 
+Tools
+move to sidebar hide 
+Actions 
+
+*  Read 
+*  View source 
+*  View history 
+
+General 
+
+*  What links here 
+*  Related changes 
+*  Printable version 
+*  Permanent link 
+*  Page information 
+
+Appearance
+move to sidebar hide 
+From ArchWiki
+
+Arch Linux provides an official WSL (Windows Subsystem for Linux) image as
+part of the archlinux-wsl project. 
+
+Images are built and released monthly and aim to provide the simplest but
+complete system to offer an outright Arch Linux experience with WSL. 
+
+ Note WSL 2 is required. WSL 1 is not supported. These instructions assume the latest stable version is installed. 
+
+Installation
+
+Install WSL
+
+Enable virtualization in the UEFI Setup, then install the Windows Subsystem
+for Linux from the Microsoft Store. 
+
+ Note The Store version of WSL is now the default version of WSL. You should not enable the "Windows Subsystem for Linux" optional component, nor install the WSL kernel or WSLg MSI packages as they are no longer needed. Using the Store version of WSL allows you to get updates to WSL much faster compared to when it was a Windows component. WSLg is also now bundled.
+
+Update WSL
+
+To update to the latest stable version of WSL and WSLg, run the following
+command in an elevated Windows command-line shell: 
+
+> wsl --update
+
+To update to the latest pre-release version, run instead: 
+
+> wsl --update --pre-release
+
+Install Arch Linux in WSL
+
+From a Windows system with WSL 2 installed, use one of the following
+installation methods. 
+
+Automated installation
+
+Run the following command in a Windows shell: 
+
+> wsl --install archlinux
+
+You can then run Arch Linux in WSL via the archlinux application from the
+Start menu, or by running wsl -d archlinux in a Windows shell. 
+
+Manual installation
+
+Download the latest Arch Linux .wsl image and double-click on it to start
+the installation or run the following command in a Windows shell: 
+
+> wsl --install --from-file WSL_image
+
+For instance: 
+
+> wsl --install --from-file C:\Users\Username\Downloads\archlinux-2025.04.01.121271.wsl
+ Tip This will install the WSL image with the default distro name archlinux. If you would like to import it under a different name add the option --name distro_name.
+
+You can then run Arch Linux in WSL via the archlinux application from the
+Start menu, or by running wsl -d archlinux in a Windows shell. 
+
+Tips and tricks
+
+Set default user
+
+To set a different default user than root, first ensure the user has been
+created, then append the following to the /etc/wsl.conf file: 
+
+[user]
+default=username
+
+Make sure to give your root user a password before you close your session.
+If you find yourself 'locked out', invoke 
+
+> wsl -u root
+
+from a CMD window in the windows host. 
+
+The change will apply at the next session. To terminate your current
+session, run the following command in a Windows shell: 
+
+> wsl --terminate archlinux
+
+If you are using WSL 2.4.10 or later, you can set the default user for your
+distribution with: 
+
+> wsl --manage archlinux --set-default-user username
+
+This change will take effect the next time you launch the distribution. 
+
+Run graphical applications with WSLg
+
+WSLg (Windows Subsystem for Linux GUI) is a project that aims to enable
+running Linux applications with audio (PulseAudio) and graphical (X11 and
+Wayland) support within WSL. 
+
+WSLg is enabled by default. You can disable it by setting
+wsl2.guiApplications to false in the WSL configuration file. 
+
+Hardware accelerated rendering
+
+To enable GPU video accelerated rendering in WSL, install the following
+packages: 
+
+*  mesa - Contains the d3d12 Gallium driver for OpenGL
+*  vulkan-dzn - Contains the experimental dzn (also known as
+ microsoft-experimental) Vulkan driver
+
+You will need to install the  vulkan-icd-loader (and 
+lib32-vulkan-icd-loader if you also want to run 32-bit applications) as
+well. 
+
+~/.bashrc
+export GALLIUM_DRIVER=d3d12
+export LIBVA_DRIVER_NAME=d3d12
+
+If OpenGL falls back to the llvmpipe software renderer for Intel GPUs, you
+need to create a symlink for libedit: 
+
+# ln -s /usr/lib/libedit.so /usr/lib/libedit.so.2
+
+See https://github.com/microsoft/wslg/issues/996 and Gentoo:Gentoo in
+WSL#OpenGL falling back to llvmpipe software renderer on Intel GPUs for more
+information. 
+
+WSL interoperability
+
+WSL features interoperability between the Windows and WSL. This allows you
+to run Windows binaries from within WSL. 
+
+It is enabled by default. You can disable it by setting interop.enabled to
+false in the /etc/wsl.conf file. [1] 
+
+Various tools have been created to allow you to utilise Windows services and
+features from within WSL. 
+
+Bridge the ssh-agent service from Windows
+
+wsl2-ssh-agent is a tool that allows you to use the Windows SSH agent from
+within WSL. 
+
+This is especially useful if you utilise *-sk SSH keys requiring the use of
+physical security keys or even Windows Hello. 
+
+Install  wsl2-ssh-agent AUR and add the following to your ~/.bashrc: 
+
+eval "$(/usr/sbin/wsl2-ssh-agent)"
+
+Restart your shell and the SSH_AUTH_SOCK environment variable should be
+configured correctly. 
+
+PAM authentication with Windows Hello
+
+WSL-Hello-Sudo is a PAM plugin that allows you to authenticate your user via
+Windows Hello. 
+
+Install  wsl-hello-sudo-bin AUR and run /opt/wsl-hello-sudo/install.sh. The
+installer will copy a Windows executable to a directory of your choosing and
+store a certificate used to authenticate beside it. 
+
+ Tip https://github.com/nullpo-head/WSL-Hello-sudo has not been updated in 4 years, so  wsl-hello-sudo-bin AUR utilises a fork (https://github.com/lzlrd/wsl-hello-sudo) which has merged in dependency updates.
+
+Add auth sufficient pam_wsl_hello.so to any /etc/pam.d configuration files
+you wish to authenticate with Windows Hello for. For example, with sudo: 
+
+/etc/pam.d/sudo
+#%PAM-1.0
+auth            sufficient      pam_wsl_hello.so
+auth            include         system-auth
+account         include         system-auth
+session         include         system-auth
+
+Passing devices to WSL
+
+WSL 2 is a Hyper-V virtual machine. This allows for passthrough for physical
+devices from the host (Windows) to the guest (WSL 2). 
+
+Mount a disk
+
+WSL 2 supports attaching and mounting disks available to Windows. 
+
+To do so, first idenitfy the DeviceID for the given disk with the following
+PowerShell command: 
+
+> GET-CimInstance -query "SELECT * from Win32_DiskDrive"
+
+Once you have found the disk you would like to pass, run the following on
+Windows (with Administrator privileges): 
+
+> wsl --mount DeviceID --bare
+ Warning This will take the disk offline in Windows! Make sure you have closed all running applications using the drive.
+
+Once attached, you should be able to see the device with lsblk. 
+
+To unmount a disk, run: 
+
+> wsl --unmount DeviceID
+
+For more information, see
+https://learn.microsoft.com/en-us/windows/wsl/wsl2-mount-disk. 
+
+Connect USB devices
+
+usbipd-win is a project which allows for sharing locally connected USB
+devices to other machines, including WSL 2. 
+
+You first need to install the software on Windows. You can either run the
+installer (.msi) from the latest release or use use the Windows Package
+Manager: 
+
+> winget install usbipd
+
+Once installed, identify the USB devices available using and take note of
+the bus ID by running the following on Windows: 
+
+> usbipd list
+
+Prepare the USB device you have selected by running (this requires
+Administrator privileges): 
+
+> usbipd bind --busid busid
+ Warning Make sure you have closed all running applications using the USB device.
+
+Then, attach the USB device to WSL 2 using: 
+
+> usbipd attach --wsl --busid busid
+
+Once attached, you should be able to see the device with lsusb. 
+
+To detatch a USB device, run: 
+
+> usbipd detach --busid busid
+
+For more information, see
+https://learn.microsoft.com/en-us/windows/wsl/connect-usb. 
+
+Adjust locale
+
+By default, WSL will try to set your locale to match windows. If you want to
+override this, run: 
+
+ln -sf /etc/locale.conf /etc/default/locale
+
+Then set your locale the same way you would in any other installation. 
+
+Troubleshooting
+
+systemd support
+
+The Arch Linux WSL image provides systemd support. 
+
+However, there are known pending issues that may require additional actions
+for systemd to work properly. 
+
+Failure when running Docker containers
+
+One might face the following error when running a Docker container from WSL:
+
+Error response from daemon: path / is mounted on / but it is not a shared or slave mount
+Error: failed to start containers
+
+It is also possible that commands like docker run simply hang forever
+without producing any output. 
+
+This is because Docker expects the root (/) directory to be mounted with
+rshared propagation. 
+
+To do so, run: 
+
+# mount --make-rshared /
+
+To make the change persistent, you can create a systemd service that runs
+this command early in the boot: 
+
+/etc/systemd/system/mount-root-rshared.service
+[Unit]
+Description=Remount / with shared propagation
+Requires=-.mount
+After=-.mount
+
+[Service]
+Type=oneshot
+ExecStart=/bin/mount --make-rshared /
+
+[Install]
+WantedBy=local-fs.target
+
+Then start/enable mount-root-rshared.service. 
+
+See also
+
+* Wikipedia:Windows Subsystem for Linux
+* Gentoo:Gentoo in WSL
+* Official documentation
+* WSLg GitHub Wiki
+
+Retrieved from
+"https://wiki.archlinux.org/index.php?title=Install_Arch_Linux_on_WSL&oldid=844836"
+
+Categories: 
+
+* Installation process
+* Hypervisors
+
+* This page was last edited on 20 August 2025, at 16:08.
+* Content is available under GNU Free Documentation License 1.3 or later
+ unless otherwise noted.
+
+* Privacy policy
+* About ArchWiki
+* Disclaimers
+* Code of conduct
+* Terms of service
+
+* 
+GNU Free Documentation License 1.3 or later
+* 
+*
+
+   Search  
+
+                                           
+Search 
+
+[ ]    Toggle the table of contents 
+ Install Arch Linux on WSL 
+                            
+   Add topic 

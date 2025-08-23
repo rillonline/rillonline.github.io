@@ -1,0 +1,25 @@
+#+SETUPFILE:   ~/org/setupfile-html.org
+**  Disaster!
+There is a warning near the top of the .emacs initialization file
+which says "If you edit it by hand, you could mess it up, so be
+careful."  My assumption was that I'd break something and then need to
+correct the .emacs file. **Wrong**.  I miscoded the url for the
+org-mode repository and crashed emacspeak. Fixing the .emacs file did
+no good at all. Emacspeak was silent. Using Speakup to read the
+*messages* buffer and discovered the unfixable error.
+What to do?
+Mike had a vanilla copy of the emacs directories in the home folder. I
+renamed my old directories and decompressed the tar ball and voila. I
+have a happy emacspeak again.
+##  Protecting Against Such Mistakes
+Save your working files. Save them like this:
+#+BEGIN-EXAMPLE
+tar -cjvf emacspeak.tbz emacspeak/ .emacs.d/
+
+#+END-EXAMPLE
+To extract the files in the .tbz file when needed, do this
+#+BEGIN-EXAMPLE
+tar -xjvf emacspeak.tbz
+#+END-EXAMPLE
+Of course you can modify the filename if desired but keep the
+extension .tbz.

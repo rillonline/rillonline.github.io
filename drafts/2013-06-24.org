@@ -1,0 +1,16 @@
+#+SETUPFILE: ~/org/setupfile-html.org
+***  Apologies
+I am so far behind in my blogging. Over the next couple of days I hope to catch up and tell you about recent events.
+***  Packages
+I've been doing working on installing, and sadly, uninstalling, packages. Emacs has a package list. I found some neat stuff here.  For some strange reason, the GNU Emacs Manual lists the command to show this list as
+#+BEGIN_EXAMPLE
+M-x list-packages
+#+END_EXAMPLE
+On my machine,
+#+BEGIN_EXAMPLE
+M-x package-list
+#+END_EXAMPLE
+works. Go figure.
+The buffer which displays the packages allows me to install and uninstall packages. (see [[http://www.gnu.org/software/emacs/manual/html_node/emacs/Package-Menu.html[]package Menu - GNU Emacs Manual]] for details.
+***  Newsticker
+Mike and I had hoped this package would allow us to view rss feeds. Sadly, the way the buttons are coded we cannot access them. There is an alternative so I hope to be able to use it later. Stay tuned.

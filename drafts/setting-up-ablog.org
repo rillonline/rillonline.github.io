@@ -1,0 +1,196 @@
+* Setting up Ablog
+:PROPERTIES:
+:CUSTOM_ID: setting-up-ablog
+:END:
+** Background
+:PROPERTIES:
+:CUSTOM_ID: background
+:END:
+This has been difficult for me. I went down a number of alleys which did
+not lead to joy. In the end, I decided on a very generic presentation so
+that =ablog= works.
+
+I decided on the generic approach for two reasons:
+
+1. I got it working. I didn't want anything to break which led me
+   initially to despair and to work late.
+2. My blog posts are more or less temporary. They may stay in the blog
+   repository, but I will be moving most of them to another repository
+   where they will be stored in writing collections. This means they
+   don't have to stay searchable and I don't expect my readers to have
+   to search through pages of archives to find them. The most likely
+   person to search is me.
+
+** Let's Get Started
+:PROPERTIES:
+:CUSTOM_ID: lets-get-started
+:END:
+[[https://ablog.readthedocs.io][ablog]] is written in =python= so you
+will need to have =pip= installed. I am using a =Debian= installation so
+I had to install it manually. I already had
+[[https://jupyterbook.org/intro.html][Jupyter Book]] installed. This
+means I already had =Sphinx= and the =myst-parser= installed. With
+[[https://jupyterbook.org/intro.html][jb]] installed, I was running
+=Spinx 3.5.4= running, but was able subsequently to update both =Spinx=
+and =myst-parser= to later versions. I think this helped me but I can't
+say for sure. Your mileage may vary.
+
+My install command is simple:
+
+#+begin_example
+sudo pip3 install ablog
+#+end_example
+
+** Starting Ablog
+:PROPERTIES:
+:CUSTOM_ID: starting-ablog
+:END:
+I created a new repository on [[https://github.com][github]] which I
+cloned so basically I had a blank repository. Then I was able to set up
+the initial framework for [[https://ablog.readthedocs.io][ablog]]. This
+is important because [[https://ablog.readthedocs.io][ablog]] cannot be
+installed in a directory with an existing conf.=py= file. ablog start
+
+You will be prompted for several bits of information including where to
+install [[https://ablog.readthedocs.io][ablog]]. The directory must
+exist. The other pieces of information will be written into your
+conf.=py= file.
+
+** Restructured Text or Markdown?
+:PROPERTIES:
+:CUSTOM_ID: restructured-text-or-markdown
+:END:
+The first decision you need to make is whether you want to write your
+posts in Restructured Text (rst) (the language of Sphinx) or use
+Markedly Structured Text
+([[https://myst-parser.readthedocs.io/en/latest/syntax/syntax.html][myst]]).
+Myst uses =.md= for files while Restructured Text uses =.rst=. You will
+notice that [[https://ablog.readthedocs.io][ablog]] uses =.rst=.
+Fortunately, once you have Myst set up, you can use both.
+
+If you already know markdown, you can get along fine with Myst. I became
+familiar with Myst through [[https://jupyterbook.org/intro.html][jb]]
+and its a handy reference with its [Myst
+[[https://jupyterbook.org/reference/cheatsheet.html][cheat sheet]].
+
+** Get Myst Working
+:PROPERTIES:
+:CUSTOM_ID: get-myst-working
+:END:
+You need to add myst_=parser= to the =extensions= variable in =conf.py=.
+Remember, this is =python= so follow the format of the other extensions.
+
+#+begin_example
+extensions = [
+    ...
+    "myst_parser",
+    ...
+]
+#+end_example
+
+={tip} Be sure to notice the square brackets `[]`.=
+
+You also need to add this statement. I put mine at the end of the
+=conf.py= file:
+
+#+begin_example
+myst_update_mathjax = False
+#+end_example
+
+I also put this to enable additional features of =myst=.
+
+#+begin_example
+myst_enable_extensions = [
+    "amsmath",
+    "colon_fence",
+    "deflist",
+    "dollarmath",
+    "html_admonition",
+    "html_image",
+    "linkify",
+    "replacements",
+    "smartquotes",
+    "substitution",
+    "tasklist",
+]
+#+end_example
+
+My previous tip about square brackets =[]= applies here, too.
+
+** Front Matter
+:PROPERTIES:
+:CUSTOM_ID: front-matter
+:END:
+Finally, each post needs front matter. I am using the =yml= format.
+
+#+begin_example
+---
+blogpost: true
+date: August 15, 2021
+category: Tech
+---
+
+Note particularly the three hyphens `-` on a separate line to
+start and end the front matter. There are several other possible
+pieces of information, but these are the most critical.
+#+end_example
+
+** The `index.rst file
+:PROPERTIES:
+:CUSTOM_ID: the-index.rst-file
+:END:
+I almost left the =index.rst= file alone. In my various iterations of
+dealing with [[https://ablog.readthedocs.io][ablog]] this gave me the
+most trouble. That's why my blog page looks so generic and boring. It
+just works.
+
+- I took out the references to /about me/ because I reference that info
+  elsewhere.
+
+- I also deleted the file in the directory and the =index.rst= file.
+
+** Building the Blog
+:PROPERTIES:
+:CUSTOM_ID: building-the-blog
+:END:
+To build the blog you simply type:
+
+#+begin_example
+ablog build
+#+end_example
+
+You will get a warning about =mathjax=. Review other warnings as needed.
+Your new web site is in the =_website= directory.
+
+** Cleaning
+:PROPERTIES:
+:CUSTOM_ID: cleaning
+:END:
+I find it useful to delete the =_website= directory before a build.
+[[https://ablog.readthedocs.io][ablog]] has a command for this:
+
+#+begin_example
+ablog clean
+#+end_example
+
+** Getting Online
+:PROPERTIES:
+:CUSTOM_ID: getting-online
+:END:
+I use =ghp-import= to get my pages published. It's another =python=
+program I learned about from [[https://jupyterbook.org/intro.html][jb]].
+[[https://ablog.readthedocs.io][ablog]] has its own =deploy= function
+but I haven't checked that out yet. =ghp-import= only handles =gh-pages=
+so I have to commit my own source files to
+[[https://github.com][github]] which is just fine with me for right now.
+
+** Conclusion
+:PROPERTIES:
+:CUSTOM_ID: conclusion
+:END:
+I was using [[https://getnikola.com/][nikola]] to publish my blog. It's
+fine, but it's heavier to use. There's a lot of flexibility and the
+option of building pages, too. I just want a simple blog program and so
+far, [[https://ablog.readthedocs.io][ablog]] satisfies this requirement.
+I need to learn more about the =.. toctree= directive in Sphinx to clean
+up my landing page and add some more interesting elements to it.

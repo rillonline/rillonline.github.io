@@ -1,0 +1,25 @@
+#+SETUPFILE: ~/org/setupfile-simple.org
+***  Working with Files
+****  The Directory Editor
+Emacs lets me have a directory view of my home folder.
+ M-x dired
+I am prompted for a path. If I start typing a directory name, I can use tab to complete it. Then I press return.
+I am now in a buffer with a list of files and directories. I can use the menus and some special letters to manipulate my folders and files.
+I wanted to delete a directory and its sub-directories. I typed a capital d "D" on the line of the buffer where the directory name and details was displayed. Immediately I was prompted to confirm the deletion. Then, because the directory was not empty, I was prompted whether I wanted my deletions to be recursive. Again I confirmed and voila. Everything was deleted.
+I can also rename, encrypt and decrypt entries and do other wonderful things.
+For more information, see [[http://www.gnu.org/software/emacs/manual/html_node/emacs/Direc.html][Dired, the Directory Editor]]
+
+****  Making New Folders
+I can also make new folders by using
+: M-x make-directory RET
+I am prompted for a directory name. I use the path so the directory is created in the right place. For example:
+: ~/org/blog-files
+I press RET and my directory is created. It certainly beats getting out of emacspeak to do it from the command line.
+****  Switching Between Buffers
+When I'm doing any kind of writing in emacs, I often want to have several buffers open and switch between them. This is easily done.  I press
+: C-x b
+The name of my previous buffer is displayed.  If this is the buffer I want, I press RET; otherwise I can scroll down through a list of buffers to find the right one.  I find this quicker than pressing
+: C-x C-b
+to get a list of buffers and scrolling until I find the one I want. With
+: C-x b
+I can quickly switch back and forth between two buffers.

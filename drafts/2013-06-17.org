@@ -1,0 +1,20 @@
+
+**  Making a To Do List
+I am not particularly a list maker.  Some people can't function without them.  Org has todo list capabilities and gtd (getting things done) features.  I want to keep a list about things I want to learn in emacs and longer articles I want to write for my blog or for the wiki.
+Org is practical. You're working along and you remember something you have to do. You can write it down in any .org file and org can find it for you.  Let's try it.
+*  TODOLearn how to see all todos.
+#BEGIN_EXAMPLE
+#+BEGIN_EXAMPLE
+*  TODO Learn how to collect all todos.
+#+END_EXAMPLE
+*  TODO Write experiences for Rill's Blog.
+#END_EXAMPLE
+#+BEGIN_EXAMPLE
+*  TODO Write experiences for Rill's blog
+#+END_EXAMPLE
+I also have three todo items in another file. Let's see if they all are displayed by typing:
+#+BEGIN_EXAMPLE
+
+C-c / t
+#+END_EXAMPLE
+ 

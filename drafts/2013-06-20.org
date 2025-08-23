@@ -1,0 +1,29 @@
+#+SETUPFILE: ~/org/setfile.org
+** The Export Template
+I did not like the defaults when I exported my html files for my blog. I am in the process of customizing my html export.
+***  M-x Customize
+I used emacspeak's customization facility. Curiously, I had to first export an html file before I could find all the org options. I typed "org" into the search box and got a boat load of settings. I was able to turn the preamble off, but some of the other settings were problematic. I don't know yet where these values are stored.
+***  Using In-buffer Settings
+Org has in-buffer settings. For a list, see [[]].
+ To get some of these placed in a file, press:
+#+BEGIN-EXAMPLE
+C-c C-e t
+#+END-EXAMPLE
+All the words following "#+" are in all upper case characters. Notice the inserted spaces.
+I changed the values I wanted to change and then pressed
+#+BEGIN-EXAMPLE
+Cc Cc
+#+END-EXAMPLE
+to restart org mode so that these lines take effect.
+****  A File Makes This Easier Still
+As exciting as this list is, it gets better. zi saved my favorite settings in a file. Then I typed:
+#+BEGIN-EXAMPLE
+#+SETUPFILE   ~/org/setup-html=file.org
+#+END-EXAMPLE
+and all my settings appeared. I pressed:
+#+BEGIN-EXAMPLE
+Cc C-c
+#+END-EXAMPLE
+My settings are active, my cursor is placed at a blank line and I have a file I can fill with a new blog entry.
+**Note**: Any file name will work.o
+ 

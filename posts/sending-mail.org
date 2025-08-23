@@ -1,0 +1,105 @@
+#+TITLE: Sending Mail
+#+DATE: 2025-08-17
+**Narrative
+
+You can skip this part if you only want to know how to get sending mail
+working on your pi.
+
+There was a person who contributed to Hacker Public News (I think they
+used a fictional character's name) who once wrote that all instructions
+on the Internet had incorrector missing information in their tutorials.
+I certainly have found this to be true in this extended saga.
+
+In my physical space, I have a pi at a computer stand on one side of the
+room and a ChromeBook on the other. I did a lot of walking back and
+forth. I use the ChromeBook to search the Internet and copy items of
+interest. Now when I search, I always get an AI overview. In general, I
+find these overviews to give me the information I need, but not this
+time. The information was often outdated or incorrect.
+
+I have also come to the conclusion that pages on the ArchLinux wiki do
+not first give you the basics but are delighted to give you lots of
+other things you can do without stressing what you actually need to get
+up and running.
+
+Finally, it often takes me a while to realize what part of the examples
+are required text and which are placeholders.
+
+Take for example the line:
+
+    =account gmail=
+
+In this case, ~gmail~ is an arbitrary name. I could put ~squirrel~ or
+~arugala~ even when I am defining a ~gmail~ account.
+
+I have spent days searching, installing, uninstalling and puzzling over
+errors. Rince and repeat.
+
+OK, on to the way to get it working.
+
+**Introduction
+
+I wanted a way to move some files off of my raspberry pi onto cloud services like OneDrive and Dropbox. Instead of configuring ~rclone~ or a similar service, I figured an email attachment would work just as well. (I totally forgot I could copy files to my PC with ~scp~.) I wanted something quickly and not necessarily elegantly to get the job done.
+
+**Installation
+
+You need to install three programs:
+
+- msmtp
+
+- msmtp-mta
+
+- s-nail
+
+    =sudo pacman -S msmtp mstp-mta s-nail=
+
+That's it! Nothing from the ~aur~.
+
+Two caviots here:
+
+1.     If you are using ~gmail~ to send your messages, you will have to create an app password for your account. Your regular password will not work.
+
+2.     I did not hide this app password in a key ring. I learned the default program ~secret-tool~ requires that a desktop needs to be installed. I didn't want to use ~gpg~ or a password manager. Is someone really going to break into my house or network and interrogate my raspberry pi to get into my ~gmail~?
+
+**The .mailrc file
+
+Create a file named .mailrc.Include this line:
+
+    =set mta="/usr/bin/msmtp"=
+
+**Configure MSMTP
+
+Create a file called ~.msmtprc~.Here is the configuration file that finally worked for me. 
+
+	#+BEGIN_EXAMPLE
+    auth on
+    tls on
+    tls_starttls on
+    tls_certcheck on
+    logfile ~/.msmtp.log
+    host smtp.gmail.com
+    port 587
+    from your-email-address
+    user your-email-address
+    password your-app-password
+#+END_EXAMPLE
+
+This is the barebones I could get away with.
+
+**Change File Permissions
+
+You must change permissions on the ~.msmtp~ file if it contains a
+password.
+
+    =sudo chmod 600 .msmtprc=
+
+**Sending a Message
+
+To test this configuration, I used the following command. I sent the
+message to a different email account from the one I configured in ~.msmtprc~.
+
+    =echo “This is only a test.” | mail -s “Test Message" -a sending-mail.md receiving-msg-account=
+
+This is one line and includes attaching this file to the email.
+d
+spirit

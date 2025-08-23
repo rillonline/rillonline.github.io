@@ -1,0 +1,28 @@
+#+TITLE: Waiting
+#+DATE: <2013-05-02>
+#+FILETAGS: RaspberryPi
+
+I'm waiting for my parts list so that my Raspberry Pie can be built.
+Meanwhile, my USB hub and keyboard come today according to UPS.
+
+I talked with Mike on Mangler.I now understand Raspberrian is a distro
+for the pie based on Debian. It has a graphical user interface which
+doesn't curently speak. I'm interested in the console and excited to
+think my skills in the console will be improved if I work steadily in
+Pie Land.
+
+I'd be much happier working on my console skills than learning
+emacspeak. I've done a little work with Vim and Nano and I like the
+Alpine email client. I have even used Lynx to download books from the
+NLS site. Mike is working on a new build so maybe the instabilities he
+has noticed will be less of a factor. I hope so.
+
+** Jason Gets Back to Me
+
+Jason has a price list for me. Wow! This is getting exciting.
+
+Raspberry Pi with power supply from ebay $61.98
+
+RPI case from ebay (pick color) $14.98
+
+Kingston 32GB SD card www.newegg.com $22.94

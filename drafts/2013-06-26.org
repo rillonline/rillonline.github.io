@@ -1,0 +1,9 @@
+#+SETUPFILE:   ~/org/setupfile-simple.org
+###  Three Handy Tips
+These are from Mike.
+1.  For the meta key, use escape.
+  The meta key can be either the Alt key or the escape key. I've been using the alt key. But if I use the escape key, I find it faster and easier to type. In addition, I can use the key combination 
+  :  M-left-arrow or M-right-arrow
+  in certain applications and not end up in a different console.
+2.  Speaking of consoles, Mike and I both use different voices so we know where we are. By default, and we don't know how to change this yet, emacspeak uses a male voice. Each of us use a female voice in the console. We can distinguish where we are by voice alone.
+3.  I don't do a lot of console work these days, having my head inside emacspeak. But if I did use multiple console sessions, this would be very handy.
