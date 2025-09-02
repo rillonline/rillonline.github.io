@@ -1,0 +1,24 @@
+Here are some notes about orgmode
+
+  1. The default directory for all files org is ~/org. You do not need
+     to keep your files here. It is just that org needs a place to
+     store files and needs a default. I changed my default location to
+     ~/org/Documents since, on an Ubuntu system, the home directory is
+     already cluttered. The line in my init.el file reads:
+     :  '(org-directory "~/Documents/org")     
+  2. The default locations for notes that may be used with capture is
+     ~/.notes. Good to know since it is hidden. I did not change it.
+  3. When you are in a list, meta plus return aka alt plus enter
+     creates a new item with the correct indentation and number or bullet.
+  4. Links cover a wider group of items than just a web link. Here is
+     an example of a web link.
+     #+BEGIN_EXAMPLE
+     [[https://rillonline.github.io/][Rill's Web Site]]
+     #+END_EXAMPLE
+     Org can also link files and other pieces of information local to
+     your computer. Here is an example of linking to a file on my hard
+     disk.
+     #+BEGIN_EXAMPLE
+     [[file:~/writing/kearsarge/novel.org][A Piece of Writing]] 
+     #+END_EXAMPLE
+

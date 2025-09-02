@@ -1,0 +1,6 @@
+*  Fix HTML formatting for blog entries
+  **  TODO Eliminate preamble
+  **  TODO Eliminate section numbers
+  **  TODO Eliminate table of contents
+
+  This is puzzling as nothing seems to be written to the .emacs file. These settings must be going somewhere but where?  I will need to examine the customize area again. 

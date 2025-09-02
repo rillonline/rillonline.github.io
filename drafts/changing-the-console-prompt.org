@@ -1,0 +1,28 @@
+This is quite useful if you're using multiple consoles and can't remember which one you are in.
+
+To put the number of your current tty in the command prompt:
+
+Edit .bashrc
+
+Add this line just above the line that starts with 'PS1':
+
+temp=$(tty)
+
+
+And change the line which starts with 'PS1' to read:
+
+PS1='[${temp:5} \u@\h \W]\$ '
+
+It is the ${temp:5} bit that's different here, after the opening square bracket.
+
+Note that you might have to chown and chgrp the .bashrc file to 'rill' and 'users' because it's wrong in the current image version.
+
+Type this to see the new prompt:
+
+source .bashrc
+
+My prompt now looks like this (for tty1):
+
+[tty1 user@arch-pi ~]$
+
+

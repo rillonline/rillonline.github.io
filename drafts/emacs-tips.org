@@ -1,0 +1,80 @@
+- To see how a variable is defined type: c-h v
+
+- To list key bindings for a mode, type: c-h b (You will get emacspeak
+  bindings as well.)
+- To override any previous directory info when specifying a file to
+  open, type: // before specifying the new file.
+
+- To read the header line of a buffer with emacspeak, type: c-e spc.
+- To step through a lisp file and execute every line one by one:
+
+  #+BEGIN_example
+c-M-f ; go down an expression
+c-x c-e ; evaluate the expression
+#+END_EXAMple
+  c-M-f ; ctrl+alt+f to go to the next expression
+  c-x c-e ; to evaluate the expression
+  #+END_EXAMPLE
+- To only copy updates to another directory: rsync -auv ~/org/* ~/OneDrive/Documents/org Use =n= for a dry run.
+
+- To stop emacspeak from speaking type: c-e . (that's a period after c-e)
+
+- to recover a file, when you get that message, type m-x recover-file
+  and hit return when the file name appears. Answer yes to recover it.
+  There is also recover-session but I haven't used that yet.
+
+
+To remove Windows carriage return in Emacs: M-x set-buffer-file-coding-system and then entering unix and saving the file.
+
+`flyspell-mode' Minor Mode Bindings:
+key             binding
+---             -------
+
+C-c		Prefix Command
+ESC		Prefix Command
+C-,		flyspell-goto-next-error
+C-.		flyspell-auto-correct-word
+C-;		flyspell-auto-correct-previous-word
+
+C-c $		flyspell-correct-word-before-point
+
+C-M-i		flyspell-auto-correct-word
+
+- To view an epub use the following commands
+
+12.63.5 Reading EBooks From The Bookshelf
+
+The most efficient means to read an EBook is to have EWW render the entire book — this works well even for very large EBooks given that EWW is efficient at rendering HTML. Rendering the entire book means that all of the contents are available for searching. To view an EBook in its entirety, use command emacspeak-epub-eww. You can open the EPub table of contents with command emacspeak-epub-open; for a well-constructed epub, this TOC should provide hyperlinks to each section listed in the table of contents.
+
+RET
+
+    emacspeak-epub-eww
+e
+
+    emacspeak-epub-eww
+f
+
+    emacspeak-epub-browse-files
+o
+
+    emacspeak-epub-open
+
+12.63.6 emacspeak-epub Commands
+12.63.6.1 emacspeak-calibre-mode
+
+Command: emacspeak-calibre-mode
+
+    A Calibre Front-end.
+    Letters do not insert themselves; instead, they are commands.
+
+    key             binding
+    —             ——-
+
+    RET             emacspeak-epub-calibre-dired-at-point
+
+    In addition to any hooks its parent mode ‘special-mode’ might have run,
+
+You are in Firefox so use those commands to get out of the view.
+
+- To open a pdf file, m-x emacspeak-wizards-pdf-open ret file.pdf ret
+  Select entire document and them use c-x c-w to save the file as text.

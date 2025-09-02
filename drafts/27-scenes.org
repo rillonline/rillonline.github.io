@@ -1,0 +1,69 @@
+* What Is It?
+  - Logline:
+  - title:
+  - Story type. Choose 1:
+    1. Monster in the House. Jaws, Exorcist, Panic Room. A confided space, a “sin” is committed, a “monster” to avenge the sin. Then it’s “run and hide”.
+    2. Golden Fleece. Star Wars, Back to the Future, heist movies, road movies. Hero goes in search of one thing and discovers himself. Every step on the journey affects the hero. It’s not the incidents but what the hero learns from them that makes it work.
+    3. Out of the Bottle. Freaky Friday, Flubber, Liar Liar, Groundhog Day. Something appears to grant a wish to a Cinderella character, but eventually they realise magic isn’t everything. Or a comeuppance tale: someone needs to be taught a lesson (but their character must appear redeemable).
+    4. Dude with a Problem. Die Hard, Titanic, Schindler’s List, Terminator. Ordinary person in extraordinary circumstances. The bad guy should be as bad as possible — more for hero to overcome.
+    5. Rites of Passage. 10, Ordinary People. Drugs, alcohol, puberty, mid-life crisis, old age, romantic break-up, grieving. Everyone except the hero knows what the problem is. Only experience can offer a solution.
+    6. Buddy Love. Dumb & Dumber, Rain Man, E.T., buddy cop movies, love stories. At first buddies hate each other, but adventure makes it clear they need each other. This leads to more conflict. An All Is Lost moment near the end breaks them up but they realise they need each other. Often one character is the hero and will do most of the changing.
+    7. Whydunit. Chinatown, JFK, The Insider, Citizen Kane. A surrogate on screen represents us, trying to work out why. We just be shocked by what we find, what people are capable of. “Are we this evil?”
+    8. Fool Triumphant. Being There, Amadeus, The Jerk, and Chaplin etc. The underdog fool against bigger, more establishment, opponent. Fool often has an accomplice who can’t believe fool is getting away with it, and will be brunt of the slapstick.
+    9. Institutionalised. Animal House, MAS*H, “family” dramas like American Beauty and The Godfather. The pros and cons of putting the group ahead of ourselves. Often told from point-of-view of a newcomer.
+
+    10. Superhero. Batman, Dracula, Gladiator, A Beautiful Mind. An extraordinary person in an ordinary world. Difficulty is how to make the hero sympathetic.
+  - A guy who
+  - Thematic Premise:
+
+* Blake Snyder's Beat Sheet
+   1. Opening Image (1). Sets the tone, mood and style. Often introduces the main character and their “before” state.
+   2. Theme State (5). Someone will pose a question or make a statement (usually to the main character) that is the theme of the movie, the thematic premise. An argument stated, and the rest of the film is the argument laid out, proving or disproving the statement.
+   3. Set-up (1-10). Introduce all the main characters. Introduce every character behaviour that will need to be addressed later on, that will need to change if the hero is to win. Introduce the things the hero needs, or need fixing, or are missing from their life (SHOW them). The world before the adventure starts. The thesis.
+   4. Catalyst (12). Something that arrives, a message, an event, that changes things. Bad news, but by the time the adventure is over, it’s what leads the hero to happiness. The first moment when something happens.
+   5. Debate (12-25). Hero thinks this is crazy. Should they go? Is it possible? How can they do it? It should ask a question of some kind.
+   6. Break into two (25). We leave the old world behind, into the antithesis. No later than page 25 (of a 110 page script). The hero must make the decision themselves to step into Act Two.
+   7. B story (30). A breather. A break from the A story. Carries the theme of the movie. Often “the love story”. Often a bunch of entirely new characters, maybe opposites to those from Act One.ieces. A break from the stakes of the story.
+   8. Fun and games (30-55). Provides “the promise of the premise”. Not as concerned with forward progress. Lighter than the rest of the movie. Where many of the trailer’s moments are found. Set pieces. A break from the stakes of the story.
+   9. Midpoint (55). For the hero it seems like all is won or all is lost. Fun and games are over, back to the story.
+   10. Bad guys close in (55-75). Hardest to write. If all seemed won at the midpoint, now things start to go wrong. Dissent, doubt etc. disintegrate the hero’s team and the defeated bad guys/thing regroup and return. There is nowhere for the hero to go.
+   11. All is lost (75). The opposite of the midpoint in terms of an “up” or a “down”. A false defeat. It might seem like a total defeat. It can help to have something about death here. e.g. someone/something dies or thinks about death.
+   12. Dark night of the soul (75-85). Hero is hopeless, at their lowest point, no one to help them, no ideas.
+   13. Break into three (85). The solution is found. Thanks to characters in the B story, the conversations about the theme in the B story, the hero trying to find ways to beat the bad guys in the A story. The two stories meet and intertwine.
+   14. Finale (85-110). Act three. Lessons learned are applied, character tics are mastered, A and B stories end in triumph for the hero, the bad guys are dispatched (in ascending order), the old world is turned over, a new world is created.
+   15. Final image (110). The opposite of the opening image. Proof that change has occurred.
+
+
+
+* ACT 1 (Set Up)Thesis 
+
+  1. Introductions
+  2. New World 
+  3. Calm Before Storm
+  4. Inciting Incident 
+  5. Fun and Games 
+  6. Plot Twist!
+  7. Fall Out 
+  8. Old Juxtaposition 
+  9. Darkest Moment
+- ACT 2 (Conflict) Antithesis 
+  10. [@10] Reaction/ Rebel 
+  11. Build Up 
+  12. Power Within
+  13. Action 
+  14. Midpoint 
+  15. Action/ Rally
+  16. Consequence 
+  17. Reversal 
+  18. Converge
+- ACT 3 (Resolution) Synthesis
+  19. [@19] Pressure 
+  20. Consequence 
+  21. Battle
+  22. Plot Twist! 
+  23. Trials 
+  24. Climax
+  25. Push.->                     
+  26. Dedication 
+  27. Resolution/ The End
+* 

@@ -1,0 +1,12 @@
+    Start recording a macro by pressing ctrl+x (
+    Perform any actions inside the Emacs editor that you would like to record.
+    Stop recording by pressing ctrl+x )
+    Play the last recorded macro by pressing ctrl+x e.
+
+Here's an example. This macro evaluates a lisp expression 999 times.
+
+#+BEGIN_EXAMPLE
+ C-x ( C-M-f C-x C-e C-x ) C-u 999 C-x e
+#+END_EXAMPLE
+
+source: [[https://www.emacswiki.org/emacs/DebugFileLoading][debug file loading]]

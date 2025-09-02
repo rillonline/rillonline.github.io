@@ -1,0 +1,92 @@
+Although todos can be spread throughout many files, I am choosing to have a central location in preparation for writing a todo article.
+* IN-PROGRESS get comfortable with TODO                              :@emacs:
+  - State "IN-PROGRESS" from              [2019-07-27 Sat 12:24] \\
+    Cleaning up my todo.org file to make it accurate
+  - State "DONE"       from "WAITING"    [2019-07-19 Fri 15:57] \\
+    U
+  - State "WAITING"    from "IN-PROGRESS" [2019-07-19 Fri 15:57] \\
+    U
+  - State "IN-PROGRESS" from "TODO"       [2019-07-19 Fri 14:25]
+**  TODO Learn hot keys for todo.
+**  TODO  prioritize todos
+**  TODO put tags on todos
+**  TODO assign progress amounts to TODOs
+** TODO repetitive todo for bills: rent, cleaners, dining, credit card, isp 
+**  TODOS mark todos as open or closed
+* DEFERRED add the console number to the prompt                  :@computer
+  - State "DEFERRED"   from "DONE"       [2019-07-27 Sat 12:26] \\
+    Typed the wrong key so selected the wrong state.
+  - State "DONE"       from "TODO"       [2019-07-27 Sat 12:25] \\
+    I am not using the console on my Ubuntu laptop so this seems pointless
+    but I will keep it here in case speech becomes available.
+  - State "TODO"       from              [2019-07-19 Fri 21:56] \\
+    C
+* IN-PROGRESS Keep website fresh                                   :@website:
+  - State "IN-PROGRESS" from "TODO"       [2019-07-19 Fri 14:29]
+  - State "WAITING"    from "IN-PROGRESS" [2019-07-19 Fri 14:11]
+  - State "IN-PROGRESS" from "TODO"       [2019-07-19 Fri 14:11]
+  - State "TODO"       from              [2019-07-19 Fri 14:11]
+  - State "CANCELlED"  from "DONE"       [2019-07-19 Fri 14:10]
+  - State "DONE"       from "WAITING"    [2019-07-19 Fri 14:10]
+  - State "WAITING"    from "IN-PROGRESS" [2019-07-19 Fri 14:10]
+  - State "IN-PROGRESS" from "TODO"       [2019-07-19 Fri 14:01] \\
+    waiting
+** IN-PROGRESS Add content to rillonline                         :@website:
+  - State "IN-PROGRESS" from "TODO"       [2019-07-19 Fri 14:27]
+**  TODO write the first page of rillonline
+**  TODO Publish Lenten Fruits.
+***  TODO Collectthe archives for Lenten Fruits material.
+***  TODO Create the "book" for Lenten Fruits.
+***  TODO Add the links for the mp3 files.
+** IN-PROGRESS organize blog posts                                 :@website:
+  - State "IN-PROGRESS" from "TODO"       [2019-07-19 Fri 14:32]
+* ON-HOLD write Chance piece(a)                                    :@writing:
+  DEADLINE: <2019-08-31 Sat>
+  - State "ON-HOLD"    from "DEFERRED"   [2019-07-29 Mon 19:53] \\
+    Cindy has agreed to review the piece now called Chance Encounter. She
+    is not available until August 6th.
+  - State "DEFERRED"   from "IN-PROGRESS" [2019-07-27 Sat 12:29] \\
+    I am focusing on my org stuff but need to get back to this soon!
+  - State "IN-PROGRESS" from "TODO"       [2019-07-19 Fri 13:56]
+  - State "IN-PROGRESS" from "TODO"       [2019-07-19 Fri 13:50]
+** ON-HOLD Send =chance.txt= for Cindy's review(a)                 :@WRITING:
+  SCHEDULED: <2019-08-06 Tue> DEADLINE: <2019-07-31 Wed>
+  - State "ON-HOLD"    from "TODO"       [2019-07-29 Mon 19:56] \\
+    Cindy has agreed to do this but cannot get to it until August 6th.
+* DEFERRED Edit Kearsarge, preparing file for Rill Online publication :@writing:
+  DEADLINE: <2019-08-22 Thu>
+  - State "DEFERRED"   from "IN-PROGRESS" [2019-07-27 Sat 12:30] \\
+    Focusing on my org stuff.
+  - State "IN-PROGRESS" from "TODO"       [2019-07-19 Fri 14:50]
+* IN-PROGRESS write article on what I've learned about todos and agenda in orgmode
+
+
+  - State "IN-PROGRESS" from "TODO"       [2019-07-27 Sat 13:34] \\
+    I have written some notes and added some links but I have hardly
+    started this.
+  - State "IN-PROGRESS" from "TODO"       [2019-07-27 Sat 14:54] \\
+** TODO Write an outline for my getting organized article
+** TODO Copy all links referenced to my bookmarks list.
+** TODO More work needs to be done to fully write on agendas
+* TODO Read Sacha Chua's post on What Keeps you from Taking Notes 9 excuses and how to get past them
+* TODO Arrange to have Orbit Reader fixed
+* TODO Categorize and tag previous posts.
+* TODO Follow up progress about categorizing and tagging blog posts 6 months and a year into the project.
+* TODO Get flyspell working in text files.
+* TODO [#A] Orbit REader repair
+** TODO Contact APH about Orbit Reader repair.
+** TODO Have Christy send Orbit Reader out for repair.
+* TODO [#A] Write third anniversary post.
+  Need to figure out when I have time to write this and what to include.   
+  - State "TODO"       from              [2019-08-04 Sun 19:08] \\
+** IN-PROGRESS Write Third Anniversary outline
+
+   - State "IN-PROGRESS" from "TODO"       [2019-08-04 Sun 19:25] \\
+     Made a few notes, not in order and more needs to go into the
+     outline.
+** TODO write the article itself. 
+* TODO Set up contact form with formspree.io.
+  SCHEDULED: <2019-08-31 Sat>
+* TODO Add Landmark debit card to Paypal
+  - State "TODO"       from              [2019-08-05 Mon 16:06] \\
+    Oops.

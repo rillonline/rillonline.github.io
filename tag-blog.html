@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="alternate"
+      type="application/rss+xml"
+      href="https://rillonline.github.io/rss.xml"
+      title="RSS feed for https://rillonline.github.io/">
+<title>Rill Online</title>
+You are reading Rill Online.</head>
+<body>
+<div id="preamble" class="status"></div>
+<div id="content">
+<h1 class="title">Posts tagged "Blog":</h1>
+<div class="post-date">19 Aug 2025</div><h1 class="post-title"><a href="https://example.com/Computer Archeology.html">Computer Archeology</a></h1>
+<nav id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org3af7e8d">1. Computer Archeology</a></li>
+</ul>
+</div>
+</nav>
+<div id="outline-container-org3af7e8d" class="outline-2">
+<h2 id="org3af7e8d"><span class="section-number-2">1.</span> Computer Archeology</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+I am reconstituting this blog with posts that date back twenty years. It's a daunting task but also amusing, boring, delightful and surprising all at the same time.
+Today I found an outline of an ebook I started to write on <code>orgmode</code>.
+I don't have all the files for it, but I want to find what I have and relearn how to use this powerful mode again. The best I can do is have a tag page for it!.I may need to update the files as I will definitely get a chance to find out how well I described what to do.
+</p>
+</div>
+</div>
+<div class="taglist"></div>
+<div class="post-date">17 Aug 2025</div><h1 class="post-title"><a href="https://example.com/sending-mail.html">Sending Mail</a></h1>
+<nav id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org84c2f85">1. Sending Mail</a></li>
+</ul>
+</div>
+</nav>
+<div id="outline-container-org84c2f85" class="outline-2">
+<h2 id="org84c2f85"><span class="section-number-2">1.</span> Sending Mail</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+***Narrative
+</p>
+
+<p>
+You can skip this part if you only want to know how to get sending mail
+working on your pi.
+</p>
+
+<p>
+There was a person who contributed to Hacker Public News (I think they
+used a fictional character's name) who once wrote that all instructions
+on the Internet had incorrector missing information in their tutorials.
+I certainly have found this to be true in this extended saga.
+</p>
+
+<p>
+In my physical space, I have a pi at a computer stand on one side of the
+room and a ChromeBook on the other. I did a lot of walking back and
+forth. I use the ChromeBook to search the Internet and copy items of
+interest. Now when I search, I always get an AI overview. In general, I
+find these overviews to give me the information I need, but not this
+time. The information was often outdated or incorrect.
+</p>
+
+<p>
+I have also come to the conclusion that pages on the ArchLinux wiki do
+not first give you the basics but are delighted to give you lots of
+other things you can do without stressing what you actually need to get
+up and running.
+</p>
+
+<p>
+Finally, it often takes me a while to realize what part of the examples
+are required text and which are placeholders.
+</p>
+
+<p>
+Take for example the line:
+</p>
+
+<p>
+<code>account gmail</code>
+</p>
+
+<p>
+In this case, <code>gmail</code> is an arbitrary name. I could put <code>squirrel</code> or
+<code>arugala</code> even when I am defining a <code>gmail</code> account.
+</p>
+
+<p>
+I have spent days searching, installing, uninstalling and puzzling over
+errors. Rince and repeat.
+</p>
+
+<p>
+OK, on to the way to get it working.
+</p>
+
+<p>
+***Introduction
+</p>
+
+<p>
+I wanted a way to move some files off of my raspberry pi onto cloud services like OneDrive and Dropbox. Instead of configuring <code>rclone</code> or a similar service, I figured an email attachment would work just as well. (I totally forgot I could copy files to my PC with <code>scp</code>.) I wanted something quickly and not necessarily elegantly to get the job done.
+</p>
+
+<p>
+***Installation
+</p>
+
+<p>
+You need to install three programs:
+</p>
+
+<ul class="org-ul">
+<li>msmtp</li>
+
+<li>msmtp-mta</li>
+
+<li><p>
+s-nail
+</p>
+
+<p>
+<code>sudo pacman -S msmtp mstp-mta s-nail</code>
+</p></li>
+</ul>
+
+<p>
+That's it! Nothing from the <code>aur</code>.
+</p>
+
+<p>
+Two caviots here:
+</p>
+
+<ol class="org-ol">
+<li>If you are using <code>gmail</code> to send your messages, you will have to create an app password for your account. Your regular password will not work.</li>
+
+<li>I did not hide this app password in a key ring. I learned the default program <code>secret-tool</code> requires that a desktop needs to be installed. I didn't want to use <code>gpg</code> or a password manager. Is someone really going to break into my house or network and interrogate my raspberry pi to get into my <code>gmail</code>?</li>
+</ol>
+
+<p>
+***The .mailrc file
+</p>
+
+<p>
+Create a file named .mailrc.Include this line:
+</p>
+
+<p>
+<code>set mta</code>"/usr/bin/msmtp"=
+</p>
+
+<p>
+***Configure MSMTP
+</p>
+
+<p>
+Create a file called <code>.msmtprc</code>.Here is the configuration file that finally worked for me. 
+</p>
+
+<pre class="example" id="org8c6a879">
+auth on
+tls on
+tls_starttls on
+tls_certcheck on
+logfile ~/.msmtp.log
+host smtp.gmail.com
+port 587
+from your-email-address
+user your-email-address
+password your-app-password
+</pre>
+
+<p>
+This is the barebones I could get away with.
+</p>
+
+<p>
+***Change File Permissions
+</p>
+
+<p>
+You must change permissions on the <code>.msmtp</code> file if it contains a
+password.
+</p>
+
+<p>
+<code>sudo chmod 600 .msmtprc</code>
+</p>
+
+<p>
+***Sending a Message
+</p>
+
+<p>
+To test this configuration, I used the following command. I sent the
+message to a different email account from the one I configured in <code>.msmtprc</code>.
+</p>
+
+<p>
+<code>echo “This is only a test.” | mail -s “Test Message" -a sending-mail.md receiving-msg-account</code>
+</p>
+
+<p>
+This is one line and includes attaching this file to the email.
+d
+spirit
+</p>
+</div>
+</div>
+<div class="taglist"></div>
+<div class="post-date">03 Dec 2019</div><h1 class="post-title"><a href="https://example.com/in-silence.html">In Silence</a></h1>
+<nav id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgca15fb3">1. In Silence</a></li>
+</ul>
+</div>
+</nav>
+<div id="outline-container-orgca15fb3" class="outline-2">
+<h2 id="orgca15fb3"><span class="section-number-2">1.</span> In Silence</h2>
+<div class="outline-text-2" id="text-1">
+<blockquote>
+<p>
+For God alone my soul in silence waits; from him comes my salvation.
+(Psalm 62:1 BCP)
+</p>
+</blockquote>
+
+<p>
+Today the church remembers St. Francis Navier. He wrote to Ignatius
+that more evangelists were needed to tell those in Asia about Jesus.
+He believed there were people just waiting to hear the good news.
+Reading Psalm 62, I can say They are waiting for God alone. 
+</p>
+
+<p>
+I often think of the people at the time of Jesus as waiting in
+silence. Perhaps this is because of Slent Night or perhaps because we
+have the Scripture about the people sitting in darkness which implies silence to me. In any event Francis reminds us that many are just waiting to hear our words of forgiveness, love and salvation.
+</p>
+</div>
+</div>
+<div class="taglist"></div>
+<div class="post-date">28 Aug 2019</div><h1 class="post-title"><a href="https://example.com/using-checkboxes-in-orgmode.html">Using Checkboxes in Orgmode</a></h1>
+<nav id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org44f0a36">1. Using Checkboxes in Org</a></li>
+<li><a href="#org4067a15">2. Organizing the list</a></li>
+<li><a href="#orge791daf">3. Why Use Checkboxes?</a></li>
+<li><a href="#org437a7d5">4. Using the Checkboxes</a></li>
+<li><a href="#org9685b56">5. Sorting Lines</a></li>
+</ul>
+</div>
+</nav>
+<div id="outline-container-org44f0a36" class="outline-2">
+<h2 id="org44f0a36"><span class="section-number-2">1.</span> Using Checkboxes in Org</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+I wrote about
+[[<a href="https://rillonline.github.io/posts/2019/08/28/recurring-tasks-in-orgmode/p">https://rillonline.github.io/posts/2019/08/28/recurring-tasks-in-orgmode/p</a>][Recurring Tasks in Orgmode] previously. Once I had this to-do working properly,
+I went onto the next task. I wanted to list my ideas for articles and
+bigger writing projects. In my opinion, I did not need to set this all
+up as a big list of to-dos. That certainly becomes overwhelming to
+me.I might just stop writing altogether because the ideas keep coming
+but the time and patience to write them may not be available at the
+moment. I do
+want to be sure I have a stash of ideas to choose from when I am able
+to sit down and write out a complete article.
+</p>
+
+<p>
+I created a file name "ideas.org". I inserted three headings:
+</p>
+
+<pre class="example">
+* Writing Ideas Big and Small
+** Blog Ideas [/]
+** Bigger WRiting Projects [/]
+</pre>
+
+
+<p>
+You may have noticed that at the end of the second level headings
+there are two square brackets "[]" enclosing a slash "/". More on this
+later.
+</p>
+</div>
+</div>
+<div id="outline-container-org4067a15" class="outline-2">
+<h2 id="org4067a15"><span class="section-number-2">2.</span> Organizing the list</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+At first I thought I would just write a list like this:
+</p>
+
+<pre class="example">
+- smart quotess and other typography
+- less than shortcuts in orgmode
+- Braile pack at public museum
+- photo op with Nick
+- a walk in the park with Nick
+- using org capture
+- Using checkboxes in org
+</pre>
+
+
+<p>
+Then I thought about using checkboxes so I could check them off as I
+went. Now this section of the file looks like this:
+</p>
+
+<pre class="example">
+- [ ] smart quotess and other typography
+- [ ] less than shortcuts in orgmode
+- [ ] Braile pack at public museum
+- [ ] photo op with Nick
+- [ ] a walk in the park with Nick
+- [ ] using org capture
+- [ ] Using checkboxes in org
+</pre>
+
+
+<p>
+Who knows, you might even see some of these articles in the future!
+</p>
+</div>
+</div>
+<div id="outline-container-orge791daf" class="outline-2">
+<h2 id="orge791daf"><span class="section-number-2">3.</span> Why Use Checkboxes?</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Why use checkboxes? After all, I could simply delete the item from the
+file once I published it.
+</p>
+
+<p>
+It's a good point. I decided to try this methodology just to see how I
+liked it and for two other reasons:
+</p>
+
+<ol class="org-ol">
+<li>It would let me know how I was doing at keeping up with my ideas.</li>
+<li>It would let me know if I needed to be thinking more about writing
+opportunities.</li>
+</ol>
+
+<p>
+It seems to me that a writer is stuck here: Coming up with ideas and
+getting them written.
+</p>
+</div>
+</div>
+<div id="outline-container-org437a7d5" class="outline-2">
+<h2 id="org437a7d5"><span class="section-number-2">4.</span> Using the Checkboxes</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+To check off an item, press "c-c c-c" on that line. Then you have:
+</p>
+
+<p>
+:- [X] Using checkboxes in org
+</p>
+
+<p>
+Here's what the heading now looks like:
+</p>
+
+<pre class="example">
+** Blog Ideas [1/7]
+</pre>
+
+
+<p>
+If I turn the "/" (slash) into a percent sign (%) it looks like this:
+</p>
+
+<p>
+:** Blog Ideas <code>[14%]</code> 
+</p>
+
+<p>
+If I feel ambitious, I can delete these lines or I can sort them so
+that all the unchecked boxes are together.
+</p>
+</div>
+</div>
+<div id="outline-container-org9685b56" class="outline-2">
+<h2 id="org9685b56"><span class="section-number-2">5.</span> Sorting Lines</h2>
+<div class="outline-text-2" id="text-5">
+<ol class="org-ol">
+<li>Highlight the list</li>
+<li><p>
+Type "m-x sort-lines". All the checked off items will be gathered
+together at the end of the list. The items appear in alphabetical
+order.
+</p>
+
+<pre class="example">
+- [ ] Braile pack at public museum
+- [ ] a walk in the park with Nick
+- [ ] less than shortcuts in orgmode
+- [ ] photo op with Nick
+- [ ] smart quotess and other typography
+   - [ ] using org capture
+- [X] Using checkboxes in org 
+</pre>
+
+
+<p>
+This list now is in a different order than the way I originally
+wrote it down. I can read through it until I come to an item with a
+checkbox. I know there are no more new items.
+</p></li>
+
+<li><p>
+If I want to sort in reverse order, I type: "c-u m-x sort-lines".
+Here is what I now have:
+</p>
+
+<pre class="example">
+- [X] Using checkboxes in org
+- [ ] using org capture
+- [ ] smart quotess and other typography
+- [ ] photo op with Nick
+- [ ] less than shortcuts in orgmode
+- [ ] a walk in the park with Nick
+- [ ] Braile pack at public museum
+</pre>
+
+
+<p>
+I don't think I will use this ordering unless I need a confidence
+boost. I would have to go past everything I've already done.
+</p></li>
+</ol>
+
+<p>
+Reference: <a href="https://orgmode.org/manual/Checkboxes.html">checkboxes</a>
+</p>
+</div>
+</div>
+<div class="taglist"></div>
+<div class="post-date">09 Sep 2016</div><h1 class="post-title"><a href="https://example.com/a-long-morning-walk-with-Nick.html">A Long Morning Walk with Nick</a></h1>
+<nav id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgfb1551f">1. A long Morning Walk with Nick</a></li>
+</ul>
+</div>
+</nav>
+<div id="outline-container-orgfb1551f" class="outline-2">
+<h2 id="orgfb1551f"><span class="section-number-2">1.</span> A long Morning Walk with Nick</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Nick, my Seeing Eye dog, and I took a walk this morning.
+</p>
+
+<p>
+Now I know that taking a walk with your dog is not a novel experience for any dog owner. What was significant about this walk was that it took place immediately after my breakfast and before my exercise class at the senior center.
+</p>
+
+<p>
+Normally I would have listened to my podcast app while sucking down at least one large cup of coffee. Instead, I skipped my morning coffee and got walking.
+</p>
+
+<p>
+Our walk lasted about 40 minutes. We walked a route we just learned from our friend Sandy, but we walked it backwards. Nick trotted right along and got very excited when I chose to walk on the other side of Terrace Avenue. Nick had not walked down this side of the street yet.
+</p>
+
+<p>
+I'm not sure how long the route is, maybe over 2 miles.
+</p>
+
+<p>
+We have not been able to walk for several days because of our schedule and the rain. As it was not raining and it was fairly cool, it was a wonderful time to walk.
+</p>
+</div>
+</div>
+<div class="taglist"></div>
+<div class="post-date">28 Feb 2016</div><h1 class="post-title"><a href="https://example.com/a-spirit-of-cowardice.html">A Spirit of Cowardice</a></h1>
+<nav id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org10d2351">0.1. A Spirit of Cowardice</a></li>
+</ul>
+</li>
+<li><a href="#orgcd3831b">1. Prayer lists.</a></li>
+<li><a href="#orgf04e75c">2. Devotionals.</a></li>
+<li><a href="#org558381d">3. Prayer beads.</a></li>
+<li><a href="#org5cdf64b">4. Journals.</a></li>
+<li><a href="#org8a9d876">5. Reminders.</a></li>
+<li><a href="#org4c60878">6. Meditation.</a></li>
+<li><a href="#org2de3d27">7. Meditation groups.</a></li>
+<li><a href="#orgce76142">8. cowardice</a></li>
+<li><a href="#org9cc0f03">9. timidity</a></li>
+<li><a href="#orgbf57deb">10. fear</a></div>
+</nav>
+<div id="outline-container-org10d2351" class="outline-3">
+<h3 id="org10d2351"><span class="section-number-3">0.1.</span> A Spirit of Cowardice</h3>
+<div class="outline-text-3" id="text-0-1">
+<p>
+I have sought various ways to be connected to Jesus.
+</p>
+</div>
+</div>
+<div id="outline-container-orgcd3831b" class="outline-2">
+<h2 id="orgcd3831b"><span class="section-number-2">1.</span> Prayer lists.</h2>
+</div>
+<div id="outline-container-orgf04e75c" class="outline-2">
+<h2 id="orgf04e75c"><span class="section-number-2">2.</span> Devotionals.</h2>
+</div>
+<div id="outline-container-org558381d" class="outline-2">
+<h2 id="org558381d"><span class="section-number-2">3.</span> Prayer beads.</h2>
+</div>
+<div id="outline-container-org5cdf64b" class="outline-2">
+<h2 id="org5cdf64b"><span class="section-number-2">4.</span> Journals.</h2>
+</div>
+<div id="outline-container-org8a9d876" class="outline-2">
+<h2 id="org8a9d876"><span class="section-number-2">5.</span> Reminders.</h2>
+</div>
+<div id="outline-container-org4c60878" class="outline-2">
+<h2 id="org4c60878"><span class="section-number-2">6.</span> Meditation.</h2>
+</div>
+<div id="outline-container-org2de3d27" class="outline-2">
+<h2 id="org2de3d27"><span class="section-number-2">7.</span> Meditation groups.</h2>
+<div class="outline-text-2" id="text-7">
+<p>
+None of these work particularly well for me.
+</p>
+
+<p>
+Recently I have subscribed to a verse of the day email. These can get quite boring and it is easy to read quickly, swipe and be done. The verse is almost immediately forgotten and I go on with my day.
+</p>
+
+<p>
+I am not a particularly consistent journaler or blogger. That is easy enough to see. But I've decided to try again and write a little on the verse of the day as I am able and see if it can become more habitual.
+</p>
+
+<p>
+One caveat: These are not "finished" essays. I'm looking for an opportunity for me to interact with the text for my own life and relationship with Jesus. If that helps you, that's great. Otherwise, just move on.
+</p>
+
+<p>
+Today's verse is 2 Timothy 1:7. From the New Revised Standard Version (NRSV)
+</p>
+
+<p>
+&gt; for God did not give us a spirit of cowardice, but rather a spirit of power and of love and of self-discipline.
+</p>
+
+<p>
+I did a little checking. The word "cowardice" has been translated several ways. (I don't recall the Greek. You can look it up if you like. I did.)
+</p>
+</div>
+</div>
+<div id="outline-container-orgce76142" class="outline-2">
+<h2 id="orgce76142"><span class="section-number-2">8.</span> cowardice</h2>
+</div>
+<div id="outline-container-org9cc0f03" class="outline-2">
+<h2 id="org9cc0f03"><span class="section-number-2">9.</span> timidity</h2>
+</div>
+<div id="outline-container-orgbf57deb" class="outline-2">
+<h2 id="orgbf57deb"><span class="section-number-2">10.</span> fear</h2>
+<div class="outline-text-2" id="text-10">
+<p>
+Self-discipline has to do with sound reasoning rather than self-control.
+</p>
+
+<p>
+So, if I claim to be part of the "us" rather than limiting it to Paul and Timothy, the spirit I have been given is not cowardly but powerful, loving and thinks clearly.
+</p>
+
+<p>
+In today's world, we are encouraged to get along, to accept there are different points of view and to honor these differences and viewpoints. I think I do that rather well. What this text suggests to me is to not be afraid to express my own opinions and to act when the Spirit prompts me to action.
+</p>
+
+<p>
+I think I can live with this and pay attention to those times when I am timid. Mostly, I do not identify myself in secular situations as Christian. I say it is because I don't want to attract the razies. I wonder if I am ignoring the spirit Jesus has given me. I'll have to test this out in the coming days.
+</p>
+</div>
+</div>
+<div class="taglist"></div>
+<div class="post-date">15 Jun 2013</div><h1 class="post-title"><a href="https://example.com/brilliant.html">Brilliant</a></h1>
+<nav id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org2912871">1. Brilliant!</a>
+<ul>
+<li><a href="#org5663506">1.1. Some Confusion</a></li>
+<li><a href="#org72393f4">1.2. What I've Learned So Far</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+<div id="outline-container-org2912871" class="outline-2">
+<h2 id="org2912871"><span class="section-number-2">1.</span> Brilliant!</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+I've been using text mode to write these blog entries. Additionally, I
+have been using <a href="http://www.daringfireball.net/projects/markdown/">markdown</a> to format
+them. As I do not have markdown enabled yet in emacspeak and because I
+am unable to install pandoc on the pi, I've been copying them to my
+Vinux machine for processing and posting.
+</p>
+
+<p>
+I've discovered how to create a web page and convert it to html. This
+post is a test case. 
+</p>
+</div>
+<div id="outline-container-org5663506" class="outline-3">
+<h3 id="org5663506"><span class="section-number-3">1.1.</span> Some Confusion</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+In reading Alex's <a href="http://emacspeak.sourceforge.net/info/html/tutorial.html">explanation</a>, I was confused because he talks about creating a web page. This "page" (I've surrounded the word page with quotation marks.) is not something which is published on the web. It is a file a browser can read and interpret. What Alex has you do is write a file that acts as a list of bookmarks to your favorite sites so you can launch it and get around the web quickly and easily. fterI understood this, his explanations made a lot more sense.
+</p>
+
+<p>
+<b>Note:</b> The extension ".org" refers to org mode not the domain type as in "raspberryvi.org". This also confused me. I thought at first org mode was not installed, but that is because I was hearing "aug" mode as in "augmented" or ""August". It's "org" as in "organized".
+</p>
+</div>
+</div>
+<div id="outline-container-org72393f4" class="outline-3">
+<h3 id="org72393f4"><span class="section-number-3">1.2.</span> What I've Learned So Far</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+Sadly, my menu structure is different from the one described so I'm reading the <a href="http://orgmode.org/manual/index.html">Org Manual</a>. 
+</p>
+
+<p>
+One of the exciting discoveries I've made says You can publish this file and there will be navigation as part of the publishing process. I'm currently reading the manual and each section of the book is a separate page with navigation to other sections built in.
+</p>
+
+<p>
+I've looked at the html code generated and it is overly fussy. I'll try it with tidy and see what happens. s the code is correct, tidy has no effect. 
+</p>
+
+<p>
+I'm publishing the full html that was generated including the preamble and postamble. I am not sure how to disable this. 
+</p>
+</div>
+</div>
+</div>
+<div class="taglist"></div>
+<div class="post-date">02 May 2013</div><h1 class="post-title"><a href="https://example.com/waiting.html">Waiting</a></h1>
+<nav id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org973dbd9">1. Waiting</a></li>
+<li><a href="#org60f410a">2. Jason Gets Back to Me</a></li>
+</ul>
+</div>
+</nav>
+<div id="outline-container-org973dbd9" class="outline-2">
+<h2 id="org973dbd9"><span class="section-number-2">1.</span> Waiting</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+I'm waiting for my parts list so that my Raspberry Pie can be built.
+Meanwhile, my USB hub and keyboard come today according to UPS.
+</p>
+
+<p>
+I talked with Mike on Mangler.I now understand Raspberrian is a distro
+for the pie based on Debian. It has a graphical user interface which
+doesn't curently speak. I'm interested in the console and excited to
+think my skills in the console will be improved if I work steadily in
+Pie Land.
+</p>
+
+<p>
+I'd be much happier working on my console skills than learning
+emacspeak. I've done a little work with Vim and Nano and I like the
+Alpine email client. I have even used Lynx to download books from the
+NLS site. Mike is working on a new build so maybe the instabilities he
+has noticed will be less of a factor. I hope so.
+</p>
+</div>
+</div>
+<div id="outline-container-org60f410a" class="outline-2">
+<h2 id="org60f410a"><span class="section-number-2">2.</span> Jason Gets Back to Me</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Jason has a price list for me. Wow! This is getting exciting.
+</p>
+
+<p>
+Raspberry Pi with power supply from ebay $61.98
+</p>
+
+<p>
+RPI case from ebay (pick color) $14.98
+</p>
+
+<p>
+Kingston 32GB SD card www.newegg.com $22.94
+</p>
+</div>
+</div>
+<div class="taglist"></div>
+<div class="post-date">28 May 2005</div><h1 class="post-title"><a href="https://example.com/everyone-is-a-critic.html">Everyone-s A Critic</a></h1>
+<nav id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgfb9c3ed">1. Everyone's A Critic</a></li>
+</ul>
+</div>
+</nav>
+<div id="outline-container-orgfb9c3ed" class="outline-2">
+<h2 id="orgfb9c3ed"><span class="section-number-2">1.</span> Everyone's A Critic</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+You might think that, being blind, I have no interest in paintings or other forms of visual art. You would be wrong about that. I'm fascinated
+by art and what other people bring to the pictures. Last year people at
+the "Stations of the Windows" Friday Lenten worship services at<a href="https://stlukesjamestown.org/">St. Luke's Jamestown</a>described the stained glass windows.
+They were so enthusiastic it grew dark before we could finish the window
+descriptions and the service.
+</p>
+
+<p>
+Today's<a href="https://www.nytimes.com/2005/05/28/arts/design/with-irreverence-and-an-ipod-recreating-the-museum-tour.html">New York Times</a> described a 
+project at Marymount Manhattan College  called <a href="https://mod.blogs.com/art_mobs/">Art Mobs.</a> Even if you're not at the Museum of
+Modern Art in New York City, you can download the podcasts and look at
+the paintings online. I downloaded the podcast on Pablo Picasso's Les
+Demoiselles d'Avignon, a Discussion by Cheryl Stoever &amp; Professor Jason
+Rosenfeld.
+</p>
+
+<p>
+It's rough. It's raw. It's fascinating. It's listening in on a college
+professor going one on one with his student, asking her questions,
+giving additional information about the painting, giving a perspective
+on what the picture is about. It's just the sort of thing I want people
+to tell me about art.
+</p>
+
+<p>
+<i>Note</i>: Now, twenty years later, the audio files have been remixed. The Times article is behind a pay wall and I had to update the church web site address!
+</p>
+</div>
+</div>
+<div class="taglist"></div><div id="archive">
+<a href="https://rillonline.github.io/archive.html">Other posts</a>
+</div>
+</div>
+<div id="postamble" class="status"></div>
+</body>
+</html>

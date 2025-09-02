@@ -1,0 +1,83 @@
+** Doing Nanowrimo By the Numbers
+:PROPERTIES:
+:CUSTOM_ID: doing-nanowrimo-by-the-numbers
+:END:
+The course of Nanowrimo writers never does run smooth.\\
+Lysander A Midsummer Night's Dream paraphrased
+
+If I write 1,667 words a day beginning today, I will complete
+[[http://www.nanowrimo.org/][National Novel Writing Month]] on November
+30 with ten words to spare. I never write exactly 1667 words each day.My
+first day of writing may total 2,000 words and the next three hover
+around 500. I skip three days and then, well, I'm in trouble. What sort
+of trouble? I'm behind in my word count. In 1 week, I've written a
+little more than 3,500 words and without doing the math, I am woefully
+short of 1 week's worth of writing.
+
+I always want to know exactly how many words I've written, if I am ahead
+or behind the curve and what will it take to catch up or finish early.
+To answer these questions and more, I create a spreadsheet. As The
+Hitchhiker's Guide to the Galaxy says, in large friendly letters, Don't
+panic. You don't have to be a whiz at spreadsheets. In fact, you
+probably don't have to use a spreadsheet program at all. You can devise
+a method of tracking your word metrics that suits you. here's what I
+track:
+
+1. The day of the month. I use the numbers 1-30.
+2. The number of words I write each day. I put a 0 down for the days I
+   don't write anything. To make my calculations accurate, I must be
+   honest.
+3. The total number of words I have written so far.
+4. The number of words I have left to write.
+5. I list my average words per day.
+6. The total number of words I would have written if I wrote exactly
+   1667 words each day.
+7. How many words I'm ahead or behind the expected word count.
+8. The average number of words I have to write from now on to finish.
+9. The percentage of work I have completed.
+
+Let me give you an example.
+
+1. The day: 7.
+
+2. The number of words I wrote today: 0.
+
+3. The total number of words I have written so far:
+   2000+501+527+512+0+0+0. This adds up to 3540.
+
+4. The number of words I have left to write is 46,460. 50000-3540.
+
+5. The average number of words I have written per day is 505. 3540/7.
+
+6. The ideal number of words written to stay on track is 11669. 7*1667.
+
+7. I am behind by 8129 words. Yikes! 11669-3540. And when I come back
+   tomorrow, things will be worse. I will be behind by 1,667 words more.
+
+8. Writing 1667 words a day will not get me to my goal of 50,000 words
+   anymore. I need a different daily goal of 2020 words. 46460/23
+   starting on day 8.
+
+9. I have written 7.08% of my novel. (3540*100)/50000.
+
+I can use Google's omni box to perform each of these simple calculations
+or you can use a calculator or even pencil and paper. I prefer a
+spreadsheet because all I have to do is type in my word count for each
+day and the formulas in the other cells do all the heavy lifting for me.
+
+The truth is, if I am behind by over 8,000 words by the end of the first
+week, I will despair of ever catching up unless I keep track of my word
+counts and know by the numbers shows me I still can make 50,000 by
+day 30. A few big days of writing over 5,000 words will make all the
+difference and I can see it in the numbers. Let me just plug 5,000 into
+day 8. What do I have?
+
+- A total word count of 8540.
+- I've only have 41,460 words to go.
+- I'm only -4796 words behind at the end of the day.
+- Starting tomorrow, I need only write 1884 words a day to finish.
+- I'm 17.08% through my novel. Not bad. Not bad at all.
+
+I hope neither you nor I have such a disastrous first week of writing.
+But if either of us does, doing Nanowrimo by the numbers will show how
+to recover and complete Nanowrimo successfully. Happy writing.

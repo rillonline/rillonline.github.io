@@ -1,0 +1,25 @@
+
+
+
+     ;; -*- mode: org; mode: auto-fill -1; -*-
+* Ideas for writing projects big and small [0/0]
+** Blog Ideas [3/9]
+ 
+- - [ ] How to set an alarm in Emacs. appt-add and follow the prompts. 1 warning beep and one at-the-time beep.
+- [ ] Braile packs at public museum
+- [ ] less than shortcuts in orgmode
+- [ ] photo op with Nick
+- [ ] smart quotess and other typography
+- [ ] tell how Nick checked his water, took a short drink, found there was not enough water, checked his food dish and then didn't know what to do. All this while I was waiting to harness him for hisvening park.
+- [ ] using org capture
+- [X] Describe how to turn off autofill in order to be able to sort lines effectively.
+- [X] Using checkboxes in org
+- [X] a walk in the park with Nick
+
+** Bigger Projects [0/2]
+
+- [ ] landing page for Kearsarge
+- [ ] getting organized with orgmode
+- [ ] The Wizard of Marling
+
+** Unclassified Projects

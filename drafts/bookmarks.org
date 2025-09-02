@@ -1,0 +1,70 @@
+- [[http://montreal.anglican.org/comments/archive/cpr18m.shtml][Commentary
+  on Luke 12:13-21]]
+- [[http://montreal.anglican.org/comments/archive/cpr18l.shtml][clippings]]
+  for Luke 12:13-21]]
+
+- [[https://rillonline.github.io][[[https://https://rillonline.github.io/][My Home Page]]
+- [[https://sachachua.com/blog/2014/11/using-org-mode-keep-process-journal/][Using Org-mode to Keep A Process Journal]] Sacha Chua
+- [[https://sachachua.com/blog/2012/05/org-mode-and-habits/][Org-mode and Habits]] Sacha Chua
+- [[https://pages.sachachua.com/.emacs.d/Sacha.html][Sacha Chua's emacs configuration]]
+- [[https://sachachua.com/blog/2015/01/breaking-skill-outlining/][Breaking Down the Skill of Outlining]] Sacha Chua
+- [[http://emacslife.com/how-to-read-emacs-lisp.html][How to Read
+  Emacs Lisp]] Sacha Chua
+- [[https://pages.sachachua.com/sharing/blog.html?url=https://sachachua.com/blog/2012/05/org-mode-and-habits/][Sacha
+  Ctua's Topical Index]]
+- [[http://tuhdo.github.io/index.html][Emacs mini manual]] helm looks interesting
+- [[https://www.biblegateway.com/][Bible Gateway]]
+- [[http://emacslife.com/baby-steps-org.html][A Baby Steps Guide to Managing Your Tasks with Org]]  Sacha Chua (The guide is incomplete).
+- [[http://emacslife.com/][Emacs Life]] A good list of articles by Sacha Chua. Don't know how
+  up-to-date the list is but there is a lot of reading here.
+- 
+- [[https://www.biblegateway.com/passage/?search=Isaiah+1%3A1%2C+Isaiah+1%3A10-20&version=CEV][Isaiah
+  reading link]]
+- [[https://www.ctrl.blog/entry/nikola-sections.html][Nikola Sections]] collections perhaps?
+- [[https://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html][Org
+  as a spreadsheet system: a short introduction]]
+- [[http://www.howardism.org/Technical/Emacs/spreadsheet.html][Lots of Small Spreadsheets]]
+- [[http://www.flutterbys.com.au/stats/tut/tut16.1.html]][[http://www.flutterbys.com.au/stats/tut/tut16.1.html][rgmode tables]]
+- [[http://pragmaticemacs.com/emacs/org-mode-basics-ii-use-simple-tables-in-your-notes/][Org-mode basics II: use simple tables inyour notes]]
+- [[https://www.sbarjatiya.com/notes_wiki/index.php/Emacs_and_org-mode_notes][Emacs
+  and Org Notes]] Some interesting shortcuts
+- [[https://www.emacswiki.org/emacs/ErgoemacsKeybindings][ergonomic keybindings]]
+- [[http://www.autodidacts.io/convert-markdown-to-standard-manuscript-format-odts-docs-and-pdfs-with-pandoc/][convert
+  pandoc to doxx]] fix this title
+- [[http://pragmaticemacs.com/org-mode-tutorials/][the list of org
+  posts for practical emacs]]
+- https://bookmarketingtools.com/blog/how-to-create-a-high-performing-book-sales-page-for-your-launch/
+- [https://www.baty.net/2015/publishing-my-notes-using-org-mode/] a
+  handy publishing set of notes to be reviewed for any ideas
+- [https://pandoc.org/epub.html] what I will use
+- [https://preview.nanowrimo.org/nano-prep-101][Nano Prep 101 2019]]
+- [https://blog.nanowrimo.org/post/175582754421/nanowrimo-new-character-generator-want-to-add-a][]Nanowrimo
+  Character Generator]]
+- [[https://www.poetryfoundation.org/poems/57607/the-house-was-quiet-and-the-world-was-calm][The House is Quiet]]
+- [[https://www.afb.org/blindness-and-low-vision/using-technology/assistive-technology-videos/using-google-docs-and-drive-0#notes][Using Google Docs and NVDA]] 
+
+
+ 
+-[[http://pragmaticemacs.com/emacs/read-your-rss-feeds-in-emacs-with-elfeed/][first
+blog post about elfeed for rss]] Work to set this up but should be
+useful once I do.. Very much a future project. 
+
+
+-[[https://orgmode.org/worg/org-contrib/org-protocol.html#sec-9][org protocol]] keybindings for using capture with Firefox 
+-[[http://doc.norang.ca/org-mode.html][org-mode Organize Your Life in Plain Text]] Lots of info here. Quite overwhelming. 
+-[[https://sachachua.com/blog/2015/02/learn-take-notes-efficiently-org-mode/][Learn to Take Notes More Efficiently in Org-mode]] Sacha Chua 
+-[[http://www.howardism.org/Technical/Emacs/capturing-content.html][Capturing Content for Emacs]] Howardism advanced 
+-[[http://www.howardism.org/Technical/Emacs/capturing-intro.html][Capturing Intro]] Howardism 
+
+
+
+- [[https://https://rillonline.github.io/][My Home Page]]
+- [[https://sachachua.com/blog/2014/11/using-org-mode-keep-process-journal/][Using Org-mode to Keep A Process Journal]] Sacha
+- [[https://sachachua.com/blog/2012/05/org-mode-and-habits/][Org-mode and Habits]] Sacha Chua
+- [[https://pages.sachachua.com/.emacs.d/Sacha.html][Sacha Chua's emacs configuration]]
+-[[https://orgmode.org/worg/org-contrib/org-protocol.html#sec-9][org protocol]] keybindings for using capture with Firefox 
+-[[http://doc.norang.ca/org-mode.html][org-mode Organize Your Life in Plain Text]] Lots of info here. Quite overwhelming. 
+-[[https://sachachua.com/blog/2015/02/learn-take-notes-efficiently-org-mode/][Learn to Take Notes Efficiently in Org-mode]] Sacha Chua 
+-[[http://www.howardism.org/Technical/Emacs/capturing-content.html][Capturing Content for Emacs]] Howardism advanced 
+-[[http://www.howardism.org/Technical/Emacs/capturing-intro.html][Capturing Intro]] Howardism 
+- [[https://www.afb.org/blindness-and-low-vision/using-technology/assistive-technology-videos/using-google-docs-and-drive-0#notes][Using Google Docs with NVDA]]

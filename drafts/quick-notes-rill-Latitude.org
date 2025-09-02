@@ -1,0 +1,7 @@
+- OK. I'm writing a quick note to test this out.
+- very cool. It you specify an item in org-capture, it puts the dash
+  in for you.
+
+
+
+

@@ -1,0 +1,351 @@
+** Publishing to An Honest Host .com with Nikola
+:PROPERTIES:
+:CUSTOM_ID: publishing-to-an-honest-host-.com-with-nikola
+:END:
+*** SSH
+:PROPERTIES:
+:CUSTOM_ID: ssh
+:END:
+Support will have given you a user name and host name, and you will have
+a default password which you can change by going to the control panel
+(cpanel).
+
+When you log in you will see this file and directory structure. Files
+with a slash at the end are directories, the '@' indicates a soft-link
+and no flag is just a normal file.
+
+I don't know what all of these are but the names make many of them
+obvious:
+
+- ./
+- ../
+- .bash_history
+- .bash_logout
+- .bash_profile
+- .bashrc
+- .contactemail
+- .cpanel/
+- .dns
+- .gemrc
+- .htpasswds/
+- .lastlogin
+- .my.cnf
+- .mysql_history
+- .ssh/
+- access-logs@
+- etc/
+- logs/
+- mail/
+- perl5/
+- public_ftp/
+- public_html/
+- tmp/
+- www@
+
+Please note if you are reading this as markdown and not HTML, the
+asterisk is a list item format effector and not a wildcard.
+
+The server root is public_html/, which is where you will publish your
+content to.
+
+*** Making a start with Nikola
+:PROPERTIES:
+:CUSTOM_ID: making-a-start-with-nikola
+:END:
+You know as much as I do about how to initialize a new static site with
+Nikola.\\
+From here on the dollar sign indicates the Linux command-line prompt.
+
+Assuming you are where you want the site root to be created:
+
+#+begin_example
+$ nikola init
+#+end_example
+
+Answer all the questions. Your site will be created in ./lajefa.net
+assuming that's what you used.
+
+Change to that directory:
+
+#+begin_example
+$ cd lajefa.net
+#+end_example
+
+You should see this directory structure:
+
+- cache/
+- conf.py
+- files/
+- galleries/
+- listings/
+- posts/
+- *pycache*/
+- stories/
+- themes/
+
+You may not have a themes directory until you create a theme and after
+the first build you will also see:
+
+- output/
+
+*** Creating Blog Posts and Stories
+:PROPERTIES:
+:CUSTOM_ID: creating-blog-posts-and-stories
+:END:
+You found a tweak to stop the blog index from being the top-level index
+file but I think you said that's the way you want it so you don't need
+to make that change.
+
+I have made the following change to conf.py to include markdown files:
+
+#+begin_example
+POSTS = (
+    ("posts/*.rst", "posts", "post.tmpl"),
+    ("posts/*.txt", "posts", "post.tmpl"),
+    ("posts/*.md", "posts", "post.tmpl"),
+)
+PAGES = (
+    ("stories/*.rst", "stories", "story.tmpl"),
+    ("stories/*.txt", "stories", "story.tmpl"),
+    ("stories/*.md", "stories", "story.tmpl"),
+)
+#+end_example
+
+In each case I have added the third tuple.
+
+Now to create a new page:
+
+#+begin_example
+$ nikola new_page --format=markdown
+#+end_example
+
+You will be asked for the name and then you can go into stories/ and
+edit the .md file.
+
+Note this is the top-level stories/ and not the one under output/ after
+your first build.
+
+In the top of each .md file you will see the following lines. Under each
+line I have put an explanation of what I have found out about it from
+reading the Nikola docs and Googling. I have used an example from
+eyesfreelinux:
+
+#+begin_html
+  <!-- 
+      .. title: Eyes-free Linux - Knoppix Linux
+
+  The title is very important for SEO (search engine optimisation and it is this 
+  that will be shown in the Google ranks when the page is found.  It's also what 
+  the browser sticks in the title bar and what NVDA and other screen-readers will 
+  read out when you alt+tab between tasks.
+
+      .. slug: knoppix
+
+  The slug controls what the name of the HTML file will be.  So if your page has a 
+  complex title to make it meaningful you will need to edit the slug to make the 
+  HTML file names more concise.  I have done this to stories but leave the slug 
+  alone when creating posts.  You will see why when you start to create posts.
+
+      .. date: 2014-09-04 16:38:48 UTC+01:00
+
+  Automagically put there by Nikola.
+
+      .. tags: Knoppix, adriane, linux
+
+  My tags are still experimental and I don't yet know what level to go to with 
+  them.
+
+      .. link: 
+
+  As yet I have not put anything in the link directive but I discovered it is very 
+  important for blog posts when you have 'TEASERS' switched on.  Teasers = True 
+  will cause a small fragment of each blog entry to be shown in the blog index and 
+  a 'read more...' link to be displayed.  It is the value from this directive that 
+  goes in the 'read more...' link.
+
+      .. description: Knoppix Linux
+
+  Another important line for search engines.  This is displayed below the 
+  title line in each entry found by Google etc.
+
+  I have not totally decided on the format of the title and description 
+  lines for my site.  I am pretty sure it is necessary to show the domain 
+  in the title.
+
+  Experimentation before you publish will help you decide.
+
+      .. type: text
+
+  Leave the type line alone.
+
+  The header ends with:
+
+      -->
+#+end_html
+
+What I have discovered is that when you type your content at the
+position indicated you don't need a first header because it is shown
+immediately below the title inserted by the templates.
+
+*** Other Changes to conf.py
+:PROPERTIES:
+:CUSTOM_ID: other-changes-to-conf.py
+:END:
+I have commented out:
+
+#+begin_example
+THEME = "bootstrap3"
+#+end_example
+
+And entered:
+
+#+begin_example
+THEME = "custom"
+#+end_example
+
+When you create a theme it is given the name custom, which you can
+change if you like.
+
+*** Creating a Theme From Another on Bootswatch.com
+:PROPERTIES:
+:CUSTOM_ID: creating-a-theme-from-another-on-bootswatch.com
+:END:
+Use this command:
+
+#+begin_example
+$ nikola bootswatch_theme <theme-name>
+#+end_example
+
+For example to create a theme from 'readable', enter the command:
+
+#+begin_example
+$ nikola bootswatch_theme readable
+#+end_example
+
+This will create the path:
+
+- lajefa.net/themes/custom/
+
+With the following in it:
+
+- assets/
+- parent
+
+The assets directory contains a bunch of .css files.
+
+The parent file should contain one line which shows the parentage of the
+theme.
+
+The contents of my custom/parent file is:
+
+#+begin_example
+bootstrap3
+#+end_example
+
+Which indicates that this theme inherits from the bootstrap3 theme. The
+readable theme is just bootstrap3 with different stylesheet formatting.
+
+*** Publishing
+:PROPERTIES:
+:CUSTOM_ID: publishing
+:END:
+Before you publish to the wide world I would thoroughly recommend you
+publish to a local web server, like Apache running on one of your
+Raspberry Pis or the Latitude.
+
+If you are using Apache 2 on Arch you will have the server root at:
+
+#+begin_example
+/srv/http
+#+end_example
+
+Now there is a small problem. Because the rendered HTML files contain
+the name of the domain and your local machine is not the same host or
+domain, you must change it in each HTML file when you publish locally.
+
+I have written a script that does this.
+
+In the below example of the script, you will see both
+'eyesfreelinux.ninja', the name of my site, and 'aurora.home', which is
+the name of my Quad Core AArch machine.
+
+Here is the script:
+
+#+begin_example
+#!/bin/bash
+
+find /srv/http -type f -name '*' -exec sed -i 's/eyesfreelinux.ninja/aurora.home/g' {} \;
+#+end_example
+
+Run the above script after you have run rsync to copy your content to
+your server.
+
+Or combine it with the rsync command in a new script.
+
+Replace 'eyesfreelinux.ninja' and 'aurora.home' with appropriate values.
+
+*** Using rsync to Publish
+:PROPERTIES:
+:CUSTOM_ID: using-rsync-to-publish
+:END:
+Using rsync you can kill two birds with one stone:
+
+- Publish new content
+- Remove deleted content
+
+The command is as follows, assuming you are in the top-level directory
+of your Nikola development tree, and that again the server root is
+/srv/http:
+
+#+begin_example
+$ rsync -r --delete . /srv/http
+#+end_example
+
+The above command works from a development tree to a server root on the
+same machine.
+
+To rsync between two different machines:
+
+#+begin_example
+$ rsync -r --delete . user@host:/srv/http
+#+end_example
+
+Again assuming /srv/http is the server root on the remote host and you
+have permissions to connect with SSH.
+
+If you have not yet appended a public key to ~/.ssh/authorized_keys on
+the remote host you will be prompted for your password.
+
+If you are publishing to your real domain you will not need to do the
+substitution command shown in the script further up this doc, assuming
+you correctly set up your development tree name.
+
+To publish to your server root at lajefa.net:
+
+#+begin_example
+$ rsync -r --delete . user@host:public_html/
+#+end_example
+
+*** Adding a Public Key to the Remote Host
+:PROPERTIES:
+:CUSTOM_ID: adding-a-public-key-to-the-remote-host
+:END:
+You can do this if you want to be able to log in to the remote machine,
+or issue an scp or an rsync without being prompted for the password each
+time.
+
+You may need to get some help from support at the host to open up the
+file for your key and lock it down again after you have appened it.
+
+The file which will contain your public key at the remote end is:
+
+#+begin_example
+~/.ssh/authorized_keys
+#+end_example
+
+And this web site tells you all about how to do it:
+
+[[http://www.linuxproblem.org/art_9.html][SSH login without password]]
+
+find . -type f -name '*' -exec sed -i
+'s/eyesfreelinux.ninja/aurora.home/g' {} ;

@@ -1,0 +1,65 @@
+I use OneDrive to store files in the cloud. I have the app on my PC,
+MacBook, iPhone and iPad. I wanted it on my Linux machine as well.
+
+It is possible to upload and download files from the web, but the
+website is not too screen reader friendly.
+
+Ubuntu has an app called, not surprisingly, =onedrive=. Install it in
+the usual way.
+
+#+begin_example
+sudo apt install onedrive
+#+end_example
+
+You will need access to a graphical browser to complete the
+installation.
+
+Run the app.
+
+#+begin_example
+onedrive
+#+end_example
+
+You will be prompted to copy a very long link to authorize use of the
+app and a prompt to paste a uri to indicate you have given permission
+for Microsoft to allow the upload and download of files as well as
+deletions.
+
+*Note*: If you have previously authorized =onedri= and, for whatever
+reason, need to reinstall the app, you need to remove the authorization
+from =live.com=. Otherwise, the provided link will not load properly for
+authorization.
+
+Copy the web address in the address bar and paste it into the prompt.
+
+Once this is done, you can run =onedrive=.
+
+#+begin_example
+onedrive --synchronize
+#+end_example
+
+This will create a directory in your home directory called =OneDrive=.
+Note that the 'o' and 'd' are capitalized.
+
+All your OneDrive files will be downloaded in their respective
+directories.
+
+=onedrive= has the ability to limit the directories which are synched
+and to upload or download files only.
+
+#+begin_example
+onedrive --synchronize --upload-only
+onedrive --synchronize --download-only
+#+end_example
+
+=onedrive= can monitor =OneDrive= for changes and immediately update
+your instance.
+
+There are other options you can explore. These are ones I use.
+
+I have decided that my Linux machine is my "source of truth" for
+OneDrive. The command I use now is:
+
+#+begin_example
+    onedrive --synchronize --local-first
+#+end_example

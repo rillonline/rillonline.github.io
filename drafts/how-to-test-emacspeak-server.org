@@ -1,0 +1,14 @@
+Find the server, by looking for the directory and check that espeak is
+executable.
+
+If it is run it:
+
+/full/path/to/espeak/server
+
+You will get a % prompt
+
+Now type "tts_say { test }"
+
+And press control C to get out.
+
+Obviously replace the path with the correct full path to the server.

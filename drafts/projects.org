@@ -1,0 +1,54 @@
+[[../index.html][Home]]
+
+* Projects
+:PROPERTIES:
+:CUSTOM_ID: projects
+:END:
+** Spiritual Writings
+:PROPERTIES:
+:CUSTOM_ID: spiritual-writings
+:END:
+[[file:advent_joy/index.html][Advent Joy 2006]]
+
+** Personal Writings
+:PROPERTIES:
+:CUSTOM_ID: personal-writings
+:END:
+[[file:afternoon-walk.html][Afternoon Walk]]
+
+[[file:big-mean-machine.html][Big Mean Machine]]
+
+[[file:caitlin.html][Caitlin: Great Dog, Loyal Friend and Partner in
+Ministry: A Tribute]]
+
+[[file:elwood_at_school.html][Elwood At School]]
+
+[[file:the_secret_of_playing_cribbage.html][The Secret of Playing
+Cribbage]]
+
+[[file:warning_label.html][Rill's Warning Label]]
+
+** Fiction
+:PROPERTIES:
+:CUSTOM_ID: fiction
+:END:
+[[file:0012.html][0012]]
+
+[[file:Kearsarge/index.html][Kearsarge: A Ronnie Camberwell Adventure
+1]]
+
+[[file:the-disembodied-voice.html][The Disembodied Voice]]
+
+** Poetry
+:PROPERTIES:
+:CUSTOM_ID: poetry
+:END:
+[[file:afternoon-walk.html][Afternoon Walk]]
+
+[[file:big-mean-machine.html][Big Mean Machine]]
+
+[[file:I-miss-her.html][I Miss Her]]
+
+[[file:marathon.html][Marathon]]
+
+[[file:warning_label.html][Rill's Warning Label]]

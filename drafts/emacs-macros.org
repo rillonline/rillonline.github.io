@@ -1,0 +1,69 @@
+* How to Record and Save a Keyboard Macro
+:PROPERTIES:
+:CUSTOM_ID: how-to-record-and-save-a-keyboard-macro
+:END:
+** Define a Macro
+:PROPERTIES:
+:CUSTOM_ID: define-a-macro
+:END:
+To start recording a macro:
+
+#+begin_example
+Press F3 or C-x (
+<now do all the key sequences which will make up the macro>
+Press F4 or C-x )
+#+end_example
+
+If an error occurs or you press C-g macro recording is aborted.
+
+ON a Mac, I think option + F3 and option + F4 do the same as F3 and F4
+on a PC.
+
+Don't forget that while you are entering the keystrokes for a macro,
+emacs also acts on the keys just as if you were not recording a macro.
+
+Once you have recorded the macro, pr3essing F4 will execute it.
+
+** Saving a Macro in a File
+:PROPERTIES:
+:CUSTOM_ID: saving-a-macro-in-a-file
+:END:
+1. Define the macro, if you haven't already.
+
+2. Type C-x C-k n (for name-last-kbd-macro). Now type a name for your
+   macro and press Enter. A non-Emacs sounding name is best so that
+   Emacs doesn't confuse it with one of its own commands. Once you've
+   executed this command, Emacs remembers the macro for the rest of the
+   editing session. To use it again, type the command M-x name (where
+   name is the name you've chosen). Emacs treats your named macro like
+   one of its own commands; it shows up in completion lists if you press
+   Tab after typing a few letters of the name.
+
+3. If you want to save the macro definition permanently, you must insert
+   the macro definition into a file. This could be your .emacs file or a
+   macro file that you load through your .emacs file. Type C-x C-f
+   filename Enter to find the file into which to insert the definition
+   and move to the end of it by typing M->.
+
+4. Type M-x insert-kbd-macro Enter macroname Enter. Emacs inserts Lisp
+   code that represents your macro.
+
+5. Add a line to .emacs make the key binding permanent. For example, if
+   we called our macro transpose-names and bound it to C-x C-k T, we
+   would add this line to our .emacs file (or other macro definition
+   file):
+
+   (global-set-key "\C-x\C-kT" 'transpose-names)
+
+6. If you save the macro in some other file, it won't be loaded
+   automatically. For example, let's say that you have defined a macro
+   called transpose-names and placed it in the file html.macs, in the
+   directory ~/macros. Add this line to your .emacs file to load your
+   macros automatically:
+
+   (load-file "~/macros/html.macs")
+
+7. Save the .emacs file and, if different, the file in which you
+   inserted your macro. Exit and restart Emacs. You can now execute this
+   macro either by typing M-x transpose-names Enter or by pressing C-x
+   C-k T.

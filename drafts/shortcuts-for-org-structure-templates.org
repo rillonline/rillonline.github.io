@@ -1,0 +1,10 @@
+** What are Structure Templates
+** The Alist
+** How to Enable Them
+   #+begin_example
+    (require 'org-tempo)
+   #+end_example
+** How to Use Them
+c-c c, (comma)
+the menu
+the function

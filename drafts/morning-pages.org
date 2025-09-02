@@ -1,0 +1,70 @@
+* Morning Pages
+
+Julia Cameron wrote a book some time ago called /The Artist's
+Way/. She wrote about different ways a creative person can set aside
+anything that distracts from the creative endeavor.
+
+One of her suggestion is what she called "Morning Pages". It is her
+contentions is that many thoughts distract us from what we really want
+to do. For the writer it may be wanting to focus on something other
+than the project at hand. So Cameron recommends writing for 10 to 15
+minutes a day (or 3 pages) to dump all these thoughts onto paper or
+into a file. (She would be more interested in paper because of the
+feel of the pen and the paper, but never mind that.) People who have
+tried this on a daily maintain that it helps them not only to focus on
+their work but also helps them to resolve other issues in their lives
+such as interpersonal relationships. Cameron herself says she wrote a
+lot about her sister and after a long time she was able to change
+their relationship for the better.
+
+Although Morning Pages are not intended for publication and differ
+from a diary, keeping them available to read over at some future date
+may prove useful. Something that was bothering you six months may have
+been resolved and by reading through old entries you can trace your
+evolving thinking and feelings. It may also contain nuggets of ideas
+that can spark or be included in your creative work.
+
+To this end, the Morning Pages Emacs package (which can be installed
+from the package manager) provides an easy way to start keeping
+Morning Pages.
+
+To bring up morning pages, type:
+
+  : m-x mpages
+
+The first time you run morning pages, you will be prompted to select a
+directory for saving your pages.
+
+A new file for each day is created when you open Morning Pages.
+
+Here are the items you can set in Emacs. The group is
+  :  mpages
+
+
+#+BEGIN_SRC 
+
+Hide Mpages Content Directory: ~/Onedrive/Documents/morning-pages
+    State : SAVED and set.
+   This is the directory to store your daily Morning Pages documents.
+Groups: Mpages
+
+Hide Mpages Update Frequency: 1
+    State : STANDARD.
+   How many seconds before recounting your words. Hide
+   Increasing this number may improve performance.
+Groups: Mpages
+
+Hide Mpages Word Threshold: 750
+    State : STANDARD.
+   This threshold is the number of words required before daily diary is complete.
+Groups: Mpages
+
+MpagesMpages helps with writing a daily Morning Pages style diary.
+#+END_SRC
+
+It is not clear to me if you need to require the package in 
+
+  : init.el
+
+for it to work.
+Happy writing.

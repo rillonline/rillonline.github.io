@@ -1,0 +1,72 @@
+* Keyboard Macros in Emacs
+:PROPERTIES:
+:CUSTOM_ID: keyboard-macros-in-emacs
+:END:
+Here is more about keyboard macros in emacs.
+
+What I sent you yesterday might not be easy to follow, since it contains
+characters which will not show up in an ASCII terminal.
+
+1. Creating a macro:
+
+To start recording a macro, press F3.
+
+Then the recording starts, and every keystroke until you press F4 will
+go into the macro.
+
+2. [@2] Naming the macro:
+
+When you have recorded the macro, you can give it a name with:
+
+C-x C-k n
+
+And then enter the name in the mini buffer.
+
+The above two steps define a macro and name it, but only for this
+session.
+
+The macro can include calls to other functions such as point movement
+functions.
+
+To save the macro for later, you need to get the source into a lisp
+file/
+
+To do this:
+
+M-x insert-kbd-macro macroname
+
+For example, if you followed the above steps to define a macro called
+'squash-blank-lines', then:
+
+M-x insert-kbd-macro n squash-blank-lines
+
+Will paste the lisp into the current buffer.
+
+I suggest you start working with a new blank buffer which you can save
+after, and then paste it into, for example, your init.el file.
+
+** Full Example
+:PROPERTIES:
+:CUSTOM_ID: full-example
+:END:
+``` Has ever night seemed darker than the night we said goodbye? Did
+ever we imagine we could see the stars again? Our shooting stars have
+gone from us, But made the heavens bright C-x C-k n goodbye-stars M-x
+insert-kbd-macro goodbye-stars
+
+Your buffer should now contain the lisp source of the macro, and if you
+go to the bottom and then do:
+
+M-x goodbye-stars
+
+It should paste in the four line poem.
+
+Paste this fragment of lisp into your startup files and the macro will
+be available in every sesssion.
+
+I got this from:
+
+https://www.gnu.org/software/emacs/manual/html_node/emacs/Save-Keyboard-Macro.html
+
+And there is stuff in there about assigning global key bindings to your
+macro.

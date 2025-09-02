@@ -1,0 +1,20 @@
+- [[http://montreal.anglican.org/comments/archive/cpr18m.shtml][Commentary
+  on Luke 12:13-21]]
+- [[http://montreal.anglican.org/comments/archive/cpr18l.shtml][clippings]]
+  for Luke 12:13-21]]
+
+- [[https://https://rillonline.github.io/][My Home Page]]
+- [[https://sachachua.com/blog/2014/11/using-org-mode-keep-process-journal/][Using Org-mode to Keep A Process Journal]] Sacha Chua
+- [[https://sachachua.com/blog/2012/05/org-mode-and-habits/][Org-mode and Habits]] Sacha Chua
+- [[https://pages.sachachua.com/.emacs.d/Sacha.html][Sacha Chua's emacs configuration]]
+- [[https://sachachua.com/blog/2015/01/breaking-skill-outlining/][Breaking
+  Down the Skill of Outlining]] Sacha Chua
+- [[http://emacslife.com/how-to-read-emacs-lisp.html][How to Read
+  Emacs Lisp]] Sacha Chua
+-[[https://orgmode.org/worg/org-contrib/org-protocol.html#sec-9][org protocol]] keybindings for using capture with Firefox 
+-[[http://doc.norang.ca/org-mode.html][org-mode Organize Your Life in Plain Text]] Lots of info here. Quite overwhelming. 
+-[[https://sachachua.com/blog/2015/02/learn-take-notes-efficiently-org-mode/][Learn to Take Notes More Efficiently in Org-mode]] Sacha Chua 
+-[[http://www.howardism.org/Technical/Emacs/capturing-content.html][Capturing Content for Emacs]] Howardism advanced 
+-[[http://www.howardism.org/Technical/Emacs/capturing-intro.html][Capturing Intro]] Howardism 
+
+

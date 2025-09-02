@@ -1,0 +1,11 @@
+C-c C-e t  get a template file
+C-C C-c activate template values
+< followed by a template selector followed by tab
+  e example
+  c center
+  q quotation
+  v verse
+  h html
+#+SETUPFILE: stores the location of a file with settings
+
+

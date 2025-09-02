@@ -1,0 +1,9 @@
+* Git Notes
+:PROPERTIES:
+:CUSTOM_ID: git-notes
+:END:
+** Determining the Origin of a Cloned Repo
+:PROPERTIES:
+:CUSTOM_ID: determining-the-origin-of-a-cloned-repo
+:END:
+git config --get remote.origin.url

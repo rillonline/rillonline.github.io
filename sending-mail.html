@@ -4,16 +4,27 @@
 <meta charset="UTF-8">
 <link rel="alternate"
       type="application/rss+xml"
-      href="https://rillonline.github.io/rss.xml"
-      title="RSS feed for https://rillonline.github.io/">
+      href="https://example.com/rss.xml"
+      title="RSS feed for https://example.com/">
 <title>Sending Mail</title>
-You are reading Rill Online.</head>
+</head>
 <body>
 <div id="preamble" class="status"></div>
 <div id="content">
-<div class="post-date">17 Aug 2025</div><h1 class="post-title"><a href="https://rillonline.github.io/sending-mail.html">Sending Mail</a></h1>
+<div class="post-date">17 Aug 2025</div><h1 class="post-title"><a href="https://example.com/sending-mail.html">Sending Mail</a></h1>
+<nav id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org84c2f85">1. Sending Mail</a></li>
+</ul>
+</div>
+</nav>
+<div id="outline-container-org84c2f85" class="outline-2">
+<h2 id="org84c2f85"><span class="section-number-2">1.</span> Sending Mail</h2>
+<div class="outline-text-2" id="text-1">
 <p>
-**Narrative
+***Narrative
 </p>
 
 <p>
@@ -72,7 +83,7 @@ OK, on to the way to get it working.
 </p>
 
 <p>
-**Introduction
+***Introduction
 </p>
 
 <p>
@@ -80,7 +91,7 @@ I wanted a way to move some files off of my raspberry pi onto cloud services lik
 </p>
 
 <p>
-**Installation
+***Installation
 </p>
 
 <p>
@@ -116,7 +127,7 @@ Two caviots here:
 </ol>
 
 <p>
-**The .mailrc file
+***The .mailrc file
 </p>
 
 <p>
@@ -128,14 +139,14 @@ Create a file named .mailrc.Include this line:
 </p>
 
 <p>
-**Configure MSMTP
+***Configure MSMTP
 </p>
 
 <p>
 Create a file called <code>.msmtprc</code>.Here is the configuration file that finally worked for me. 
 </p>
 
-<pre class="example" id="orgfb1ae34">
+<pre class="example" id="org8c6a879">
 auth on
 tls on
 tls_starttls on
@@ -153,7 +164,7 @@ This is the barebones I could get away with.
 </p>
 
 <p>
-**Change File Permissions
+***Change File Permissions
 </p>
 
 <p>
@@ -166,7 +177,7 @@ password.
 </p>
 
 <p>
-**Sending a Message
+***Sending a Message
 </p>
 
 <p>
@@ -183,6 +194,8 @@ This is one line and includes attaching this file to the email.
 d
 spirit
 </p>
+</div>
+</div>
 <div class="taglist"></div></div>
 <div id="postamble" class="status"></div>
 </body>

@@ -1,0 +1,39 @@
+- OK. I'm writing a quick note to test this out.
+- very cool. It you specify an item in org-capture, it puts the dash
+  in for you.
+- You can set a priority on any headline. It's really for your own
+  convenience. In the agenda, priorities are part of the sort criteria
+  so higher level priorities sort first. Use the =,= (comma) to set
+  the priority in the agenda. Note to self: Learn how to get c-c ,
+  (comma) to work elsewhere. 
+- 
+- put the consistency graph to the "right margin", so I start at the 54th column.
+- https://www.goodreads.com/book/show/381433.The_Mammoth_Book_of_More_Historical_Whodunnits
+- flyspell-mode
+- [[https://sachachua.com/blog/2007/12/how-to-use-emacs-org-as-a-basic-day-planner/][How
+  to Use Org as a Basic Day Planner]] Sacha again with an old but
+  informative post.
+- asterisk marks a line in the agenda for a bulk action. The letter
+  =u= unmarks and the dollar sign ($) archives the marked lines.
+- Have to use Eutaw Street somewhere. Next to Camden Yard. Pronounced
+  Utah but more fun to pronounce it Utaw.
+
+Alt+x flyspell-mode to turn on spell checker as you type. Call again to turn off.
+
+when flyspell-mode is on, the following commands have key shortcuts.
+
+Alt+x flyspell-goto-next-error 【Ctrl+,】 to move cursor to next error. (only when flyspell-mode is on.)
+
+Alt+x flyspell-auto-correct-word 【Ctrl+.】 to correct the word under cursor. Press the key again to swap to next suggestion.
+
+
+(setq org-habit-preceding-days 21)
+(setq org-habit-following-days 5)
+(setq org-habit-graph-column 54)
+
+
+
+
+
+
+
