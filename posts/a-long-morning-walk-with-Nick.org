@@ -1,7 +1,7 @@
 #+TITLE: A Long Morning Walk with Nick
 #+DATE: 2016-09-09
-#+FILETAGS: :Blog:Dog:Nick:
-** A long Morning Walk with Nick 
+#+FILETAGS: :Dog:Nick:
+
 Nick, my Seeing Eye dog, and I took a walk this morning.
 
 Now I know that taking a walk with your dog is not a novel experience for any dog owner. What was significant about this walk was that it took place immediately after my breakfast and before my exercise class at the senior center.

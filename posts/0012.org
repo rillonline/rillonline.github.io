@@ -1,7 +1,7 @@
 #+TITLE: 0012
 #+DATE: 2007-01-01
 #+DESCRIPTION: Speculative Fiction
-:FILETAGS: :Writing:Fiction:
+#+FILETAGS: :Writing:Fiction:
 I close the chapel door behind me. It is already dark. During Saturday
 evening worship it began snowing again. I am glad I took the time to
 first fold then slip the fringed end of my scarf through the makeshift

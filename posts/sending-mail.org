@@ -1,7 +1,7 @@
 #+TITLE: Sending Mail
 #+DATE: 2025-08-17
-#+FILETAGS: :Blog:Raspberry_Pi:
-** Sending Mail 
+#+FILETAGS: :Raspberry_Pi:
+
 ***Narrative
 
 You can skip this part if you only want to know how to get sending mail

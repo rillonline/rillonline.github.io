@@ -1,0 +1,29 @@
+#+title: Adding Local Variables
+#+date: <2025-09-08 15:15>
+#+description: 
+#+filetags: :Emacs:Org_Mode:
+I am setting up my blog with[[https://github.com/bastibe/org-static-blog][org-static-blog]] which requires me to define a number of variables. The best way to do this is using ~.dir-locals.el~.
+
+Not knowing how to code in ~elisp~ I tried to do this by hand with disasterous results.
+
+I next turned to our new friends Gemini, CoPilot and ChatGPT. This was better, but by no means perfect.
+
+I went back to the Internet and did some searches. Yay! There's a command to add variables to the ~.dir-locals.el~ file. It keeps track of all the parenthesies. You invoke it with
+#+BEGIN_EXAMPLE
+m-x add-direct-local-variable
+#+END_EXAMPLE
+I think you need a file called ~.dir-locals.el in the directory already. You certainly need to be in that directory before executing the command.
+
+You can shorten this variable to ~add-v~. Be aware that you need to cursor up once to get the right command. Press return.
+
+The command is in three parts.
+
+1. The mode. The response here is ~nil~. This is generic and applies to all modes.
+2. The variable name. Again, press return.
+3. Its value. If it is a string, enclose the string in double quotes ~"~. Press return a final time.
+
+Repetition of these steps will build the ~.dir-locals.el~ file.
+
+A final note: You will be prompted when you open your first file in this directory if you want to use these local variables. ~y~ would seem the best response since you have gone to all the trouble to set it up. 
+
+	 

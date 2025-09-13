@@ -1,7 +1,7 @@
 #+TITLE: Waiting
 #+DATE: <2013-05-02>
-#+FILETAGS: :Blog:Raspberry_Pi:
-** Waiting 
+#+FILETAGS: :Raspberry_Pi:
+
 I'm waiting for my parts list so that my Raspberry Pie can be built.
 Meanwhile, my USB hub and keyboard come today according to UPS.
 

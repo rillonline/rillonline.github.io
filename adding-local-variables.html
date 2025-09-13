@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="alternate"
+      type="application/rss+xml"
+      href="https://rillonline.github.io/rss.xml"
+      title="RSS feed for https://rillonline.github.io/">
+<title>Adding Local Variables</title>
+</head>
+<body>
+<div id="preamble" class="status"><div class="sitelinks">
+<a href="https://rillonline.github.io/">Home</a> | <a href="https://rillonline.github.io/list-of-tags.html">List of Tags</a> |
+<a href="https://rillonline.github.io/about.html">About</a>
+ </div><div><h1>Hey there 👋 You are reading Rill Online.</h1></div></div>
+<div id="content">
+<div class="post-date">08 Sep 2025</div><h1 class="post-title"><a href="https://rillonline.github.io/adding-local-variables.html">Adding Local Variables</a></h1>
+<p>
+I am setting up my blog with<a href="https://github.com/bastibe/org-static-blog">org-static-blog</a> which requires me to define a number of variables. The best way to do this is using <code>.dir-locals.el</code>.
+</p>
+
+<p>
+Not knowing how to code in <code>elisp</code> I tried to do this by hand with disasterous results.
+</p>
+
+<p>
+I next turned to our new friends Gemini, CoPilot and ChatGPT. This was better, but by no means perfect.
+</p>
+
+<p>
+I went back to the Internet and did some searches. Yay! There's a command to add variables to the <code>.dir-locals.el</code> file. It keeps track of all the parenthesies. You invoke it with
+</p>
+<pre class="example" id="org5a843f1">
+m-x add-direct-local-variable
+</pre>
+<p>
+I think you need a file called ~.dir-locals.el in the directory already. You certainly need to be in that directory before executing the command.
+</p>
+
+<p>
+You can shorten this variable to <code>add-v</code>. Be aware that you need to cursor up once to get the right command. Press return.
+</p>
+
+<p>
+The command is in three parts.
+</p>
+
+<ol class="org-ol">
+<li>The mode. The response here is <code>nil</code>. This is generic and applies to all modes.</li>
+<li>The variable name. Again, press return.</li>
+<li>Its value. If it is a string, enclose the string in double quotes <code>"</code>. Press return a final time.</li>
+</ol>
+
+<p>
+Repetition of these steps will build the <code>.dir-locals.el</code> file.
+</p>
+
+<p>
+A final note: You will be prompted when you open your first file in this directory if you want to use these local variables. <code>y</code> would seem the best response since you have gone to all the trouble to set it up. 
+</p>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-emacs.html">Emacs</a> <a href="https://rillonline.github.io/tag-org_mode.html">Org_Mode</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer></div>
+<div id="postamble" class="status">
+   <div class="post-meta">
+   <div class="creator">
+   <p>This blog post was created by Rill on a Raspberry Pi, with the help of <a href="https://www.gnu.org/software/emacs/">GNU Emacs</a>, <a href="https://orgmode.org/">Org mode</a>, and the <a href="https://github.com/bastibe/org-static-blog">org-static-blog</a> package.</p>
+   </div>
+   <div class="copyright-license">
+   <p>© 2025 by Rill. Unless otherwise stated, all material is licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
+   </div>
+  </div>
+ </div>
+</body>
+</html>

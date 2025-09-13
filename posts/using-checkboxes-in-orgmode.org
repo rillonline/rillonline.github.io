@@ -1,7 +1,7 @@
 #+title: Using Checkboxes in Orgmode
 #+date: <2019-08-28>
-#+FILETAGS: :Blog:Org_Mode:
-** Using Checkboxes in Org 
+#+FILETAGS: :Emacs:Org_Mode:
+
 I wrote about
 [[https://rillonline.github.io/posts/2019/08/28/recurring-tasks-in-orgmode/p][Recurring Tasks in Orgmode] previously. Once I had this to-do working properly,
 I went onto the next task. I wanted to list my ideas for articles and

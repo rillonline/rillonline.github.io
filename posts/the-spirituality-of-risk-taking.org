@@ -1,5 +1,6 @@
 #+title: The Spirituality of Risk Taking
-#+FILETAGS: : :Page:Faith:
+#+DATE:< 2004-01-01>
+#+FILETAGS: :Page:Faith:
 ** The Spirituality of Risk Taking 
 I'm a science fiction fan. I like a good space opera with spaceships,
 aliens and lots of action. I also like science fiction that explores
@@ -10,9 +11,8 @@ More specifically, I'm a Trekkie. (Yeah, yeah, I know, we're called
 trekkers, but, we were called Trekkies first.
 
 The Next Generation episode of Star Trek that changed my life (really,
-it did!) is Tapestry. HYPERLINK
-"http://www.startrek.com/startrek/view/series/TNG/episode/68588.html"
-http://www.startrek.com/startrek/view/series/TNG/episode/68588.html
+it did!) is [[https://en.wikipedia.org/wiki/Tapestry_(Star_Trek:_The_Next_Generation)][ Tapestry]].
+
 After having his artificial heart short-circuited, Captain Picard has an
 opportunity to change the trajectory of his life. As a young officer,
 Jean-Luc made a choice that now has fatal consequences for him. When
@@ -57,25 +57,16 @@ skydiving
 Ferris wheels now that I'm too big to have my dad riding between my
 sister and me
 
-Roller coasters (I did go with my daughter on Big Thunder Mountain
-Railroad ( HYPERLINK
-"http://en.wikipedia.org/wiki/Big_Thunder_Mountain_Railroad"
-http://en.wikipedia.org/wiki/Big_Thunder_Mountain_Railroad ) in the
+Roller coasters I did go with my daughter on  [[https://en.wikipedia.org/wiki/Big_Thunder_Mountain_Railroad][Big Thunder Mountain Railroad]]  in the
 Magic Kingdom. She laughed at my fear. What made the ride almost
 bearable was sitting in front of some park employees. One was describing
 to the other where you could take people off the ride if you had to.)
 
-In Babylon Five when Captain Sheridan is dying on zhadum, Lorien asks
-him: ``Who are you? Why are you here?'' HYPERLINK
-"http://www.chronology.org/noframes/b-five/monologues.html"
-http://www.chronology.org/noframes/b-five/monologues.html
-
-Sheridan must answer these basic questions about his existence to
+In Babylon Five when Captain Sheridan is dying on zhadum, [[https://en.wikipedia.org/wiki/List_of_Babylon_5_characters][Lorien]] asks
+him: [[https://www.chronology.org/noframes/b-five/monologues.html][Who are you? Why are you here?]] Sheridan must answer these basic questions about his existence to
 Lorine's satisfaction in order to survive.
 
-Socrates is purported to have said ``The unexamined life is not worth
-living for man.'' HYPERLINK "http://www.bartleby.com/66/53/54553.html"
-http://www.bartleby.com/66/53/54553.html Haraman quoted this to me a
+Socrates is purported to have said, [[https://thedailyidea.org/socrates-examined-life/]["The unexamined life is not worth living."]]  Haraman quoted this to me a
 long time ago. Because Haraman told me and because I have had many years
 to test this saying, I have come to believe it is true.
 
@@ -83,6 +74,8 @@ I learned to reflect on my own life
 
 I have many favorite biblical passages. Those of us who find solace and
 encouragement and challenge in the Bible do. One of them goes like this:
+
+
 
 For copyright reasons, I'll read this quotation from The Holy Bible,
 American Standard Version.

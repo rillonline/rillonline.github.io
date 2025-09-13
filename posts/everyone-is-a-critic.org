@@ -1,7 +1,7 @@
-#+TITLE:    Everyone-s A Critic
+#+TITLE:    Everyone'ss A Critic
 #+DATE:     2005-05-28
-#+FILETAGS: ::Blog:Creativity:
-** Everyone's A Critic 
+#+FILETAGS: :Creativity:
+
 You might think that, being blind, I have no interest in paintings or other forms of visual art. You would be wrong about that. I'm fascinated
 by art and what other people bring to the pictures. Last year people at
 the "Stations of the Windows" Friday Lenten worship services at[[https://stlukesjamestown.org/][St. Luke's Jamestown]]described the stained glass windows.

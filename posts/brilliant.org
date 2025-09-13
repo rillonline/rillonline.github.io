@@ -1,7 +1,7 @@
 #+TITLE:  Brilliant
 #+Date: <2013-06-15>
-#+FILETAGS: :Blog:Raspberry_Pi:
-** Brilliant! 
+#+FILETAGS: :Raspberry_Pi:
+
 I've been using text mode to write these blog entries. Additionally, I
 have been using [[http://www.daringfireball.net/projects/markdown/][markdown]] to format
 them. As I do not have markdown enabled yet in emacspeak and because I
@@ -13,9 +13,10 @@ post is a test case.
 
 ***  Some Confusion
 
-In reading Alex's [[http://emacspeak.sourceforge.net/info/html/tutorial.html][explanation]], I was confused because he talks about creating a web page. This "page" (I've surrounded the word page with quotation marks.) is not something which is published on the web. It is a file a browser can read and interpret. What Alex has you do is write a file that acts as a list of bookmarks to your favorite sites so you can launch it and get around the web quickly and easily. fterI understood this, his explanations made a lot more sense.
+In reading Alex's [[http://emacspeak.sourceforge.net/info/html/tutorial.html][explanation]], I was confused because he talks about creating a web page. This ~page~  is not something which is published on the web. It is a file a browser can read and interpret. What Alex has you do is write a file that acts as a list of bookmarks to your favorite sites so you can launch it and get around the web quickly and easily. After I understood this, his explanations made a lot more sense.
 
-*Note:* The extension ".org" refers to org mode not the domain type as in "raspberryvi.org". This also confused me. I thought at first org mode was not installed, but that is because I was hearing "aug" mode as in "augmented" or ""August". It's "org" as in "organized".
+*Note:* The extension ~.org~ refers to org mode not the domain type as in ~raspberryvi.org~. This also confused me. I thought at first org mode was not installed, but that is because I was hearing ~aug~ mode as in ~augmented~
+or ~August~. It's ~org~ as in ~organized~.
 
 ***  What I've Learned So Far
 
