@@ -1,6 +1,8 @@
 #+TITLE: Sending Mail
 #+DATE: 2025-08-17
-**Narrative
+#+FILETAGS: :Blog:Raspberry_Pi:
+** Sending Mail 
+***Narrative
 
 You can skip this part if you only want to know how to get sending mail
 working on your pi.
@@ -37,11 +39,11 @@ errors. Rince and repeat.
 
 OK, on to the way to get it working.
 
-**Introduction
+***Introduction
 
 I wanted a way to move some files off of my raspberry pi onto cloud services like OneDrive and Dropbox. Instead of configuring ~rclone~ or a similar service, I figured an email attachment would work just as well. (I totally forgot I could copy files to my PC with ~scp~.) I wanted something quickly and not necessarily elegantly to get the job done.
 
-**Installation
+***Installation
 
 You need to install three programs:
 
@@ -61,13 +63,13 @@ Two caviots here:
 
 2.     I did not hide this app password in a key ring. I learned the default program ~secret-tool~ requires that a desktop needs to be installed. I didn't want to use ~gpg~ or a password manager. Is someone really going to break into my house or network and interrogate my raspberry pi to get into my ~gmail~?
 
-**The .mailrc file
+***The .mailrc file
 
 Create a file named .mailrc.Include this line:
 
     =set mta="/usr/bin/msmtp"=
 
-**Configure MSMTP
+***Configure MSMTP
 
 Create a file called ~.msmtprc~.Here is the configuration file that finally worked for me. 
 
@@ -86,14 +88,14 @@ Create a file called ~.msmtprc~.Here is the configuration file that finally work
 
 This is the barebones I could get away with.
 
-**Change File Permissions
+***Change File Permissions
 
 You must change permissions on the ~.msmtp~ file if it contains a
 password.
 
     =sudo chmod 600 .msmtprc=
 
-**Sending a Message
+***Sending a Message
 
 To test this configuration, I used the following command. I sent the
 message to a different email account from the one I configured in ~.msmtprc~.

@@ -1,7 +1,7 @@
 #+title: In Silence
 #+date: <2019-12-03>
-#+description: 
-#+filetags: Faith
+#+FILETAGS: :Blog:Faith:
+** In Silence 
 #+begin_quote
 For God alone my soul in silence waits; from him comes my salvation.
 (Psalm 62:1 BCP)

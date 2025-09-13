@@ -1,7 +1,7 @@
 #+title: A Spirit of Cowardice
 #+date: <2016-02-28>
-#+description: 
-#+filetags: Faith
+#+FILETAGS: :Blog:Faith:
+** A Spirit of Cowardice 
 I have sought various ways to be connected to Jesus.
 
 * Prayer lists.

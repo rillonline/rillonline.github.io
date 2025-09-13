@@ -1,8 +1,6 @@
 #+title: The Spirituality of Risk Taking
-#+date: <>
-#+description: 
-#+filetags: Faith Personal
-
+#+FILETAGS: : :Page:Faith:
+** The Spirituality of Risk Taking 
 I'm a science fiction fan. I like a good space opera with spaceships,
 aliens and lots of action. I also like science fiction that explores
 what if's. Unlike alternate histories, I don't have to know the real

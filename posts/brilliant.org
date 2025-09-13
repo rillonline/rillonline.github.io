@@ -1,7 +1,7 @@
-#+TITLE:  Brilliant!
+#+TITLE:  Brilliant
 #+Date: <2013-06-15>
-#+FILETAGS: RaspberryPi
-
+#+FILETAGS: :Blog:Raspberry_Pi:
+** Brilliant! 
 I've been using text mode to write these blog entries. Additionally, I
 have been using [[http://www.daringfireball.net/projects/markdown/][markdown]] to format
 them. As I do not have markdown enabled yet in emacspeak and because I
