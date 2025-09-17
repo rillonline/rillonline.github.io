@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="alternate"
+      type="application/rss+xml"
+      href="https://rillonline.github.io/rss.xml"
+      title="RSS feed for https://rillonline.github.io/">
+<title>Using Flyspell with Emacspeak</title>
+</head>
+<body>
+<div id="preamble" class="status"><div class="sitelinks">
+<a href="https://rillonline.github.io/">Home</a> | <a href="https://rillonline.github.io/list-of-tags.html">List of Tags</a> |
+<a href="https://rillonline.github.io/about.html">About</a>
+ </div><div><h1>Hey there 👋 You are reading Rill Online.</h1></div></div>
+<div id="content">
+<div class="post-date">13 Sep 2025</div><h1 class="post-title"><a href="https://rillonline.github.io/ using-flyspell-with-emacspeak.html">Using Flyspell with Emacspeak</a></h1>
+<div id="outline-container-orgb571b23" class="outline-2">
+<h2 id="orgb571b23">The Problem</h2>
+<div class="outline-text-2" id="text-orgb571b23">
+<p>
+I didn't have a great set up for spellchecking in Emacs. Ispell works,
+but often there are too many choices and Emacspeak does not read them
+out. So I investigated Flyspell and now I have a working solution.
+</p>
+</div>
+</div>
+<div id="outline-container-org1c91358" class="outline-2">
+<h2 id="org1c91358">The Hook</h2>
+<div class="outline-text-2" id="text-org1c91358">
+<p>
+I now have flyspell working in all text and text-derived buffers by
+adding this hook:
+</p>
+
+<pre class="example" id="org46702c3">
+(add-hook 'text-mode-hook 'flyspell-mode)
+</pre>
+
+<p>
+This can be disabled in specific circumstances if needed but this is
+beyond the scope of this article.
+</p>
+</div>
+</div>
+<div id="outline-container-org980a6f9" class="outline-2">
+<h2 id="org980a6f9">Procedure to Correct Words in a Buffer</h2>
+<div class="outline-text-2" id="text-org980a6f9">
+<p>
+There are keybindings to autocorrect in <code>flyspell</code>, but this is not
+always advisable.
+</p>
+
+<p>
+I needed to be able to scroll through the many options. <code>Ispell</code> gives
+choices with numbers, but often there are too many to give you the
+list. By putting the following command in my <code>init.el</code> file via the
+customization menus, I am now able to use <code>flyspell</code> to cursor up and
+down a list until I find the right choice. After that, I can just hit return.
+</p>
+
+<p>
+If auditory icons is turned on and you are using the default theme,
+you will hear something like a rattling sound when you misspell a word. To
+correct the word immediately,
+</p>
+
+<ul class="org-ul">
+<li>move point to the misspelled word.</li>
+<li>Press c-c $. (control plus c then s plus 4)</li>
+<li>Emacspeak will say menu. You can use your cursor keys to scroll up
+and down the list of suggestions.</li>
+<li>Press return on your selection.</li>
+</ul>
+
+<p>
+As well as misspelled word suggestions, you can save your word in a
+personal dictionary, accept your spelling for this session or accept
+all misspelled words in the buffer.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf97f90f" class="outline-2">
+<h2 id="orgf97f90f">Spellchecking the Buffer</h2>
+<div class="outline-text-2" id="text-orgf97f90f">
+<p>
+c-, (control plus comma) can move point from misspelled word to
+misspelled word in your buffer. Press c-c $ to correct each one. c-,
+will announce when you reach the end of the buffer. Press c-, again to
+move to the beginning of the buffer.
+</p>
+</div>
+</div>
+<div id="outline-container-org9a9061a" class="outline-2">
+<h2 id="org9a9061a">Automatic Correction</h2>
+<div class="outline-text-2" id="text-org9a9061a">
+<p>
+There are other commands which can move point and automatically
+correct your misspellings. Since this is automatic, the first choice
+may not be the correct one. Once the word has been corrected, you will
+need to reread your work to find it.
+</p>
+</div>
+</div>
+<div id="outline-container-org21314d9" class="outline-2">
+<h2 id="org21314d9">Tip</h2>
+<div class="outline-text-2" id="text-org21314d9">
+<p>
+When moving from misspelled word to misspelled word in your buffer,
+Emacspeak will not read out the new misspelled word. Press c-e w to
+hear the word. Press c-e w again to have it spelled.
+</p>
+</div>
+</div>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-emacs.html">Emacs</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer></div>
+<div id="postamble" class="status">
+   <div class="post-meta">
+   <div class="creator">
+   <p>This blog post was created by Rill on a Raspberry Pi, with the help of <a href="https://www.gnu.org/software/emacs/">GNU Emacs</a>, <a href="https://orgmode.org/">Org mode</a>, and the <a href="https://github.com/bastibe/org-static-blog">org-static-blog</a> package.</p>
+   </div>
+   <div class="copyright-license">
+   <p>© 2025 by Rill. Unless otherwise stated, all material is licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
+   </div>
+  </div>
+ </div>
+</body>
+</html>
