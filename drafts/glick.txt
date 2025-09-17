@@ -1,0 +1,354 @@
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   0012.org
+	new file:   10-universal-lessons.org
+	new file:   2013-06-15.org
+	new file:   20191203.org
+	new file:   27-scenes.org
+	new file:   3laws-thought.org
+	new file:   51-questions-youve-never-asked-about.org
+	new file:   Elwood-at-school.org
+	new file:   I-miss-her.org
+	new file:   Main-character-questionnaire.org
+	new file:   a-meditation-on-psalm-22-mostly.org
+	new file:   advent.org
+	new file:   afternoon-walk.org
+	new file:   ash-wednesday.org
+	new file:   astronaut.org
+	new file:   be-rich-toward-God.org
+	new file:   beat-sheet.org
+	new file:   big-mean-machine.org
+	new file:   blog-template.org
+	new file:   bookmarks-rill-Latitude-2.org
+	new file:   bookmarks-rill-Latitude-3.org
+	new file:   bookmarks-rill-Latitude.org
+	new file:   bookmarks.org
+	new file:   br-outline.org
+	new file:   broken-promises.org
+	new file:   caitlin.org
+	new file:   chance-encounter.org
+	new file:   changing-the-console-prompt.org
+	new file:   chapter-list.org
+	new file:   current-questions.org
+	new file:   diary-rill-Latitude-2.org
+	new file:   diary-rill-Latitude.org
+	new file:   diary.org
+	new file:   dont-know.org
+	new file:   emacs-macros.org
+	new file:   emacs-tips.org
+	new file:   emacs_keyboard_macros.org
+	new file:   extra.org
+	new file:   getting-organized.org
+	new file:   git_notes.org
+	new file:   hints.org
+	new file:   how-to-test-emacspeak-server.org
+	new file:   ideas.org
+	new file:   in-the-library.org
+	new file:   joseph-fragment.org
+	new file:   journal.org
+	new file:   listening-for-jesus.org
+	new file:   magic-land-notes-from-2015.org
+	new file:   magic-lands-notes-from-2015.org
+	new file:   managing-todos.org
+	new file:   marathon.org
+	new file:   morning-pages.org
+	new file:   mulberry-bend-outline.org
+	new file:   nano-prep-2019.org
+	new file:   nanowrimo-plan-2019-rill-Latitude.org
+	new file:   nanowrimo-plan-2019.-take-2.org
+	new file:   nanowrimo-plan-2019.org
+	new file:   nanowrimo-word-count-2019.org
+	new file:   notes-on-writing-todo-lists.org
+	new file:   notes-rill-Latitude.org
+	new file:   notes.org
+	new file:   onedrive.org
+	new file:   org-notes.org
+	new file:   preliminary-thoughts.org
+	new file:   projects.org
+	new file:   prop25-table.org
+	new file:   proper25.org
+	new file:   publish.org
+	new file:   quick-notes-rill-Latitude-2.org
+	new file:   quick-notes-rill-Latitude.org
+	new file:   quick-notes.org
+	new file:   record-a-macro.org
+	new file:   recurring-tasks-in-orgmode.org
+	new file:   remember.org
+	new file:   rescued-and-saved-fragment.org
+	new file:   rescued-and-saved-outline.org
+	new file:   rescued-and-saved.org
+	new file:   river-walk-fragment.org
+	new file:   save-the-cat-logline-template.org
+	new file:   setupfile-html.org
+	new file:   setupfile-simple.org
+	new file:   shortcuts-for-org-structure-templates.org
+	new file:   some-thoughts.org
+	new file:   story-fragment1.org
+	new file:   story-ideas.org
+	new file:   table.org
+	new file:   testfile.org
+	new file:   the-disembodied-voice.org
+	new file:   the-house-was-quiet.org
+	new file:   the-three-laws-of-magic-plan-2015.org
+	new file:   third-anniversary-outline.org
+	new file:   time-weaver.org
+	new file:   todo.org
+	new file:   transfiguration.org
+	new file:   traveling-on.org
+	new file:   using-checkboxes-in-orgmode.org
+	new file:   using-diary-for-org-calendar.org
+	new file:   using-eww-on-emacs.org
+	new file:   using-flyspell-and-emacspeak.org
+	new file:   using-org-tables-with-emacspeak.org
+	new file:   using-sshfs-and-fuse.org
+	new file:   wizard-recover.org
+	new file:   wizard.org
+	new file:   wizard2.org
+	new file:   words.org
+	new file:   ygabiy-thoughts.org
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    ../_config.yml
+	deleted:    ../old-stuff/rillw.github.io/Elwood-at-school/01.markdown
+	deleted:    ../old-stuff/rillw.github.io/Elwood-at-school/02.markdown
+	deleted:    ../old-stuff/rillw.github.io/Elwood-at-school/03.markdown
+	deleted:    ../old-stuff/rillw.github.io/Elwood-at-school/04.markdown
+	deleted:    ../old-stuff/rillw.github.io/Elwood-at-school/Elwood.html
+	deleted:    ../old-stuff/rillw.github.io/Elwood-at-school/Elwood.md
+	deleted:    ../old-stuff/rillw.github.io/LICENSE
+	deleted:    ../old-stuff/rillw.github.io/README.html
+	deleted:    ../old-stuff/rillw.github.io/README.md
+	deleted:    ../old-stuff/rillw.github.io/_dogwriting/Elwood-at-school.md
+	deleted:    ../old-stuff/rillw.github.io/_dogwriting/Elwood-is-three.markdown
+	deleted:    ../old-stuff/rillw.github.io/_dogwriting/Snow-wanderings.md
+	deleted:    ../old-stuff/rillw.github.io/_dogwriting/a-walk-at-last.md
+	deleted:    ../old-stuff/rillw.github.io/_dogwriting/at-home.markdown
+	deleted:    ../old-stuff/rillw.github.io/_dogwriting/frozen-leash.md
+	deleted:    ../old-stuff/rillw.github.io/_dogwriting/hard-day.md
+	deleted:    ../old-stuff/rillw.github.io/_dogwriting/nick-loves-snow.md
+	deleted:    ../old-stuff/rillw.github.io/_dogwriting/nicks-health.md
+	deleted:    ../old-stuff/rillw.github.io/_dogwriting/not-puddle-wonderful.md
+	deleted:    ../old-stuff/rillw.github.io/_dogwriting/qualities-of-a-friend.md
+	deleted:    ../old-stuff/rillw.github.io/_dogwriting/second-anniversary.markdown
+	deleted:    ../old-stuff/rillw.github.io/_dogwriting/silly-dog.md
+	deleted:    ../old-stuff/rillw.github.io/_dogwriting/ups-and-downs.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/.DS_Store
+	deleted:    ../old-stuff/rillw.github.io/_drafts/0012.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2006-12-13-low-places.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2006-12-14-home-again.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2006-12-15-first-day-home.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2006-12-16-church-2.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2006-12-16-church.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2006-12-23-what-a-week.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2006-12-25-merry-christmas.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2006-12-27-on-socks-and-mats-and-colds.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-01-02-seasoned-traveler.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-01-07-silly-dog.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-01-08-greetings.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-01-08-two-today.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-01-09-snow.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-01-11-cold-and-snowy.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-01-16-update.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-01-17-safe-streets.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-01-20-contentment.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-01-22-spring.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-01-23-unintended-consequences.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-01-25-low-gear.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-01-29-trusty-dog.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-02-05-where-was-moses-when-the-lights-went-out.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-02-20-i-gotta-go.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-02-25-popcylcle.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-03-04-practical-joker.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-03-17-a-week.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-03-19-dog-food.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-04-06-im-dreaming-of-a-white-easter.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-04-06-one-more-thing.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-04-07-dog-humor.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-04-08-gospeler.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-04-22-ups-and-downs-2.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-05-19-5k.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2007-05-27-lucydays-2.md
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2016-11-30-17-01-03.txt
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2016-12-12-08-44-40.txt
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2017-01-01-13-44-57.txt
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2017-01-01-13-46-50.txt
+	deleted:    ../old-stuff/rillw.github.io/_drafts/2017-01-01-13-47-40.txt
+	deleted:    ../old-stuff/rillw.github.io/_drafts/Elwood-at-school.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/a-lenten-devotional.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/a-new-creation.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/a-theology-of-aging.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/advent-joy-2006.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/advent-joy.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/advent.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/afternoon-walk.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/and-from-bethlehem.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/articles.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/ash-wednesday-2015.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/behind-enemy-lines.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/common-table-post-for-august-16.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/common-table.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/epiphany-2015.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/favorite-biblical-quotations.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/finding-the-treasure.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/going-live.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/grace.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/grace3.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/hello-world.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/how-to-start-a-blog.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/hungry-heart.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/i-am-the-vine.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/index.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/last-night.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/marathon.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/more-thoughts-on-grace.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/nano-wrapup-2014.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/nanowrimo-questions.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/nanowrimo-the-first-week-2014.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/nanowrimo-week-2-2014.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/neither-slumber-nor-sleep.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/o-adonai-2014.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/o-emmanuel-2014.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/o-key-of-david-2014.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/o-morning-star-2014.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/o-my-vineyard.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/o-root-of-jesse-2014.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/o-ruler-of-the-nations-2014.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/o-wisdom-2014.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/old-index.html
+	deleted:    ../old-stuff/rillw.github.io/_drafts/our-house.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/outline-draft1.org
+	deleted:    ../old-stuff/rillw.github.io/_drafts/purple-purfler.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/rills-warning-label.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/send-me-a-poem.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/shoes.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/star-of-bethlehem.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/taking-hold-of.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/the-disembodied-voice.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/the-hidden-face-of-God.markdown
+	deleted:    ../old-stuff/rillw.github.io/_drafts/the-image-of-the-flood-post.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/the-image-of-the-flood.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/the-secret-of-playing-cribbage.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/the-word-became-flesh-2014.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/three-things.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/transfiguration-a-poem.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/wayfaring-stranger-post.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/wayfaring-stranger.rst
+	deleted:    ../old-stuff/rillw.github.io/_drafts/writing-projects.rst
+	deleted:    ../old-stuff/rillw.github.io/_includes/category/title.html
+	deleted:    ../old-stuff/rillw.github.io/_includes/custom_footer.html
+	deleted:    ../old-stuff/rillw.github.io/_includes/footer-post.html
+	deleted:    ../old-stuff/rillw.github.io/_includes/footer.html
+	deleted:    ../old-stuff/rillw.github.io/_includes/header.html
+	deleted:    ../old-stuff/rillw.github.io/_includes/page/explore.html
+	deleted:    ../old-stuff/rillw.github.io/_includes/page/title.html
+	deleted:    ../old-stuff/rillw.github.io/_includes/pagination.html
+	deleted:    ../old-stuff/rillw.github.io/_includes/post/title.html
+	deleted:    ../old-stuff/rillw.github.io/_includes/reading-time.html
+	deleted:    ../old-stuff/rillw.github.io/_includes/sidebar-short.html
+	deleted:    ../old-stuff/rillw.github.io/_includes/sidebar.html
+	deleted:    ../old-stuff/rillw.github.io/_layouts/collection.html
+	deleted:    ../old-stuff/rillw.github.io/_layouts/default.html
+	deleted:    ../old-stuff/rillw.github.io/_layouts/page.html
+	deleted:    ../old-stuff/rillw.github.io/_layouts/post.html
+	deleted:    ../old-stuff/rillw.github.io/_pages/.DS_Store
+	deleted:    ../old-stuff/rillw.github.io/_pages/about/index.md
+	deleted:    ../old-stuff/rillw.github.io/_pages/behind-enemy-lines/index.kramdown
+	deleted:    ../old-stuff/rillw.github.io/_pages/fiction/index.md
+	deleted:    ../old-stuff/rillw.github.io/_pages/getting-started-with-emacs-again/index.kramdown
+	deleted:    ../old-stuff/rillw.github.io/_pages/kearsarge/index.md
+	deleted:    ../old-stuff/rillw.github.io/_pages/magic-lands1/index.html
+	deleted:    ../old-stuff/rillw.github.io/_pages/star-runner-novelette/index.markdown
+	deleted:    ../old-stuff/rillw.github.io/_posts/.DS_Store
+	deleted:    ../old-stuff/rillw.github.io/_posts/2007-05-27-lucy-days.kramdown
+	deleted:    ../old-stuff/rillw.github.io/_posts/2015-08-19-who-are-these-people.kramdown
+	deleted:    ../old-stuff/rillw.github.io/_posts/2016-11-22-the-winter-tree.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2016-11-23-diligence.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2016-11-25-for-the-love-of-God.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2017-02-12-reviving-star-runner.markdown
+	deleted:    ../old-stuff/rillw.github.io/_posts/2017-02-20-star-runner.markdown
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-03-30-camp-nanowrimo.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-04-02-april-entry-today.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-04-03-013517.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-04-04-mobility.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-04-04-today-is-election.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-04-06-notetaker-no-more.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-04-07-another-day-at.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-04-08-getting-organized.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-04-29-i-didnt-blog.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-06-02-194423.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-06-02-writing-plan-of.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-06-08-smith-college-ladies.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-06-10-004623.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-06-10-004718.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-06-10-caitlin-was-a.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-06-24-looking-around-my.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-07-01-after-several-days.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-07-05-having-just-finished.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-07-05-nick-and-i.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-07-27-took-the-bus.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-08-03-today-nick-and.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-08-15-i-needed-to.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-09-13-what-a-mess.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-09-14-where-is-planet.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-09-16-today-i-made.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-09-20-crazy-day-today.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-09-25-at-last-i.md
+	deleted:    ../old-stuff/rillw.github.io/_posts/2018-09-25-the-wizard-of-marling.kramdown
+	deleted:    ../old-stuff/rillw.github.io/_spiritualwriting/2005-05-01-weekly-message-working.markdown
+	deleted:    ../old-stuff/rillw.github.io/about.md
+	deleted:    ../old-stuff/rillw.github.io/blog.html
+	deleted:    ../old-stuff/rillw.github.io/index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../.dir-locals.el
+	../New Text Document.txt
+	../_old-stuff/
+	../_site/
+	../archive.html~
+	#2025-08-20-glick.orgglick.txt#
+	#front-page.org#
+	2013-06-15.org~
+	2013-06-16.html
+	2013-06-16.html~
+	2013-06-16.org~
+	2013-06-17.org~
+	2013-06-20.html
+	2013-06-20.html~
+	2013-06-20.org~
+	2013-06-21.html
+	2013-06-21.html~
+	2013-06-21.mm
+	2013-06-21.org~
+	2013-06-24.html
+	2013-06-25.html
+	2013-06-26.html
+	Elwood-at-school/
+	_posts/
+	about.md
+	expenses-2019-august.org
+	front-page.html
+	front-page.html~
+	glick.txt
+	setting-up-ablog.md
+	../index.html~
+	../posts/the-spirituality-of-risk-taking.org~
+	../postsdeciding-what-to-build.org
+	../postsindex.org
+	../postsindex.org~
+	../poststhe-journey-begins.org
+	../rss.xml
+	../rss.xml~
+	../tag-creativity.html~
+	../tag-dog.html~
+	../tag-faith.html~
+	../tag-nick.html~
+	../tag-org.html~
+	../tag-raspberrypi.html~
+	../tags.html~
+

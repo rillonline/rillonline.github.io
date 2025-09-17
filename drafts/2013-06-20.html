@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>2013-06-20</title>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<meta name="title" content="2013-06-20"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="generated" content="2013-06-20 thu#+DESCRIPTION:The Export Options Template"/>
+<meta name="author" content="Rill"/>
+<meta name="description" content=""/>
+<meta name="keywords" content="org, template, export, html, emacspeak, Raspberry Pi"/>
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  html { font-family: Times, serif; font-size: 12pt; }
+  .title  { text-align: center; }
+  .todo   { color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #add8e6; font-weight:normal }
+  .target { }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  {margin-left:auto; margin-right:0px;  text-align:right;}
+  .left   {margin-left:0px;  margin-right:auto; text-align:left;}
+  .center {margin-left:auto; margin-right:auto; text-align:center;}
+  p.verse { margin-left: 3% }
+  pre {
+	border: 1pt solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 5pt;
+	font-family: courier, monospace;
+        font-size: 90%;
+        overflow:auto;
+  }
+  table { border-collapse: collapse; }
+  td, th { vertical-align: top;  }
+  th.right  { text-align:center;  }
+  th.left   { text-align:center;   }
+  th.center { text-align:center; }
+  td.right  { text-align:right;  }
+  td.left   { text-align:left;   }
+  td.center { text-align:center; }
+  dt { font-weight: bold; }
+  div.figure { padding: 0.5em; }
+  div.figure p { text-align: center; }
+  div.inlinetask {
+    padding:10px;
+    border:2px solid gray;
+    margin:10px;
+    background: #ffffcc;
+  }
+  textarea { overflow-x: auto; }
+  .linenr { font-size:smaller }
+  .code-highlighted {background-color:#ffff00;}
+  .org-info-js_info-navigation { border-style:none; }
+  #org-info-js_console-label { font-size:10px; font-weight:bold;
+                               white-space:nowrap; }
+  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
+                                 font-weight:bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+
+</head>
+<body>
+
+<div id="preamble">
+
+</div>
+
+<div id="content">
+<h1 class="title">2013-06-20</h1>
+
+
+<div id="outline-container-1" class="outline-3">
+<h3 id="sec-1">The Export Template</h3>
+<div class="outline-text-3" id="text-1">
+
+<p>I did not like the defaults when I exported my html files for my blog. I am in the process of customizing my html export.
+</p>
+</div>
+
+<div id="outline-container-1-1" class="outline-4">
+<h4 id="sec-1-1">M-x Customize</h4>
+<div class="outline-text-4" id="text-1-1">
+
+<p>I used emacspeak's customization facility. Curiously, I had to first export an html file before I could find all the org options. I typed "org" into the search box and got a boat load of settings. I was able to turn the preamble off, but some of the other settings were problematic. I don't know yet where these values are stored.
+</p></div>
+
+</div>
+
+<div id="outline-container-1-2" class="outline-4">
+<h4 id="sec-1-2">Using In-buffer Settings</h4>
+<div class="outline-text-4" id="text-1-2">
+
+<p>Org has in-buffer settings. For a list, see [[]].
+ To get some of these placed in a file, press:
+C-c C-e t
+All the words following "#+" are in all upper case characters. Notice the inserted spaces.
+I changed the values I wanted to change and then pressed
+Cc Cc
+to restart org mode so that these lines take effect.
+</p>
+</div>
+
+<div id="outline-container-1-2-1" class="outline-5">
+<h5 id="sec-1-2-1">A File Makes This Easier Still</h5>
+<div class="outline-text-5" id="text-1-2-1">
+
+<p>As exciting as this list is, it gets better. zi saved my favorite settings in a file. Then I typed:
+and all my settings appeared. I pressed:
+Cc C-c
+My settings are active, my cursor is placed at a blank line and I have a file I can fill with a new blog entry.
+**Note**: Any file name will work.o
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="postamble">
+<p class="date">Date: 2013-06-20 thu#+DESCRIPTION:The Export Options Template</p>
+<p class="author">Author: Rill</p>
+<p class="creator">Org version 7.8.11 with Emacs version 24</p>
+<a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a>
+
+</div>
+</body>
+</html>

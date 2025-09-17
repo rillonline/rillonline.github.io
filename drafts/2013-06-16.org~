@@ -1,0 +1,11 @@
+***  Modifying the .emacs File
+I learned how to eliminate the splash screen today. Add the following line to your .emacs file:
+#+BEGIN_EXAMPLE
+ (setq inhibit-splash-screen t)
+#+END_EXAMPLE
+**Remember**:
++  Add this line after emacspeak settings. The emacspeak settings won't work if this line appears before them.
++  Put a space in front of the line.
++  You can turn the splash screen back on by changing 't' to 'nil'. 
+
+   
