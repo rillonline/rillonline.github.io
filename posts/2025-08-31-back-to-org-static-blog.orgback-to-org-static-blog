@@ -1,0 +1,15 @@
+#+title: Back to org-static-blog
+#+date: <2025-08-31 13:32>
+#+description: Blogging Platforms
+#+filetags: :Emacs:Org_Mode:
+My github pages are a mess. There are a combination of Jekyll and Nikola configurations so I was looking for something simple to work with.
+
+I found ~org-static-blog~ which is fairly straight forward. (More on that in a later note.) It wasn't doing exactly what I wanted to do so I switched to ~org-publish~.
+
+And that's where the trouble began. I googled and used AI and had a fairly good set up, but curiously, the posts are sorted by time stamp rather than ~#+date~. I thought the AI gurus could help me fix this by writing code to sort my notes by their dates rather than by their time stamps. **I was wrong**!
+
+Oh, they wrote code. They fixed the code. They added more code. They criticized existing code. With each query, they had more analysis and more tweaks.
+
+But nothing worked. I continued to have the same error. My files could not be sorted.
+
+So I'm back to ~org-static-blog~ which may not be perfect, but at least works!

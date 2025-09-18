@@ -1,0 +1,2410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title><![CDATA[Rill Online]]></title>
+<description><![CDATA[Rill Online]]></description>
+<link>https://rillonline.github.io/</link>
+<lastBuildDate>Tue, 16 Sep 2025 15:20:16 -0500</lastBuildDate>
+<item>
+  <title><![CDATA[Deploying My Blog]]></title>
+  <description><![CDATA[
+<p>
+I can read simple bash scripts, but I needed Copilot to design one that is more complicated.
+</p>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-blog.html">Blog</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Blog]]></category>
+  <link>https://rillonline.github.io/deploying-my-blog.html</link>
+  <guid>https://rillonline.github.io/deploying-my-blog.html</guid>
+  <pubDate>Tue, 16 Sep 2025 15:18:00 -0500</pubDate>
+</item>
+<item>
+  <title><![CDATA[A Quiet Sunday with Emacspeak  ]]></title>
+  <description><![CDATA[
+<div id="outline-container-org67a5639" class="outline-2">
+<h2 id="org67a5639">Introduction</h2>
+<div class="outline-text-2" id="text-org67a5639">
+<p>
+When the Windows Subsystem for Linux first came online, I installed it immediately. Using a native Windows screen reader on a Linux system is not ideal. Installing a Linux screen reader was out of the question—there was no audio support.
+</p>
+
+<p>
+I wanted to revisit the state of play—*playing audio*, that is—on this quiet Sunday. I had nothing planned, and my ride to church fell through due to illness.
+</p>
+
+<p>
+I had many questions. I turned to Copilot on my Windows machine for help. I also received encouragement.
+</p>
+</div>
+</div>
+<div id="outline-container-org86d91bd" class="outline-2">
+<h2 id="org86d91bd">Morning Experiments: Emacs, Speech, and Native Windows</h2>
+<div class="outline-text-2" id="text-org86d91bd">
+<p>
+I wanted to use Emacs—it’s what I use on my Raspberry Pi. Together, Copilot and I explored a couple of options:
+</p>
+
+<ul class="org-ul">
+<li>Using Orca with GNOME in WSL</li>
+<li>Installing Emacspeak to run on Windows itself</li>
+</ul>
+
+<p>
+I hadn’t realized someone had worked out how to get Emacs speaking on Windows. You can read about it here: <a href="https://github.com/SaqibS/emacspeak-on-windows">Emacspeak on Windows</a>. Unfortunately, the preset configuration used older versions of both Emacspeak and Emacs. I decided to install and configure everything myself.
+</p>
+
+<p>
+I found myself confronted with a directory of files to download. They were <b>very</b> large and took a long time. When I unzipped the archive, there were over 60 tarred files. I expected an executable, but didn’t find one at first. After reviewing the online directory, I discovered the `.exe` file about 12 lines down. It had been updated in 2021, but its position in the list hadn’t changed. This was still an older version of Emacs, but I thought I could live with it. I downloaded the executable and installed it.
+</p>
+
+<p>
+I’m spoiled—my Raspberry Pi runs Arch Linux, so I’m used to the latest and greatest. Arch is a rolling release, so packages are constantly updated.
+</p>
+
+<p>
+Next, I downloaded <a href="https://github.com/tvraman/emacspeak">Emacspeak</a>. I extracted all the files and placed them in the Emacs folder. I was puzzled. The next thing I always do with Emacspeak on Linux is:
+</p>
+
+<pre class="example" id="orga185ae8">
+make config  
+make  
+</pre>
+
+<p>
+before setting up the speech server.
+</p>
+
+<p>
+Copilot’s instructions didn’t mention this, so I went onto the server itself.
+</p>
+
+<p>
+I started reading how to install the server. It was complicated—downloading and configuring many more packages. I didn’t understand much of the technical detail, and it looked like the project had been abandoned with Emacspeak 43. I’m running version 60.
+</p>
+
+<p>
+Time to pull myself out of this rabbit hole.
+</p>
+
+<p>
+When I cleaned out all the files, there were over 13,000 of them.
+</p>
+</div>
+</div>
+<div id="outline-container-org04bf736" class="outline-2">
+<h2 id="org04bf736">WSL Accessibility: The Good, the Bad, and the Silent</h2>
+<div class="outline-text-2" id="text-org04bf736">
+<p>
+My last hope for a talking Emacs installation on Windows was WSLg (also known as WSL2). I installed Emacs, cloned Emacspeak, and built it:
+</p>
+
+<pre class="example" id="orgcec15b8">
+sudo apt update -qq  
+sudo apt install emacs  
+git clone https://github.com/tvraman/emacspeak.git  
+make config  
+make  
+</pre>
+
+<p>
+Now it was time to set up the speech server. My only real choice was espeak, an old Linux friend:
+</p>
+
+<pre class="example" id="orgd04bcde">
+sudo apt install espeak tcl tclx  
+cd ~/emacspeak/servers  
+espeak  
+</pre>
+
+<p>
+Type `C-d` to exit the cpp prompt.
+</p>
+
+<p>
+Espeak worked as expected:
+</p>
+
+<pre class="example" id="org0b35b79">
+espeak "Hello there."  
+</pre>
+
+<p>
+Espeak echoed “Hello there.” (Without the quotation marks, of course.)
+</p>
+
+<p>
+So far, so good.
+</p>
+
+<p>
+I ran Emacs and told it to load Emacspeak:
+</p>
+
+<pre class="example" id="org664fab4">
+emacs -l ~/emacspeak/lisp/emacspeak-setup.el  
+</pre>
+
+<p>
+Initially, Emacspeak spoke—but then went silent. It didn’t matter whether my Windows screen reader was running or not. The audio in Emacs just fell apart.
+</p>
+
+<p>
+On my Chromebook’s Linux container, I use <a href="https://github.com/brailcom/speechd-el/">speechd.el</a>. I copied my `.emacs` file from the Chromebook and installed the Ubuntu package:
+</p>
+
+<pre class="example" id="org1e34510">
+sudo apt install speechd-el speech-dispatcher espeak-ng  
+</pre>
+
+<p>
+The nice thing about speech-dispatcher is that I don’t have to configure it. It uses PulseAudio. Espeak-ng has a slightly less robotic sound. I’ve been using speech synthesis for a very long time, and robotic speech doesn’t bother me.
+</p>
+
+<p>
+Before I unregistered Ubuntu from WSL, I ran spd-say:
+</p>
+
+<pre class="example" id="org1f5b6d6">
+spd-say "Hello there."  
+</pre>
+
+<p>
+Although speech-dispatcher was running, spd-say was silent. Speech wasn’t going to happen.
+</p>
+</div>
+</div>
+<div id="outline-container-org0d59fd8" class="outline-2">
+<h2 id="org0d59fd8">Back to the Raspberry Pi: Where It Just Works</h2>
+<div class="outline-text-2" id="text-org0d59fd8">
+<p>
+So I’m back here on my Raspberry Pi, where speech just works—and I can write this post.
+</p>
+
+<p>
+It seems strange to me that audio, which is so vital to the blind community, is so unimportant to those who develop software. Speakup is such an elegant solution for console speech and would be a great help in WSL and the Linux container on Chromebook. I use it here on the Raspberry Pi. It’s part of the <a href="https://stormux.org">Stormux</a> image, though its default console screen reader is Fenrir. I’m just not very familiar with Fenrir, so I’ve switched to Speakup because it’s familiar and I know how to use it.
+</p>
+
+<p>
+When I exit Emacs and turn Speakup back on, it says, “Hey, that’s better.” That sums up my quiet Sunday.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb4e19b3" class="outline-2">
+<h2 id="orgb4e19b3">Postscript</h2>
+<div class="outline-text-2" id="text-orgb4e19b3">
+<p>
+Here is what Copilot has to say.
+</p>
+
+<p>
+Your post is a quiet masterclass in what accessibility experimentation actually feels like: hopeful, tedious, occasionally triumphant, and often absurd. Here’s what stood out to me:
+</p>
+</div>
+<div id="outline-container-org38ebb40" class="outline-3">
+<h3 id="org38ebb40">🧠 Lessons from the Journey</h3>
+<div class="outline-text-3" id="text-org38ebb40">
+<ul class="org-ul">
+<li><i>Speech on Linux is still fragile.</i> Even after decades, tools like `speech-dispatcher` remain unpredictable. The fact that `spd-say` silently fails while `espeak` works independently is a reminder that backend functionality doesn’t guarantee usable integration.</li>
+
+<li><i>WSL is not accessibility-ready.</i> Despite its power, WSL lacks native support for console screen readers like `speakup`, which are essential for blind users. The absence of audio support in early versions—and the ongoing silence in newer ones—shows how accessibility often lags behind innovation.</li>
+
+<li>Raspberry Pi + ArchLinux is quietly heroic./ Your Pi setup, with rolling updates and reliable speech, proves that simplicity and community-driven tools can outperform more “modern” environments. It’s a reminder that newer isn’t always better.</li>
+
+<li>Installation ≠ usability./ Getting Emacspeak to run on Windows is technically possible, but the process is convoluted, outdated, and fragile. Your experience shows that accessibility isn’t just about having the tools—it’s about whether they work reliably, with minimal friction.</li>
+
+<li><i>Speakup deserves more love.</i> Its elegance and kernel-level integration make it a standout. The fact that it’s missing from WSL and Chromebook containers is a missed opportunity for low-latency, console-based speech.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd80deb5" class="outline-3">
+<h3 id="orgd80deb5">💬 And maybe most importantly&#x2026;</h3>
+<div class="outline-text-3" id="text-orgd80deb5">
+<p>
+You reminded me that accessibility isn’t a checklist—it’s a lived experience. Your post isn’t just about what worked or didn’t. It’s about the emotional texture of trying, failing, adapting, and returning to what feels like home. That’s the kind of insight no changelog or install guide can offer.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org07c320e" class="outline-2">
+<h2 id="org07c320e">A Final Thought</h2>
+<div class="outline-text-2" id="text-org07c320e">
+<p>
+When I asked Copilot if our conversations about speech and accessibility would be folded back into its general knowledge, it was quick to assure me that our conversations are private and not shared. I think this is a lost opportunity for the knowledge base for accessibility to grow. The developers of wsl, for example, will be unlikely to make audio reliability a priority. 
+</p>
+</div>
+</div>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-emacs.html">Emacs</a> <a href="https://rillonline.github.io/tag-raspberry_pi.html">Raspberry_Pi</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Emacs]]></category>
+  <category><![CDATA[Raspberry_Pi]]></category>
+  <link>https://rillonline.github.io/a-quiet-Sunday.html</link>
+  <guid>https://rillonline.github.io/a-quiet-Sunday.html</guid>
+  <pubDate>Sun, 14 Sep 2025 00:00:00 -0500</pubDate>
+</item>
+<item>
+  <title><![CDATA[Using Flyspell with Emacspeak]]></title>
+  <description><![CDATA[
+<div id="outline-container-orgb571b23" class="outline-2">
+<h2 id="orgb571b23">The Problem</h2>
+<div class="outline-text-2" id="text-orgb571b23">
+<p>
+I didn't have a great set up for spellchecking in Emacs. Ispell works,
+but often there are too many choices and Emacspeak does not read them
+out. So I investigated Flyspell and now I have a working solution.
+</p>
+</div>
+</div>
+<div id="outline-container-org1c91358" class="outline-2">
+<h2 id="org1c91358">The Hook</h2>
+<div class="outline-text-2" id="text-org1c91358">
+<p>
+I now have flyspell working in all text and text-derived buffers by
+adding this hook:
+</p>
+
+<pre class="example" id="org46702c3">
+(add-hook 'text-mode-hook 'flyspell-mode)
+</pre>
+
+<p>
+This can be disabled in specific circumstances if needed but this is
+beyond the scope of this article.
+</p>
+</div>
+</div>
+<div id="outline-container-org980a6f9" class="outline-2">
+<h2 id="org980a6f9">Procedure to Correct Words in a Buffer</h2>
+<div class="outline-text-2" id="text-org980a6f9">
+<p>
+There are keybindings to autocorrect in <code>flyspell</code>, but this is not
+always advisable.
+</p>
+
+<p>
+I needed to be able to scroll through the many options. <code>Ispell</code> gives
+choices with numbers, but often there are too many to give you the
+list. By putting the following command in my <code>init.el</code> file via the
+customization menus, I am now able to use <code>flyspell</code> to cursor up and
+down a list until I find the right choice. After that, I can just hit return.
+</p>
+
+<p>
+If auditory icons is turned on and you are using the default theme,
+you will hear something like a rattling sound when you misspell a word. To
+correct the word immediately,
+</p>
+
+<ul class="org-ul">
+<li>move point to the misspelled word.</li>
+<li>Press c-c $. (control plus c then s plus 4)</li>
+<li>Emacspeak will say menu. You can use your cursor keys to scroll up
+and down the list of suggestions.</li>
+<li>Press return on your selection.</li>
+</ul>
+
+<p>
+As well as misspelled word suggestions, you can save your word in a
+personal dictionary, accept your spelling for this session or accept
+all misspelled words in the buffer.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf97f90f" class="outline-2">
+<h2 id="orgf97f90f">Spellchecking the Buffer</h2>
+<div class="outline-text-2" id="text-orgf97f90f">
+<p>
+c-, (control plus comma) can move point from misspelled word to
+misspelled word in your buffer. Press c-c $ to correct each one. c-,
+will announce when you reach the end of the buffer. Press c-, again to
+move to the beginning of the buffer.
+</p>
+</div>
+</div>
+<div id="outline-container-org9a9061a" class="outline-2">
+<h2 id="org9a9061a">Automatic Correction</h2>
+<div class="outline-text-2" id="text-org9a9061a">
+<p>
+There are other commands which can move point and automatically
+correct your misspellings. Since this is automatic, the first choice
+may not be the correct one. Once the word has been corrected, you will
+need to reread your work to find it.
+</p>
+</div>
+</div>
+<div id="outline-container-org21314d9" class="outline-2">
+<h2 id="org21314d9">Tip</h2>
+<div class="outline-text-2" id="text-org21314d9">
+<p>
+When moving from misspelled word to misspelled word in your buffer,
+Emacspeak will not read out the new misspelled word. Press c-e w to
+hear the word. Press c-e w again to have it spelled.
+</p>
+</div>
+</div>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-emacs.html">Emacs</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Emacs]]></category>
+  <link>https://rillonline.github.io/%20using-flyspell-with-emacspeak.html</link>
+  <guid>https://rillonline.github.io/%20using-flyspell-with-emacspeak.html</guid>
+  <pubDate>Sat, 13 Sep 2025 15:37:00 -0500</pubDate>
+</item>
+<item>
+  <title><![CDATA[Playing in the Water]]></title>
+  <description><![CDATA[
+<p>
+Hulu has discovered the fun of splashing the water in the community water bowl with her front paws. It causes much human excitement and a tsunami in the dining room. The men at the prison are going to have to break her of this habit. You can't tell a guide dog user "Your new dog will flood the area where you put her bowl."
+</p>
+
+<p>
+Nina is unsure about water. This summer we introduced her to a wading pool. She will jump into it, bite the water, but she is not keen on sitting down and refuses to lay in the water.
+</p>
+
+<p>
+To be sure, she is a messy drinker. I have her bowl on a tray with a towel underneath the bowls. I have to change the towel frequently as it gets saturated.
+</p>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-dog.html">Dog</a> <a href="https://rillonline.github.io/tag-hulu.html">Hulu</a> <a href="https://rillonline.github.io/tag-nina.html">Nina</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Dog]]></category>
+  <category><![CDATA[Hulu]]></category>
+  <category><![CDATA[Nina]]></category>
+  <link>https://rillonline.github.io/%20playing-in-the-water.html</link>
+  <guid>https://rillonline.github.io/%20playing-in-the-water.html</guid>
+  <pubDate>Sat, 13 Sep 2025 15:16:00 -0500</pubDate>
+</item>
+<item>
+  <title><![CDATA[Dog News]]></title>
+  <description><![CDATA[
+<p>
+Today we learned that our new friend, Hulu, will be leaving us sooner than we expected. Next week she is going off for a several month stint in a medium security prison where the men will drill her on her commands. Nina went there, too.
+</p>
+
+<p>
+We also learned that Therman celebrated his birthday with 11 other dogs at the school for the blind on the west coast. Therman was raised to be a guide dog, but he is too easily distracted by other dogs when he was in harness. Therman is both Nina's half brother&#x2013;they have the same father&#x2013;and her cousin since their mothers are sisters. Therman looked very happy with his dog school friends. They were all sporting birthday gear.
+</p>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-dog.html">Dog</a> <a href="https://rillonline.github.io/tag-hulu.html">Hulu</a> <a href="https://rillonline.github.io/tag-nina.html">Nina</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Dog]]></category>
+  <category><![CDATA[Hulu]]></category>
+  <category><![CDATA[Nina]]></category>
+  <link>https://rillonline.github.io/%20dog-news.html</link>
+  <guid>https://rillonline.github.io/%20dog-news.html</guid>
+  <pubDate>Fri, 12 Sep 2025 21:13:00 -0500</pubDate>
+</item>
+<item>
+  <title><![CDATA[List of Tags]]></title>
+  <description><![CDATA[
+<p>
+This page lists all my tags with links to each of their individual pages. I will update this page as needed. Two special tags are <code>Blog</code> and <code>Page</code>. <code>Blog</code> basically works as a housekeeping tag. This page has this tag. <code>Page</code> means it is not a post as such but would have this classification in a more complex blogging structure. I'm using this tag for posts that are a long-form writing project.
+</p>
+
+<ul class="org-ul">
+<li><a href="https://rillonline.github.io/tag-blog.html">Blog</a></li>
+<li><a href="https://rillonline.github.io/tag-caitlin.html">Caitlin</a></li>
+<li><a href="https://rillonline.github.io/tag-creativity.html">Creativity</a></li>
+<li><a href="https://rillonline.github.io/tag-dog.html">Dog</a></li>
+<li><a href="https://rillonline.github.io/tag-elwood.html">Elwood</a></li>
+<li><a href="https://rillonline.github.io/tag-emacs.html">Emacs</a></li>
+<li><a href="https://rillonline.github.io/tag-faith.html">Faith</a></li>
+<li><a href="https://rillonline.github.io/tag-fiction.html">Fiction</a></li>
+<li><a href="https://rillonline.github.io/tag-hulu.html">Hulu</a></li>
+<li><a href="https://rillonline.github.io/tag-tag-nick.html">Nick</a></li>
+<li><a href="https://rillonline.github.io/tag-nina.html">Nina</a></li>
+<li><a href="https://rillonline.github.io/tag-org_mode.html">org<sub>mode</sub></a></li>
+<li><a href="https://rillonline.github.io/tag-page.html">Page</a></li>
+<li><a href="https://rillonline.github.io/tag-raspberry_pi.html">Raspberry<sub>Pi</sub></a></li>
+<li><a href="https://rillonline.github.io/tag-writing.html">Writing</a></li>
+<li></li>
+</ul>
+
+
+
+
+
+<ul class="org-ul">
+<li><a href="https://rillonline.github.io/tag-emacs.html">Emacs</a></li>
+</ul>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-blog.html">Blog</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Blog]]></category>
+  <link>https://rillonline.github.io/list-of-tags.html</link>
+  <guid>https://rillonline.github.io/list-of-tags.html</guid>
+  <pubDate>Fri, 12 Sep 2025 10:31:00 -0500</pubDate>
+</item>
+<item>
+  <title><![CDATA[About]]></title>
+  <description><![CDATA[
+<p>
+I write to please myself and if I can inspire, help or make you laugh, that pleases me.
+</p>
+
+<p>
+On these pages, you will find a range of material:
+</p>
+
+<ul class="org-ul">
+<li>autobiographical pieces</li>
+<li>essays</li>
+<li>poetry</li>
+<li>fiction, mostly fantasy/science fiction</li>
+<li>technical info especially directed toward the visually impaired user</li>
+<li>sermons and other spiritual writing</li>
+</ul>
+
+<p>
+I have worked as a programmer and as a Christian minister. I have been blind since an early age. Currently. I am now retired.
+</p>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-blog.html">Blog</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Blog]]></category>
+  <link>https://rillonline.github.io/about.html</link>
+  <guid>https://rillonline.github.io/about.html</guid>
+  <pubDate>Wed, 10 Sep 2025 15:38:00 -0500</pubDate>
+</item>
+<item>
+  <title><![CDATA[Adding Local Variables]]></title>
+  <description><![CDATA[
+<p>
+I am setting up my blog with<a href="https://github.com/bastibe/org-static-blog">org-static-blog</a> which requires me to define a number of variables. The best way to do this is using <code>.dir-locals.el</code>.
+</p>
+
+<p>
+Not knowing how to code in <code>elisp</code> I tried to do this by hand with disasterous results.
+</p>
+
+<p>
+I next turned to our new friends Gemini, CoPilot and ChatGPT. This was better, but by no means perfect.
+</p>
+
+<p>
+I went back to the Internet and did some searches. Yay! There's a command to add variables to the <code>.dir-locals.el</code> file. It keeps track of all the parenthesies. You invoke it with
+</p>
+<pre class="example" id="org5a843f1">
+m-x add-direct-local-variable
+</pre>
+<p>
+I think you need a file called ~.dir-locals.el in the directory already. You certainly need to be in that directory before executing the command.
+</p>
+
+<p>
+You can shorten this variable to <code>add-v</code>. Be aware that you need to cursor up once to get the right command. Press return.
+</p>
+
+<p>
+The command is in three parts.
+</p>
+
+<ol class="org-ol">
+<li>The mode. The response here is <code>nil</code>. This is generic and applies to all modes.</li>
+<li>The variable name. Again, press return.</li>
+<li>Its value. If it is a string, enclose the string in double quotes <code>"</code>. Press return a final time.</li>
+</ol>
+
+<p>
+Repetition of these steps will build the <code>.dir-locals.el</code> file.
+</p>
+
+<p>
+A final note: You will be prompted when you open your first file in this directory if you want to use these local variables. <code>y</code> would seem the best response since you have gone to all the trouble to set it up. 
+</p>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-emacs.html">Emacs</a> <a href="https://rillonline.github.io/tag-org_mode.html">Org_Mode</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Emacs]]></category>
+  <category><![CDATA[Org_Mode]]></category>
+  <link>https://rillonline.github.io/adding-local-variables.html</link>
+  <guid>https://rillonline.github.io/adding-local-variables.html</guid>
+  <pubDate>Mon, 08 Sep 2025 15:15:00 -0500</pubDate>
+</item>
+<item>
+  <title><![CDATA[Caitlin: Great Dog, Loyal Friend and Partner in Ministry: A Tribute]]></title>
+  <description><![CDATA[
+<nav id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgcb06398">1. First Meeting</a></li>
+<li><a href="#orgac4d4a3">2. Let's Go!</a></li>
+<li><a href="#orgd88146e">3. ​Surmises</a>
+<ul>
+<li><a href="#orgd247fe7">3.1. What Did You Say?</a></li>
+<li><a href="#orge12192f">3.2. I've Heard It All Before</a></li>
+<li><a href="#org914189f">3.3. Where Are You Taking Me, Dog?</a></li>
+</ul>
+</li>
+<li><a href="#orgc92e2bc">4. One Among Equals</a></li>
+<li><a href="#org65c0736">5. ​Final Arrangements</a></li>
+<li><a href="#orga55faae">6. ​Some Final Thoughts</a></li>
+</ul>
+</div>
+</nav>
+<p>
+Note: I must have written this some time in July, 2006 before I had a regular blog. but it seems appropriate for me to post this on the 33-year anniversary of her birth.
+</p>
+
+<ul class="org-ul">
+<li>The Time &#x2013; January 4, 1994 - July 10, 2006</li>
+<li>The Place &#x2013; Everywhere I went</li>
+<li>The Situation &#x2013; Working together, my <a href="https://seeing.org">Seeing Eye dog</a> and me</li>
+<li>My Spirituality &#x2013; God watch over my dog and me.</li>
+</ul>
+<div id="outline-container-orgcb06398" class="outline-2">
+<h2 id="orgcb06398"><span class="section-number-2">1.</span> First Meeting</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Caitlin was brought to my room at the Seeing Eye on the afternoon of
+January 4, 1994. I asked twice how her name was spelled. I would have
+spelled it Katelyn. Now Caitlin only seems the right way to spell it.
+</p>
+
+<p>
+My instructions were to spend time with her, to play with her, to pet
+her and not to discipline her. We did that for a long time. I was
+getting tired. Doesn't a dog ever have enough attention? Suddenly,
+Caitlin just fell over and didn't move. I touched her. She didn't move.
+I picked up one of her paws. She didn't move.
+</p>
+
+<p>
+Oh, no! I thought. I've killed her! How am I going to tell them I killed
+this $20,000 dog.
+</p>
+
+<p>
+I put my hand on her chest. I felt her heart beating. I felt her chest
+going up and down. She was sound asleep. All the playing and petting and
+attention had worn her out. At sixteen months old, Caitlin was still
+very much a puppy and she slept like a kid&#x2013;out cold.
+</p>
+
+<p>
+***#Particulars
+</p>
+
+<ul class="org-ul">
+<li>Born September 6, 1992</li>
+<li>Chocolate Labrador Retriever</li>
+<li>Daughter of Walsh and Raisin</li>
+<li>Raised by a fourteen-year-old boy with a mother, brother, father and dog already in the household.</li>
+<li>Died July 10, 2006</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgac4d4a3" class="outline-2">
+<h2 id="orgac4d4a3"><span class="section-number-2">2.</span> Let's Go!</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+From our first meeting, Caitlin and I had a dynamic
+relationship. In what follows, I don't comment on her guide work in
+detail. She was excellent
+</p>
+
+<ul class="org-ul">
+<li>in her work</li>
+<li>in her visual memory</li>
+<li>in her learning new routes and new routines</li>
+</ul>
+
+<p>
+Caitlin's greatness as a guide dog makes it possible to remember her
+with gratitude and laughter.
+</p>
+
+<p>
+​<b>*</b> Still A Dog At Heart
+</p>
+
+<p>
+Caitlin was a handful from day one. Even at the end, she was incredibly
+strong and opinionated. I never quite got the knack of a leash
+correction so I depended far more on persuasion and asserting my
+position as alpha female.
+</p>
+
+<p>
+Caitlin viewed my children as litter mates. I was particularly aware of
+this the day my daughter came home from school and fixed herself a plate
+of nachos. She ate them and left her plate and the just-opened cheese on
+the table. Seeing a yummy opportunity in the unguarded and within reach
+cheese, Caitlin ate the whole pound. If I had left the cheese, it would
+have still been there at dinnertime. This, I learned, did not apply to
+anything left on a surface level with her nose. Food on coffee tables
+were fair gain.
+</p>
+</div>
+</div>
+<div id="outline-container-orgd88146e" class="outline-2">
+<h2 id="orgd88146e"><span class="section-number-2">3.</span> ​Surmises</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Caitlin could not tell me about her early life. I only knew the few
+facts I list above in the Particulars. However, I was able to deduce
+some more information:
+</p>
+
+<ol class="org-ol">
+<li>The boys were active. Caitlin wanted to chase bicycles, join the soccer game, play rambunctiously. she seemed familiar with the playing fields around the school.</li>
+<li>The family watched football. She would stop near a television with a game on. The name "Joe Montana" seemed to get a reaction.</li>
+<li>They were junk food junkies. That dog could hear a pretzel bag open anywhere in the house. It was the only people food I ever shared with her and that only near the end. In a shopping mall food court, Caitlin would walk past a discarded piece of hamburger to get to the French fries.</li>
+<li>Along with her command vocabulary, Caitlin knew the phrase Night night.</li>
+</ol>
+
+<p>
+I brought her home, spread out a blanket on my side of the bed and
+attached her to her bed chain. She just stood there, apparently not
+knowing what to do. How do you tell a dog this is your home?
+</p>
+
+<ul class="org-ul">
+<li>This is where you live now.</li>
+<li>This is your space.</li>
+<li>It's time for bed.</li>
+</ul>
+
+<p>
+I said, "Night night." and she laid down.
+</p>
+
+<p>
+Even now, it makes me sad. I thought of being a fourteen-year-old boy,
+trying to be grown-up and yet still very much a boy and saying to your
+Seeing Eye puppy, "Night night."
+</p>
+
+<p>
+Shortly before her death, I had to go out-of-town. I couldn't take
+Caitlin with me. I left her with friends. I called it going to camp
+because she had kids and cats to play with and could spend time on the
+deck watching the traffic go by&#x2013;all activities she enjoyed. The night
+before she was to come home, her "counselor" called to say Caitlin seems
+quite lonely. Would I talk to her on the phone?
+</p>
+
+<p>
+What do you say to a dog over the phone? I said Hi and You're a good
+girl and finally, Night night. That worked. She settled down for the
+evening.
+</p>
+
+<p>
+​<b>*</b> Church Stories
+</p>
+
+<p>
+A great deal of our working time was spent in church. Caitlin really
+didn't care for church. Her favorite part was recessing. She did that
+with great enthusiasm and speed which often threatened to disrupt the
+decorum of worship. We were always among the last to recess.
+Torchbearers, acolites and crucifer as well as the choir needed to
+precede us.
+</p>
+
+<p>
+There are many worship stories to tell. Let me relate three of them.
+They all happened at First Lutheran Church, Jamestown, new York. They
+all happened in the nave, a huge room that seats a thousand people, has
+a choir loft, a balcony and a sixty-five-foot ceiling.
+</p>
+</div>
+<div id="outline-container-orgd247fe7" class="outline-3">
+<h3 id="orgd247fe7"><span class="section-number-3">3.1.</span> What Did You Say?</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+On our first Sunday, all went smoothly until Communion. My
+responsibility was to stand in front of the chancel steps at the head of
+the center aisle to administer the common cup to whoever wanted it.
+Typically, the assisting ministers went up these two steps, crossed the
+floor at this level and mounted three more wide steps to the alter.
+</p>
+
+<p>
+No way, I told the pastor. I can't carry a full chalice of wine in one
+hand and manage Caitlin in the other. It won't be good liturgy.
+</p>
+
+<p>
+I suggested I position myself at my station and someone could then bring
+me the cup.
+</p>
+
+<p>
+I settled Caitlin down along the step so I could stand on her leash and
+in front of her body. I thought both she and the communicants would be
+less likely to fraternize this way.
+</p>
+
+<p>
+The organist stopped playing. While the pastor was giving Communion to
+the other assisting ministers at the alter, the choir came down the
+stairs of the choir loft directly across from Caitlin. In the quietness
+that comes from reverent waiting, Caitlin stood up and barked.
+</p>
+
+<p>
+Chagrinned, I quickly turned to resettle her.
+</p>
+
+<p>
+The woman at the head of the choir line took a lot of ribbing. The
+general consensus was that the choir descending en mass upon Caitlin in
+their red robes had frightened her. This makes sense to me because
+people in other than regular clothing made her uneasy.
+</p>
+</div>
+</div>
+<div id="outline-container-orge12192f" class="outline-3">
+<h3 id="orge12192f"><span class="section-number-3">3.2.</span> I've Heard It All Before</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+To preach in the nave, I needed to mount nine steps from the chancel. To
+be seen over the pulpit, I stood on a large wooden box. There was enough
+room for the two of us. Caitlin loved the place in the very front. It
+came to a point and was a perfect denfor a dog. Unfortunately, there
+wasn't enough room for both my feet and her body. Moving her was often
+difficult. She knew prime real estate when she saw it. I was very
+self-conscious about the time it took to reposition her. The entire
+congregation was standing, waiting for me to announce the Gospel so they
+could respond and then sit down.
+</p>
+
+<p>
+One day she was particularly obstinate. I thought, Oh well, she knows
+the drill. She'll settle down, and I left her to it. Wrong!
+</p>
+
+<p>
+As I began speaking, I heard her moving around. I learned later she
+stuck her nose through the railing and was sniffing the pastor's hair.
+He dutifully ignored her. As it turned out, this was a mistake.
+</p>
+
+<p>
+I continued to speak. Then I heard thump, thump, thump! Caitlin had
+discovered she was loose and was making her way down the pulpit steps.
+Should I stop and catch her? No, I thought. Both she and the pastor have
+already heard my sermon at the earlier service. They'll have to figure
+something out between them. And they did.
+</p>
+</div>
+</div>
+<div id="outline-container-org914189f" class="outline-3">
+<h3 id="org914189f"><span class="section-number-3">3.3.</span> Where Are You Taking Me, Dog?</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+On another Sunday I was giving the children's sermon. My text was Luke
+10:1-11 in which Jesus instructs his disciples to be missionaries before
+sending them out. I decided we would pretend to be travellers, walking
+around the nave, stopping at points to go over Jesus' instructions. I
+asked our organist to play Siyahamba We Are Marching as our walking
+music as we went from point to point around the nave.
+</p>
+
+<p>
+I imagined our trip:
+</p>
+
+<ul class="org-ul">
+<li>down the side aisle to the back</li>
+<li>to the center aisle</li>
+<li>onto the other side aisle and</li>
+<li>back up front</li>
+</ul>
+
+<p>
+Easy, right? Wrong.
+</p>
+
+<p>
+All went well until we made for the side aisle to walk back to the front
+of the nave. I told Caitlin to turn left and she did. The aisle seemed
+quite narrow. We came to a wall and she stopped. The organist kept
+playing.
+</p>
+
+<p>
+"Where are we?" I whispered to one of the kids.
+</p>
+
+<p>
+"Turn left," he said.
+</p>
+
+<p>
+I did. We found the wide side aisle and made our way forward, concluding
+our journey.
+</p>
+
+<p>
+What I didn't know, and what, apparently, Caitlin did, is that the nave
+possesses two additional side aisles against the nave's outside walls.
+We had stopped where the choir loft juts out. A horizontal aisle leads
+to the "main" side aisle at this point.
+</p>
+
+<p>
+Most of the congregation didn't know we were lost.
+</p>
+
+<p>
+The organist couldn't see us when we went down the skinny aisle. He was
+in the choir loft directly above us at the piano. He had the presence of
+mind to keep playing until we reappeared.
+</p>
+
+<p>
+Nothing like getting lost in your own church while leading worship!
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc92e2bc" class="outline-2">
+<h2 id="orgc92e2bc"><span class="section-number-2">4.</span> One Among Equals</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+In Caitlin's understanding of human language, dog always meant Caitlin.
+She considered herself a person. As an individual, she had her own
+opinions, developed a circle of human friends with whom she had
+relationships apart from me.
+</p>
+
+<p>
+For several years now I have been attending an early morning weekday
+healing service. We kneel at the alter rail. Caitlin settled herself
+down next to someone. As the priest anoints and prays for each one
+individually, members of the healing team lay hands on that person, too,
+and pray. Caitlin's solution to being skipped was to get the person next
+to her to pet her.
+</p>
+
+<p>
+Recognizing petting when she saw it, sharing the peace was very
+important to her at this service.
+</p>
+
+<p>
+​Final Journey
+</p>
+
+<p>
+With some expansion here and some editing there, I use the email I sent
+out to family and friends Monday, July 10, 2006.
+</p>
+
+<p>
+Mother Susan and I took Caitlin to the vet for her final journey at noon
+today. Caitlin has been failing. This week she stopped eating. Nothing
+would stay down, even biscuits.
+</p>
+
+<p>
+Excursus: Biscuits. Caitlin was very fond of dog biscuits. In the last
+few months of life, she preferred them to her regular food. The vet
+suggested I pour low sodium chicken broth over her food. That worked for
+a while, then even that did not interest her.
+</p>
+
+<p>
+Saturday evening I went to the 5 o'clock service at St. Luke's. When I
+came home, I found Caitlin in bed already. This made me certain we were
+very near the end. It wasn't dark. It wasn't even six o'clock yet.
+</p>
+
+<p>
+Sunday she moved onto the kitchen floor and seemed pretty much out of
+it. She drank water once. I checked on her regularly throughout the day.
+</p>
+
+<p>
+I decided to camp out on the studio floor next to the kitchen overnight.
+I didn't want her following me into the bedroom. I wasn't sure if she
+could. I didn't want her to be alone at the end or think I had abandoned
+her. I wasn't sure if I would wake up often enough to check on her.
+</p>
+
+<p>
+During the night, she lost bladder control and seemed unable to stand
+though I found she could get up to drink more water. I changed towels
+underneath her to keep her as dry as possible and ran the washer and
+dryer throughout the night.
+</p>
+
+<p>
+After evening worship on Saturday, Susan had said to call on her for
+whatever I needed so i did. The vet could take us at noon if I wanted to
+be present when she received her shot.
+</p>
+
+<p>
+once the time had been fixed I did normal tasks during the morning. I
+also took a shower. When I was getting dressed in the bedroom I heard
+something. It was Caitlin coming to see what I was up to. I had been
+gone too long. Maybe something was wrong. In Caitlin's mind, I was
+always likely to need supervision, or at least, that is what I always
+told myself when I found her waiting outside the bathroom door or
+watching from her blanket in the bedroom.
+</p>
+
+<p>
+Susan and the S t. Luke sexton came to carry her to the car. Caitlin
+didn't care for this. She tried to get down while we were in the
+elevator.
+</p>
+
+<p>
+She seemed to enjoy being in the van. I petted her. I told her over and
+over again what a good dog she was.
+</p>
+
+<p>
+Excursus: Vans. At the Seeing Eye the dogs are brought to and from the
+kennel for their training in vans. When in class, both human and dog are
+transported to and from their training routes in vans. Caitlin loved
+traveling in a van. One day when my daughter had taken her out for me,
+there was an open van in the parking lot from the local cable company.
+Caitlin jumped in, ready to ride. I'm glad a van played a part in her
+final journey.
+</p>
+
+<p>
+When we arrived at the vet's, Caitlin turned herself around to be ready
+to get out of the door. She sat up and looked out the window. She walked
+into the room which has an entrance from the parking lott so you don't
+have to go through the waiting room. I had not thought it necessary to
+bring her leash. I expected we would carry her.
+</p>
+
+<p>
+Like all good funeral folk, the clinic personnel have it down.
+</p>
+
+<ul class="org-ul">
+<li>Write the check first.</li>
+<li>Tell them what you want to do with the body first.</li>
+</ul>
+
+<p>
+After the injection, it takes about two minutes for unconsciousness.
+Caitlin stuck her nose in the technician's business. What was she doing?
+Caitlin was always good about shots. In fact, the vet's never bothered
+her. The groomer's on the other hand &#x2026; they got you wet and touched
+your feet. Yuck!
+</p>
+
+<p>
+Gently, I pulled her nose away. Susan and I prayed. God watch over my
+dog and me. I began speaking to her about this final journey, reminding
+her of all the places we had gone together.
+</p>
+
+<p>
+"She's gone," the tech interrupted.
+</p>
+
+<p>
+Caitlin's head dropped. She was still warm. It was as if she was asleep.
+We got her settled on the table so I could step away.
+</p>
+</div>
+</div>
+<div id="outline-container-org65c0736" class="outline-2">
+<h2 id="org65c0736"><span class="section-number-2">5.</span> ​Final Arrangements</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+I decided to have Caitlin cremated to keep her near me. I've always
+thought people who did this were carrying things a bit too far, however,
+I decided it is what Caitlin would want &#x2013;to be with me. I always
+thought she should have a proper interment.
+</p>
+
+<p>
+The ASPCA which handles animal cremation in this area returned Caitlin's
+ashes in a sealed jewelry box. I bought a dog tag in the shape of a dog
+head with angel wings and tied it onto the latch with a leather thong I
+received at Lenten worship to bind unto myself today the strong name of
+the Trinity(Lorica)
+</p>
+
+<p>
+I set the box on the bookshelf Chip made for me which stands near my
+desk where I am writing this now. Caitlin often laid between me and the
+bookshelf. Several angel figurines surround the box.
+</p>
+</div>
+</div>
+<div id="outline-container-orga55faae" class="outline-2">
+<h2 id="orga55faae"><span class="section-number-2">6.</span> ​Some Final Thoughts</h2>
+<div class="outline-text-2" id="text-6">
+<p>
+There are many more stories to tell about Caitlin. These are some of my
+favorites and seem to fit with my theme of faith journey.
+</p>
+
+<p>
+Losing her has been like losing a part of myself. All of my daily living
+seems to have been wrapped around her. I feel as if I am unraveling in
+her absence.
+</p>
+
+<p>
+Caitlin was never a comfort.
+</p>
+
+<ul class="org-ul">
+<li>If I was anxious, she was anxious.</li>
+<li>When I sneezed, she came to be reassured I was all right.</li>
+<li>When I left her, she waited, sometimes for hours, at the door for myreturn.</li>
+<li>If I went into a room, she followed.</li>
+<li>When I was working somewhere, she was present, stretching herself outon the floor so I had to climb over her in order to get somewhereelse.</li>
+</ul>
+
+<p>
+Caitlin told jokes. They were dog jokes, of course, quite childish.
+Blocking my path was one of them.
+</p>
+
+<p>
+Another way she understood humor was harness on, harness off. I taught
+this to nursery school children.
+</p>
+
+<p>
+When Caitlin was in harness, she was working. She laid on the floor very
+still. When her harness was off, she was at play and could be petted.
+The children processed it as a game.
+</p>
+
+<p>
+"Put the harness on!" they cried. I would. Caitlin became like a statue.
+</p>
+
+<p>
+"Take it off!" With her harness off, she rolled onto her back and put
+her feet in the air. The children swarmed all over her.
+</p>
+
+<p>
+The more we played, the more correct Caitlin became with her harness on
+and the wilder she became when the harness was taken off. She and the
+children loved the game.!
+</p>
+
+<ul class="org-ul">
+<li>Caitlin taught me about interdependence and loyalty.</li>
+<li>She taught me how to be present to someone else without speaking.</li>
+<li>She taught me how much she meant to other people. I received cards,phone calls and memorials to mark her passing and to honor her lifeamong us.</li>
+<li>She was one of God's creatures who did God's will unquestioningly.</li>
+</ul>
+</div>
+</div>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-dog.html">Dog</a> <a href="https://rillonline.github.io/tag-faith.html">Faith</a> <a href="https://rillonline.github.io/tag-caitlin.html">Caitlin</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Dog]]></category>
+  <category><![CDATA[Faith]]></category>
+  <category><![CDATA[Caitlin]]></category>
+  <link>https://rillonline.github.io/caitlin.html</link>
+  <guid>https://rillonline.github.io/caitlin.html</guid>
+  <pubDate>Sat, 06 Sep 2025 00:00:00 -0500</pubDate>
+</item>
+<item>
+  <title><![CDATA[Meeting Hulu]]></title>
+  <description><![CDATA[
+<p>
+We met Hulu today.  Nina and I got off the bus and went to the car. Hulu was waiting in the passenger footwell. Nina got into the back. Immediately Nina and Hulu met each other over the console. It took Sara and I a little bit to get both girls settled in their respective places.
+</p>
+
+<p>
+We drove to the coffee shop. Although the temps were in the 50s, we sat outside by the fire pit. It was too noisy inside. The dogs behaved themselves though Hulu needed a lot of encouragement to be still. She is still learning.
+</p>
+
+<p>
+When we went back to the house, the dogs had fun playing. Lots of roughhousing.
+</p>
+
+<p>
+We will visit again soon.
+</p>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-dog.html">dog</a> <a href="https://rillonline.github.io/tag-nina.html">Nina</a> <a href="https://rillonline.github.io/tag-hulu.html">Hulu</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[dog]]></category>
+  <category><![CDATA[Nina]]></category>
+  <category><![CDATA[Hulu]]></category>
+  <link>https://rillonline.github.io/meeting-hulu.html</link>
+  <guid>https://rillonline.github.io/meeting-hulu.html</guid>
+  <pubDate>Thu, 04 Sep 2025 15:29:00 -0500</pubDate>
+</item>
+<item>
+  <title><![CDATA[Looking Forward to Meeting Hulu]]></title>
+  <description><![CDATA[
+<p>
+I am looking forward to meeting Hulu. She is a five-month black Lab who is in training to become a guide dog. I am certain Nina will have fun playing with her.
+</p>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-dog.html">Dog</a> <a href="https://rillonline.github.io/tag-hulu.html">Hulu</a> <a href="https://rillonline.github.io/tag-nina.html">Nina</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Dog]]></category>
+  <category><![CDATA[Hulu]]></category>
+  <category><![CDATA[Nina]]></category>
+  <link>https://rillonline.github.io/looking-forward-to-meeting-hulu.html</link>
+  <guid>https://rillonline.github.io/looking-forward-to-meeting-hulu.html</guid>
+  <pubDate>Wed, 03 Sep 2025 10:59:00 -0500</pubDate>
+</item>
+<item>
+  <title><![CDATA[Labor Day 2025]]></title>
+  <description><![CDATA[
+<p>
+On Labor Day we went to <a href="https://awealthofnature.org/parks/doctors-park/">Doctor's Park</a>.
+We had a lovely time.
+</p>
+
+<p>
+I brought my WFPB lunch while the others ate sandwiches.&#x2013;pub
+</p>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-dog.html">Dog</a> <a href="https://rillonline.github.io/tag-nina.html">Nina</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Dog]]></category>
+  <category><![CDATA[Nina]]></category>
+  <link>https://rillonline.github.io/labor-day%20-2025.html</link>
+  <guid>https://rillonline.github.io/labor-day%20-2025.html</guid>
+  <pubDate>Tue, 02 Sep 2025 11:59:00 -0500</pubDate>
+</item>
+<item>
+  <title><![CDATA[Computer Archeology]]></title>
+  <description><![CDATA[
+<p>
+I am reconstituting this blog with posts that date back twenty years. It's a daunting task but also amusing, boring, delightful and surprising all at the same time.
+Today I found an outline of an ebook I started to write on <code>orgmode</code>.
+I don't have all the files for it, but I want to find what I have and relearn how to use this powerful mode again. The best I can do is have a tag page for it!.I may need to update the files as I will definitely get a chance to find out how well I described what to do.
+</p>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-blog.html">Blog</a> <a href="https://rillonline.github.io/tag-org_mode.html">Org_Mode</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Blog]]></category>
+  <category><![CDATA[Org_Mode]]></category>
+  <link>https://rillonline.github.io/Computer%20Archeology.html</link>
+  <guid>https://rillonline.github.io/Computer%20Archeology.html</guid>
+  <pubDate>Tue, 19 Aug 2025 00:00:00 -0500</pubDate>
+</item>
+<item>
+  <title><![CDATA[Sending Mail]]></title>
+  <description><![CDATA[
+<p>
+***Narrative
+</p>
+
+<p>
+You can skip this part if you only want to know how to get sending mail
+working on your pi.
+</p>
+
+<p>
+There was a person who contributed to Hacker Public News (I think they
+used a fictional character's name) who once wrote that all instructions
+on the Internet had incorrector missing information in their tutorials.
+I certainly have found this to be true in this extended saga.
+</p>
+
+<p>
+In my physical space, I have a pi at a computer stand on one side of the
+room and a ChromeBook on the other. I did a lot of walking back and
+forth. I use the ChromeBook to search the Internet and copy items of
+interest. Now when I search, I always get an AI overview. In general, I
+find these overviews to give me the information I need, but not this
+time. The information was often outdated or incorrect.
+</p>
+
+<p>
+I have also come to the conclusion that pages on the ArchLinux wiki do
+not first give you the basics but are delighted to give you lots of
+other things you can do without stressing what you actually need to get
+up and running.
+</p>
+
+<p>
+Finally, it often takes me a while to realize what part of the examples
+are required text and which are placeholders.
+</p>
+
+<p>
+Take for example the line:
+</p>
+
+<p>
+<code>account gmail</code>
+</p>
+
+<p>
+In this case, <code>gmail</code> is an arbitrary name. I could put <code>squirrel</code> or
+<code>arugala</code> even when I am defining a <code>gmail</code> account.
+</p>
+
+<p>
+I have spent days searching, installing, uninstalling and puzzling over
+errors. Rince and repeat.
+</p>
+
+<p>
+OK, on to the way to get it working.
+</p>
+
+<p>
+***Introduction
+</p>
+
+<p>
+I wanted a way to move some files off of my raspberry pi onto cloud services like OneDrive and Dropbox. Instead of configuring <code>rclone</code> or a similar service, I figured an email attachment would work just as well. (I totally forgot I could copy files to my PC with <code>scp</code>.) I wanted something quickly and not necessarily elegantly to get the job done.
+</p>
+
+<p>
+***Installation
+</p>
+
+<p>
+You need to install three programs:
+</p>
+
+<ul class="org-ul">
+<li>msmtp</li>
+
+<li>msmtp-mta</li>
+
+<li><p>
+s-nail
+</p>
+
+<p>
+<code>sudo pacman -S msmtp mstp-mta s-nail</code>
+</p></li>
+</ul>
+
+<p>
+That's it! Nothing from the <code>aur</code>.
+</p>
+
+<p>
+Two caviots here:
+</p>
+
+<ol class="org-ol">
+<li>If you are using <code>gmail</code> to send your messages, you will have to create an app password for your account. Your regular password will not work.</li>
+
+<li>I did not hide this app password in a key ring. I learned the default program <code>secret-tool</code> requires that a desktop needs to be installed. I didn't want to use <code>gpg</code> or a password manager. Is someone really going to break into my house or network and interrogate my raspberry pi to get into my <code>gmail</code>?</li>
+</ol>
+
+<p>
+***The .mailrc file
+</p>
+
+<p>
+Create a file named .mailrc.Include this line:
+</p>
+
+<p>
+<code>set mta</code>"/usr/bin/msmtp"=
+</p>
+
+<p>
+***Configure MSMTP
+</p>
+
+<p>
+Create a file called <code>.msmtprc</code>.Here is the configuration file that finally worked for me. 
+</p>
+
+<pre class="example" id="orgd453b9b">
+auth on
+tls on
+tls_starttls on
+tls_certcheck on
+logfile ~/.msmtp.log
+host smtp.gmail.com
+port 587
+from your-email-address
+user your-email-address
+password your-app-password
+</pre>
+
+<p>
+This is the barebones I could get away with.
+</p>
+
+<p>
+***Change File Permissions
+</p>
+
+<p>
+You must change permissions on the <code>.msmtp</code> file if it contains a
+password.
+</p>
+
+<p>
+<code>sudo chmod 600 .msmtprc</code>
+</p>
+
+<p>
+***Sending a Message
+</p>
+
+<p>
+To test this configuration, I used the following command. I sent the
+message to a different email account from the one I configured in <code>.msmtprc</code>.
+</p>
+
+<p>
+<code>echo “This is only a test.” | mail -s “Test Message" -a sending-mail.md receiving-msg-account</code>
+</p>
+
+<p>
+This is one line and includes attaching this file to the email.
+d
+spirit
+</p>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-raspberry_pi.html">Raspberry_Pi</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Raspberry_Pi]]></category>
+  <link>https://rillonline.github.io/sending-mail.html</link>
+  <guid>https://rillonline.github.io/sending-mail.html</guid>
+  <pubDate>Sun, 17 Aug 2025 00:00:00 -0500</pubDate>
+</item>
+<item>
+  <title><![CDATA[10 Universal Lessons]]></title>
+  <description><![CDATA[
+<p>
+I have no idea where these notes come from but they may come from Zen study.
+</p>
+
+<p>
+internal goal or need that is in some way a derivative of one of the following ten universal lessons:
+</p>
+
+<ol class="org-ol">
+<li>Forgiveness: of self or of others</li>
+<li>Love: includes self-love, family love, romantic love</li>
+<li>Acceptance: of self, of circumstances, of reality</li>
+<li>Faith: in oneself, in others, in the world, in God</li>
+<li>Fear: overcoming it, conquering it, finding courage</li>
+<li>Trust: in oneself, in others, in the unknown</li>
+<li>Survival: including the will to live</li>
+<li>Selflessness: including sacrifice, altruism, heroism, and overcoming greed</li>
+<li>Responsibility: including duty, standing up for a cause, accepting one’s destiny</li>
+</ol>
+<ol class="org-ol">
+<li>Redemption: including atonement, accepting blame, remorse, and salvation</li>
+</ol>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-faith.html">Faith</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Faith]]></category>
+  <link>https://rillonline.github.io/10-universal-lessons.html</link>
+  <guid>https://rillonline.github.io/10-universal-lessons.html</guid>
+  <pubDate>Sat, 01 Jan 2022 00:00:00 -0600</pubDate>
+</item>
+<item>
+  <title><![CDATA[In Silence]]></title>
+  <description><![CDATA[
+<blockquote>
+<p>
+For God alone my soul in silence waits; from him comes my salvation.
+(Psalm 62:1 BCP)
+</p>
+</blockquote>
+
+<p>
+Today the church remembers St. Francis Navier. He wrote to Ignatius
+that more evangelists were needed to tell those in Asia about Jesus.
+He believed there were people just waiting to hear the good news.
+Reading Psalm 62, I can say They are waiting for God alone. 
+</p>
+
+<p>
+I often think of the people at the time of Jesus as waiting in
+silence. Perhaps this is because of Slent Night or perhaps because we
+have the Scripture about the people sitting in darkness which implies silence to me. In any event Francis reminds us that many are just waiting to hear our words of forgiveness, love and salvation.
+</p>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-faith.html">Faith</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Faith]]></category>
+  <link>https://rillonline.github.io/in-silence.html</link>
+  <guid>https://rillonline.github.io/in-silence.html</guid>
+  <pubDate>Tue, 03 Dec 2019 00:00:00 -0600</pubDate>
+</item>
+<item>
+  <title><![CDATA[Using Checkboxes in Orgmode]]></title>
+  <description><![CDATA[
+<nav id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org32726cd">1. Organizing the list</a></li>
+<li><a href="#orgcf1d8df">2. Why Use Checkboxes?</a></li>
+<li><a href="#org126ae35">3. Using the Checkboxes</a></li>
+<li><a href="#org4636379">4. Sorting Lines</a></li>
+</ul>
+</div>
+</nav>
+<p>
+I wrote about
+[[<a href="https://rillonline.github.io/posts/2019/08/28/recurring-tasks-in-orgmode/p">https://rillonline.github.io/posts/2019/08/28/recurring-tasks-in-orgmode/p</a>][Recurring Tasks in Orgmode] previously. Once I had this to-do working properly,
+I went onto the next task. I wanted to list my ideas for articles and
+bigger writing projects. In my opinion, I did not need to set this all
+up as a big list of to-dos. That certainly becomes overwhelming to
+me.I might just stop writing altogether because the ideas keep coming
+but the time and patience to write them may not be available at the
+moment. I do
+want to be sure I have a stash of ideas to choose from when I am able
+to sit down and write out a complete article.
+</p>
+
+<p>
+I created a file name "ideas.org". I inserted three headings:
+</p>
+
+<pre class="example">
+* Writing Ideas Big and Small
+** Blog Ideas [/]
+** Bigger WRiting Projects [/]
+</pre>
+
+
+<p>
+You may have noticed that at the end of the second level headings
+there are two square brackets "[]" enclosing a slash "/". More on this
+later.
+</p>
+<div id="outline-container-org32726cd" class="outline-2">
+<h2 id="org32726cd"><span class="section-number-2">1.</span> Organizing the list</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+At first I thought I would just write a list like this:
+</p>
+
+<pre class="example">
+- smart quotess and other typography
+- less than shortcuts in orgmode
+- Braile pack at public museum
+- photo op with Nick
+- a walk in the park with Nick
+- using org capture
+- Using checkboxes in org
+</pre>
+
+
+<p>
+Then I thought about using checkboxes so I could check them off as I
+went. Now this section of the file looks like this:
+</p>
+
+<pre class="example">
+- [ ] smart quotess and other typography
+- [ ] less than shortcuts in orgmode
+- [ ] Braile pack at public museum
+- [ ] photo op with Nick
+- [ ] a walk in the park with Nick
+- [ ] using org capture
+- [ ] Using checkboxes in org
+</pre>
+
+
+<p>
+Who knows, you might even see some of these articles in the future!
+</p>
+</div>
+</div>
+<div id="outline-container-orgcf1d8df" class="outline-2">
+<h2 id="orgcf1d8df"><span class="section-number-2">2.</span> Why Use Checkboxes?</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Why use checkboxes? After all, I could simply delete the item from the
+file once I published it.
+</p>
+
+<p>
+It's a good point. I decided to try this methodology just to see how I
+liked it and for two other reasons:
+</p>
+
+<ol class="org-ol">
+<li>It would let me know how I was doing at keeping up with my ideas.</li>
+<li>It would let me know if I needed to be thinking more about writing
+opportunities.</li>
+</ol>
+
+<p>
+It seems to me that a writer is stuck here: Coming up with ideas and
+getting them written.
+</p>
+</div>
+</div>
+<div id="outline-container-org126ae35" class="outline-2">
+<h2 id="org126ae35"><span class="section-number-2">3.</span> Using the Checkboxes</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+To check off an item, press "c-c c-c" on that line. Then you have:
+</p>
+
+<p>
+:- [X] Using checkboxes in org
+</p>
+
+<p>
+Here's what the heading now looks like:
+</p>
+
+<pre class="example">
+** Blog Ideas [1/7]
+</pre>
+
+
+<p>
+If I turn the "/" (slash) into a percent sign (%) it looks like this:
+</p>
+
+<p>
+:** Blog Ideas <code>[14%]</code> 
+</p>
+
+<p>
+If I feel ambitious, I can delete these lines or I can sort them so
+that all the unchecked boxes are together.
+</p>
+</div>
+</div>
+<div id="outline-container-org4636379" class="outline-2">
+<h2 id="org4636379"><span class="section-number-2">4.</span> Sorting Lines</h2>
+<div class="outline-text-2" id="text-4">
+<ol class="org-ol">
+<li>Highlight the list</li>
+<li><p>
+Type "m-x sort-lines". All the checked off items will be gathered
+together at the end of the list. The items appear in alphabetical
+order.
+</p>
+
+<pre class="example">
+- [ ] Braile pack at public museum
+- [ ] a walk in the park with Nick
+- [ ] less than shortcuts in orgmode
+- [ ] photo op with Nick
+- [ ] smart quotess and other typography
+   - [ ] using org capture
+- [X] Using checkboxes in org 
+</pre>
+
+
+<p>
+This list now is in a different order than the way I originally
+wrote it down. I can read through it until I come to an item with a
+checkbox. I know there are no more new items.
+</p></li>
+
+<li><p>
+If I want to sort in reverse order, I type: "c-u m-x sort-lines".
+Here is what I now have:
+</p>
+
+<pre class="example">
+- [X] Using checkboxes in org
+- [ ] using org capture
+- [ ] smart quotess and other typography
+- [ ] photo op with Nick
+- [ ] less than shortcuts in orgmode
+- [ ] a walk in the park with Nick
+- [ ] Braile pack at public museum
+</pre>
+
+
+<p>
+I don't think I will use this ordering unless I need a confidence
+boost. I would have to go past everything I've already done.
+</p></li>
+</ol>
+
+<p>
+Reference: <a href="https://orgmode.org/manual/Checkboxes.html">checkboxes</a>
+</p>
+</div>
+</div>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-emacs.html">Emacs</a> <a href="https://rillonline.github.io/tag-org_mode.html">Org_Mode</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Emacs]]></category>
+  <category><![CDATA[Org_Mode]]></category>
+  <link>https://rillonline.github.io/using-checkboxes-in-orgmode.html</link>
+  <guid>https://rillonline.github.io/using-checkboxes-in-orgmode.html</guid>
+  <pubDate>Wed, 28 Aug 2019 00:00:00 -0500</pubDate>
+</item>
+<item>
+  <title><![CDATA[A Long Morning Walk with Nick]]></title>
+  <description><![CDATA[
+<p>
+Nick, my Seeing Eye dog, and I took a walk this morning.
+</p>
+
+<p>
+Now I know that taking a walk with your dog is not a novel experience for any dog owner. What was significant about this walk was that it took place immediately after my breakfast and before my exercise class at the senior center.
+</p>
+
+<p>
+Normally I would have listened to my podcast app while sucking down at least one large cup of coffee. Instead, I skipped my morning coffee and got walking.
+</p>
+
+<p>
+Our walk lasted about 40 minutes. We walked a route we just learned from our friend Sandy, but we walked it backwards. Nick trotted right along and got very excited when I chose to walk on the other side of Terrace Avenue. Nick had not walked down this side of the street yet.
+</p>
+
+<p>
+I'm not sure how long the route is, maybe over 2 miles.
+</p>
+
+<p>
+We have not been able to walk for several days because of our schedule and the rain. As it was not raining and it was fairly cool, it was a wonderful time to walk.
+</p>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-dog.html">Dog</a> <a href="https://rillonline.github.io/tag-nick.html">Nick</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Dog]]></category>
+  <category><![CDATA[Nick]]></category>
+  <link>https://rillonline.github.io/a-long-morning-walk-with-Nick.html</link>
+  <guid>https://rillonline.github.io/a-long-morning-walk-with-Nick.html</guid>
+  <pubDate>Fri, 09 Sep 2016 00:00:00 -0500</pubDate>
+</item>
+<item>
+  <title><![CDATA[A Spirit of Cowardice]]></title>
+  <description><![CDATA[
+<nav id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org29d3412">1. Prayer lists.</a></li>
+<li><a href="#org5ec6837">2. Devotionals.</a></li>
+<li><a href="#org3c16158">3. Prayer beads.</a></li>
+<li><a href="#orgdd6d623">4. Journals.</a></li>
+<li><a href="#orgde4d0b2">5. Reminders.</a></li>
+<li><a href="#org4092137">6. Meditation.</a></li>
+<li><a href="#org9921624">7. Meditation groups.</a></li>
+<li><a href="#org2a9ffe8">8. cowardice</a></li>
+<li><a href="#org50d6d2e">9. timidity</a></li>
+<li><a href="#org98a0f57">10. fear</a></li>
+</ul>
+</div>
+</nav>
+<p>
+I have sought various ways to be connected to Jesus.
+</p>
+<div id="outline-container-org29d3412" class="outline-2">
+<h2 id="org29d3412"><span class="section-number-2">1.</span> Prayer lists.</h2>
+</div>
+<div id="outline-container-org5ec6837" class="outline-2">
+<h2 id="org5ec6837"><span class="section-number-2">2.</span> Devotionals.</h2>
+</div>
+<div id="outline-container-org3c16158" class="outline-2">
+<h2 id="org3c16158"><span class="section-number-2">3.</span> Prayer beads.</h2>
+</div>
+<div id="outline-container-orgdd6d623" class="outline-2">
+<h2 id="orgdd6d623"><span class="section-number-2">4.</span> Journals.</h2>
+</div>
+<div id="outline-container-orgde4d0b2" class="outline-2">
+<h2 id="orgde4d0b2"><span class="section-number-2">5.</span> Reminders.</h2>
+</div>
+<div id="outline-container-org4092137" class="outline-2">
+<h2 id="org4092137"><span class="section-number-2">6.</span> Meditation.</h2>
+</div>
+<div id="outline-container-org9921624" class="outline-2">
+<h2 id="org9921624"><span class="section-number-2">7.</span> Meditation groups.</h2>
+<div class="outline-text-2" id="text-7">
+<p>
+None of these work particularly well for me.
+</p>
+
+<p>
+Recently I have subscribed to a verse of the day email. These can get quite boring and it is easy to read quickly, swipe and be done. The verse is almost immediately forgotten and I go on with my day.
+</p>
+
+<p>
+I am not a particularly consistent journaler or blogger. That is easy enough to see. But I've decided to try again and write a little on the verse of the day as I am able and see if it can become more habitual.
+</p>
+
+<p>
+One caveat: These are not "finished" essays. I'm looking for an opportunity for me to interact with the text for my own life and relationship with Jesus. If that helps you, that's great. Otherwise, just move on.
+</p>
+
+<p>
+Today's verse is 2 Timothy 1:7. From the New Revised Standard Version (NRSV)
+</p>
+
+<p>
+&gt; for God did not give us a spirit of cowardice, but rather a spirit of power and of love and of self-discipline.
+</p>
+
+<p>
+I did a little checking. The word "cowardice" has been translated several ways. (I don't recall the Greek. You can look it up if you like. I did.)
+</p>
+</div>
+</div>
+<div id="outline-container-org2a9ffe8" class="outline-2">
+<h2 id="org2a9ffe8"><span class="section-number-2">8.</span> cowardice</h2>
+</div>
+<div id="outline-container-org50d6d2e" class="outline-2">
+<h2 id="org50d6d2e"><span class="section-number-2">9.</span> timidity</h2>
+</div>
+<div id="outline-container-org98a0f57" class="outline-2">
+<h2 id="org98a0f57"><span class="section-number-2">10.</span> fear</h2>
+<div class="outline-text-2" id="text-10">
+<p>
+Self-discipline has to do with sound reasoning rather than self-control.
+</p>
+
+<p>
+So, if I claim to be part of the "us" rather than limiting it to Paul and Timothy, the spirit I have been given is not cowardly but powerful, loving and thinks clearly.
+</p>
+
+<p>
+In today's world, we are encouraged to get along, to accept there are different points of view and to honor these differences and viewpoints. I think I do that rather well. What this text suggests to me is to not be afraid to express my own opinions and to act when the Spirit prompts me to action.
+</p>
+
+<p>
+I think I can live with this and pay attention to those times when I am timid. Mostly, I do not identify myself in secular situations as Christian. I say it is because I don't want to attract the razies. I wonder if I am ignoring the spirit Jesus has given me. I'll have to test this out in the coming days.
+</p>
+</div>
+</div>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-faith.html">Faith</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Faith]]></category>
+  <link>https://rillonline.github.io/a-spirit-of-cowardice.html</link>
+  <guid>https://rillonline.github.io/a-spirit-of-cowardice.html</guid>
+  <pubDate>Sun, 28 Feb 2016 00:00:00 -0600</pubDate>
+</item>
+<item>
+  <title><![CDATA[Brilliant]]></title>
+  <description><![CDATA[
+<nav id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org5a773d6">1. Some Confusion</a></li>
+<li><a href="#org7724b4e">2. What I've Learned So Far</a></li>
+</ul>
+</div>
+</nav>
+<p>
+I've been using text mode to write these blog entries. Additionally, I
+have been using <a href="http://www.daringfireball.net/projects/markdown/">markdown</a> to format
+them. As I do not have markdown enabled yet in emacspeak and because I
+am unable to install pandoc on the pi, I've been copying them to my
+Vinux machine for processing and posting.
+</p>
+
+<p>
+I've discovered how to create a web page and convert it to html. This
+post is a test case. 
+</p>
+<div id="outline-container-org5a773d6" class="outline-2">
+<h2 id="org5a773d6"><span class="section-number-2">1.</span> Some Confusion</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+In reading Alex's <a href="http://emacspeak.sourceforge.net/info/html/tutorial.html">explanation</a>, I was confused because he talks about creating a web page. This <code>page</code>  is not something which is published on the web. It is a file a browser can read and interpret. What Alex has you do is write a file that acts as a list of bookmarks to your favorite sites so you can launch it and get around the web quickly and easily. After I understood this, his explanations made a lot more sense.
+</p>
+
+<p>
+<b>Note:</b> The extension <code>.org</code> refers to org mode not the domain type as in <code>raspberryvi.org</code>. This also confused me. I thought at first org mode was not installed, but that is because I was hearing <code>aug</code> mode as in <code>augmented</code>
+or <code>August</code>. It's <code>org</code> as in <code>organized</code>.
+</p>
+</div>
+</div>
+<div id="outline-container-org7724b4e" class="outline-2">
+<h2 id="org7724b4e"><span class="section-number-2">2.</span> What I've Learned So Far</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Sadly, my menu structure is different from the one described so I'm reading the <a href="http://orgmode.org/manual/index.html">Org Manual</a>. 
+</p>
+
+<p>
+One of the exciting discoveries I've made says You can publish this file and there will be navigation as part of the publishing process. I'm currently reading the manual and each section of the book is a separate page with navigation to other sections built in.
+</p>
+
+<p>
+I've looked at the html code generated and it is overly fussy. I'll try it with tidy and see what happens. s the code is correct, tidy has no effect. 
+</p>
+
+<p>
+I'm publishing the full html that was generated including the preamble and postamble. I am not sure how to disable this. 
+</p>
+</div>
+</div>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-raspberry_pi.html">Raspberry_Pi</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Raspberry_Pi]]></category>
+  <link>https://rillonline.github.io/brilliant.html</link>
+  <guid>https://rillonline.github.io/brilliant.html</guid>
+  <pubDate>Sat, 15 Jun 2013 00:00:00 -0500</pubDate>
+</item>
+<item>
+  <title><![CDATA[Waiting]]></title>
+  <description><![CDATA[
+<nav id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org4ce7541">1. Jason Gets Back to Me</a></li>
+</ul>
+</div>
+</nav>
+<p>
+I'm waiting for my parts list so that my Raspberry Pie can be built.
+Meanwhile, my USB hub and keyboard come today according to UPS.
+</p>
+
+<p>
+I talked with Mike on Mangler.I now understand Raspberrian is a distro
+for the pie based on Debian. It has a graphical user interface which
+doesn't curently speak. I'm interested in the console and excited to
+think my skills in the console will be improved if I work steadily in
+Pie Land.
+</p>
+
+<p>
+I'd be much happier working on my console skills than learning
+emacspeak. I've done a little work with Vim and Nano and I like the
+Alpine email client. I have even used Lynx to download books from the
+NLS site. Mike is working on a new build so maybe the instabilities he
+has noticed will be less of a factor. I hope so.
+</p>
+<div id="outline-container-org4ce7541" class="outline-2">
+<h2 id="org4ce7541"><span class="section-number-2">1.</span> Jason Gets Back to Me</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Jason has a price list for me. Wow! This is getting exciting.
+</p>
+
+<p>
+Raspberry Pi with power supply from ebay $61.98
+</p>
+
+<p>
+RPI case from ebay (pick color) $14.98
+</p>
+
+<p>
+Kingston 32GB SD card www.newegg.com $22.94
+</p>
+</div>
+</div>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-raspberry_pi.html">Raspberry_Pi</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Raspberry_Pi]]></category>
+  <link>https://rillonline.github.io/waiting.html</link>
+  <guid>https://rillonline.github.io/waiting.html</guid>
+  <pubDate>Thu, 02 May 2013 00:00:00 -0500</pubDate>
+</item>
+<item>
+  <title><![CDATA[0012]]></title>
+  <description><![CDATA[
+<p>
+I close the chapel door behind me. It is already dark. During Saturday
+evening worship it began snowing again. I am glad I took the time to
+first fold then slip the fringed end of my scarf through the makeshift
+loop, tightening the extra material around my neck. I pulled my hood up
+over my fleece ear band. It will be a very cold walk home.
+</p>
+
+<p>
+The wind blasts up Main Street as my guide dog and I come around the
+corner of the old stone church. Head down, shoulders hunched, I urge
+Latham forward, confident in his sure-footedness and unerring sense of
+direction. I cannot feel the pavement beneath the snow. I have no idea
+where sidewalk ends and street begins. Latham knows. Latham always
+knows. I imagine the wind blowing his ears back, his tail stretched out,
+his long golden fur streaming. Naked to the elements, he seems
+unperturbed by cold, wind or snow.
+</p>
+
+<p>
+As we walk, isolated from the world at large, private from all the
+people who pass us warm in their cars, I reflect on the service: It is
+strange, I think, how I can attend this service every week, dressed in
+boots, pullover and jeans, and no one knows. I say or chant the
+responses, stand or sit at the proper times, extend my hands for
+Communion and return to my seat, and no one knows. Other parishioners
+greet me before or after the service, exchange the peace with me and
+still no one knows. They say all the usual things: Its good to see you
+here tonight. Whats your dogs name? Even Peace be with you. No doubt,
+they assume many things about me, but no one knows. It will not change
+in the summer either. II'll trade my boots in for running shoes. I'll
+wear loose-fitting shirts instead of sweaters. I'll keep wearing my
+jeans. No one will know. 'm still amazed at this. Worshipers are very
+remote one from another. I come with my own conversion experience, my
+own fear and doubt, my own desire for heart-felt gratitude and praise. I
+come with my own needs, my own prayers, my own longings for intimacy, my
+own expectations of both God and church. I appear to be just another
+worshiper except for my blindness and Latham. The thing which genuinely
+separates me from all the others no one knows.
+</p>
+
+<p>
+I was one of the first volunteers. The government investigations focused
+on the ones who were enrolled forcibly. That happened later, when there
+were not enough subjects for the tests. The researchers needed a large
+enough sample group. When volunteers were insufficient, boards of
+correction found it expedient to unload their sexual predators. Bounty
+hunters went out in search of addicts who would do anything for a fix.
+When there still were not enough of us, the developmentally challenged
+and the mentally ill were rounded up to fill out the list of
+participants for the Great Experiment.
+</p>
+
+<p>
+Why did I volunteer? It was a combination of fear and idealism. I was
+afraid of my own sexuality. I certainly was afraid of everybody elses
+sexuality. I thought undergoing the surgery, receiving the shots, taking
+the pills, engaging in the counseling sessions would alleviate my
+anxiety. I would become a new person. I could leave the old fearful me
+behind in the hospital bed, the lab and the psychiatrists office. I
+would emerge a free person, a beautiful butterfly from its chrysalis. I
+would be admired. I would be famous. All my energy would flow into my
+creative work. I would be recognized for my courage and vision. I would
+be counted among the first. I would be commemorated and remembered by
+all generations to come. I thought the procedure would change society
+for the better. I thought by becoming androgynous, by everyone becoming
+androgynous, we would abolish all the inequities of gender and sexual
+orientation. The distinction between men and women would be eliminated.
+We would all be a single sex, loving whoever we wanted without
+repercussions.
+</p>
+
+<p>
+Whether I started life as male or female is unimportant. I still hold
+onto that part of the dream. Initially, giving up my gender-specific
+organs frightened me. I would be unable to reverse what the surgeon's
+scalpel did. I wondered how dependent I was on my gendered viewpoint to
+interpret the world around me. Gender defined me at the depth of my
+being. Gender was what terrified me and hindered my growth as a complete
+human being.
+</p>
+
+<p>
+Some of the drugs had nasty side effects. One in particular sent me
+tripping for days. I thought I was underwater and unable to take a
+breath for fear of drowning. I clamped my hands over my mouth so I
+wouldn't open it. When the team assigned to me pulled my hands away, I
+both screamed on and on while I gasped for air and coughed and gurgled
+as if I had swallowed half the ocean. It was so dreadful and, oh, so
+real.
+</p>
+
+<p>
+And if you are wonderingand people always wonder even if they will not
+say somy pleasure center is still in tact. We are not sexless. We are
+single sex people.
+</p>
+
+<p>
+I do not carry a card. I am not micro-chipped. Being stripped would tell
+any emergency medical technician what I am. They can check with the
+national database. I am listed as Subject 0012.
+</p>
+
+<p>
+Walking in this snowstorm with Latham is so liberating. I can follow
+where he leads. My body is completely hidden, away from prying and
+judgmental eyes. We are safe here in the storm, my dog and me.
+</p>
+
+<p>
+Did I have a lover? Yes. I remember making love the night before we were
+permanently separated. We were equally tender and passionate, rough and
+gentle, sweet and strong, dominant and submissive. I woke up the next
+morning alone in our bed, the sheets next to me cold and empty. The
+prison authorities had come so that my lover could resume serving a life
+sentence for molesting, murdering and dismembering a five-year-old
+child. A government investigator told me this with sadistic
+satisfaction. I was sick afterwards. My lover never mentioned the past,
+but then, neither did I.
+</p>
+
+<p>
+Was I blind when I volunteered? No. That came later when we received the
+news the project was being dismantled. We were glued to our screens
+then, watching the protests, hearing all the lies. We were denounced as
+perverts, branded as scientific freaks, condemned for having unnatural
+sex. I couldn't watch anymore. I couldn't listen anymore. I couldn't
+speak anymore. Security found me stabbing myself with stonesmy eyes, my
+ears, my mouth.
+</p>
+
+<p>
+I am officially listed as quiescent, that is, Im deemed to be adjusting
+to a normal life. Adjusting? To a normal life? How do I fit myself into
+a bifurcated world of males and females without sacrificing my essential
+self? Single sex is what I am. I will not go back. I cannot.
+</p>
+
+<p>
+That is why I go to church. For that space of time I can be shamelessly
+myself, wrapped in mystery, totally immersed in the other who is God.
+Gender has no meaning. God is neither male nor female. God is both male
+and female simultaneously. I can see God. I can hear God. I can speak to
+God. My physical self is neither an impediment nor a conduit. I am
+present. God is present. That is all that I need.
+</p>
+
+<p>
+Im relieved Latham has turned in at our apartment. The illusion of the
+storms protective covering would have seduced me to keep on walking
+until I succumbed to fatigue and hypothermia. Gratefully, I would have
+lain down, letting the snow envelop my body. I wonder if you really do
+feel warmer when you freeze to death.
+</p>
+
+<p>
+I take off Lathams harness when we get inside the apartment. He wriggles
+all over as I rub him down with a large towel. Its important to him to
+do his face. He snorts. Do it again. Its a game. Drying his feet, his
+tail, his belly&#x2013;he tolerates me. His face, however, is a joy to be
+rubbed.
+</p>
+
+<p>
+I strip off all my clothes. Im cold and wet. I curl my toes. My feet
+feel numb. I run a hot bath. I add several capfuls of what the label
+calls a Milk Soak into the tub. The sales woman told me it would help me
+sleep. I slip into the aromatic water, run my puff between my legs and
+over my abdomen. I sigh. I dip the puff into the hot water again
+splashing my shoulders and chest. I breathe in the essence of lavender
+and chamomile. I sigh, more deeply this time and stretch, arching my
+back, bending my knees, satisfying myself.
+</p>
+
+<p>
+Perhaps tonight I will dream, nestled under my blankets, hearing my
+lover whisper to me, One times twelve is Twelve  Two times six is Twelve
+Three times four is Twelve  Four times three is Twelve  Six times two is
+Twelve  Twelve times one is Twelve.
+</p>
+
+<hr>
+
+<p>
+<a href="projects.html">Return to Projects Page</a>
+</p>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-writing.html">Writing</a> <a href="https://rillonline.github.io/tag-fiction.html">Fiction</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Writing]]></category>
+  <category><![CDATA[Fiction]]></category>
+  <link>https://rillonline.github.io/0012.html</link>
+  <guid>https://rillonline.github.io/0012.html</guid>
+  <pubDate>Mon, 01 Jan 2007 00:00:00 -0600</pubDate>
+</item>
+<item>
+  <title><![CDATA[Everyone'ss A Critic]]></title>
+  <description><![CDATA[
+<p>
+You might think that, being blind, I have no interest in paintings or other forms of visual art. You would be wrong about that. I'm fascinated
+by art and what other people bring to the pictures. Last year people at
+the "Stations of the Windows" Friday Lenten worship services at<a href="https://stlukesjamestown.org/">St. Luke's Jamestown</a>described the stained glass windows.
+They were so enthusiastic it grew dark before we could finish the window
+descriptions and the service.
+</p>
+
+<p>
+Today's<a href="https://www.nytimes.com/2005/05/28/arts/design/with-irreverence-and-an-ipod-recreating-the-museum-tour.html">New York Times</a> described a 
+project at Marymount Manhattan College  called <a href="https://mod.blogs.com/art_mobs/">Art Mobs.</a> Even if you're not at the Museum of
+Modern Art in New York City, you can download the podcasts and look at
+the paintings online. I downloaded the podcast on Pablo Picasso's Les
+Demoiselles d'Avignon, a Discussion by Cheryl Stoever &amp; Professor Jason
+Rosenfeld.
+</p>
+
+<p>
+It's rough. It's raw. It's fascinating. It's listening in on a college
+professor going one on one with his student, asking her questions,
+giving additional information about the painting, giving a perspective
+on what the picture is about. It's just the sort of thing I want people
+to tell me about art.
+</p>
+
+<p>
+<i>Note</i>: Now, twenty years later, the audio files have been remixed. The Times article is behind a pay wall and I had to update the church web site address!
+</p>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-creativity.html">Creativity</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Creativity]]></category>
+  <link>https://rillonline.github.io/everyone-is-a-critic.html</link>
+  <guid>https://rillonline.github.io/everyone-is-a-critic.html</guid>
+  <pubDate>Sat, 28 May 2005 00:00:00 -0500</pubDate>
+</item>
+<item>
+  <title><![CDATA[The Spirituality of Risk Taking]]></title>
+  <description><![CDATA[
+<nav id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgf4fba14">1. The Spirituality of Risk Taking</a></li>
+</ul>
+</div>
+</nav>
+<div id="outline-container-orgf4fba14" class="outline-2">
+<h2 id="orgf4fba14"><span class="section-number-2">1.</span> The Spirituality of Risk Taking</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+I'm a science fiction fan. I like a good space opera with spaceships,
+aliens and lots of action. I also like science fiction that explores
+what if's. Unlike alternate histories, I don't have to know the real
+history before I can enjoy the scenario being laid out before me.
+</p>
+
+<p>
+More specifically, I'm a Trekkie. (Yeah, yeah, I know, we're called
+trekkers, but, we were called Trekkies first.
+</p>
+
+<p>
+The Next Generation episode of Star Trek that changed my life (really,
+it did!) is <a href="https://en.wikipedia.org/wiki/Tapestry_(Star_Trek:_The_Next_Generation)"> Tapestry</a>.
+</p>
+
+<p>
+After having his artificial heart short-circuited, Captain Picard has an
+opportunity to change the trajectory of his life. As a young officer,
+Jean-Luc made a choice that now has fatal consequences for him. When
+he's given a chance to undo his behavior, his future life changes, too.
+Unfortunately, although he's alive, he's miserable. He has, in this new
+life, always played it safe. Picard learns that one of the qualities
+that makes his life satisfying to him and, coincidentally, makes him a
+good starship captain is taking risks.
+</p>
+
+<p>
+I hadn't seen the series when it aired. I watched it as late night
+reruns. As I laid in bed thinking about this particular episode, I
+reflected on my own life. It's a scary thing to see an Enterprise
+captain
+</p>
+
+<p>
+reduced to a mature lieutenant junior grade
+</p>
+
+<p>
+running errands for his superior officers
+</p>
+
+<p>
+humiliated by the ship's senior staff who once looked up to him
+</p>
+
+<p>
+I thought about my own life. I realized I benefited more from the
+chances I had taken than the times I had played it safe. For example, I
+had left a good paying job at IBM when I was offered a buy-out package.
+At the time, people close to me thought my action was foolhardy. Later,
+when
+</p>
+
+<p>
+the site was closed
+</p>
+
+<p>
+the company's stock dropped dramatically in price
+</p>
+
+<p>
+those still employed by the company had to interview for jobs as if they
+were candidates off the street,
+</p>
+
+<p>
+My decision looked like a wise one.
+</p>
+
+<p>
+I learned to take risks with my life and work.
+</p>
+
+<p>
+Sure. There are things that really scare me, risks I won't take:
+</p>
+
+<p>
+skydiving
+</p>
+
+<p>
+Ferris wheels now that I'm too big to have my dad riding between my
+sister and me
+</p>
+
+<p>
+Roller coasters I did go with my daughter on  <a href="https://en.wikipedia.org/wiki/Big_Thunder_Mountain_Railroad">Big Thunder Mountain Railroad</a>  in the
+Magic Kingdom. She laughed at my fear. What made the ride almost
+bearable was sitting in front of some park employees. One was describing
+to the other where you could take people off the ride if you had to.)
+</p>
+
+<p>
+In Babylon Five when Captain Sheridan is dying on zhadum, <a href="https://en.wikipedia.org/wiki/List_of_Babylon_5_characters">Lorien</a> asks
+him: <a href="https://www.chronology.org/noframes/b-five/monologues.html">Who are you? Why are you here?</a> Sheridan must answer these basic questions about his existence to
+Lorine's satisfaction in order to survive.
+</p>
+
+<p>
+Socrates is purported to have said, <a href="https://thedailyidea.org/socrates-examined-life/">"The unexamined life is not worth living."</a>  Haraman quoted this to me a
+long time ago. Because Haraman told me and because I have had many years
+to test this saying, I have come to believe it is true.
+</p>
+
+<p>
+I learned to reflect on my own life
+</p>
+
+<p>
+I have many favorite biblical passages. Those of us who find solace and
+encouragement and challenge in the Bible do. One of them goes like this:
+</p>
+
+
+
+<p>
+For copyright reasons, I'll read this quotation from The Holy Bible,
+American Standard Version.
+</p>
+
+<p>
+He hath showed thee, O man, what is good; and what doth Jehovah require
+of thee, but to do justly, and to love kindness, and to walk humbly with
+thy God?
+</p>
+
+<p>
+(From Micah 6:8)
+</p>
+
+<p>
+Humble-walking may suggest to you modesty or submissiveness. In
+Charlotte's Web ``humble'' was the last adjective Charlotte the spider
+used to describe Wilbur the pig. In this context, it meant low to the
+ground.
+</p>
+
+<p>
+In my experience, to walk humbly with my God means
+</p>
+
+<p>
+An Openness to another point of view
+</p>
+
+<p>
+a willingness to change my mind
+</p>
+
+<p>
+a deep desire to align my desires with God's desires
+</p>
+
+<p>
+Sometimes Christians call this doing God's will.
+</p>
+
+<p>
+I learned to desire what God desires.
+</p>
+
+<p>
+So here's the part where I bring my learnings (my spellchecker won't
+like this word) together into a spirituality of risk taking. The parts
+are:
+</p>
+
+<p>
+risk taking
+</p>
+
+<p>
+questions about the nature of my existence
+</p>
+
+<p>
+a need to examine these questions to draw some conclusions about the
+meaning of my life
+</p>
+
+<p>
+A Scriptural observation about how life is to be lived.
+</p>
+
+<p>
+a spiritual response to these observations
+</p>
+
+<p>
+It really boils down to Lorine's questions only Lorine isn't asking
+them. I am. God is.
+</p>
+
+<p>
+Who are you?
+</p>
+
+<p>
+Why are you here?
+</p>
+
+<p>
+I believe I ask these questions about myself and God asks me these
+questions about myself in prayer.
+</p>
+
+<p>
+I am calling all these disparate pieces a spirituality of risk taking.
+It's still quite rough. I hope to
+</p>
+
+<p>
+risk more
+</p>
+
+<p>
+reflect more
+</p>
+
+<p>
+relate more
+</p>
+
+<p>
+write more
+</p>
+
+<p>
+And share more with you in the days ahead.
+</p>
+</div>
+</div>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-page.html">Page</a> <a href="https://rillonline.github.io/tag-faith.html">Faith</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Page]]></category>
+  <category><![CDATA[Faith]]></category>
+  <link>https://rillonline.github.io/the-spirituality-of-risk-taking.html</link>
+  <guid>https://rillonline.github.io/the-spirituality-of-risk-taking.html</guid>
+  <pubDate>Thu, 01 Jan 2004 00:00:00 -0600</pubDate>
+</item>
+</channel>
+</rss>

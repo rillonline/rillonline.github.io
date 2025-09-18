@@ -1,0 +1,13 @@
+_site
+_build
+.jekyll-cache
+.jekyll-metadata
+vendor
+#*
+*~
+_drafts
+_old-stuff
+drafts
+kearsarge-novela
+listings
+pages

@@ -1,0 +1,10 @@
+# Initial setup for my blog
+# -*- mode: org; org-link-descriptive: nil; -*-
+#+AUTHOR: Rill
+# No numbering
+# A whimsical creator string
+#+OPTIONS: toc:nil num:nil creator:t
+#+CREATOR: "Built by Emacs, Orgmode, org-static-blog and me on my Raspberry Pi."
+
+#+LINK_UP:   
+#+LINK_HOME: 
