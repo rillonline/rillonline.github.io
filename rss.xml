@@ -4,7 +4,53 @@
 <title><![CDATA[Rill Online]]></title>
 <description><![CDATA[Rill Online]]></description>
 <link>https://rillonline.github.io/</link>
-<lastBuildDate>Tue, 16 Sep 2025 15:20:16 -0500</lastBuildDate>
+<lastBuildDate>Fri, 19 Sep 2025 10:44:15 -0500</lastBuildDate>
+<item>
+  <title><![CDATA[I'm not the only one who can't write elisp]]></title>
+  <description><![CDATA[
+<p>
+I've been using Copilot to help with Elisp. Unfortunately, Copilot isn't very good at writing code. It writes a function. I incorporate it into my <code>init.el</code> file and run it. It fails. I go back to Copilot and it explains the error and gives me new code. Rince and repeat. Over and over again!
+</p>
+
+<p>
+When I worked for IBM, some people said it stood for "It's better manually." I think some people are coming to that conclusion when writing code. It's better to do it yourself!
+</p>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-emacs.html">Emacs</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Emacs]]></category>
+  <link>https://rillonline.github.io/%20i'm-not-the-only-one-who-can't-write-elisp.html</link>
+  <guid>https://rillonline.github.io/%20i'm-not-the-only-one-who-can't-write-elisp.html</guid>
+  <pubDate>Fri, 19 Sep 2025 10:35:00 -0500</pubDate>
+</item>
+<item>
+  <title><![CDATA[A Visit with Hulu]]></title>
+  <description><![CDATA[
+<p>
+Today we went on the bus to visit our friends Sara and Hulu.
+</p>
+
+<p>
+Hulu is going to stay a while with Sara. We thought she might have to go to the prison program right away, but it has been decided that she needs to stay outside for a while longer.
+</p>
+
+<p>
+We took a short walk around the neighborhood for practice. Nina was working on curbs and ramps, lining herself up properly and keeping me safe. Hulu was working on walking beside Sara and not being distracted by blowing leaves and noisy school children. She had to walk on a metal grate. Nina already knew this device and made a point of us going around it.
+</p>
+
+<p>
+Hulu still jumps up and tries to play with me as if I was another dog, using teeth but not hurting. She is such a sweet thing.
+</p>
+<div class="taglist"><a href="https://rillonline.github.io/tags.html">Tags</a>: <a href="https://rillonline.github.io/tag-dog.html">Dog</a> <a href="https://rillonline.github.io/tag-nina.html">Nina</a> <a href="https://rillonline.github.io/tag-hulu.html">Hulu</a> </div><footer class="post-footer">
+ <p>Thanks for reading.</p>
+</footer>]]></description>
+  <category><![CDATA[Dog]]></category>
+  <category><![CDATA[Nina]]></category>
+  <category><![CDATA[Hulu]]></category>
+  <link>https://rillonline.github.io/a-visit-with-hulu.html</link>
+  <guid>https://rillonline.github.io/a-visit-with-hulu.html</guid>
+  <pubDate>Thu, 18 Sep 2025 15:01:00 -0500</pubDate>
+</item>
 <item>
   <title><![CDATA[Deploying My Blog]]></title>
   <description><![CDATA[

@@ -1,0 +1,7 @@
+#+title: I'm not the only one who can't write elisp
+#+date: <2025-09-19 10:35>
+#+description: 
+#+FILETAGS: :Emacs:
+I've been using Copilot to help with Elisp. Unfortunately, Copilot isn't very good at writing code. It writes a function. I incorporate it into my ~init.el~ file and run it. It fails. I go back to Copilot and it explains the error and gives me new code. Rince and repeat. Over and over again!
+
+When I worked for IBM, some people said it stood for "It's better manually." I think some people are coming to that conclusion when writing code. It's better to do it yourself!
