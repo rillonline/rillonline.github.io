@@ -1,0 +1,21 @@
+---
+title: "About"
+draft: false
+---
+
+
+
+I write to please myself and if I can inspire, help or make you laugh, that pleases me.
+
+On these pages, you will find a range of material:
+
++ autobiographical pieces
++ essays
++ poetry
++ fiction, mostly fantasy/science fiction
++ technical info especially directed toward the visually impaired user
++ sermons and other spiritual writing
+
+I have worked as a programmer and as a Christian minister. I have been blind since an early age. I am now retired.
+
+

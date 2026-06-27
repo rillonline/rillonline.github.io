@@ -1,4 +1,14 @@
 baseURL = 'https://rillonline.github.io/'
-locale = 'en-us'
-title = 'Rill Online'
+language.locale = 'en-us'
+title = 'Notes to Myself'
 theme = 'PaperMod'
+
+[[menus.main]]
+name = "About"
+url = "/about/"
+weight = 10
+
+[[menus.main]]
+name = "Star Runner Adventures"
+url = "/adventures/"
+weight = 20
