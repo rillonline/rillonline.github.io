@@ -1,0 +1,23 @@
+---
+title: "10 Universal Lessons"
+date: 2022-01-01T00:00:00
+tags: ["Faith"]
+draft: false
+---
+
+
+
+I have no idea where these notes come from but they may come from Zen study.
+
+internal goal or need that is in some way a derivative of one of the following ten universal lessons:
+
+ 1. Forgiveness: of self or of others
+ 2. Love: includes self-love, family love, romantic love
+ 3. Acceptance: of self, of circumstances, of reality
+ 4. Faith: in oneself, in others, in the world, in God
+ 5. Fear: overcoming it, conquering it, finding courage
+ 6. Trust: in oneself, in others, in the unknown
+ 7. Survival: including the will to live
+ 8. Selflessness: including sacrifice, altruism, heroism, and overcoming greed
+ 9. Responsibility: including duty, standing up for a cause, accepting one’s destiny
+10. Redemption: including atonement, accepting blame, remorse, and salvation

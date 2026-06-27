@@ -1,0 +1,11 @@
+---
+title: "Computer Archeology"
+date: 
+tags: ["Blog", "Org_Mode"]
+draft: false
+---
+
+
+I am reconstituting this blog with posts that date back twenty years. It's a daunting task but also amusing, boring, delightful and surprising all at the same time.
+Today I found an outline of an ebook I started to write on ~orgmode~.
+I don't have all the files for it, but I want to find what I have and relearn how to use this powerful mode again. The best I can do is have a tag page for it!.I may need to update the files as I will definitely get a chance to find out how well I described what to do.
