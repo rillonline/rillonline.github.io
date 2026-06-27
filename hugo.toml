@@ -1,4 +1,4 @@
 baseURL = 'https://rillonline.github.io/'
 locale = 'en-us'
 title = 'Rill Online'
-theme = 'papermod'
+theme = 'PaperMod'
