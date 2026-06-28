@@ -10,5 +10,5 @@ weight = 10
 
 [[menus.main]]
 name = "Star Runner Adventures"
-url = "/adventures/"
+url = "/star-runner-adventures/"
 weight = 20
