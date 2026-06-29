@@ -1,0 +1,11 @@
+# Emacs backup and auto-save files
+*~
+\#*\#
+.\#*
+
+# Hugo build output
+public/
+resources/_gen/
+
+# Hugo server lock file
+.hugo_build.lock

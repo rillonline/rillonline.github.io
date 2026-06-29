@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Story Evolution as of June 27, 2026
+title: "Story Evolution as of June 27, 2026"
 ---
 
 **note**: This is a conversation with Claude.
@@ -280,11 +280,9 @@ That convergence is also a good moment for the relationship. They've been operat
 When you find your notes on the other five systems it's worth asking which one the killer might be connected to.
 
 
-
-[1]: https://rillonline.github.io/star-runner-adventures/mulberry-bend/source/story-idea-from-2019/ "Story Idea from 2019"
-[2]: https://rillonline.github.io/star-runner-adventures-mulberry-bend/source/story-outline/ "Story Outline"
-
-[3]: https://rillonline.hithub.io/star-runner-adventures/mulberry-bend/sources/greenies-and-romanoi/ "Greenies and Romanoi"[4]: https://rillonline.github.io/star-runner-adventures/mulberry-bend/sources/city-of-gold-and-beyond.md "City of Gold"
-
+[1]: {{< relref "/star-runner-adventures/mulberry-bend/sources/story-idea-from-2019.md" >}} "Story Idea from 2019"
+[2]: {{< relref "/star-runner-adventures/mulberry-bend/sources/story-outline.md" >}} "Story Outline"
+[3]: {{< relref "/star-runner-adventures/mulberry-bend/sources/greenies-and-romanoi.md" >}} "Greenies and Romanoi"
+[4]: {{< relref "/star-runner-adventures/mulberry-bend/sources/city-of-gold-and-beyond.md" >}}  "City of Gold and Beyond"
 [5]: https://www.sacred-texts.com/neu/eng/child/ch002.htm "Scarboro lyrics as preserved by F. J. Child" 
 [6]:  https://www.irishsongs.com/lyrics.php?Action=view&Song_id=330 "She Moved Through the Fair"

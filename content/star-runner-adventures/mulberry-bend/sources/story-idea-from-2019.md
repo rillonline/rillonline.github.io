@@ -1,6 +1,6 @@
 ---
 draft: false
-title: The Story Idea from 2019
+title: "The Story Idea from 2019"
 ---
 
 From 2019-09-03

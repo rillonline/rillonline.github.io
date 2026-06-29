@@ -1,6 +1,6 @@
 ---
-draft:false
-title: Conversation About Where in the Galaxy are We
+draft: false
+title: "Conversation About Where in the Galaxy are We"
 ---
 
 

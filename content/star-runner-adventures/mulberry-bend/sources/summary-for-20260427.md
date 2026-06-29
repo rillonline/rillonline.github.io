@@ -1,7 +1,7 @@
 ---
 draft: true
-title: Mulberry Bend: A Ronnie Camberwell Mystery / A Star Runner Adventure
-description: Novel Development Summary
+title: "Mulberry Bend: A Ronnie Camberwell Mystery / A Star Runner Adventure"
+description: "Novel Development Summary"
 ---
 
 /Compiled: April 27, 2026/

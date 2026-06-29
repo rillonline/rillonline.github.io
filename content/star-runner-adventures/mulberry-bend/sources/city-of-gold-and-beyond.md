@@ -1,6 +1,6 @@
 ---
 draft: false
-title: City of Gold and Beyond
+title: "City of Gold and Beyond"
 ---
 
 Here is a summary of this conversation's worldbuilding developments.

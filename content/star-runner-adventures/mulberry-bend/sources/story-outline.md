@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Story Outline
+title: "Story Outline"
 ---
 
  1. Setting
