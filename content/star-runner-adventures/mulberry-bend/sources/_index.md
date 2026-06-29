@@ -1,6 +1,6 @@
 ---
 draft: false
-title:" Supplementary Material"
+title: " Supplementary Material"
 ---
 
 I save my notes on the novel here. Some are conversations with Claude,
